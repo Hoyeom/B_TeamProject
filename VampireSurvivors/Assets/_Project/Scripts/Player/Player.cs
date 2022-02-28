@@ -158,6 +158,8 @@ public class Player : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, magnetRadius);
     }
     
+    
+    // 딜레이 데미지 상대로 옮기기 나중에~
     private void OnTriggerStay2D(Collider2D col)
     {
         if(col.gameObject.layer != enemyLayer) return;

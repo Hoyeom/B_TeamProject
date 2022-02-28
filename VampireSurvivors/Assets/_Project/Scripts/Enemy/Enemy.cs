@@ -38,7 +38,7 @@ public class Enemy : MonoBehaviour
             rigid.AddForce(/*rigid.position +*/
                                (Vector2) (playerPos - pos).normalized * speed * Time.fixedDeltaTime,ForceMode2D.Impulse);
             _renderer.flipX = playerPos.x > pos.x;
-            yield return new WaitForSeconds(5);
+            yield return new WaitForSeconds(1);
             rigid.velocity = Vector2.zero;
         }
     }

@@ -707,6 +707,56 @@ public partial class @V_PlayerInput : IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": false
                 }
             ]
+        },
+        {
+            ""name"": ""Test"",
+            ""id"": ""2845233d-1f1e-4bce-aae8-8f1479f7c585"",
+            ""actions"": [
+                {
+                    ""name"": ""Arrow"",
+                    ""type"": ""Button"",
+                    ""id"": ""85f1e0e1-398b-4d1a-8eb0-f7afe3561212"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": ""1D Axis"",
+                    ""id"": ""8c3491aa-b387-4548-a24c-fc81a8aa60e2"",
+                    ""path"": ""1DAxis"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Arrow"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""negative"",
+                    ""id"": ""2612b8f4-d206-4036-a72c-0edbe243fa3e"",
+                    ""path"": ""<Keyboard>/leftArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Arrow"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""positive"",
+                    ""id"": ""7522d381-4af5-4e37-9993-79c04f2ec763"",
+                    ""path"": ""<Keyboard>/rightArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Arrow"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                }
+            ]
         }
     ],
     ""controlSchemes"": [
@@ -788,6 +838,9 @@ public partial class @V_PlayerInput : IInputActionCollection2, IDisposable
         m_UI_RightClick = m_UI.FindAction("RightClick", throwIfNotFound: true);
         m_UI_TrackedDevicePosition = m_UI.FindAction("TrackedDevicePosition", throwIfNotFound: true);
         m_UI_TrackedDeviceOrientation = m_UI.FindAction("TrackedDeviceOrientation", throwIfNotFound: true);
+        // Test
+        m_Test = asset.FindActionMap("Test", throwIfNotFound: true);
+        m_Test_Arrow = m_Test.FindAction("Arrow", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -989,6 +1042,39 @@ public partial class @V_PlayerInput : IInputActionCollection2, IDisposable
         }
     }
     public UIActions @UI => new UIActions(this);
+
+    // Test
+    private readonly InputActionMap m_Test;
+    private ITestActions m_TestActionsCallbackInterface;
+    private readonly InputAction m_Test_Arrow;
+    public struct TestActions
+    {
+        private @V_PlayerInput m_Wrapper;
+        public TestActions(@V_PlayerInput wrapper) { m_Wrapper = wrapper; }
+        public InputAction @Arrow => m_Wrapper.m_Test_Arrow;
+        public InputActionMap Get() { return m_Wrapper.m_Test; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(TestActions set) { return set.Get(); }
+        public void SetCallbacks(ITestActions instance)
+        {
+            if (m_Wrapper.m_TestActionsCallbackInterface != null)
+            {
+                @Arrow.started -= m_Wrapper.m_TestActionsCallbackInterface.OnArrow;
+                @Arrow.performed -= m_Wrapper.m_TestActionsCallbackInterface.OnArrow;
+                @Arrow.canceled -= m_Wrapper.m_TestActionsCallbackInterface.OnArrow;
+            }
+            m_Wrapper.m_TestActionsCallbackInterface = instance;
+            if (instance != null)
+            {
+                @Arrow.started += instance.OnArrow;
+                @Arrow.performed += instance.OnArrow;
+                @Arrow.canceled += instance.OnArrow;
+            }
+        }
+    }
+    public TestActions @Test => new TestActions(this);
     private int m_KeyboardMouseSchemeIndex = -1;
     public InputControlScheme KeyboardMouseScheme
     {
@@ -1051,5 +1137,9 @@ public partial class @V_PlayerInput : IInputActionCollection2, IDisposable
         void OnRightClick(InputAction.CallbackContext context);
         void OnTrackedDevicePosition(InputAction.CallbackContext context);
         void OnTrackedDeviceOrientation(InputAction.CallbackContext context);
+    }
+    public interface ITestActions
+    {
+        void OnArrow(InputAction.CallbackContext context);
     }
 }
