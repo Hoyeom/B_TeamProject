@@ -121,7 +121,4 @@ public class Item : MonoBehaviour,IItem
     {
         
     }
-    
-    
-
 }

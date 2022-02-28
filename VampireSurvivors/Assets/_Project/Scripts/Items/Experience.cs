@@ -44,7 +44,7 @@ public class Experience : MonoBehaviour
 
     IEnumerator PushExp(Vector3 player)
     {
-        float pushPower = Random.Range(1f, 2f);
+        float pushPower = Random.Range(2f, 3f);
         float pushTime = 1;
 
         while (0 < pushTime)
@@ -73,7 +73,7 @@ public class Experience : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerStay2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {

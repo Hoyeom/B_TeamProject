@@ -10,9 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 434821925509080353}
   - component: {fileID: 434821925509080354}
+  - component: {fileID: 940031446}
   - component: {fileID: 434821925509080355}
+  - component: {fileID: 1929572530124168170}
   - component: {fileID: 434821925509080540}
-  - component: {fileID: 275403135}
+  - component: {fileID: 4452097098550322338}
   m_Layer: 6
   m_Name: Enemy
   m_TagString: Untagged
@@ -74,17 +76,43 @@ SpriteRenderer:
   m_SortingLayerID: -1002580999
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1906296669749205340, guid: e16782d94594d364aa86ee6c57fc468d, type: 3}
+  m_Sprite: {fileID: -5410691370159994610, guid: 6f2af435a39e6254885e2747d7527284, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.47058824, y: 0.38235295}
+  m_Size: {x: 1.0294118, y: 1.4117647}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &940031446
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 434821925509080541}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.7058824}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 1.0294118, y: 1.4117647}
+    newSize: {x: 1.0294118, y: 1.4117647}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.0294118, y: 1.4117647}
+  m_EdgeRadius: 0
 --- !u!50 &434821925509080355
 Rigidbody2D:
   serializedVersion: 4
@@ -106,6 +134,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!70 &1929572530124168170
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 434821925509080541}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.000000054316004, y: 0.04436439}
+  m_Size: {x: 0.4445281, y: 0.08873593}
+  m_Direction: 1
 --- !u!114 &434821925509080540
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -119,23 +163,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   expPrefab: {fileID: 5865523720289440356, guid: d6b7a54b36e9e8246b04a5a83a99a20d, type: 3}
+  hitSoundClip: {fileID: 0}
   health: 10
   damage: 1
-  speed: 3
+  speed: 1
   dropExp: 10
---- !u!58 &275403135
-CircleCollider2D:
+--- !u!95 &4452097098550322338
+Animator:
+  serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 434821925509080541}
   m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.00000011920929, y: -0.0987033}
-  serializedVersion: 2
-  m_Radius: 0.075
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ed3a01eaa1ac15a4a884e1ae0d47e099, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

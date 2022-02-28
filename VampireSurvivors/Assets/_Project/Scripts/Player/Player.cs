@@ -39,7 +39,7 @@ public class Player : MonoBehaviour
     
     public UnityEvent onPlayerDead;
 
-    public AudioClip soundPickUpEXP;
+    public AudioClip expPickUpClip;
     private void Awake()
     {
         enemyLayer = LayerMask.NameToLayer("Enemy");
@@ -69,7 +69,7 @@ public class Player : MonoBehaviour
 
     public void AddExp(float exp)
     {
-        AudioManager.instance.AudioPlay(soundPickUpEXP);
+        AudioManager.instance.AudioPlay(expPickUpClip);
         thisExp += exp;
         LevelUp();
     }
@@ -157,8 +157,8 @@ public class Player : MonoBehaviour
         Gizmos.color = Color.blue;
         Gizmos.DrawWireSphere(transform.position, magnetRadius);
     }
-
-    private void OnCollisionStay2D(Collision2D col)
+    
+    private void OnTriggerStay2D(Collider2D col)
     {
         if(col.gameObject.layer != enemyLayer) return;
         if (!hitDelay)
