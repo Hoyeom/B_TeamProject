@@ -39,6 +39,7 @@ public class Player : MonoBehaviour
     
     public UnityEvent onPlayerDead;
 
+    public AudioClip soundPickUpEXP;
     private void Awake()
     {
         enemyLayer = LayerMask.NameToLayer("Enemy");
@@ -68,6 +69,7 @@ public class Player : MonoBehaviour
 
     public void AddExp(float exp)
     {
+        AudioManager.instance.AudioPlay(soundPickUpEXP);
         thisExp += exp;
         LevelUp();
     }
@@ -97,7 +99,6 @@ public class Player : MonoBehaviour
             foreach (var hit in Physics2D.CircleCastAll(transform.position,magnetRadius,Vector2.zero,Mathf.Infinity,itemLayer))
             {
                 hit.collider.GetComponent<Experience>()?.GoPlayer(transform);
-                yield return null;
             }
             yield return new WaitForSeconds(0.1f);
         }
@@ -111,7 +112,6 @@ public class Player : MonoBehaviour
     {
         _playerInput = new V_PlayerInput();
         _playerInput.Player.Enable();
-        _playerInput.Player.Move.started += Move_started;
         _playerInput.Player.Move.performed += Move_performed;
         _playerInput.Player.Move.canceled += Move_canceled;
     }
@@ -119,10 +119,6 @@ public class Player : MonoBehaviour
     #endregion
     
     #region InputCallbackFunc
-    private void Move_started(InputAction.CallbackContext context)
-    {
-
-    }
 
     private void Move_canceled(InputAction.CallbackContext context)
     {

@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using UnityEngine;
 
@@ -35,22 +34,42 @@ public class Experience : MonoBehaviour
     public void GoPlayer(Transform player)
     {
         gameObject.layer = _ignoreRay;
-        float pushPower = 6;
-        _player = player.gameObject.GetComponent<Player>();
-        rigid.AddForce((transform.position - player.position).normalized * pushPower, ForceMode2D.Impulse);
-        StartCoroutine(GoPlayerRoutine(player));
-    }
-    private IEnumerator GoPlayerRoutine(Transform player)
-    {
-        float magnetPower = 4;
         
+        _player = player.gameObject.GetComponent<Player>();
+
+        StartCoroutine(PushExp(player.transform.position));
+        
+        StartCoroutine(PullExp(player));
+    }
+
+    IEnumerator PushExp(Vector3 player)
+    {
+        float pushPower = Random.Range(1f, 2f);
+        float pushTime = 1;
+
+        while (0 < pushTime)
+        {
+            pushTime -= Time.deltaTime;
+            
+            rigid.MovePosition(rigid.position +
+                               (Vector2) (transform.position - player) * pushPower * Time.deltaTime);
+            yield return null;
+        }
+
+        yield return null;
+    }
+    
+    IEnumerator PullExp(Transform player)
+    {
+        yield return new WaitForSeconds(1);
+        _collider.isTrigger = true;
+        const float pullPower = 12;
+
         while (true)
         {
-            
-            rigid.AddForce((player.position - transform.position).normalized * magnetPower, ForceMode2D.Impulse);
-            yield return new WaitForSeconds(.5f);
-            rigid.velocity = rigid.velocity / 3;
-            _collider.isTrigger = true;
+            rigid.MovePosition(rigid.position +
+                               -(Vector2) (transform.position - player.transform.position).normalized * pullPower * Time.deltaTime);
+            yield return null;
         }
     }
 
