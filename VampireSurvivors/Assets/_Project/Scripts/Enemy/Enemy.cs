@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -19,13 +18,20 @@ public class Enemy : MonoBehaviour
 
     private void Awake()
     {
-        tempPrefab = Instantiate(expPrefab, transform);
-        tempPrefab.SetActive(false);
+        // tempPrefab = Instantiate(expPrefab, transform);
         _player = FindObjectOfType<Player>();
         rigid = GetComponent<Rigidbody2D>();
         _renderer = GetComponent<SpriteRenderer>();
 
+        dropExp = Random.Range(0, 120); //test
+        
         StartCoroutine(Move());
+    }
+
+    private void Start()
+    {
+        tempPrefab = ObjectPooler.Instance.GenerateGameObject(expPrefab, transform);
+        tempPrefab.SetActive(false);
     }
 
     IEnumerator Move()

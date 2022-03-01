@@ -43,9 +43,9 @@ public class Player : MonoBehaviour
     private void Awake()
     {
         enemyLayer = LayerMask.NameToLayer("Enemy");
+        playerStatRank = new PlayerStatRank();
         
         _renderer = GetComponentInChildren<SpriteRenderer>();
-        playerStatRank = new PlayerStatRank();
         _rigid = GetComponent<Rigidbody2D>();
         _anim = GetComponent<Animator>();
 

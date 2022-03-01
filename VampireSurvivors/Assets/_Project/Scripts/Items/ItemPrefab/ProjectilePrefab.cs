@@ -6,10 +6,11 @@ public class ProjectilePrefab : MonoBehaviour
     public float speed;
     public float amount;
     public AudioClip shootSoundClip;
-    private int penetrate = 1;
+    private int penetrate;
 
-    private void Start()
+    private void OnEnable()
     {
+        penetrate = 1;
         AudioManager.instance.AudioPlay(shootSoundClip);
     }
 
@@ -25,6 +26,7 @@ public class ProjectilePrefab : MonoBehaviour
         if (penetrate-- < 1) return;
 
         col.gameObject.GetComponent<Enemy>()?.HitEnemy(amount);
-        Destroy(gameObject);
+        ObjectPooler.Instance.DestroyGameObject(gameObject);
+        //Destroy(gameObject);
     }
 }

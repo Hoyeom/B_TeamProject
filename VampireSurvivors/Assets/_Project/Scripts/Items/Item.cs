@@ -24,11 +24,9 @@ public class Item : MonoBehaviour,IItem
     public float duration;
     public int amount;
 
-    private void Start()
+    private void OnEnable()
     {
-        ItemActive();
-        
-        
+        Invoke("ItemActive", 1f);
         //player.playerStatRank.GetMight(might);
         //player.playerStatRank.GetCooldown(coolDown);
         //player.playerStatRank.GetArea(area);
@@ -71,13 +69,13 @@ public class Item : MonoBehaviour,IItem
     
     IEnumerator ActiveAttackRoutine()
     {
-        Debug.Log("ActiveAttackRoutine");
+        // Debug.Log("ActiveAttackRoutine");
         while (true) // 게임 종료 혹은 아이템 제거 까지
         {
             for (int i = 0; i < player.playerStatRank.GetAmounts(amount); i++)
             {
                 ActiveAttack(i);
-                yield return null;
+                yield return new WaitForSeconds(.05f);
             }
             yield return new WaitForSeconds(player.playerStatRank.GetCooldown(coolDown));
         }
@@ -86,7 +84,7 @@ public class Item : MonoBehaviour,IItem
     
     IEnumerator DurationAttackRoutine()
     {
-        Debug.Log("DurationAttackRoutine");
+        // Debug.Log("DurationAttackRoutine");
         while (true) // 게임 종료 혹은 아이템 제거 까지
         {
             for (int i = 0; i < player.playerStatRank.GetAmounts(amount); i++)
@@ -102,7 +100,7 @@ public class Item : MonoBehaviour,IItem
     
     IEnumerator PassiveAttackRoutine()
     {
-        Debug.Log("PassiveAttackRoutine");
+        // Debug.Log("PassiveAttackRoutine");
         while (true) // 게임 종료 혹은 아이템 제거 까지
         {
             PassiveAttack();

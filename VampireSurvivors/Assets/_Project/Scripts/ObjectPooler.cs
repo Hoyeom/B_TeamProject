@@ -1,30 +1,37 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor;
+using System.Linq;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class ObjectPooler : MonoBehaviour
 {
     public static ObjectPooler Instance;
-    public List<GameObject> gameObjects;
+    public Dictionary<int,List<GameObject>> gameObjects = new Dictionary<int, List<GameObject>>();
     
     void Awake()
     {
         Instance = this;
-        gameObjects = new List<GameObject>();
     }
 
-    public GameObject GenerateGameObject(GameObject prefab)
+
+
+    #region GenerateGameObject
+    public GameObject GenerateGameObject(GameObject prefab,Transform parent = null)
     {
         int index = 0;
+
+        int hashKey = prefab.GetHashCode();
         
         GameObject idlePrefab = null;
 
-        for (var i = 0; i < gameObjects.Count; i++)
+        if (!gameObjects.ContainsKey(hashKey))
+            gameObjects.Add(hashKey, new List<GameObject>());
+
+        for (var i = 0; i < gameObjects[hashKey].Count; i++)
         {
-            GameObject obj = gameObjects[i];
+            GameObject obj = gameObjects[hashKey][i];
             if (obj.activeSelf) continue;
+            
             index = i;
             idlePrefab = obj;
             break;
@@ -32,36 +39,40 @@ public class ObjectPooler : MonoBehaviour
 
         if (idlePrefab == null)
         {
-            gameObjects.Add(Instantiate(prefab));
-            index = gameObjects.Count - 1;
+            gameObjects[hashKey].Add(Instantiate(prefab,parent));
+            index = gameObjects[hashKey].Count - 1;
         }
         else
         {
-            idlePrefab.transform.parent = null;
+            idlePrefab.transform.parent = parent;
             idlePrefab.SetActive(true);
         }
 
-        return gameObjects[index];
+        ExploreLenths();
+        
+        return gameObjects[hashKey][index];
     }
     
+    #endregion
+    #region DestroyGameObject
     public void DestroyGameObject(GameObject prefab)
     {
         prefab.transform.parent = transform;
         prefab.SetActive(false);
     }
     
-    public void DestroyGameObject(GameObject prefab,float time)
+    #endregion
+
+    public List<int> listLenths = new List<int>();
+
+    public void ExploreLenths()
     {
-        StartCoroutine(DestroyObject(prefab, time));
+        int i = 0;
+        foreach (int key in gameObjects.Keys)
+        {
+            listLenths[i++] = gameObjects[key].Count;
+        }
+
     }
 
-
-    IEnumerator DestroyObject(GameObject prefab, float time)
-    {
-        yield return new WaitForSeconds(time);
-        prefab.transform.parent = transform;
-        prefab.SetActive(false);
-        yield return null;
-    }
 }
-

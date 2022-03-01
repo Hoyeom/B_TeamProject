@@ -45,7 +45,7 @@ public class Experience : MonoBehaviour
     IEnumerator PushExp(Vector3 player)
     {
         float pushPower = Random.Range(2f, 3f);
-        float pushTime = 1;
+        float pushTime = 2; 
 
         while (0 < pushTime)
         {
@@ -78,7 +78,8 @@ public class Experience : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             _player?.AddExp(exp);
-            Destroy(gameObject);
+            ObjectPooler.Instance.DestroyGameObject(gameObject);
+            //Destroy(gameObject);
         }
           
     }
