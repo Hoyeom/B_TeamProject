@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 
@@ -44,12 +45,14 @@ public class Experience : MonoBehaviour
 
     IEnumerator PushExp(Vector3 player)
     {
-        float pushPower = Random.Range(2f, 3f);
-        float pushTime = 2; 
+        float pushPower = 3;
+        float pushTime = 1; 
 
         while (0 < pushTime)
         {
             pushTime -= Time.deltaTime;
+            
+            //rigid.MovePosition(rigid.position + (Vector2) (transform.position - player) * pushPower * Time.deltaTime);
             
             rigid.MovePosition(rigid.position +
                                (Vector2) (transform.position - player) * pushPower * Time.deltaTime);
@@ -78,6 +81,7 @@ public class Experience : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             _player?.AddExp(exp);
+            StopAllCoroutines();
             ObjectPooler.Instance.DestroyGameObject(gameObject);
             //Destroy(gameObject);
         }

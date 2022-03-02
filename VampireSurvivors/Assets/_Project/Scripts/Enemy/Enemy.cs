@@ -1,17 +1,19 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class Enemy : MonoBehaviour
 {
     private Player _player;
     private Rigidbody2D rigid;
     public GameObject expPrefab;
-    private GameObject tempPrefab;
     public AudioClip hitSoundClip;
     private SpriteRenderer _renderer;
-    
-    public float health;
+
+    public float maxHealth;
+    private float health;
     public float damage;
     public float speed;
     public float dropExp;
@@ -22,16 +24,15 @@ public class Enemy : MonoBehaviour
         _player = FindObjectOfType<Player>();
         rigid = GetComponent<Rigidbody2D>();
         _renderer = GetComponent<SpriteRenderer>();
-
-        dropExp = Random.Range(0, 120); //test
-        
-        StartCoroutine(Move());
     }
 
-    private void Start()
+    private void OnEnable()
     {
-        tempPrefab = ObjectPooler.Instance.GenerateGameObject(expPrefab, transform);
-        tempPrefab.SetActive(false);
+        health = maxHealth;
+        
+        dropExp = Random.Range(1, 120); //test
+        
+        StartCoroutine(Move());
     }
 
     IEnumerator Move()
@@ -57,19 +58,23 @@ public class Enemy : MonoBehaviour
         AudioManager.instance.AudioPlay(hitSoundClip);
         if (health < 1)
         {
-            tempPrefab.transform.position = transform.position;
-            tempPrefab.transform.parent = null;
-            tempPrefab.SetActive(true);
-            Destroy(gameObject);
+            GameObject prefab = ObjectPooler.Instance.GenerateGameObject(expPrefab);
+            prefab.transform.position = transform.position;
+            prefab.GetComponent<Experience>().DropExp(dropExp);
+            ObjectPooler.Instance.DestroyGameObject(gameObject);
+            _renderer.color = Color.white;
+            StopAllCoroutines();
+            return;
         }
-
+        StopCoroutine(HitAnimation());
+        _renderer.color = Color.white;
         StartCoroutine(HitAnimation());
     }
 
     IEnumerator HitAnimation()
     {
         _renderer.color = Color.red;
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.25f);
         while (_renderer.color != Color.white)
         {
             _renderer.color = Color.Lerp(_renderer.color, Color.white, 0.02f);

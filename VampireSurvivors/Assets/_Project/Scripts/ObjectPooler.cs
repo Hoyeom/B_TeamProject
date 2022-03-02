@@ -47,9 +47,6 @@ public class ObjectPooler : MonoBehaviour
             idlePrefab.transform.parent = parent;
             idlePrefab.SetActive(true);
         }
-
-        ExploreLenths();
-        
         return gameObjects[hashKey][index];
     }
     
@@ -62,17 +59,5 @@ public class ObjectPooler : MonoBehaviour
     }
     
     #endregion
-
-    public List<int> listLenths = new List<int>();
-
-    public void ExploreLenths()
-    {
-        int i = 0;
-        foreach (int key in gameObjects.Keys)
-        {
-            listLenths[i++] = gameObjects[key].Count;
-        }
-
-    }
 
 }

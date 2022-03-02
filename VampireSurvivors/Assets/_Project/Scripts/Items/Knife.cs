@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Knife : Item
@@ -9,15 +7,13 @@ public class Knife : Item
     
     protected override void ActiveAttack(int i)
     {
-        // Debug.Log("Attack");
-        //tempPrefab = Instantiate(attackPrefab);
         tempPrefab = ObjectPooler.Instance.GenerateGameObject(attackPrefab);
-        tempPrefab.transform.position = transform.position;
-        tempPrefab.transform.Translate(Vector2.one * Random.Range(-.2f,.2f));
-        tempPrefab.transform.rotation = player.viewRotation;
-
-        tempPrefab.GetComponent<ProjectilePrefab>().speed = player.playerStatRank.GetSpeed(speed);
-        tempPrefab.GetComponent<ProjectilePrefab>().amount = player.playerStatRank.GetMight(might);
-        //Destroy(tempPrefab, 5);
+        tempPrefab.transform.position = transform.position;                                     // 초기 위치 지정
+        tempPrefab.transform.Translate(Vector2.one * Random.Range(-.2f,.2f));  // 위치 지정
+        tempPrefab.transform.rotation = player.viewRotation;                                    // 방향 지정
+        
+        ProjectilePrefab stat = tempPrefab.GetComponent<ProjectilePrefab>();
+        stat.speed = player.playerStatRank.GetSpeed(speed);
+        stat.amount = player.playerStatRank.GetMight(might);
     }
 }
