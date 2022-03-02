@@ -4,6 +4,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public GameObject enemyObject;
+    public int enemyCount;
     private float delay;
     
     private void Start()
@@ -18,9 +19,12 @@ public class GameManager : MonoBehaviour
 
         while (true)
         {
-            GameObject obj = ObjectPooler.Instance.GenerateGameObject(enemyObject);
-            obj.transform.position = transform.position;
-
+            for (int i = 0; i < enemyCount; i++)
+            {
+                GameObject obj = ObjectPooler.Instance.GenerateGameObject(enemyObject);
+                obj.transform.position = transform.position;
+                yield return new WaitForSeconds(0.1f);
+            }
             yield return new WaitForSeconds(time);
         }
     }

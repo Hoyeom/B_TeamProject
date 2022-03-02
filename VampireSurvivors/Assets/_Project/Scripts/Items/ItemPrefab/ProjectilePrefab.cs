@@ -25,8 +25,7 @@ public class ProjectilePrefab : MonoBehaviour
 
         if (penetrate-- < 1) return;
 
-        col.gameObject.GetComponent<Enemy>()?.HitEnemy(amount);
+        col.gameObject.GetComponent<Enemy>()?.HitEnemy(amount, transform.position);
         ObjectPooler.Instance.DestroyGameObject(gameObject);
-        //Destroy(gameObject);
     }
 }

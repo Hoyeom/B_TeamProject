@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,7 +10,10 @@ public class Enemy : MonoBehaviour
     public GameObject expPrefab;
     public AudioClip hitSoundClip;
     private SpriteRenderer _renderer;
+    private Animator _animator;
 
+    private readonly int hashHitAnim = Animator.StringToHash("hitTrigger");
+    private readonly int enemyLayer = 6;
     public float maxHealth;
     private float health;
     public float damage;
@@ -22,6 +26,7 @@ public class Enemy : MonoBehaviour
         _player = FindObjectOfType<Player>();
         rigid = GetComponent<Rigidbody2D>();
         _renderer = GetComponent<SpriteRenderer>();
+        _animator = GetComponent<Animator>();
     }
 
     private void OnEnable()
@@ -37,19 +42,20 @@ public class Enemy : MonoBehaviour
             Vector2 pos = transform.position;
             Vector2 playerPos = _player.transform.position;
             
-            rigid.AddForce(/*rigid.position +*/
-                               (Vector2) (playerPos - pos).normalized * speed * Time.fixedDeltaTime,ForceMode2D.Impulse);
+            rigid.MovePosition(rigid.position +
+                               (Vector2) (playerPos - pos).normalized * speed * Time.deltaTime);
             _renderer.flipX = playerPos.x > pos.x;
-            yield return new WaitForSeconds(1);
+            yield return new WaitForSeconds(0.05f);
             rigid.velocity = Vector2.zero;
         }
     }
 
     public float Attack() => damage;
 
-    public void HitEnemy(float amount)
+    public void HitEnemy(float amount,Vector2 target)
     {
         health -= amount;
+        rigid.MovePosition(rigid.position + ((Vector2) transform.position - target) * 1 * Time.deltaTime);
         AudioManager.Instance.AudioPlay(hitSoundClip);
         if (health < 1)
         {
@@ -57,25 +63,8 @@ public class Enemy : MonoBehaviour
             prefab.transform.position = transform.position;
             prefab.GetComponent<Experience>().DropExp(dropExp);
             ObjectPooler.Instance.DestroyGameObject(gameObject);
-            _renderer.color = Color.white;
-            StopAllCoroutines();
             return;
         }
-        StopCoroutine(HitAnimation());
-        _renderer.color = Color.white;
-        StartCoroutine(HitAnimation());
-    }
-
-    IEnumerator HitAnimation()
-    {
-        _renderer.color = Color.red;
-        yield return new WaitForSeconds(0.25f);
-        while (_renderer.color != Color.white)
-        {
-            _renderer.color = Color.Lerp(_renderer.color, Color.white, 0.02f);
-            yield return null;
-        }
-
-        yield return null;
+        _animator.SetTrigger(hashHitAnim);
     }
 }

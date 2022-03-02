@@ -35,7 +35,7 @@ public class Item : MonoBehaviour,IItem
         //player.playerStatRank.GetAmounts(amount);
     }
 
-    private void ItemActive()
+    public void ItemActive()
     {
         if (level <= 0) return;
         switch (itemType)
@@ -79,7 +79,6 @@ public class Item : MonoBehaviour,IItem
             }
             yield return new WaitForSeconds(player.playerStatRank.GetCooldown(coolDown));
         }
-        yield return null;
     }
     
     IEnumerator DurationAttackRoutine()
@@ -95,7 +94,6 @@ public class Item : MonoBehaviour,IItem
             yield return new WaitForSeconds(player.playerStatRank.GetDuration(duration));
             yield return new WaitForSeconds(player.playerStatRank.GetCooldown(coolDown));
         }
-        yield return null;
     }
     
     IEnumerator PassiveAttackRoutine()
@@ -107,7 +105,6 @@ public class Item : MonoBehaviour,IItem
 
             yield return new WaitForSeconds(player.playerStatRank.GetCooldown(coolDown));
         }
-        yield return null;
     }
 
     public int GetLevel() => level;
@@ -117,6 +114,36 @@ public class Item : MonoBehaviour,IItem
     
     public void LevelUp()
     {
-        
+        // 예제
+        switch (++level)
+        {
+            case 1:
+                ItemActive();
+                break;
+            case 2:
+                amount++;
+                break;
+            case 3:
+                amount++;
+                might += 5;
+                break;
+            case 4:
+                amount++;
+                break;
+            case 5:
+                amount++;
+                break;
+            case 6:
+                amount++;
+                break;
+            case 7:
+                amount++;
+                might += 5;
+                break;
+            case 8:
+                amount++;
+                break;
+        }
     }
+    
 }
