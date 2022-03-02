@@ -1,8 +1,6 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Random = UnityEngine.Random;
 
 public class Enemy : MonoBehaviour
 {
@@ -29,9 +27,6 @@ public class Enemy : MonoBehaviour
     private void OnEnable()
     {
         health = maxHealth;
-        
-        dropExp = Random.Range(1, 120); //test
-        
         StartCoroutine(Move());
     }
 
@@ -55,7 +50,7 @@ public class Enemy : MonoBehaviour
     public void HitEnemy(float amount)
     {
         health -= amount;
-        AudioManager.instance.AudioPlay(hitSoundClip);
+        AudioManager.Instance.AudioPlay(hitSoundClip);
         if (health < 1)
         {
             GameObject prefab = ObjectPooler.Instance.GenerateGameObject(expPrefab);

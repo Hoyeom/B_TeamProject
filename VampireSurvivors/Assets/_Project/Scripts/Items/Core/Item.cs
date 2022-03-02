@@ -47,7 +47,7 @@ public class Item : MonoBehaviour,IItem
                 StartCoroutine(DurationAttackRoutine());
                 break;
             case ItemType.Passive:
-                PassiveAttack();
+                StartCoroutine(PassiveAttackRoutine());
                 break;
             default:
                 throw new ArgumentOutOfRangeException();

@@ -12,9 +12,6 @@ public class ObjectPooler : MonoBehaviour
     {
         Instance = this;
     }
-
-
-
     #region GenerateGameObject
     public GameObject GenerateGameObject(GameObject prefab,Transform parent = null)
     {
@@ -57,7 +54,5 @@ public class ObjectPooler : MonoBehaviour
         prefab.transform.parent = transform;
         prefab.SetActive(false);
     }
-    
     #endregion
-
 }

@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
-    public static AudioManager instance;
+    public static AudioManager Instance;
 
     #region Test
 
@@ -19,7 +19,7 @@ public class AudioManager : MonoBehaviour
     
     private void Awake()
     {
-        instance = this;
+        Instance = this;
 
         _audioSource = GetComponent<AudioSource>();
     }

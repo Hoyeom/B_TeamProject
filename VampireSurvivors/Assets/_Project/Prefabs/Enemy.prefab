@@ -147,10 +147,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   expPrefab: {fileID: 5865523720289440356, guid: d6b7a54b36e9e8246b04a5a83a99a20d, type: 3}
   hitSoundClip: {fileID: 8300000, guid: 6a81221f7206b79449a11244ce04eb01, type: 3}
-  maxHealth: 10
+  maxHealth: 1
   damage: 1
   speed: 1
-  dropExp: 10
+  dropExp: 3
 --- !u!95 &4452097098550322338
 Animator:
   serializedVersion: 3

@@ -22,8 +22,9 @@ public class Player : MonoBehaviour
 
     public Item[] _item;
 
-    public int level;
+    public int level = 1;
     [SerializeField] private float maxExp;
+    [SerializeField] private float minExp;
     [SerializeField] private float thisExp;
 
     #region PlayerDefaultStat
@@ -69,7 +70,8 @@ public class Player : MonoBehaviour
 
     public void AddExp(float exp)
     {
-        AudioManager.instance.AudioPlay(expPickUpClip);
+        AudioManager.Instance.AudioPlay(expPickUpClip);
+        // UIManager.Instance.SetPickExpSlider(thisExp);
         thisExp += exp;
         LevelUp();
     }
@@ -78,10 +80,13 @@ public class Player : MonoBehaviour
     {
         if (maxExp <= thisExp)
         {
+            minExp = maxExp;
             maxExp *= 2;
             level++;
+            UIManager.Instance.SetLevelUp(minExp, maxExp, level);
             LevelUp();
         }
+        UIManager.Instance.SetPickExp(thisExp);
     }
 
     #region ItemMagnet

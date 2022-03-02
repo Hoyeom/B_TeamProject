@@ -9,13 +9,20 @@ public class Experience : MonoBehaviour
     private SpriteRenderer _renderer;
     public Sprite[] expSprite;
     private Player _player;
-    private readonly LayerMask _ignoreRay = 2; //IgnoreRay
+    private readonly LayerMask _ignoreRayer = 2; //IgnoreRay
+    private readonly LayerMask _itemLayer = 3; //ItemRay
     private Collider2D _collider;
     private void Awake()
     {
         _collider = GetComponent<Collider2D>();
         rigid = GetComponent<Rigidbody2D>();
         _renderer = GetComponent<SpriteRenderer>();
+    }
+
+    private void OnEnable()
+    {
+        gameObject.layer = _itemLayer;
+        _collider.isTrigger = false;
     }
 
     public void DropExp(float dropExp)
@@ -34,7 +41,7 @@ public class Experience : MonoBehaviour
     
     public void GoPlayer(Transform player)
     {
-        gameObject.layer = _ignoreRay;
+        gameObject.layer = _ignoreRayer;
         
         _player = player.gameObject.GetComponent<Player>();
 

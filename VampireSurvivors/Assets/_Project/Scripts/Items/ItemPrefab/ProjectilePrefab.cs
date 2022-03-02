@@ -11,7 +11,7 @@ public class ProjectilePrefab : MonoBehaviour
     private void OnEnable()
     {
         penetrate = 1;
-        AudioManager.instance.AudioPlay(shootSoundClip);
+        AudioManager.Instance.AudioPlay(shootSoundClip);
     }
 
     private void FixedUpdate()
