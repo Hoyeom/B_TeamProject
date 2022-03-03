@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - Bound
+  - Wall
   layers:
   - Default
   - TransparentFX
@@ -16,8 +17,8 @@ TagManager:
   - Enemy
   - Weapon
   - Player
-  - 
-  - 
+  - Wall
+  - Bound
   - 
   - 
   - 

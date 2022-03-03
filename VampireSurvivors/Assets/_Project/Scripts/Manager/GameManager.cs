@@ -9,14 +9,13 @@ public class GameManager : MonoBehaviour
     
     private void Start()
     {
-        StartCoroutine(SpawnEnemy(2, 2));
+        StartCoroutine(SpawnEnemy(2, 2)); //TEST
     }
 
-    IEnumerator SpawnEnemy(float delay, float time)
+    IEnumerator SpawnEnemy(float delay, float time)// TEST
     {
         yield return new WaitForSeconds(delay);
-
-
+        
         while (true)
         {
             for (int i = 0; i < enemyCount; i++)

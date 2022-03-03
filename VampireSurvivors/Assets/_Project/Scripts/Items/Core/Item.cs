@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class Item : MonoBehaviour,IItem
 {
@@ -12,29 +13,35 @@ public class Item : MonoBehaviour,IItem
     }
 
     public Player player;
-    public ItemType itemType;
     
+    [Header("Item")]
+    public ItemType itemType;
     public int maxLevel;
     public int level;
+    public int rarity;
 
-    public float might;
+    [Header("Status")]
+    public float minMight;
+    public float maxMight;
     public float coolDown;
     public float area;
     public float speed;
     public float duration;
     public int amount;
 
-    private void OnEnable()
+    void Awake()
     {
-        Invoke("ItemActive", 1f);
-        //player.playerStatRank.GetMight(might);
-        //player.playerStatRank.GetCooldown(coolDown);
-        //player.playerStatRank.GetArea(area);
-        //player.playerStatRank.GetSpeed(speed);
-        //player.playerStatRank.GetDuration(duration);
-        //player.playerStatRank.GetAmounts(amount);
+        //player = transform.parent.GetComponent<Player>();
     }
 
+    private void OnEnable()
+    {
+        if (level > 0)
+        {
+            Invoke("ItemActive", 1f);   // 임시
+        }
+            
+    }
     public void ItemActive()
     {
         if (level <= 0) return;
@@ -53,6 +60,9 @@ public class Item : MonoBehaviour,IItem
                 throw new ArgumentOutOfRangeException();
         }
     }
+    
+    // 상속받아서 바꿔야하는 함수입니다. 바꾸는 것 예제는 Knife.cs 참조
+    #region OverrideFunc
 
     protected virtual void ActiveAttack(int i)
     {
@@ -66,18 +76,21 @@ public class Item : MonoBehaviour,IItem
     {
         
     }
+
+    #endregion
     
+    #region AttackRoutine
     IEnumerator ActiveAttackRoutine()
     {
         // Debug.Log("ActiveAttackRoutine");
         while (true) // 게임 종료 혹은 아이템 제거 까지
         {
-            for (int i = 0; i < player.playerStatRank.GetAmounts(amount); i++)
+            for (int i = 0; i < GetAmount(); i++)
             {
                 ActiveAttack(i);
                 yield return new WaitForSeconds(.05f);
             }
-            yield return new WaitForSeconds(player.playerStatRank.GetCooldown(coolDown));
+            yield return new WaitForSeconds(GetCooldown());
         }
     }
     
@@ -86,13 +99,13 @@ public class Item : MonoBehaviour,IItem
         // Debug.Log("DurationAttackRoutine");
         while (true) // 게임 종료 혹은 아이템 제거 까지
         {
-            for (int i = 0; i < player.playerStatRank.GetAmounts(amount); i++)
+            for (int i = 0; i < GetAmount(); i++)
             {
                 DurationAttack(i);
                 yield return null;
             }
-            yield return new WaitForSeconds(player.playerStatRank.GetDuration(duration));
-            yield return new WaitForSeconds(player.playerStatRank.GetCooldown(coolDown));
+            yield return new WaitForSeconds(GetDuration());
+            yield return new WaitForSeconds(GetCooldown());
         }
     }
     
@@ -103,47 +116,35 @@ public class Item : MonoBehaviour,IItem
         {
             PassiveAttack();
 
-            yield return new WaitForSeconds(player.playerStatRank.GetCooldown(coolDown));
+            yield return new WaitForSeconds(GetCooldown());
         }
     }
+    
+
+    #endregion
+
+    #region GetItemInfo
 
     public int GetLevel() => level;
-    public bool IsMaxLevel => !(level > maxLevel);
-
+    public bool IsMaxLevel() => !(level > maxLevel);
     public ItemType GetItemType() => itemType;
-    
+
+    #endregion
+
+    #region StatLoad
+    public float GetCooldown() => player.playerStatRank.GetCooldown(coolDown);
+    public float GetDuration() => player.playerStatRank.GetDuration(duration);
+    public float GetArea() => player.playerStatRank.GetArea(area);
+    public float GetSpeed() => player.playerStatRank.GetSpeed(speed);
+    public float GetMight() => player.playerStatRank.GetMight(Random.Range(minMight, maxMight));   // min max는 상속받은 후 지정
+    public float GetAmount() => player.playerStatRank.GetAmounts(amount);
+
+    #endregion
+
+
     public void LevelUp()
     {
-        // 예제
-        switch (++level)
-        {
-            case 1:
-                ItemActive();
-                break;
-            case 2:
-                amount++;
-                break;
-            case 3:
-                amount++;
-                might += 5;
-                break;
-            case 4:
-                amount++;
-                break;
-            case 5:
-                amount++;
-                break;
-            case 6:
-                amount++;
-                break;
-            case 7:
-                amount++;
-                might += 5;
-                break;
-            case 8:
-                amount++;
-                break;
-        }
+        
     }
     
 }
