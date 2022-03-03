@@ -1,0 +1,288 @@
+fileFormatVersion: 2
+guid: 053ff60a1c28aa849b6b44d1363e8c0e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4276135560276314499
+    second: colored_tilemap_packed_0
+  - first:
+      213: 6471655975631607575
+    second: Fire
+  - first:
+      213: 5971882841391855624
+    second: colored_tilemap_packed_2
+  - first:
+      213: 2655952245190280877
+    second: colored_tilemap_packed_3
+  - first:
+      213: -232077205654976075
+    second: colored_tilemap_packed_4
+  - first:
+      213: -6551301197920844884
+    second: colored_tilemap_packed_5
+  - first:
+      213: 5122848562673587
+    second: colored_tilemap_packed_6
+  - first:
+      213: 7736625986265022273
+    second: colored_tilemap_packed_7
+  - first:
+      213: 5765296873681486060
+    second: colored_tilemap_packed_8
+  - first:
+      213: 4057826718975418530
+    second: colored_tilemap_packed_9
+  - first:
+      213: -303985587413237012
+    second: colored_tilemap_packed_10
+  - first:
+      213: -7193745816194719799
+    second: colored_tilemap_packed_11
+  - first:
+      213: 2003991443723091533
+    second: colored_tilemap_packed_12
+  - first:
+      213: -3024092795421083439
+    second: colored_tilemap_packed_13
+  - first:
+      213: -7280364464611795956
+    second: colored_tilemap_packed_14
+  - first:
+      213: -715701596832645711
+    second: colored_tilemap_packed_15
+  - first:
+      213: 1835877012028787048
+    second: colored_tilemap_packed_16
+  - first:
+      213: -6610025892833925217
+    second: colored_tilemap_packed_17
+  - first:
+      213: 3490163625524402732
+    second: colored_tilemap_packed_18
+  - first:
+      213: 4684055264512905349
+    second: colored_tilemap_packed_19
+  - first:
+      213: -1389088086183315735
+    second: colored_tilemap_packed_20
+  - first:
+      213: -5779971234543254400
+    second: colored_tilemap_packed_21
+  - first:
+      213: -4813917758202121422
+    second: colored_tilemap_packed_22
+  - first:
+      213: -6825100976165757952
+    second: colored_tilemap_packed_23
+  - first:
+      213: 8366408401378365355
+    second: colored_tilemap_packed_24
+  - first:
+      213: 5378418545595166058
+    second: colored_tilemap_packed_25
+  - first:
+      213: -7772262413850181537
+    second: colored_tilemap_packed_26
+  - first:
+      213: 406793142188640331
+    second: colored_tilemap_packed_27
+  - first:
+      213: 6822330077991208066
+    second: colored_tilemap_packed_28
+  - first:
+      213: 2435287290747025684
+    second: colored_tilemap_packed_29
+  - first:
+      213: -2136601455289727413
+    second: colored_tilemap_packed_30
+  - first:
+      213: 9132377985340120179
+    second: colored_tilemap_packed_31
+  - first:
+      213: 790878066427299710
+    second: colored_tilemap_packed_32
+  - first:
+      213: -5156199354702848004
+    second: colored_tilemap_packed_33
+  - first:
+      213: -2738531625604051342
+    second: colored_tilemap_packed_34
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: colored_tilemap_packed_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7670562d5d18a4c0800000000000000
+      internalID: -4276135560276314499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7175e0052d0ffc950800000000000000
+      internalID: 6471655975631607575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap_packed_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 56
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8087969cdc360e250800000000000000
+      internalID: 5971882841391855624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
