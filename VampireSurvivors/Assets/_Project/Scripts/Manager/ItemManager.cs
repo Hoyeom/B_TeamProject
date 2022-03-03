@@ -1,6 +1,4 @@
-using System;
 using UnityEngine;
-using Random = UnityEngine.Random;
 
 public class ItemManager : MonoBehaviour
 {
@@ -9,7 +7,7 @@ public class ItemManager : MonoBehaviour
     private Item[] itemScript;
     private int[] itemIndex;
     private int itemLen;
-    
+
     private void Start()
     {
         itemLen = items.Length;
@@ -25,12 +23,13 @@ public class ItemManager : MonoBehaviour
     private GameObject GetRandItem()
     {
         int[] randomList = new int[itemLen];
-        
+
         for (int i = 0; i < itemLen; i++)
         {
             if (itemScript[i].IsMaxLevel()) continue;
             randomList[i] = itemScript[i].rarity;
         }
+
         int index = RandomIndex(randomList);
 
         return items[index];
@@ -45,7 +44,7 @@ public class ItemManager : MonoBehaviour
 
         float randomPoint = Random.value * index;
 
-        for (int i= 0; i < probs.Length; i++)
+        for (int i = 0; i < probs.Length; i++)
         {
             if (randomPoint < probs[i])
             {

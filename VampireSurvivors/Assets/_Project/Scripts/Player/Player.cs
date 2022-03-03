@@ -1,10 +1,9 @@
-using System;
 using System.Collections;
-using UnityEditor.SceneManagement;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
+
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class Player : MonoBehaviour
@@ -16,11 +15,10 @@ public class Player : MonoBehaviour
     private Vector2 _moveVector;
 
     private V_PlayerInput _playerInput;
-    private SpriteRenderer _renderer;
     private Rigidbody2D _rigid;
     private Animator _anim;
 
-    public GameObject[] items = new GameObject[6];      // 최대 아이템 6개
+    public GameObject[] items = new GameObject[6]; // 최대 아이템 6개
 
     public int level = 1;
     [SerializeField] private float maxExp;
@@ -28,33 +26,33 @@ public class Player : MonoBehaviour
     [SerializeField] private float thisExp;
 
     #region PlayerDefaultStat
-    
+
     private float maxHealth = 50f;
     [SerializeField] private float health;
     private float moveSpeed = 3f; // 랭크당 이동속도 5% 증가
     private float magnetRadius = 1f; // 랭크당 획득반경 25% 증가
     private bool _hitDelay;
+
     #endregion
-    
-    internal Quaternion viewRotation;   // 플레이어 방향
-    
-    public UnityEvent onPlayerDead;     // 죽을때 호출
+
+    internal Quaternion viewRotation; // 플레이어 방향
+
+    public UnityEvent onPlayerDead; // 죽을때 호출
 
     public AudioClip expPickUpClip;
-    
+
     private void Awake()
     {
         playerStatRank = new PlayerStatRank();
-        
-        _renderer = GetComponentInChildren<SpriteRenderer>();
         _rigid = GetComponent<Rigidbody2D>();
         _anim = GetComponent<Animator>();
 
         health = maxHealth;
-        
+
         ItemMagnetStart();
-        
-        InputSystemReset();;
+
+        InputSystemReset();
+        ;
     }
 
     private void FixedUpdate()
@@ -84,9 +82,10 @@ public class Player : MonoBehaviour
     // 해당 아이템이 없다면 = bool false
 
     #endregion
-    
-    
+
+
     #region LevelUp
+
     public void AddExp(float exp)
     {
         AudioManager.Instance.AudioPlay(expPickUpClip);
@@ -107,13 +106,14 @@ public class Player : MonoBehaviour
             UIManager.Instance.SetLevelUp(minExp, maxExp, level);
             LevelUp();
         }
+
         UIManager.Instance.SetPickExp(thisExp);
     }
-    
 
     #endregion
-    
+
     #region ItemMagnet
+
     private void ItemMagnetStart()
     {
         StartCoroutine(ItemMagnet());
@@ -125,16 +125,18 @@ public class Player : MonoBehaviour
 
         while (true)
         {
-            foreach (var hit in Physics2D.CircleCastAll(transform.position,magnetRadius,Vector2.zero,Mathf.Infinity,itemLayer))
+            foreach (var hit in Physics2D.CircleCastAll(transform.position, magnetRadius, Vector2.zero, Mathf.Infinity,
+                         itemLayer))
             {
                 hit.collider.GetComponent<Experience>()?.GoPlayer(transform);
             }
+
             yield return new WaitForSeconds(0.1f);
         }
-    }    
-    
+    }
+
     #endregion
-    
+
     #region AwakeFunc
 
     private void InputSystemReset()
@@ -144,9 +146,9 @@ public class Player : MonoBehaviour
         _playerInput.Player.Move.performed += Move_performed;
         _playerInput.Player.Move.canceled += Move_canceled;
     }
-    
+
     #endregion
-    
+
     #region InputCallbackFunc
 
     private void Move_canceled(InputAction.CallbackContext context)
@@ -158,19 +160,20 @@ public class Player : MonoBehaviour
     private void Move_performed(InputAction.CallbackContext context)
     {
         // Item Rotation
-        
+
         Vector2 view = context.ReadValue<Vector2>();
-        
+
         float angle = Mathf.Atan2(view.y, view.x) * Mathf.Rad2Deg;
-        
+
         viewRotation = Quaternion.AngleAxis(angle, Vector3.forward);
 
         // Move
         _moveVector = context.ReadValue<Vector2>();
-        if(_moveVector.x == 0) return;
-        _renderer.flipX = _moveVector.x < 0;
+        if (_moveVector.x == 0) return;
+        transform.eulerAngles = _moveVector.x < 0 ? Vector3.down * 180 : Vector3.zero;
         _anim.SetBool(HashIsMove, true);
     }
+
     #endregion
 
     #region PlayerHit
@@ -181,13 +184,13 @@ public class Player : MonoBehaviour
         yield return new WaitForSeconds(time);
         _hitDelay = false;
     }
-    
-    #endregion    
-    
+
+    #endregion
+
     // 후에 상대가 공격 입력하도록 변경 예정
     private void OnTriggerStay2D(Collider2D col)
     {
-        if(col.gameObject.layer != EnemyLayer) return;
+        if (col.gameObject.layer != EnemyLayer) return;
         if (!_hitDelay)
         {
             Enemy enemy = col.gameObject.GetComponent<Enemy>();
@@ -206,7 +209,7 @@ public class Player : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, magnetRadius);
     }
 
-    public void TestSceneReset()    // OnPlayerDead Event로 호출중
+    public void TestSceneReset() // OnPlayerDead Event로 호출중
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }

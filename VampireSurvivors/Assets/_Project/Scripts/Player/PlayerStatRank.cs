@@ -1,6 +1,3 @@
-
-using UnityEngine;
-
 public class PlayerStatRank
 {
     #region Rank
@@ -63,9 +60,11 @@ public class PlayerStatRank
     public float GetAmounts(float p_amounts) => p_amounts + (r_amounts * amounts);
     public float GetMoveSpeed(float p_moveSpeed) => p_moveSpeed + p_moveSpeed * (r_moveSpeed * moveSpeed);
     public float GetMagnet(float p_magnet) => p_magnet + magnet * (r_magnet * magnet);
+
     #endregion
 
     #region SetValue
+
     public void SetMight(int rank) => r_might = rank;
     public void SetArmor(int rank) => r_armor = rank;
     public void SetMaxHealthRank(int rank) => r_maxHealth = rank;
@@ -77,5 +76,6 @@ public class PlayerStatRank
     public void SetAmounts(int rank) => r_amounts = rank;
     public void SetMoveSpeed(int rank) => r_moveSpeed = rank;
     public void SetMagnet(int rank) => r_magnet = rank;
+
     #endregion
 }
