@@ -4,33 +4,33 @@ using UnityEngine;
 
 public class BirdController : MonoBehaviour
 {
-    public float speed = 2f;       // ¼Óµµ
-    public float distance = 1f;    // ¸Ö¾îÁ³À» ¶§ µû¶ó°¡´Â °Å¸®
+    public float speed = 2f;       // ì†ë„
+    public float distance = 1f;    // ë©€ì–´ì¡Œì„ ë•Œ ë”°ë¼ê°€ëŠ” ê±°ë¦¬
 
     public PlayerStatRank PlayerObject;
 
     Transform player;         // Player
-    Transform Pigeon;         // ±Í¿©¿î µÑ±â
+    Transform Pigeon;         // ê·€ì—¬ìš´ ë‘˜ê¸°
 
-    // °ø°İ¿ë
+    // ê³µê²©ìš©
     private GameObject tempPrefab;
     public GameObject attackPrefab;
 
 
     private void Awake()
     {
-        PlayerObject = new PlayerStatRank(); // Test : Ãß ÈÄ ÇÃ·¹ÀÌ¾î ¼Óµµ¿¡ ¸ÂÃç¼­ ÀÌµ¿
+        PlayerObject = new PlayerStatRank(); // Test : ì¶” í›„ í”Œë ˆì´ì–´ ì†ë„ì— ë§ì¶°ì„œ ì´ë™
         player = GameObject.Find("Player").transform;
         Pigeon = GetComponent<Transform>();
 
     }
 
-        void Update()
+    void Update()
     {
         MovePigeon();
     }
 
-    // ÇÃ·¹ÀÌ¾î µû¶ó°¡±â
+    // í”Œë ˆì´ì–´ ë”°ë¼ê°€ê¸°
     private void MovePigeon()
     {
         if (Vector2.Distance(Pigeon.position, player.position) > distance )
@@ -42,7 +42,7 @@ public class BirdController : MonoBehaviour
         }
     }
 
-    // ¹Ù¶ó º¸´Â ¹æÇâ ¼öÁ¤
+    // ë°”ë¼ ë³´ëŠ” ë°©í–¥ ìˆ˜ì •
     private void Direction()
     {
         if (Pigeon.position.x - player.position.x < 0)
@@ -52,7 +52,7 @@ public class BirdController : MonoBehaviour
             Pigeon.eulerAngles = new Vector3(0, 0, 0);
     }
 
-    // Test : ³ªÁß¿¡ µû·Î
+    // Test : ë‚˜ì¤‘ì— ë”°ë¡œ
     private void PigeonAttack()
     {
         tempPrefab = ObjectPooler.Instance.GenerateGameObject(attackPrefab);
