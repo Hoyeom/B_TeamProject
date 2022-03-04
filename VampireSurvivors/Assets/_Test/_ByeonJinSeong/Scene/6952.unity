@@ -153,6 +153,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1917494731}
+  spriteImg: {fileID: 0}
+  itemName: 
   itemType: 0
   maxLevel: 8
   level: 1
@@ -164,6 +166,7 @@ MonoBehaviour:
   speed: 5
   duration: 0
   amount: 3
+  penetrate: 0
   attackPrefab: {fileID: 6533581718607724355, guid: b02731fe9bd80114f9b3d58863000ae5, type: 3}
 --- !u!4 &240305398
 Transform:
@@ -3042,6 +3045,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onPlayerLevelUp:
+    m_PersistentCalls:
+      m_Calls: []
   expPickUpClip: {fileID: 8300000, guid: 2b1f6467a523d7b4884657caafbc9097, type: 3}
 --- !u!70 &1917494732
 CapsuleCollider2D:
@@ -3378,6 +3384,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1116232890897372680, guid: 2f07c173d3364324a8d59c04758ccd77, type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1116232890897372681, guid: 2f07c173d3364324a8d59c04758ccd77, type: 3}
       propertyPath: m_Name
       value: PigeonFire
