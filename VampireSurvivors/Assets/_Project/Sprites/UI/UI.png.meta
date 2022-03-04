@@ -58,7 +58,7 @@ TextureImporter:
     second: UI_17
   - first:
       213: -5481780447360278658
-    second: UI_18
+    second: ItemSelect
   - first:
       213: 228940821244427079
     second: UI_19
@@ -784,7 +784,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_18
+      name: ItemSelect
       rect:
         serializedVersion: 2
         x: 272
@@ -793,7 +793,7 @@ TextureImporter:
         height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 5, y: 5, z: 5, w: 5}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -2598,7 +2598,7 @@ TextureImporter:
         width: 42
         height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape: []

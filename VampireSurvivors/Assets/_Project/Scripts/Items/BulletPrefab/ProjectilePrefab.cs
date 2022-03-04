@@ -3,14 +3,13 @@ using UnityEngine;
 
 public class ProjectilePrefab : MonoBehaviour
 {
+    public int penetrate;
     public float speed;
     public float amount;
     public AudioClip shootSoundClip;
-    private int penetrate;
 
     private void OnEnable()
     {
-        penetrate = 1;
         AudioManager.Instance.AudioPlay(shootSoundClip);
     }
 

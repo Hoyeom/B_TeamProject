@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class ItemManager : MonoBehaviour
@@ -5,7 +7,6 @@ public class ItemManager : MonoBehaviour
     [SerializeField] private GameObject[] items;
     private GameObject[] itemObj;
     private Item[] itemScript;
-    private int[] itemIndex;
     private int itemLen;
 
     private void Start()
@@ -15,47 +16,76 @@ public class ItemManager : MonoBehaviour
         itemScript = new Item[itemLen];
         for (int i = 0; i < itemLen; i++)
         {
-            itemObj[i] = ObjectPooler.Instance.GenerateGameObject(items[0]);
+            itemObj[i] = Instantiate(items[i], transform);
             itemScript[i] = itemObj[i].GetComponent<Item>();
         }
     }
 
-    private GameObject GetRandItem()
+    public void ActiveRandomButton()
     {
-        int[] randomList = new int[itemLen];
-
-        for (int i = 0; i < itemLen; i++)
+        UIManager.Instance.itemSelectPanel.SetActive(true);
+        foreach (var index in GetRandIndex())
         {
-            if (itemScript[i].IsMaxLevel()) continue;
-            randomList[i] = itemScript[i].rarity;
+            GameObject button = Instantiate(UIManager.Instance.itemButton, UIManager.Instance.itemButtonContents);
+            button.GetComponent<ItemButton>().SetButtonImage(itemObj[index]);
         }
 
-        int index = RandomIndex(randomList);
-
-        return items[index];
+        Time.timeScale = 0;
     }
 
-    private int RandomIndex(int[] probs)
+    private List<int> GetRandIndex()
     {
-        float index = 0;
+        List<int> indexList = new List<int>();
 
-        foreach (float prob in probs)
-            index += prob;
+        List<int> tempList = new List<int>();
 
-        float randomPoint = Random.value * index;
-
-        for (int i = 0; i < probs.Length; i++)
+        List<int> rarityList = new List<int>();
+        
+        for (int j = 0; j < itemScript.Length; j++)
         {
-            if (randomPoint < probs[i])
-            {
-                return i;
-            }
-            else
-            {
-                randomPoint -= probs[i];
-            }
+            rarityList.Add(itemScript[j].rarity);
         }
 
-        return itemLen - 1;
+        for (int i = 0; i < 4; i++)
+        {
+            float randIndex = 0;
+            bool isGetItem = false;
+            
+            tempList.Clear();
+            for (int j = 0; j < itemScript.Length; j++)
+            {
+                tempList.Add(rarityList[j]);
+            }
+
+            for (int j = 0; j < tempList.Count; j++)
+            {
+                randIndex += tempList[j];
+            }
+
+            float randomPoint = Random.value * randIndex;
+            for (int j = 0; j < tempList.Count; j++)
+            {
+                if (randomPoint < tempList[j])
+                {
+                    isGetItem = true;
+                    indexList.Add(j);
+                    rarityList[j] = 0;
+                    break;
+                }
+                else
+                {
+                    randomPoint -= tempList[j];
+                }
+            }
+
+            if (randIndex == 0)
+                break;
+            
+            if (!isGetItem)
+            {
+                indexList.Add(tempList.Count - 1);
+            }
+        }
+        return indexList;
     }
 }

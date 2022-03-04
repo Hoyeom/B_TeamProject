@@ -3,13 +3,15 @@ using UnityEngine;
 
 public class ObjectPooler : MonoBehaviour
 {
-    public static ObjectPooler Instance;
-    public Dictionary<int,List<GameObject>> gameObjects = new Dictionary<int, List<GameObject>>();
-    
-    void Awake()
+    public static ObjectPooler Instance = null;
+
+    private Dictionary<int,List<GameObject>> gameObjects = new Dictionary<int, List<GameObject>>();
+
+    private void Awake()
     {
         Instance = this;
     }
+
     #region GenerateGameObject
     public GameObject GenerateGameObject(GameObject prefab,Transform parent = null)
     {
@@ -20,9 +22,13 @@ public class ObjectPooler : MonoBehaviour
         GameObject idlePrefab = null;
 
         if (!gameObjects.ContainsKey(hashKey))
+        {
             gameObjects.Add(hashKey, new List<GameObject>());
+            gameObjects[hashKey].Add(new GameObject(prefab.name));
+            gameObjects[hashKey][0].transform.parent = parent;
+        }
 
-        for (var i = 0; i < gameObjects[hashKey].Count; i++)
+        for (var i = 1; i < gameObjects[hashKey].Count; i++)
         {
             GameObject obj = gameObjects[hashKey][i];
             if (obj.activeSelf) continue;
@@ -34,12 +40,12 @@ public class ObjectPooler : MonoBehaviour
 
         if (idlePrefab == null)
         {
-            gameObjects[hashKey].Add(Instantiate(prefab,parent));
+            gameObjects[hashKey].Add(Instantiate(prefab, parent == null ? gameObjects[hashKey][0].transform : parent));
             index = gameObjects[hashKey].Count - 1;
         }
         else
         {
-            idlePrefab.transform.parent = parent;
+            idlePrefab.transform.parent = parent == null ? gameObjects[hashKey][0].transform : parent;
             idlePrefab.SetActive(true);
         }
         return gameObjects[hashKey][index];

@@ -36,8 +36,9 @@ public class Player : MonoBehaviour
     #endregion
 
     internal Quaternion viewRotation; // 플레이어 방향
-
+    
     public UnityEvent onPlayerDead; // 죽을때 호출
+    public UnityEvent onPlayerLevelUp; // 죽을때 호출
 
     public AudioClip expPickUpClip;
 
@@ -52,7 +53,6 @@ public class Player : MonoBehaviour
         ItemMagnetStart();
 
         InputSystemReset();
-        ;
     }
 
     private void FixedUpdate()
@@ -74,7 +74,7 @@ public class Player : MonoBehaviour
 
     public void GetItem(Item item)
     {
-        item.LevelUp();
+        item.EnableItem();
     }
 
     // 아이템에 필요한 함수 생각중
@@ -91,23 +91,32 @@ public class Player : MonoBehaviour
         AudioManager.Instance.AudioPlay(expPickUpClip);
         // UIManager.Instance.SetPickExpSlider(thisExp);
         thisExp += exp;
-        LevelUp();
-    }
-
-    private void LevelUp()
-    {
         if (maxExp <= thisExp)
         {
-            // 아이템 선택 함수
-            // 아이템 선택후 아래 코드실행
+            StartCoroutine(LevelUp());
+        }
+        UIManager.Instance.SetPickExp(thisExp);
+    }
+
+    IEnumerator LevelUp()
+    {
+        while (maxExp<=thisExp)
+        {
+            onPlayerLevelUp.Invoke();
+            
+            while (Time.timeScale==0)
+            {
+                yield return null;
+            }
+            
             minExp = maxExp;
-            maxExp *= 2;
+            maxExp *= 1.2f;
             level++;
             UIManager.Instance.SetLevelUp(minExp, maxExp, level);
-            LevelUp();
+            UIManager.Instance.SetPickExp(thisExp);
+            yield return null;
         }
-
-        UIManager.Instance.SetPickExp(thisExp);
+        yield return null;
     }
 
     #endregion
@@ -125,8 +134,7 @@ public class Player : MonoBehaviour
 
         while (true)
         {
-            foreach (var hit in Physics2D.CircleCastAll(transform.position, magnetRadius, Vector2.zero, Mathf.Infinity,
-                         itemLayer))
+            foreach (var hit in Physics2D.CircleCastAll(transform.position, magnetRadius, Vector2.zero, Mathf.Infinity, itemLayer))
             {
                 hit.collider.GetComponent<Experience>()?.GoPlayer(transform);
             }
@@ -143,6 +151,7 @@ public class Player : MonoBehaviour
     {
         _playerInput = new V_PlayerInput();
         _playerInput.Player.Enable();
+        _playerInput.UI.Enable();
         _playerInput.Player.Move.performed += Move_performed;
         _playerInput.Player.Move.canceled += Move_canceled;
     }
@@ -217,10 +226,12 @@ public class Player : MonoBehaviour
     private void OnEnable()
     {
         _playerInput.Player.Enable();
+        _playerInput.UI.Enable();
     }
 
     private void OnDisable()
     {
         _playerInput.Player.Disable();
+        _playerInput.UI.Disable();
     }
 }

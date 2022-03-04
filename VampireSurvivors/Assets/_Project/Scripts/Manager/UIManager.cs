@@ -7,6 +7,10 @@ public class UIManager : MonoBehaviour
     public Slider expSlider;
     public Text levelText;
 
+    public GameObject itemSelectPanel;
+    public GameObject itemButton;
+    public Transform itemButtonContents;
+    
     private void Awake()
     {
         Instance = this;
@@ -14,6 +18,7 @@ public class UIManager : MonoBehaviour
 
     public void SetLevelUp(float min, float max, int level = 1)
     {
+        
         levelText.text = $"LV {level}";
         expSlider.minValue = min;
         expSlider.maxValue = max;

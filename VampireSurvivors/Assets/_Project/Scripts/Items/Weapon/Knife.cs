@@ -15,5 +15,42 @@ public class Knife : Item
         ProjectilePrefab stat = tempPrefab.GetComponent<ProjectilePrefab>(); // 발사체 속도 데미지 지정
         stat.speed = GetSpeed();
         stat.amount = GetMight();
+        stat.penetrate = GetPenetrate();
+    }
+
+    protected override void Level2() => amount++;
+    protected override void Level3()
+    {
+        amount++;
+        minMight += 5;
+        maxMight += 5;
+    }
+
+    protected override void Level4()
+    {
+        amount++;
+    }
+
+    protected override void Level5()
+    {
+        penetrate++;
+    }
+
+    protected override void Level6()
+    {
+        amount++;
+    }
+
+    protected override void Level7()
+    {
+        amount++;
+        minMight += 5;
+        maxMight += 5;
+    }
+
+    protected override void Level8()
+    {
+        penetrate++;
+        rarity = 0;
     }
 }

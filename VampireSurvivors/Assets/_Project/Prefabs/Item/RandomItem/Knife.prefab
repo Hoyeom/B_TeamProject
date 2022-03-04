@@ -44,15 +44,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+  spriteImg: {fileID: -4063295180217184869, guid: e16782d94594d364aa86ee6c57fc468d, type: 3}
+  itemName: Knife
   itemType: 0
   maxLevel: 8
   level: 0
-  rarity: 0
-  minMight: 0
-  maxMight: 0
+  rarity: 50
+  minMight: 6.5
+  maxMight: 6.5
   coolDown: 1
   area: 0
   speed: 5
   duration: 0
-  amount: 3
+  amount: 1
+  penetrate: 1
   attackPrefab: {fileID: 6533581718607724355, guid: b02731fe9bd80114f9b3d58863000ae5, type: 3}

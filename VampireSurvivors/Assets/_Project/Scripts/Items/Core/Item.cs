@@ -9,35 +9,27 @@ public class Item : MonoBehaviour, IItem
         Duration,
         Passive
     }
-
+    
     public Player player;
+    
+    [Header("UI")]
+    public Sprite spriteImg;
+    public string itemName;
 
     [Header("Item")] public ItemType itemType;
     public int maxLevel;
     public int level;
     public int rarity;
 
-    [Header("Status")] public float minMight;
+    [Header("Status")]
+    public float minMight;
     public float maxMight;
     public float coolDown;
     public float area;
     public float speed;
     public float duration;
     public int amount;
-
-    void Awake()
-    {
-        //player = transform.parent.GetComponent<Player>();
-    }
-
-    private void OnEnable()
-    {
-        if (level > 0)
-        {
-            Invoke("ItemActive", 1f); // 임시
-        }
-    }
-
+    public int penetrate; // 관통 (투사체에만)
     public void ItemActive()
     {
         if (level <= 0) return;
@@ -122,7 +114,7 @@ public class Item : MonoBehaviour, IItem
     #region GetItemInfo
 
     public int GetLevel() => level;
-    public bool IsMaxLevel() => !(level > maxLevel);
+    public bool IsMaxLevel() => (level > maxLevel - 1);
     public ItemType GetItemType() => itemType;
 
     #endregion
@@ -134,11 +126,98 @@ public class Item : MonoBehaviour, IItem
     public float GetSpeed() => player.playerStatRank.GetSpeed(speed);
     public float GetMight() => player.playerStatRank.GetMight(Random.Range(minMight, maxMight)); // min max는 상속받은 후 지정
     public float GetAmount() => player.playerStatRank.GetAmounts(amount);
+    public int GetPenetrate() => penetrate;
+    
+    #endregion
+
+    #region LevelUp
+
+    public void EnableItem()
+    {
+        player = transform.parent.GetComponent<Player>();
+        transform.position = player.transform.position;
+        LevelUpItem();
+    }
+
+    public void LevelUpItem()
+    {
+        Time.timeScale = 1;
+        switch (++level)
+        {
+            case 1:
+                Level1();
+                break;
+            case 2:
+                Level2();
+                break;
+            case 3:
+                Level3();
+                break;
+            case 4:
+                Level4();
+                break;
+            case 5:
+                Level5();
+                break;
+            case 6:
+                Level6();
+                break;
+            case 7:
+                Level7();
+                break;
+            case 8:
+                Level8();
+                break;
+        }
+    }
 
     #endregion
 
+    #region LevelOverride
 
-    public void LevelUp()
+    protected virtual void Level1() { ItemActive(); }
+    protected virtual void Level2() { }
+    protected virtual void Level3() { }
+    protected virtual void Level4() { }
+    protected virtual void Level5() { }
+    protected virtual void Level6() { }
+    protected virtual void Level7() { }
+    protected virtual void Level8() { }
+
+
+    #endregion
+    
+    public virtual string GetDescription()
     {
+        string description = null;
+        switch (level+1)
+        {
+            case 1:
+                description = "획득";
+                break;
+            case 2:
+                description = "투사체 1 증가";
+                break;
+            case 3:
+                description = "투사체 1 증가, 데미지 5 증가";
+                break;
+            case 4:
+                description = "투사체 1 증가";
+                break;
+            case 5:
+                description = "적 1체 관통";
+                break;
+            case 6:
+                description = "투사체 1 증가";
+                break;
+            case 7:
+                description = "투사체 1 증가, 데미지 5 증가";
+                break;
+            case 8:
+                description = "적 1체 관통";
+                break;
+        }
+
+        return description;
     }
 }
