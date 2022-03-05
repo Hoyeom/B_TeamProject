@@ -3579,6 +3579,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   items:
   - {fileID: 1284760106273838158, guid: e9b512227e6fe1743ae3604548f2f6e8, type: 3}
+  instantItems:
+  - {fileID: 1284760106273838158, guid: e947a59745d1cdc4497143480c10476c, type: 3}
 --- !u!4 &1363349076
 Transform:
   m_ObjectHideFlags: 0

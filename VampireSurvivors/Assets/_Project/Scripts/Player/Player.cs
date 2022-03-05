@@ -69,21 +69,7 @@ public class Player : MonoBehaviour
     }
 
     #endregion
-
-    #region Item
-
-    public void GetItem(Item item)
-    {
-        item.EnableItem();
-    }
-
-    // 아이템에 필요한 함수 생각중
-    // 획득 = 레벨업
-    // 해당 아이템이 없다면 = bool false
-
-    #endregion
-
-
+    
     #region LevelUp
 
     public void AddExp(float exp)
@@ -185,7 +171,7 @@ public class Player : MonoBehaviour
 
     #endregion
 
-    #region PlayerHit
+    #region PlayerHit,Heal
 
     IEnumerator HitDealay(float time)
     {
@@ -194,6 +180,10 @@ public class Player : MonoBehaviour
         _hitDelay = false;
     }
 
+    public void HealPlayer(float heal)
+    {
+        health = Mathf.Min(health + heal, maxHealth);
+    }
     #endregion
 
     // 후에 상대가 공격 입력하도록 변경 예정

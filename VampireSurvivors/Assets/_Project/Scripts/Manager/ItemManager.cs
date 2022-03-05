@@ -5,6 +5,8 @@ using UnityEngine;
 public class ItemManager : MonoBehaviour
 {
     [SerializeField] private GameObject[] items;
+    [SerializeField] private GameObject[] instantItems;
+    
     private GameObject[] itemObj;
     private Item[] itemScript;
     private int itemLen;
@@ -24,13 +26,24 @@ public class ItemManager : MonoBehaviour
     public void ActiveRandomButton()
     {
         UIManager.Instance.itemSelectPanel.SetActive(true);
-        foreach (var index in GetRandIndex())
-        {
-            GameObject button = Instantiate(UIManager.Instance.itemButton, UIManager.Instance.itemButtonContents);
-            button.GetComponent<ItemButton>().SetButtonImage(itemObj[index]);
-        }
 
-        Time.timeScale = 0;
+        List<int> tempList = GetRandIndex();
+        if (tempList.Count == 0)
+        {
+            for (int i = 0; i < instantItems.Length; i++)
+            {
+                GameObject button = Instantiate(UIManager.Instance.itemButton, UIManager.Instance.itemButtonContents);
+                button.GetComponent<ItemButton>().SetButtonImage(instantItems[i]);
+            }
+        }
+        else
+        {
+            foreach (var index in tempList)
+            {
+                GameObject button = Instantiate(UIManager.Instance.itemButton, UIManager.Instance.itemButtonContents);
+                button.GetComponent<ItemButton>().SetButtonImage(itemObj[index]);
+            }
+        }
     }
 
     private List<int> GetRandIndex()

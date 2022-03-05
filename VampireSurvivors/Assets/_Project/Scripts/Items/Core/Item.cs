@@ -10,11 +10,13 @@ public class Item : MonoBehaviour, IItem
         Passive
     }
     
-    public Player player;
+    internal Player player;
     
     [Header("UI")]
     public Sprite spriteImg;
     public string itemName;
+    public string[] description = new string[8];
+    public bool instantItem = false;
 
     [Header("Item")] public ItemType itemType;
     public int maxLevel;
@@ -63,6 +65,11 @@ public class Item : MonoBehaviour, IItem
     {
     }
 
+    protected virtual void InstantItemActive()
+    {
+        Debug.Log("일회성아이템");
+    }
+    
     #endregion
 
     #region AttackRoutine
@@ -134,6 +141,13 @@ public class Item : MonoBehaviour, IItem
 
     public void EnableItem()
     {
+        if (instantItem)
+        {
+            player = GameObject.FindWithTag("Player").GetComponent<Player>();
+            InstantItemActive();
+            return;
+        }
+        
         player = transform.parent.GetComponent<Player>();
         transform.position = player.transform.position;
         LevelUpItem();
@@ -141,10 +155,12 @@ public class Item : MonoBehaviour, IItem
 
     public void LevelUpItem()
     {
+        if(IsMaxLevel()) return;
         Time.timeScale = 1;
         switch (++level)
         {
             case 1:
+                ItemActive();
                 Level1();
                 break;
             case 2:
@@ -175,7 +191,7 @@ public class Item : MonoBehaviour, IItem
 
     #region LevelOverride
 
-    protected virtual void Level1() { ItemActive(); }
+    protected virtual void Level1() { }
     protected virtual void Level2() { }
     protected virtual void Level3() { }
     protected virtual void Level4() { }
@@ -186,38 +202,6 @@ public class Item : MonoBehaviour, IItem
 
 
     #endregion
-    
-    public virtual string GetDescription()
-    {
-        string description = null;
-        switch (level+1)
-        {
-            case 1:
-                description = "획득";
-                break;
-            case 2:
-                description = "투사체 1 증가";
-                break;
-            case 3:
-                description = "투사체 1 증가, 데미지 5 증가";
-                break;
-            case 4:
-                description = "투사체 1 증가";
-                break;
-            case 5:
-                description = "적 1체 관통";
-                break;
-            case 6:
-                description = "투사체 1 증가";
-                break;
-            case 7:
-                description = "투사체 1 증가, 데미지 5 증가";
-                break;
-            case 8:
-                description = "적 1체 관통";
-                break;
-        }
 
-        return description;
-    }
+    internal string GetDescription() => description[level];
 }

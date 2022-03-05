@@ -41,7 +41,9 @@ public class ItemButton : MonoBehaviour
 
     public void PickUpItem()
     {
-        itemObj.transform.parent = player;
+       
+        if (!item.instantItem)
+            itemObj.transform.parent = player;
         if(item.level==0)
             item.EnableItem();
         else
