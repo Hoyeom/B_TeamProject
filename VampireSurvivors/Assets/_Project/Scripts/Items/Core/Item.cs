@@ -67,7 +67,7 @@ public class Item : MonoBehaviour, IItem
 
     protected virtual void InstantItemActive()
     {
-        Debug.Log("일회성아이템");
+        
     }
     
     #endregion
@@ -121,19 +121,20 @@ public class Item : MonoBehaviour, IItem
     #region GetItemInfo
 
     public int GetLevel() => level;
-    public bool IsMaxLevel() => (level > maxLevel - 1);
+    internal bool IsMaxLevel() => (level > maxLevel - 1);
+    internal bool IsMaxLevel(int level) => (level > maxLevel - 1);
     public ItemType GetItemType() => itemType;
 
     #endregion
 
     #region StatLoad
-    public float GetCooldown() => player.playerStatRank.GetCooldown(coolDown);
-    public float GetDuration() => player.playerStatRank.GetDuration(duration);
-    public float GetArea() => player.playerStatRank.GetArea(area);
-    public float GetSpeed() => player.playerStatRank.GetSpeed(speed);
-    public float GetMight() => player.playerStatRank.GetMight(Random.Range(minMight, maxMight)); // min max는 상속받은 후 지정
-    public float GetAmount() => player.playerStatRank.GetAmounts(amount);
-    public int GetPenetrate() => penetrate;
+    internal float GetCooldown() => player.playerStatRank.GetCooldown(coolDown);
+    internal float GetDuration() => player.playerStatRank.GetDuration(duration);
+    internal float GetArea() => player.playerStatRank.GetArea(area);
+    internal float GetSpeed() => player.playerStatRank.GetSpeed(speed);
+    internal float GetMight() => player.playerStatRank.GetMight(Random.Range(minMight, maxMight)); // min max는 상속받은 후 지정
+    internal float GetAmount() => player.playerStatRank.GetAmounts(amount);
+    internal int GetPenetrate() => penetrate;
     
     #endregion
 

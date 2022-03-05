@@ -52,8 +52,8 @@ public class Experience : MonoBehaviour
 
     IEnumerator PushExp(Vector3 player)
     {
-        float pushPower = 3;
-        float pushTime = 1; 
+        float pushPower = 6;
+        float pushTime = .5f; 
 
         while (0 < pushTime)
         {
@@ -71,9 +71,9 @@ public class Experience : MonoBehaviour
     
     IEnumerator PullExp(Transform player)
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(.5f);
         _collider.isTrigger = true;
-        const float pullPower = 12;
+        const float pullPower = 24;
 
         while (true)
         {

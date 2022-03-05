@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1284760106273838156}
   - component: {fileID: 3731051822064929741}
   m_Layer: 0
-  m_Name: Heal
+  m_Name: HealItem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b9b50a25c1acf74785d606b1538b800, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spriteImg: {fileID: 21300000, guid: 04f1c06c92c59d642b643b9cb7fc31c4, type: 3}
+  spriteImg: {fileID: -6620927211670007745, guid: e16782d94594d364aa86ee6c57fc468d, type: 3}
   itemName: Heal
   description:
   - "\uCCB4\uB825\uC744 5 \uD68C\uBCF5 \uD569\uB2C8\uB2E4."

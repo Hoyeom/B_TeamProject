@@ -27,9 +27,13 @@ public class ItemButton : MonoBehaviour
         item = obj.GetComponent<Item>();
         image.sprite = item.spriteImg;
         this.itemName.text = item.itemName;
-        if (item.level + 1 == 1) 
+        if (item.level + 1 == 1)
         {
-            this.nextLevel.text = "New";
+            this.nextLevel.text = "<color=#ffd400>New</color>";
+        }
+        else if (item.IsMaxLevel(item.level + 1)) 
+        {
+            this.nextLevel.text = "<color=#ffd400>Max</color>";
         }
         else
         {
