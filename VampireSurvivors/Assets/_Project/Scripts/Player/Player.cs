@@ -18,8 +18,6 @@ public class Player : MonoBehaviour
     private Rigidbody2D _rigid;
     private Animator _anim;
 
-    public GameObject[] items = new GameObject[6]; // 최대 아이템 6개
-
     public int level = 1;
     [SerializeField] private float maxExp;
     [SerializeField] private float minExp;

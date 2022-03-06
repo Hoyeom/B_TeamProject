@@ -1,10 +1,13 @@
+using System;
 using System.Collections;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
-public class Item : MonoBehaviour, IItem
+public class Item : MonoBehaviour
 {
     public enum ItemType
     {
+        Instant,
         Active,
         Duration,
         Passive
@@ -16,9 +19,9 @@ public class Item : MonoBehaviour, IItem
     public Sprite spriteImg;
     public string itemName;
     public string[] description = new string[8];
-    public bool instantItem = false;
 
     [Header("Item")] public ItemType itemType;
+    public int itemId;  // 같은 아이템 인지 확인용
     public int maxLevel;
     public int level;
     public int rarity;
@@ -32,11 +35,25 @@ public class Item : MonoBehaviour, IItem
     public float duration;
     public int amount;
     public int penetrate; // 관통 (투사체에만)
+
+    private void Awake()
+    {
+        player = GameObject.FindWithTag("Player").GetComponent<Player>();
+    }
+
+    private void Start()
+    {
+        ItemActive();   
+    }
+
     public void ItemActive()
     {
         if (level <= 0) return;
         switch (itemType)
         {
+            case ItemType.Instant:
+                InstantItemActive();
+                break;
             case ItemType.Active:
                 StartCoroutine(ActiveAttackRoutine());
                 break;
@@ -142,14 +159,12 @@ public class Item : MonoBehaviour, IItem
 
     public void EnableItem()
     {
-        if (instantItem)
+        if (itemType == ItemType.Instant)
         {
-            player = GameObject.FindWithTag("Player").GetComponent<Player>();
             InstantItemActive();
             return;
         }
         
-        player = transform.parent.GetComponent<Player>();
         transform.position = player.transform.position;
         LevelUpItem();
     }
@@ -157,7 +172,6 @@ public class Item : MonoBehaviour, IItem
     public void LevelUpItem()
     {
         if(IsMaxLevel()) return;
-        Time.timeScale = 1;
         switch (++level)
         {
             case 1:

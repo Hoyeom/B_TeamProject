@@ -1,15 +1,26 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class ItemManager : MonoBehaviour
 {
     [SerializeField] private GameObject[] items;
     [SerializeField] private GameObject[] instantItems;
-    
+
+    private Player player;
+    private Item playerItem;
     private GameObject[] itemObj;
     private Item[] itemScript;
     private int itemLen;
+
+    private void Awake()
+    {
+        player = GameObject.FindWithTag("Player").GetComponent<Player>();
+
+        playerItem = player.GetComponentInChildren<Item>();
+    }
 
     private void Start()
     {
@@ -20,6 +31,12 @@ public class ItemManager : MonoBehaviour
         {
             itemObj[i] = Instantiate(items[i], transform);
             itemScript[i] = itemObj[i].GetComponent<Item>();
+
+            if (playerItem.itemId != itemScript[i].itemId) continue;
+            
+            Destroy(itemObj[i]);
+            itemScript[i] = playerItem;
+            items[i] = itemObj[i] = playerItem.gameObject;
         }
     }
 

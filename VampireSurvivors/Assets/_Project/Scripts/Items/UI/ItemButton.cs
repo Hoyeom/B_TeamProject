@@ -43,10 +43,9 @@ public class ItemButton : MonoBehaviour
         this.description.text = item.GetDescription();
     }
 
-    public void PickUpItem()
+    public void PickUpItem()    // 버튼에 사용된 함수
     {
-       
-        if (!item.instantItem)
+        if (item.itemType != Item.ItemType.Instant) 
             itemObj.transform.parent = player;
         if(item.level==0)
             item.EnableItem();
