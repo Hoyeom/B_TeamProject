@@ -122,6 +122,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d04f17f94bb6414bae840cc27b744e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
-  amount: 1
   shootSoundClip: {fileID: 8300000, guid: ae7d56116a4504842924c6dac3ceec65, type: 3}

@@ -52,7 +52,7 @@ public class Experience : MonoBehaviour
 
     IEnumerator PushExp(Vector3 player)
     {
-        float pushPower = 6;
+        float pushPower = 2;
         float pushTime = .5f; 
 
         while (0 < pushTime)
@@ -63,23 +63,21 @@ public class Experience : MonoBehaviour
             
             rigid.MovePosition(rigid.position +
                                (Vector2) (transform.position - player) * pushPower * Time.deltaTime);
-            yield return null;
+            yield return new WaitForFixedUpdate();
         }
-
-        yield return null;
     }
     
     IEnumerator PullExp(Transform player)
     {
         yield return new WaitForSeconds(.5f);
         _collider.isTrigger = true;
-        const float pullPower = 24;
+        const float pullPower = 8;
 
         while (true)
         {
             rigid.MovePosition(rigid.position +
                                -(Vector2) (transform.position - player.transform.position).normalized * pullPower * Time.deltaTime);
-            yield return null;
+            yield return new WaitForFixedUpdate();
         }
     }
 

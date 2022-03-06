@@ -18,7 +18,11 @@ public class Knife : Item
         stat.penetrate = GetPenetrate();
     }
 
-    protected override void Level2() => amount++;
+    protected override void Level2()
+    {
+        amount++;
+    }
+
     protected override void Level3()
     {
         amount++;
@@ -53,4 +57,6 @@ public class Knife : Item
         penetrate++;
         rarity = 0;
     }
+
+    
 }

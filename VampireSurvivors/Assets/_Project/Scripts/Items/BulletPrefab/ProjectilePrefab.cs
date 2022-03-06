@@ -3,19 +3,25 @@ using UnityEngine;
 
 public class ProjectilePrefab : MonoBehaviour
 {
-    public int penetrate;
-    public float speed;
-    public float amount;
+    internal int penetrate;
+    internal float speed;
+    internal float amount;
+    private Rigidbody2D rigid;
     public AudioClip shootSoundClip;
+
+    private void Awake()
+    {
+        rigid = GetComponent<Rigidbody2D>();
+    }
 
     private void OnEnable()
     {
-        AudioManager.Instance.AudioPlay(shootSoundClip);
+        AudioManager.Instance.FXPlayerAudioPlay(shootSoundClip);
     }
 
     private void FixedUpdate()
     {
-        transform.Translate(Vector2.right * speed * Time.deltaTime);
+        transform.Translate(Vector2.right * speed * Time.fixedDeltaTime);
     }
 
     private void OnTriggerEnter2D(Collider2D col)

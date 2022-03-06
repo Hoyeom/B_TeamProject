@@ -36,9 +36,11 @@ public class Player : MonoBehaviour
     #endregion
 
     internal Quaternion viewRotation; // 플레이어 방향
+
+    private Coroutine tempCoroutine;
     
     public UnityEvent onPlayerDead; // 죽을때 호출
-    public UnityEvent onPlayerLevelUp; // 죽을때 호출
+    public UnityEvent onPlayerLevelUp; // 레벨업 시 호출
 
     public AudioClip expPickUpClip;
 
@@ -74,12 +76,12 @@ public class Player : MonoBehaviour
 
     public void AddExp(float exp)
     {
-        AudioManager.Instance.AudioPlay(expPickUpClip);
+        AudioManager.Instance.FXPlayerAudioPlay(expPickUpClip);
         // UIManager.Instance.SetPickExpSlider(thisExp);
         thisExp += exp;
-        if (maxExp <= thisExp)
+        if (maxExp <= thisExp && tempCoroutine == null) 
         {
-            StartCoroutine(LevelUp());
+            tempCoroutine = StartCoroutine(LevelUp());
         }
         UIManager.Instance.SetPickExp(thisExp);
     }
@@ -102,6 +104,8 @@ public class Player : MonoBehaviour
             UIManager.Instance.SetPickExp(thisExp);
             yield return null;
         }
+
+        tempCoroutine = null;
         yield return null;
     }
 

@@ -56,7 +56,7 @@ public class Enemy : MonoBehaviour
     {
         health -= amount;
         rigid.MovePosition(rigid.position + ((Vector2) transform.position - target) * 1 * Time.deltaTime);
-        AudioManager.Instance.AudioPlay(hitSoundClip);
+        AudioManager.Instance.FXEnemyAudioPlay(hitSoundClip);
         if (health < 1)
         {
             GameObject prefab = ObjectPooler.Instance.GenerateGameObject(expPrefab);
