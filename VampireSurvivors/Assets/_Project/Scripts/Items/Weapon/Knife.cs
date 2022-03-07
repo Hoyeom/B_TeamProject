@@ -26,7 +26,7 @@ public class Knife : Item
     protected override void Level3()
     {
         amount++;
-        minMight += 5;
+        minMight += 5;   
         maxMight += 5;
     }
 
@@ -57,6 +57,8 @@ public class Knife : Item
         penetrate++;
         rarity = 0;
     }
+
+    
 
     
 }
