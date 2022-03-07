@@ -3960,7 +3960,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyObject: {fileID: 434821925509080541, guid: 4f67aee6de613b94a89a0285739d19ab, type: 3}
-  enemyCount: 5
+  enemyCount: 50
 --- !u!1 &1363349074
 GameObject:
   m_ObjectHideFlags: 0
