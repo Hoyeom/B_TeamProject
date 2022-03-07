@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spriteImg: {fileID: -6620927211670007745, guid: e16782d94594d364aa86ee6c57fc468d, type: 3}
-  itemName: Heal
+  itemName: "\uD68C\uBCF5"
   description:
   - "\uCCB4\uB825\uC744 5 \uD68C\uBCF5 \uD569\uB2C8\uB2E4."
   - 
@@ -54,8 +54,8 @@ MonoBehaviour:
   - 
   - 
   - 
-  instantItem: 1
   itemType: 0
+  itemId: 0
   maxLevel: 0
   level: 0
   rarity: 0

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
@@ -11,6 +12,7 @@ public class Player : MonoBehaviour
     private static readonly int HashIsMove = Animator.StringToHash("isMove");
     private const int EnemyLayer = 6; // "Enemy Layer" 6번
 
+    public Transform model;
     public PlayerStatRank playerStatRank;
     private Vector2 _moveVector;
 
@@ -19,18 +21,52 @@ public class Player : MonoBehaviour
     private Animator _anim;
 
     public int level = 1;
-    [SerializeField] private float maxExp;
-    [SerializeField] private float minExp;
-    [SerializeField] private float thisExp;
+    private float maxExp = 10;
+    private float minExp;
+    private float thisExp;
+    public float ThisExp
+    {
+        get => thisExp;
+        set
+        {
+            thisExp = value;
+            UIManager.Instance.SetExpValue(thisExp);
+            
+            if (maxExp <= thisExp && tempCoroutine == null) 
+            {
+                tempCoroutine = StartCoroutine(LevelUp());
+            }
+        }
+    }
 
     #region PlayerDefaultStat
 
-    private float maxHealth = 50f;
-    [SerializeField] private float health;
+    private float maxHealth = 50;
+    private float health;
+
     private float moveSpeed = 3f; // 랭크당 이동속도 5% 증가
     private float magnetRadius = 1f; // 랭크당 획득반경 25% 증가
     private bool _hitDelay;
 
+    public float MaxHealth
+    {
+        get => maxHealth;
+        set
+        {
+            maxHealth = value;
+            UIManager.Instance.SetMaxHp(maxHealth);
+        }
+    }
+    public float Health
+    {
+        get => health;
+        set
+        {
+            health = value;
+            UIManager.Instance.SetHpValue(health);
+        }
+    }
+    
     #endregion
 
     internal Quaternion viewRotation; // 플레이어 방향
@@ -47,12 +83,14 @@ public class Player : MonoBehaviour
         playerStatRank = new PlayerStatRank();
         _rigid = GetComponent<Rigidbody2D>();
         _anim = GetComponent<Animator>();
-
-        health = maxHealth;
-
+        model = transform.GetChild(0);
         ItemMagnetStart();
-
         InputSystemReset();
+    }
+
+    private void Start()
+    {
+        Health = MaxHealth;
     }
 
     private void FixedUpdate()
@@ -75,17 +113,12 @@ public class Player : MonoBehaviour
     public void AddExp(float exp)
     {
         AudioManager.Instance.FXPlayerAudioPlay(expPickUpClip);
-        // UIManager.Instance.SetPickExpSlider(thisExp);
-        thisExp += exp;
-        if (maxExp <= thisExp && tempCoroutine == null) 
-        {
-            tempCoroutine = StartCoroutine(LevelUp());
-        }
+        ThisExp += exp;
     }
 
     IEnumerator LevelUp()
     {
-        while (maxExp<=thisExp)
+        while (maxExp<=ThisExp)
         {
             onPlayerLevelUp.Invoke();
             
@@ -97,8 +130,8 @@ public class Player : MonoBehaviour
             minExp = maxExp;
             maxExp *= 1.2f;
             level++;
-            UIManager.Instance.SetLevelUp(minExp, maxExp, level);
-            UIManager.Instance.SetPickExp(thisExp);
+            UIManager.Instance.SetMaxExp(minExp, maxExp, level);
+            UIManager.Instance.SetExpValue(ThisExp);
             yield return null;
         }
 
@@ -138,7 +171,7 @@ public class Player : MonoBehaviour
     {
         _playerInput = new V_PlayerInput();
         _playerInput.Player.Enable();
-        _playerInput.UI.Enable();
+        //_playerInput.UI.Enable();
         _playerInput.Player.Move.performed += Move_performed;
         _playerInput.Player.Move.canceled += Move_canceled;
     }
@@ -166,7 +199,7 @@ public class Player : MonoBehaviour
         // Move
         _moveVector = context.ReadValue<Vector2>();
         if (_moveVector.x == 0) return;
-        transform.eulerAngles = _moveVector.x < 0 ? Vector3.down * 180 : Vector3.zero;
+        model.eulerAngles = _moveVector.x < 0 ? Vector3.down * 180 : Vector3.zero;
         _anim.SetBool(HashIsMove, true);
     }
 
@@ -183,7 +216,7 @@ public class Player : MonoBehaviour
 
     public void HealPlayer(float heal)
     {
-        health = Mathf.Min(health + heal, maxHealth);
+        Health = Mathf.Min(Health + heal, MaxHealth);
     }
     #endregion
 
@@ -194,8 +227,8 @@ public class Player : MonoBehaviour
         if (!_hitDelay)
         {
             Enemy enemy = col.gameObject.GetComponent<Enemy>();
-            health -= enemy.damage;
-            if (health <= 0)
+            Health -= enemy.damage;
+            if (Health <= 0)
                 onPlayerDead.Invoke();
             StartCoroutine(HitDealay(0.1f));
         }
