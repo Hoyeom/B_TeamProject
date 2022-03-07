@@ -161,6 +161,7 @@ public class Item : MonoBehaviour
     {
         if (itemType == ItemType.Instant)
         {
+            player = GameObject.FindWithTag("Player").GetComponent<Player>();
             InstantItemActive();
             return;
         }

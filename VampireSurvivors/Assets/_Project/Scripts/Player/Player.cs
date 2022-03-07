@@ -81,7 +81,6 @@ public class Player : MonoBehaviour
         {
             tempCoroutine = StartCoroutine(LevelUp());
         }
-        UIManager.Instance.SetPickExp(thisExp);
     }
 
     IEnumerator LevelUp()
