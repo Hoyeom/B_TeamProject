@@ -3310,6 +3310,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1087542885}
   - component: {fileID: 1087542886}
+  - component: {fileID: 1087542888}
   - component: {fileID: 1087542887}
   m_Layer: 5
   m_Name: ItemButtonContents
@@ -3376,6 +3377,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelUpSound: {fileID: 8300000, guid: 798c49826c33c794b8f864d2dd34150f, type: 3}
+--- !u!95 &1087542888
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1087542884}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 66fd4f52937eb804b95fc12d2c055601, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 2
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1094836925
 GameObject:
   m_ObjectHideFlags: 0

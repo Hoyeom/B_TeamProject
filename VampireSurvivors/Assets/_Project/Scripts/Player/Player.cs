@@ -188,6 +188,8 @@ public class Player : MonoBehaviour
 
     private void Move_performed(InputAction.CallbackContext context)
     {
+        if(Time.timeScale==0) return;
+        
         // Item Rotation
 
         Vector2 view = context.ReadValue<Vector2>();
@@ -220,7 +222,7 @@ public class Player : MonoBehaviour
     }
     #endregion
 
-    // 후에 상대가 공격 입력하도록 변경 예정
+    
     private void OnTriggerStay2D(Collider2D col)
     {
         if (col.gameObject.layer != EnemyLayer) return;
@@ -228,9 +230,10 @@ public class Player : MonoBehaviour
         {
             Enemy enemy = col.gameObject.GetComponent<Enemy>();
             Health -= enemy.damage;
+            
             if (Health <= 0)
                 onPlayerDead.Invoke();
-            StartCoroutine(HitDealay(0.1f));
+            StartCoroutine(HitDealay(0.05f));
         }
     }
 
@@ -249,13 +252,13 @@ public class Player : MonoBehaviour
 
     private void OnEnable()
     {
-        _playerInput.Player.Enable();
-        _playerInput.UI.Enable();
+        _playerInput?.Player.Enable();
+        _playerInput?.UI.Enable();
     }
 
     private void OnDisable()
     {
-        _playerInput.Player.Disable();
-        _playerInput.UI.Disable();
+        _playerInput?.Player.Disable();
+        _playerInput?.UI.Disable();
     }
 }
