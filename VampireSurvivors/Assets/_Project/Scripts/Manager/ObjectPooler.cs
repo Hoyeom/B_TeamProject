@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,11 +10,14 @@ public class ObjectPooler : MonoBehaviour
         get
         {
             if (instance == null)
+            {
                 instance = (ObjectPooler) new GameObject("ObjectPooler").AddComponent(typeof(ObjectPooler));
+                DontDestroyOnLoad(instance);
+            }
             return instance;
         }
     }
-    
+
     private Dictionary<int,List<GameObject>> gameObjects = new Dictionary<int, List<GameObject>>();
 
     #region GenerateGameObject
@@ -29,7 +33,7 @@ public class ObjectPooler : MonoBehaviour
         {
             gameObjects.Add(hashKey, new List<GameObject>());
             gameObjects[hashKey].Add(new GameObject(prefab.name));
-            gameObjects[hashKey][0].transform.parent = parent;
+            gameObjects[hashKey][0].transform.parent = transform;
         }
 
         for (var i = 1; i < gameObjects[hashKey].Count; i++)
@@ -57,10 +61,23 @@ public class ObjectPooler : MonoBehaviour
     
     #endregion
     #region DestroyGameObject
+
+    public void AllDestroyGameObject()
+    {
+        foreach (var key in gameObjects.Keys)
+            for (int i = 0; i < gameObjects[key].Count; i++)
+            {
+                if (i == 0)
+                    gameObjects[key][i].transform.parent = transform;
+                else
+                    DestroyGameObject(gameObjects[key][i]);
+            }
+    }
     public void DestroyGameObject(GameObject prefab)
     {
         prefab.transform.parent = transform;
         prefab.SetActive(false);
     }
     #endregion
+
 }

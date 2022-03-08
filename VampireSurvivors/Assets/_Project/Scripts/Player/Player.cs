@@ -247,6 +247,7 @@ public class Player : MonoBehaviour
 
     public void TestSceneReset() // OnPlayerDead Event로 호출중
     {
+        ObjectPooler.Instance.AllDestroyGameObject();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 

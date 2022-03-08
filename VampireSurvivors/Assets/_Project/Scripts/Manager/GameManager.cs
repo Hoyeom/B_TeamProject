@@ -6,9 +6,12 @@ public class GameManager : MonoBehaviour
     public GameObject enemyObject;
     public int enemyCount;
     private float delay;
-
+    public GameObject expPrefab;
     private void Start()
     {
+        GameObject obj = ObjectPooler.Instance.GenerateGameObject(expPrefab);
+        obj.transform.position = new Vector3(-5f, 2, 0f);
+
         StartCoroutine(SpawnEnemy(2, 2)); //TEST
     }
 

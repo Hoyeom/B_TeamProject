@@ -20,19 +20,19 @@ public class Enemy : MonoBehaviour
     public float speed;
     public float dropExp;
 
-    private void Awake()
+    private void OnEnable()
     {
-        // tempPrefab = Instantiate(expPrefab, transform);
         _player = FindObjectOfType<Player>();
         rigid = GetComponent<Rigidbody2D>();
         _renderer = GetComponent<SpriteRenderer>();
         _animator = GetComponent<Animator>();
-    }
-
-    private void OnEnable()
-    {
         health = maxHealth;
         StartCoroutine(Move());
+    }
+
+    private void OnDisable()
+    {
+        StopAllCoroutines();
     }
 
     IEnumerator Move()
