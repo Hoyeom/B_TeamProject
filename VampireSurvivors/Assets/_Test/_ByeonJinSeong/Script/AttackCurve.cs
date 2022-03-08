@@ -23,9 +23,9 @@ public class AttackCurve : MonoBehaviour
         // Test 나중에 배열로 바꾸기
         // P0 -> 시작 위치
         point[0] = MyPigeon.transform.position;
-        // P1 -> 각 1
+        // P1 -> 비둘기 Object의 Point, 1
         point[1] = RandPoint(transform.position);
-        // P2 -> 각 2
+        // P2 -> 적 Object의 Point, 2
         point[2] = RandPoint(enemy.transform.position); ;
         // P3 -> 도착 위치
         point[3] = enemy.transform.position;
@@ -39,6 +39,7 @@ public class AttackCurve : MonoBehaviour
         AttackTrajectroy();
     }
 
+    // Point 좌표 랜덤 지정
     Vector2 RandPoint(Vector2 point)
     {
         float x, y;
@@ -48,7 +49,7 @@ public class AttackCurve : MonoBehaviour
 
         return new Vector2(x,y);
     }
-    // Bezier Curve
+    // Bezier Curve 궤적 그리기
     private void AttackTrajectroy()    // 궤적 함수
     {
         transform.position = new Vector2(BezierPoint(point[0].x, point[1].x, point[2].x, point[3].x),
@@ -64,6 +65,7 @@ public class AttackCurve : MonoBehaviour
             + Mathf.Pow(t, 3) * P3;
     }
 
+    // 트리거 설정
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.gameObject == enemy)
