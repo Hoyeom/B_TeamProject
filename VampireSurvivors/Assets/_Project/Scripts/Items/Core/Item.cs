@@ -14,6 +14,8 @@ public class Item : MonoBehaviour
     }
     
     internal Player player;
+
+    public GameObject weaponEquipFx;
     
     [Header("UI")]
     public Sprite spriteImg;
@@ -63,6 +65,7 @@ public class Item : MonoBehaviour
             case ItemType.Passive:
                 StartCoroutine(PassiveAttackRoutine());
                 break;
+            WeaponEquipFX();
         }
     }
 
@@ -87,6 +90,14 @@ public class Item : MonoBehaviour
         
     }
     
+    protected virtual void WeaponEquipFX()
+    {
+        // 예제
+        
+        // weaponEquipFx = Instantiate(pigeon);    // 원하는 프리펩 저장
+        // PigeonScript pigeonScript = weaponEquipFx.GetComponent<PigeonScript>(); // 비둘기 스크립트를 저장할 전역변수에 저장
+    }
+    
     #endregion
 
     #region AttackRoutine
@@ -101,7 +112,6 @@ public class Item : MonoBehaviour
                 ActiveAttack(i);
                 yield return new WaitForSeconds(.05f);
             }
-
             yield return new WaitForSeconds(GetCooldown());
         }
     }
@@ -128,7 +138,6 @@ public class Item : MonoBehaviour
         while (true) // 게임 종료 혹은 아이템 제거 까지
         {
             PassiveAttack();
-
             yield return new WaitForSeconds(GetCooldown());
         }
     }
