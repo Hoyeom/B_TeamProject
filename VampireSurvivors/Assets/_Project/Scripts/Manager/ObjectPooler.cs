@@ -3,14 +3,18 @@ using UnityEngine;
 
 public class ObjectPooler : MonoBehaviour
 {
-    public static ObjectPooler Instance = null;
-
-    private Dictionary<int,List<GameObject>> gameObjects = new Dictionary<int, List<GameObject>>();
-
-    private void Awake()
+    private static ObjectPooler instance = null;
+    public static ObjectPooler Instance
     {
-        Instance = this;
+        get
+        {
+            if (instance == null)
+                instance = (ObjectPooler) new GameObject("ObjectPooler").AddComponent(typeof(ObjectPooler));
+            return instance;
+        }
     }
+    
+    private Dictionary<int,List<GameObject>> gameObjects = new Dictionary<int, List<GameObject>>();
 
     #region GenerateGameObject
     public GameObject GenerateGameObject(GameObject prefab,Transform parent = null)
