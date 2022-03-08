@@ -48,8 +48,8 @@ MonoBehaviour:
   speed: 1
   MyPigeon: {fileID: 0}
   enemy: {fileID: 3504066889720596627, guid: 9331dd55e72840145942e06197486a9a, type: 3}
-  posX: 3.64
-  posY: 3.23
+  posX: 2
+  posY: 3
 --- !u!212 &1116232890897372680
 SpriteRenderer:
   m_ObjectHideFlags: 0

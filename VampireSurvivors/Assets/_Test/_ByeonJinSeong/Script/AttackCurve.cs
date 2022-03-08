@@ -11,8 +11,8 @@ public class AttackCurve : MonoBehaviour
     Vector2[] point = new Vector2[4];
     public GameObject MyPigeon;
     public GameObject enemy;
-    public float posX = 0.55f;    // x좌표 생성용
-    public float posY = 0.45f;    // y좌표 생성용
+    public float posX = 2f;    // x좌표 생성용
+    public float posY = 3f;    // y좌표 생성용
 
     bool hit = false;             // 적을 맞췄는지 여부
     

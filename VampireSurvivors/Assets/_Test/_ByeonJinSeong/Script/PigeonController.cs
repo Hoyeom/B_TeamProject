@@ -8,7 +8,7 @@ public class PigeonController : Item
     // Test : 임시
     public float Xdistance = 0.5f; 
     public float Ydistance = 1f; 
-    public float Fspeed = 1f;
+    public float Fspeed = 2f;
 
     public PlayerStatRank PlayerObject; 
 

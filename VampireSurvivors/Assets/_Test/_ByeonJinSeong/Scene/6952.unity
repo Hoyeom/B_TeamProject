@@ -183,7 +183,7 @@ MonoBehaviour:
   distance: 1
   Xdistance: 0.5
   Ydistance: 1
-  Fspeed: 1
+  Fspeed: 2
   attackPrefab: {fileID: 0}
 --- !u!212 &292512081
 SpriteRenderer:
@@ -3169,11 +3169,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3504066889720596591, guid: 9331dd55e72840145942e06197486a9a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 5.41
       objectReference: {fileID: 0}
     - target: {fileID: 3504066889720596591, guid: 9331dd55e72840145942e06197486a9a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.55
       objectReference: {fileID: 0}
     - target: {fileID: 3504066889720596591, guid: 9331dd55e72840145942e06197486a9a, type: 3}
       propertyPath: m_LocalPosition.z
