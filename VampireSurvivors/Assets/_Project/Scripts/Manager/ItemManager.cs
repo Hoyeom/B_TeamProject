@@ -32,6 +32,7 @@ public class ItemManager : MonoBehaviour
             itemObj[i] = Instantiate(items[i], transform);
             itemScript[i] = itemObj[i].GetComponent<Item>();
 
+            if (playerItem == null)  continue;
             if (playerItem.itemId != itemScript[i].itemId) continue;
             
             Destroy(itemObj[i]);

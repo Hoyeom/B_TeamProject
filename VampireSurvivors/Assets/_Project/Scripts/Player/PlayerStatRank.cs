@@ -54,7 +54,7 @@ public class PlayerStatRank
     public float GetMaxHealth(float p_maxHealth) => p_maxHealth + p_maxHealth * (r_maxHealth * maxHealth);
     public float GetRecovery(float p_recovery) => p_recovery + (r_recovery * recovery);
     public float GetCooldown(float p_cooldown) => p_cooldown - p_cooldown * (r_cooldown * cooldown);
-    public float GetArea(float p_area) => p_area + area * (r_area * area);
+    public float GetArea(float p_area) => p_area + p_area * (r_area * area);
     public float GetSpeed(float p_speed) => p_speed + p_speed * (r_speed * speed);
     public float GetDuration(float p_duration) => p_duration + p_duration * (r_duration * duration);
     public float GetAmounts(float p_amounts) => p_amounts + (r_amounts * amounts);

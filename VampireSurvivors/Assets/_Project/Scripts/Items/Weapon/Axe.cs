@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Knife : Item
+public class Axe : Item
 {
     public GameObject attackPrefab;
     private GameObject tempPrefab;
@@ -10,12 +10,14 @@ public class Knife : Item
         tempPrefab = ObjectPooler.Instance.GenerateGameObject(attackPrefab);
         tempPrefab.transform.position = transform.position; // 초기 위치 지정
         tempPrefab.transform.Translate(Vector2.one * Random.Range(-.2f, .2f)); // 위치 지정
-        tempPrefab.transform.rotation = player.viewRotation; // 방향 지정
 
         ProjectilePrefab stat = tempPrefab.GetComponent<ProjectilePrefab>(); // 발사체 속도 데미지 지정
         stat.speed = GetSpeed();
         stat.amount = GetAmount();
         stat.penetrate = GetPenetrate();
+        stat.transform.localScale = Vector3.one * GetArea();
+        stat.rigid.AddForce(((Vector2.up) + Vector2.right * Random.Range(-.4f, .4f)) * speed, ForceMode2D.Impulse);
+        stat.rigid.AddTorque(Random.Range(-90f, 90f));
     }
 
     protected override void Level2()
@@ -25,36 +27,35 @@ public class Knife : Item
 
     protected override void Level3()
     {
-        amount++;
-        minMight += 5;   
-        maxMight += 5;
+        minMight += 20;   
+        maxMight += 20;
     }
 
     protected override void Level4()
     {
-        amount++;
+        penetrate += 2;
     }
 
     protected override void Level5()
     {
-        penetrate++;
+        amount++;
     }
 
     protected override void Level6()
     {
-        amount++;
+        minMight += 20;
+        maxMight += 20;
     }
 
     protected override void Level7()
     {
-        amount++;
-        minMight += 5;
-        maxMight += 5;
+        penetrate += 2;
     }
 
     protected override void Level8()
     {
-        penetrate++;
+        minMight += 20;
+        maxMight += 20;
     }
 
     

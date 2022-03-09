@@ -207,6 +207,7 @@ public class Item : MonoBehaviour
                 Level7();
                 break;
             case 8:
+                rarity = 0;
                 Level8();
                 break;
         }

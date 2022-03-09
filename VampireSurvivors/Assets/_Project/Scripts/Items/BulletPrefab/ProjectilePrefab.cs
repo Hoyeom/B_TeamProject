@@ -6,19 +6,23 @@ public class ProjectilePrefab : MonoBehaviour
     internal int penetrate;
     internal float speed;
     internal float amount;
+    internal float area;
+
+    internal Rigidbody2D rigid;
     public AudioClip shootSoundClip;
 
-    private void OnEnable()
+    private void Awake()
+    {
+        rigid = GetComponent<Rigidbody2D>();
+    }
+
+    protected virtual void OnEnable()
     {
         AudioManager.Instance.FXPlayerAudioPlay(shootSoundClip);
     }
+    
 
-    private void FixedUpdate()
-    {
-        transform.Translate(Vector2.right * speed * Time.fixedDeltaTime);
-    }
-
-    private void OnTriggerEnter2D(Collider2D col)
+    protected virtual void OnTriggerEnter2D(Collider2D col)
     {
         if (!col.CompareTag("Enemy")) return;
 
