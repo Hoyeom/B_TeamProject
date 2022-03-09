@@ -6,13 +6,7 @@ public class ProjectilePrefab : MonoBehaviour
     internal int penetrate;
     internal float speed;
     internal float amount;
-    private Rigidbody2D rigid;
     public AudioClip shootSoundClip;
-
-    private void Awake()
-    {
-        rigid = GetComponent<Rigidbody2D>();
-    }
 
     private void OnEnable()
     {
@@ -28,9 +22,8 @@ public class ProjectilePrefab : MonoBehaviour
     {
         if (!col.CompareTag("Enemy")) return;
 
-        if (penetrate-- < 1) return;
-
         col.gameObject.GetComponent<Enemy>()?.HitEnemy(amount, transform.position);
+        if (--penetrate > 0) return;
         ObjectPooler.Instance.DestroyGameObject(gameObject);
     }
 }
