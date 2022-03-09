@@ -32,8 +32,13 @@ public class AttackCurve : MonoBehaviour
     }
     void FixedUpdate()
     {
-        if (t > 1) return;
-        if (hit) return;
+        if (t > 1)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
+            if (hit) return;
 
         t += Time.deltaTime * speed;
         AttackTrajectroy();
