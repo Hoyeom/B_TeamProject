@@ -63,7 +63,7 @@ public class Player : MonoBehaviour
         set
         {
             health = value;
-            UIManager.Instance.SetHpValue(health);
+            UIManager.Instance?.SetHpValue(health);
         }
     }
     
