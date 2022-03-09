@@ -264,7 +264,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AttackBullet: {fileID: 1116232890897372681, guid: 2f07c173d3364324a8d59c04758ccd77, type: 3}
   Target: {fileID: 434821926130098103}
-  Shoot: 10
+  Shoot: 3
 --- !u!95 &292512084
 Animator:
   serializedVersion: 3
