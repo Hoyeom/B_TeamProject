@@ -13,17 +13,17 @@ public class Player : MonoBehaviour
     private const int EnemyLayer = 6; // "Enemy Layer" 6번
 
     public Transform model;
-    public PlayerStatRank playerStatRank;
-    private Vector2 _moveVector;
+    public PlayerStatRank playerStatRank;   // 스탯 가져오기
+    private Vector2 _moveVector;        // 이동
 
-    private V_PlayerInput _playerInput;
-    private Rigidbody2D _rigid;
-    private Animator _anim;
+    private V_PlayerInput _playerInput; // 인풋시스템
+    private Rigidbody2D _rigid; 
+    private Animator _anim; 
 
-    public int level = 1;
-    private float maxExp = 10;
-    private float minExp;
-    private float thisExp;
+    public int level = 1;   // 레벨 기본값
+    private float maxExp = 10;  // 최대 경험치
+    private float minExp;   // 레벌업 이후 슬라이더 최소값
+    private float thisExp;  // 현재 경험치
     public float ThisExp
     {
         get => thisExp;
@@ -171,7 +171,6 @@ public class Player : MonoBehaviour
     {
         _playerInput = new V_PlayerInput();
         _playerInput.Player.Enable();
-        //_playerInput.UI.Enable();
         _playerInput.Player.Move.performed += Move_performed;
         _playerInput.Player.Move.canceled += Move_canceled;
     }

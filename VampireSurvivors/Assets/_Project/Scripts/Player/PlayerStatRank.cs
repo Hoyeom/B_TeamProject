@@ -2,17 +2,17 @@ public class PlayerStatRank
 {
     #region Rank
 
-    private int r_might;
-    private int r_armor;
-    private int r_maxHealth;
-    private int r_recovery;
-    private int r_cooldown;
-    private int r_area;
-    private int r_speed;
-    private int r_duration;
-    private int r_amounts;
-    private int r_moveSpeed;
-    private int r_magnet;
+    private int r_might;    // 공격력
+    private int r_armor;    // 방어력
+    private int r_maxHealth;    // 최대 체력
+    private int r_recovery; // 체력 재생
+    private int r_cooldown; // 쿨타임
+    private int r_area; // 범위
+    private int r_speed;    // 프리펩 이동 속도
+    private int r_duration; // 프리펩 지속시간
+    private int r_amounts;  // 프리펩 개수
+    private int r_moveSpeed;    // 플레이어 이동 속도
+    private int r_magnet;   // 경험치 자석 효과 범위
 
     #endregion
 

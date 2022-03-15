@@ -48,6 +48,7 @@ public class Item : MonoBehaviour
         ItemActive();   
     }
 
+    // 아이템 획득시 사용되는 함수
     public void ItemActive()
     {
         if (level <= 0) return;
@@ -73,23 +74,28 @@ public class Item : MonoBehaviour
 
     #region OverrideFunc
 
+    // 쿨타임을 마다 개수(amount) 만큼 반복
     protected virtual void ActiveAttack(int i)
     {
     }
 
+    // 쿨타임을 마다 개수(amount) 만큼 반복 후 지속시간이 끝난 후 쿨타임 시작
     protected virtual void DurationAttack(int i)
     {
     }
 
+    // 획득후 쿨타임 마다 1회 호출
     protected virtual void PassiveAttack()
     {
     }
 
+    // 1회 사용
     protected virtual void InstantItemActive()
     {
         
     }
     
+    // 무기 획득시 효과
     protected virtual void WeaponEquipFX()
     {
         // 예제
@@ -146,10 +152,10 @@ public class Item : MonoBehaviour
 
     #region GetItemInfo
 
-    public int GetLevel() => level;
-    internal bool IsMaxLevel() => (level > maxLevel - 1);
-    internal bool IsMaxLevel(int level) => (level > maxLevel - 1);
-    public ItemType GetItemType() => itemType;
+    public int GetLevel() => level; // 아이템의 현재 레벨을 받아온다
+    internal bool IsMaxLevel() => (level > maxLevel - 1);   // 아이템이 최대 레벨인지 확인
+    internal bool IsMaxLevel(int level) => (level > maxLevel - 1);  // 캐릭터 레벨업 후 선택창에서 다음 레벨이 최대인지 확인
+    public ItemType GetItemType() => itemType;  // 아이템 종류
 
     #endregion
 
@@ -166,7 +172,8 @@ public class Item : MonoBehaviour
 
     #region LevelUp
 
-    public void EnableItem()
+    // 아이템 획득시 호출되는 함수
+    public void EnableItem()  
     {
         if (itemType == ItemType.Instant)
         {
@@ -179,6 +186,7 @@ public class Item : MonoBehaviour
         LevelUpItem();
     }
 
+    // 레벨 별 효과를 적용 함수
     public void LevelUpItem()
     {
         if(IsMaxLevel()) return;
@@ -217,6 +225,7 @@ public class Item : MonoBehaviour
 
     #region LevelOverride
 
+    // 아이템에서 레벨별 효과를 정의하는 Overriding 함수 
     protected virtual void Level1() { }
     protected virtual void Level2() { }
     protected virtual void Level3() { }
@@ -229,5 +238,6 @@ public class Item : MonoBehaviour
 
     #endregion
 
+    // public으로 작성된 아이템 설명을 가져온다
     internal string GetDescription() => description[level];
 }
