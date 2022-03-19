@@ -9,7 +9,6 @@ public class Item : MonoBehaviour
     {
         Instant,
         Active,
-        Duration,
         Passive
     }
     
@@ -60,9 +59,6 @@ public class Item : MonoBehaviour
             case ItemType.Active:
                 StartCoroutine(ActiveAttackRoutine());
                 break;
-            case ItemType.Duration:
-                StartCoroutine(DurationAttackRoutine());
-                break;
             case ItemType.Passive:
                 StartCoroutine(PassiveAttackRoutine());
                 break;
@@ -74,16 +70,11 @@ public class Item : MonoBehaviour
 
     #region OverrideFunc
 
-    // 쿨타임을 마다 개수(amount) 만큼 반복
+    // 쿨타임을 마다 개수(amount) 만큼 반복 후 지속시간이 끝난 후 쿨타임 시작
     protected virtual void ActiveAttack(int i)
     {
     }
-
-    // 쿨타임을 마다 개수(amount) 만큼 반복 후 지속시간이 끝난 후 쿨타임 시작
-    protected virtual void DurationAttack(int i)
-    {
-    }
-
+    
     // 획득후 쿨타임 마다 1회 호출
     protected virtual void PassiveAttack()
     {
@@ -118,21 +109,6 @@ public class Item : MonoBehaviour
                 ActiveAttack(i);
                 yield return new WaitForSeconds(.05f);
             }
-            yield return new WaitForSeconds(GetCooldown());
-        }
-    }
-
-    IEnumerator DurationAttackRoutine()
-    {
-        // Debug.Log("DurationAttackRoutine");
-        while (true) // 게임 종료 혹은 아이템 제거 까지
-        {
-            for (int i = 0; i < GetAmount(); i++)
-            {
-                DurationAttack(i);
-                yield return null;
-            }
-
             yield return new WaitForSeconds(GetDuration());
             yield return new WaitForSeconds(GetCooldown());
         }
