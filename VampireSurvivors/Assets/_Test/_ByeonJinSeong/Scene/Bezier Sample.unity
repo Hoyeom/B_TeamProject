@@ -263,8 +263,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackBullet: {fileID: 1116232890897372681, guid: 2f07c173d3364324a8d59c04758ccd77, type: 3}
-  Target: {fileID: 434821926130098103}
+  LayerMask:
+    serializedVersion: 2
+    m_Bits: 0
+  TempTarget: {fileID: 0}
+  size: {x: 0, y: 0}
   Shoot: 3
+  AttackSpeed: 3
 --- !u!95 &292512084
 Animator:
   serializedVersion: 3
@@ -2591,6 +2596,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &529265508 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5379909426394080201, guid: 01d441317c98799478bb534cd10da48f, type: 3}
+  m_PrefabInstance: {fileID: 1066746234}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &596446335
 GameObject:
   m_ObjectHideFlags: 0
@@ -2704,6 +2714,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5379909426463253792, guid: 01d441317c98799478bb534cd10da48f, type: 3}
+      propertyPath: model
+      value: 
+      objectReference: {fileID: 529265508}
     - target: {fileID: 5379909426463253793, guid: 01d441317c98799478bb534cd10da48f, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -3207,11 +3221,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &434821926130098103 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3504066889720596627, guid: 9331dd55e72840145942e06197486a9a, type: 3}
-  m_PrefabInstance: {fileID: 3938466566643390244}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &434821926130098109 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3504066889720596591, guid: 9331dd55e72840145942e06197486a9a, type: 3}

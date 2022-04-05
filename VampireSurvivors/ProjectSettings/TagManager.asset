@@ -8,6 +8,7 @@ TagManager:
   - Bound
   - Wall
   - Bullet
+  - Bird
   layers:
   - Default
   - TransparentFX
@@ -20,7 +21,7 @@ TagManager:
   - Player
   - Wall
   - Bound
-  - Enemywa
+  - 
   - 
   - 
   - 

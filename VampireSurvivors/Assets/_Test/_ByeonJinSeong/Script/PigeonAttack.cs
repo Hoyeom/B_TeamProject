@@ -5,11 +5,10 @@ using UnityEngine;
 public class PigeonAttack : MonoBehaviour
 {
     public GameObject AttackBullet;    // 공격 매체
-    public GameObject Target;          // Test 테스트(임시) 타겟  
 
     // 적 Search 함수용 변수
     public LayerMask LayerMask = 0;     // OverlapSphere 함수 LayerMask "Enemy" Layer를 찾기위한 변수
-    private Transform TempTarget = null; // 임시 타겟 저장 변수
+    public Transform TempTarget = null; // 가까운 적 저장 변수
 
     public Vector2 size;                 // 공격사정거리
     public int Shoot = 3;                // 공격 횟수
@@ -18,8 +17,8 @@ public class PigeonAttack : MonoBehaviour
     private void Start()
     {
         // 함수 반복 호출
-        InvokeRepeating("Attack",0f,0.2f );
-        InvokeRepeating("EnemySearch",0f,0.5f );
+        //InvokeRepeating("Attack",0f,0.2f );
+        //InvokeRepeating("EnemySearch",0f,0.5f );
     }
 
     public void Attack()
@@ -32,6 +31,7 @@ public class PigeonAttack : MonoBehaviour
     {
         int _Shoot = Shoot;
 
+        // 근처에 적이있는지 여부 확인
         if(TempTarget != null)
         {
             // 공격 횟수 만큼반복 
@@ -39,7 +39,7 @@ public class PigeonAttack : MonoBehaviour
             {
                 _Shoot--;
                 GameObject attack = Instantiate(AttackBullet, transform); // 프리팹 생성(나중에 )
-                attack.GetComponent<AttackCurve>().MyPigeon = gameObject; // 비둘기 연결
+                //attack.GetComponent<AttackCurve>().MyPigeon = gameObject; // 비둘기 연결
                 attack.GetComponent<AttackCurve>().enemy.transform.position = TempTarget.position;        // 가까운 적 인식
                 yield return new WaitForSeconds(AttackSpeed);                    // 공격 간격
             }
@@ -76,9 +76,9 @@ public class PigeonAttack : MonoBehaviour
         }
         TempTarget = ShortTarget;
     }
-    
+
     // 사거리 시각화용
-    private void OnDrawGizmos()
+     void OnDrawGizmos()
     {
         GameObject PlayerPosition = GameObject.FindWithTag("Player");
         Gizmos.color = Color.red;
