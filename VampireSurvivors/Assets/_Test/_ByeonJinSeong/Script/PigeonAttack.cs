@@ -15,11 +15,7 @@ public class PigeonAttack : Item
 
     public GameObject attackPrefab;     // 공격 오브젝트
     private GameObject tempPrefab;      // 생성된 공격 오브젝트
-
-    private void Start()
-    {
-        myPigeon = GameObject.Find("Nest").transform.GetChild(0).gameObject;
-    }
+    
 
     void FixedUpdate()
     {
@@ -59,6 +55,8 @@ public class PigeonAttack : Item
         }
         TempTarget = ShortTarget;
     }
+    
+
     protected override void Level1()
     {
         
@@ -100,6 +98,13 @@ public class PigeonAttack : Item
     {
         minMight += 20;
         maxMight += 20;
+    }
+
+    protected override void WeaponEquipFX()
+    {
+        var obj = ObjectPooler.Instance.GenerateGameObject(weaponEquipFx);
+        obj.GetComponent<PigeonController>().target = player.transform;
+        myPigeon = obj;
     }
 
     /*

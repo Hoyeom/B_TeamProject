@@ -62,8 +62,8 @@ public class Item : MonoBehaviour
             case ItemType.Passive:
                 StartCoroutine(PassiveAttackRoutine());
                 break;
-            WeaponEquipFX();
         }
+        WeaponEquipFX();
     }
 
     // 상속받아서 바꿔야하는 함수입니다. 바꾸는 것 예제는 Knife.cs 참조
@@ -158,12 +158,12 @@ public class Item : MonoBehaviour
             return;
         }
         // Jinseong Test용
-        if(itemName.Equals("비둘기"))
-        {
-            Debug.Log($"테스트 용입니다 : {itemName}");
-            GameObject.Find("Nest").transform.GetChild(0).gameObject.SetActive(true);
-            player = GameObject.FindWithTag("Player").GetComponent<Player>();
-        }
+        // if(itemName.Equals("비둘기"))
+        // {
+        //     Debug.Log($"테스트 용입니다 : {itemName}");
+        //     GameObject.Find("Nest").transform.GetChild(0).gameObject.SetActive(true);
+        //     player = GameObject.FindWithTag("Player").GetComponent<Player>();
+        // }
         // ^^^^^Test용
         transform.position = player.transform.position;
         LevelUpItem();

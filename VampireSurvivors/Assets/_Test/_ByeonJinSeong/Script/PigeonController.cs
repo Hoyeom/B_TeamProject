@@ -9,11 +9,6 @@ public class PigeonController : MonoBehaviour
 
     Vector2 velo = Vector2.zero;
 
-    private void Awake()
-    {
-        gameObject.SetActive(false);
-    }
-
     void FixedUpdate()
     {
         MovePigeon();
