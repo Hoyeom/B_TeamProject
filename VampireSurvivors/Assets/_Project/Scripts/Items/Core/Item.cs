@@ -157,7 +157,14 @@ public class Item : MonoBehaviour
             InstantItemActive();
             return;
         }
-        
+        // Jinseong Test용
+        if(itemName.Equals("비둘기"))
+        {
+            Debug.Log($"테스트 용입니다 : {itemName}");
+            GameObject.Find("Nest").transform.GetChild(0).gameObject.SetActive(true);
+            player = GameObject.FindWithTag("Player").GetComponent<Player>();
+        }
+        // ^^^^^Test용
         transform.position = player.transform.position;
         LevelUpItem();
     }

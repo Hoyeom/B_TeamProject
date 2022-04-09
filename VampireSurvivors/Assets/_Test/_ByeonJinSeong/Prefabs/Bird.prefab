@@ -10,13 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 5848759211588158999}
   - component: {fileID: 5848759211588158996}
-  - component: {fileID: 5848759211588158997}
-  - component: {fileID: 5848759211588158998}
   - component: {fileID: 5848759211588158993}
   - component: {fileID: 5848759211588158992}
   m_Layer: 0
   m_Name: Bird
-  m_TagString: Untagged
+  m_TagString: Bird
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28,7 +26,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5848759211588158986}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.5050001, y: 1.474, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
@@ -86,66 +84,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &5848759211588158997
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5848759211588158986}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50dfcc405dbcfd349b24cb1f7ec656c9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  weaponEquipFx: {fileID: 0}
-  spriteImg: {fileID: 0}
-  itemName: 
-  description:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  itemType: 0
-  itemId: 0
-  maxLevel: 0
-  level: 0
-  rarity: 0
-  minMight: 0
-  maxMight: 0
-  coolDown: 0
-  area: 0
-  speed: 2
-  duration: 0
-  amount: 0
-  penetrate: 0
-  distance: 1
-  Xdistance: 0.5
-  Ydistance: 1
-  Fspeed: 2
---- !u!114 &5848759211588158998
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5848759211588158986}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78ffd3a0e1c32084082113cf05d6886a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AttackBullet: {fileID: 1116232890897372681, guid: 2f07c173d3364324a8d59c04758ccd77, type: 3}
-  LayerMask:
-    serializedVersion: 2
-    m_Bits: 64
-  size: {x: 8, y: 8}
-  Shoot: 1
-  AttackSpeed: 10
 --- !u!95 &5848759211588158993
 Animator:
   serializedVersion: 3
