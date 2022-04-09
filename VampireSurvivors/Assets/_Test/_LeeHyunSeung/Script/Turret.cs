@@ -2,37 +2,97 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Turret : MonoBehaviour
+public class Turret :Item
 {
-    public GameObject bulletOj;         // Åº¾Ë ¿ÀºêÁ§Æ®
-    public float bulletRate = 2f;       // Åº¾Ë µô·¹ÀÌ
-    private float timeRate = 1.5f;      // ÃÖ±Ù ¹ß»çÇÑ ½Ã°£
+    public GameObject attackPrefab;
+    private GameObject tempPrefab;
 
-    private Transform target;           // ¹ß»çÇÒ ´ë»ó
+    protected override void ActiveAttack(int i)
+    {
+        tempPrefab = ObjectPooler.Instance.GenerateGameObject(attackPrefab);
+        tempPrefab.transform.position = transform.position; // ì´ˆê¸° ìœ„ì¹˜ ì§€ì •
+        tempPrefab.transform.rotation = player.viewRotation; // ë°©í–¥ ì§€ì •
+
+        ProjectilePrefab stat = tempPrefab.GetComponent<ProjectilePrefab>(); // ë°œì‚¬ì²´ ì†ë„ ë°ë¯¸ì§€ ì§€ì •
+        stat.speed = GetSpeed();
+        stat.amount = GetAmount();
+        stat.penetrate = GetPenetrate();
+    }
+
+    protected override void Level2()
+    {
+        minMight += 3;
+        maxMight += 3;
+    }
+
+    protected override void Level3()
+    {
+        amount++;
+        minMight += 3;
+        maxMight += 3;
+
+    }
+
+    protected override void Level4()
+    {
+        minMight += 3;
+        maxMight += 3;
+    }
+
+    protected override void Level5()
+    {
+        coolDown -= 0.05f;
+    }
+
+    protected override void Level6()
+    {
+        minMight += 3;
+        maxMight += 3;
+    }
+
+    protected override void Level7()
+    {
+        amount++;
+        minMight += 3;
+        maxMight += 3;
+    }
+
+    protected override void Level8()
+    {
+        coolDown -= 0.05f;
+    }
+
+    
+    public GameObject bulletObj;         // íƒ„ì•Œ ì˜¤ë¸Œì íŠ¸
+    public float bulletRate = 2f;       // íƒ„ì•Œ ë”œë ˆì´
+    private float timeRate = 1.5f;      // ìµœê·¼ ë°œì‚¬í•œ ì‹œê°„
+
+    private Transform target;           // ë°œì‚¬í•  ëŒ€ìƒ
 
 
     private void Update()
     {
-        
+
         Fire();
     }
 
     private void Fire()
     {
-        // timeRate  °»½Å
+        // timeRate  ê°±ì‹ 
         timeRate += Time.deltaTime;
 
         if (timeRate >= bulletRate)
         {
-            // ´©Àû ½Ã°£ ¸®¼Â
+            // ëˆ„ì  ì‹œê°„ ë¦¬ì…‹
             timeRate = 0f;
 
-            target = GameObject.FindGameObjectWithTag("Enemy").transform;   // ¹ß»çÇÒ ´ë»óÀÇ À§Ä¡
-            //BulletOj ÀÇ º¹Á¦º»À» transfor.position À§Ä¡¿Í transfor.rotation È¸ÀüÀ¸·Î »ı¼º
-            GameObject bullet = Instantiate(bulletOj, transform.position, target.transform.rotation);
-            //»ı¼ºµÈ bullet °ÔÀÓ¿ÀºêÁ§Æ®ÀÇ Á¤¸é ¹æÇâÀÌ targetÀ» ÇâÇÏµµ·Ï È¸Àü
+            target = GameObject.FindGameObjectWithTag("Enemy").transform;   // ë°œì‚¬í•  ëŒ€ìƒì˜ ìœ„ì¹˜
+                                                                            //BulletOj ì˜ ë³µì œë³¸ì„ transfor.position ìœ„ì¹˜ì™€ transfor.rotation íšŒì „ìœ¼ë¡œ ìƒì„±
+            GameObject bullet = Instantiate(bulletObj, transform.position, target.transform.rotation);
+            //ìƒì„±ëœ bullet ê²Œì„ì˜¤ë¸Œì íŠ¸ì˜ ì •ë©´ ë°©í–¥ì´ targetì„ í–¥í•˜ë„ë¡ íšŒì „
             bullet.transform.LookAt(target);
         }
-        Destroy(gameObject, 10f);
+        //Destroy(gameObject, 10f);
     }
+    
 }

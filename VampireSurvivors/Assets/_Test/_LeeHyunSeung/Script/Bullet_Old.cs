@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bullet : MonoBehaviour
+public class Bullet_Old : MonoBehaviour
 {
     private Rigidbody2D rigid;
     private float bulletSpeed = 2.0f;    // 탄알 속도
