@@ -9,6 +9,8 @@ TagManager:
   - Wall
   - Bullet
   - Bird
+  - Aura
+  - Turret
   layers:
   - Default
   - TransparentFX
