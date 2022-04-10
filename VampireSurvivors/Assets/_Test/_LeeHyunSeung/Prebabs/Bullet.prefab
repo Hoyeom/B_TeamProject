@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e0a0a80c864c854b9a6b9d3dbd0529a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weaponEquipFx: {fileID: 0}
+  weaponEquipFx: {fileID: 4074944520704556248, guid: 1a6a7a007e4e1d142b08de362b135471, type: 3}
   spriteImg: {fileID: 21300000, guid: e3b026d13fcfacb4cbdbe4144d4d511b, type: 3}
   itemName: "\uD0C4\uC54C"
   description:
@@ -61,15 +61,19 @@ MonoBehaviour:
   maxLevel: 8
   level: 4
   rarity: 0
-  minMight: 5
-  maxMight: 5
+  minMight: 6
+  maxMight: 6
   coolDown: 1
   area: 0
-  speed: 5
+  speed: 7
   duration: 0
   amount: 1
   penetrate: 1
   attackPrefab: {fileID: 4074944520704556248, guid: 1a6a7a007e4e1d142b08de362b135471, type: 3}
+  LayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  size: {x: 15, y: 10}
 --- !u!61 &7411549447385710435
 BoxCollider2D:
   m_ObjectHideFlags: 0
