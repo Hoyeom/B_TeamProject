@@ -2,47 +2,36 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Garlic : MonoBehaviour
+public class Garlic : Item
 {
-    private Rigidbody2D _rigid;
-    private GameObject _enemy;
-    private GameObject _player;
-    private float amount = 0.0f;
-    private float GarlicDelay = 0.3f; // 레벨별로 나중에
-    private float GarlicRange = 4.6f; // 레벨별로 나중에
-
-
+   
+    LayerMask mask = new LayerMask();
 
 
     private void Start()
     {
-        _player = GameObject.FindGameObjectWithTag("Aura");
-        StartCoroutine(Garlics());
+        mask = LayerMask.GetMask("Enemy");
     }
 
-    private IEnumerator Garlics()
+
+    protected override void PassiveAttack()
     {
-        while (true)
+        Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, GetArea(), mask); // transform으로 해도 상관없음
+        Debug.Log("디버그");
+        if (colliders != null)
         {
-            Vector2 playerPos = _player.transform.position;
-            LayerMask mask = LayerMask.GetMask("Enemy");
-            Collider2D[] colliders = Physics2D.OverlapCircleAll(playerPos, GarlicRange, mask); // transform으로 해도 상관없음
-            if (colliders != null)
+
+            //데미지 주기
+            for (int i = 0; i < colliders.Length; i++)
             {
-                
-                //데미지 주기
-                for(int i = 0; i < colliders.Length; i++)
-                {
-                    colliders[i].gameObject.GetComponent<Enemy>().HitEnemy(amount,transform.position);
-                    Debug.Log(amount);
-                }
-                yield return new WaitForSeconds(GarlicDelay);
-                Debug.Log(GarlicDelay);
-                
+                colliders[i].gameObject.GetComponent<Enemy>().HitEnemy(GetMight(), transform.position);
+                Debug.Log(GetMight());
             }
-            
         }
+
     }
+
+
 }
    
         
