@@ -12,7 +12,12 @@ public class Garlic : Item
     {
         mask = LayerMask.GetMask("Enemy");
     }
-    
+
+    protected override void WeaponEquipFX()
+    {
+        GetComponent<SpriteRenderer>().enabled = true;
+    }
+
     protected override void PassiveAttack()
     {
         Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, GetArea(), mask); // transform으로 해도 상관없음
