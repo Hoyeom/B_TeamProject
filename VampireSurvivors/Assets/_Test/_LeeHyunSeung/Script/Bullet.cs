@@ -25,12 +25,18 @@ public class Bullet : Item
             tempPrefab = ObjectPooler.Instance.GenerateGameObject(attackPrefab);
             tempPrefab.transform.position = transform.position; // 초기 위치 지정
             tempPrefab.transform.Translate(Vector2.one * Random.Range(-.1f, .1f)); // 위치 지정
+
+            Vector2 view = TempTarget.position - tempPrefab.transform.position;
+
+            float angle = Mathf.Atan2(view.y, view.x) * Mathf.Rad2Deg;
+
+            tempPrefab.transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
             //tempPrefab.GetComponent<BulletProjectile>().target.transform.position = TempTarget.position;
 
+            
             // 방향 지정
             //tempPrefab.transform.rotation = player.viewRotation; 
-            //tempPrefab.transform.rotation = Quaternion.LookRotation(target.position);
-            //gameObject.transform.LookAt(target);
+            // tempPrefab.transform.rotation = Quaternion.LookRotation(TempTarget.position);
 
             ProjectilePrefab stat = tempPrefab.GetComponent<ProjectilePrefab>(); // 발사체 속도 데미지 지정
             stat.speed = GetSpeed();
