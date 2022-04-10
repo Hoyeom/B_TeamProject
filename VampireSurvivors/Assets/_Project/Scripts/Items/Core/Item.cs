@@ -44,7 +44,13 @@ public class Item : MonoBehaviour
 
     private void Start()
     {
-        ItemActive();   
+        Initialize();
+        ItemActive();
+    }
+
+    protected virtual void Initialize()
+    {
+        
     }
 
     // 아이템 획득시 사용되는 함수

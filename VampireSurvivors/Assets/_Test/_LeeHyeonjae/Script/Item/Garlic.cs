@@ -8,12 +8,11 @@ public class Garlic : Item
     LayerMask mask = new LayerMask();
 
 
-    private void Start()
+    protected override void Initialize()
     {
         mask = LayerMask.GetMask("Enemy");
     }
-
-
+    
     protected override void PassiveAttack()
     {
         Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, GetArea(), mask); // transform으로 해도 상관없음
