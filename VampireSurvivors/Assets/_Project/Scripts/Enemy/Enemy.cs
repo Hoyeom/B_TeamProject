@@ -67,4 +67,21 @@ public class Enemy : MonoBehaviour
         }
         _animator.SetTrigger(hashHitAnim);
     }
+    public void SpeedSlow()
+    {
+        if (health < 1)
+        {
+            StopCoroutine(EnemySpeedSlow());
+        }
+
+        StartCoroutine(EnemySpeedSlow());
+    }
+    IEnumerator EnemySpeedSlow()
+    {
+        Debug.Log("coroutine start" + Time.time);
+        speed = 0.1f;
+        yield return new WaitForSecondsRealtime(2.0f);
+        speed = 1f;
+        Debug.Log("coroutine end" + Time.time);
+    }
 }
