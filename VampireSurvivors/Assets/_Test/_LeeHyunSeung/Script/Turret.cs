@@ -5,10 +5,9 @@ using UnityEngine;
 public class Turret : Item
 {
     public GameObject attackPrefab;
-    public GameObject turretPrefab;
     private GameObject tempPrefab;
-    private GameObject temp2Prefab;
 
+    private GameObject obj = null;
 
     private Transform TempTarget;
 
@@ -21,12 +20,13 @@ public class Turret : Item
 
     }
 
-    protected override void PassiveAttack()
-    {
-        temp2Prefab = ObjectPooler.Instance.GenerateGameObject(turretPrefab);
-        temp2Prefab.transform.position = player.transform.position; // 초기 위치 지정
-        temp2Prefab.transform.Translate(Vector2.zero); // 위치 지정   
-    }
+    //protected override void PassiveAttack()
+    //{
+    //    gameObject.transform.position = player.transform.position;
+    //    tempPrefab = ObjectPooler.Instance.GenerateGameObject(attackPrefab);
+    //    tempPrefab.transform.position = transform.position; // 초기 위치 지정
+    //}
+
 
     protected override void ActiveAttack(int i)
     {
@@ -36,21 +36,32 @@ public class Turret : Item
             //TempTarget = enemy.transform;
             //Debug.Log(TempTarget);
             tempPrefab = ObjectPooler.Instance.GenerateGameObject(attackPrefab);
+            gameObject.transform.position = obj.transform.position;
             tempPrefab.transform.position = transform.position; // 초기 위치 지정
             //tempPrefab.transform.Translate(Vector2.one * Random.Range(-.1f, .1f)); // 위치 지정
 
             Vector2 view = TempTarget.position - tempPrefab.transform.position;
-            float angle = Mathf.Atan2(view.y +0.5f, view.x) * Mathf.Rad2Deg;
+            float angle = Mathf.Atan2(view.y + 0.5f, view.x) * Mathf.Rad2Deg;
             tempPrefab.transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
 
             ProjectilePrefab stat = tempPrefab.GetComponent<ProjectilePrefab>(); // 발사체 속도 데미지 지정
             stat.speed = GetSpeed();
             stat.amount = GetAmount();
-            
+
         }
         //else
-            //Debug.Log("목표 없음");
+        //Debug.Log("목표 없음");
+    }
 
+    protected override void WeaponEquipFX()
+    {
+        // 예제
+
+        // weaponEquipFx = Instantiate(pigeon);    // 원하는 프리펩 저장
+        // PigeonScript pigeonScript = weaponEquipFx.GetComponent<PigeonScript>(); // 비둘기 스크립트를 저장할 전역변수에 저장
+         obj = ObjectPooler.Instance.GenerateGameObject(weaponEquipFx);
+        //obj.transform.position = gameObject.transform.parent.position;
+        Debug.Log(obj);
     }
 
     void EnemySearch()
