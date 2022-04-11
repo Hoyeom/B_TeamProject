@@ -28,13 +28,13 @@ public class Item : MonoBehaviour
     public int rarity;
 
     [Header("Status")]
-    public float minMight;
-    public float maxMight;
-    public float coolDown;
-    public float area;
-    public float speed;
-    public float duration;
-    public int amount;
+    public float minMight;  // 최소 공격력
+    public float maxMight;  // 최대 공격력
+    public float coolDown;  // 쿨타임
+    public float area;      // 범위(크기)
+    public float speed;     // 투사체 속도
+    public float duration;  // 지속시간
+    public int amount;      // 개수
     public int penetrate; // 관통 (투사체에만)
 
     private void Awake()
@@ -44,7 +44,13 @@ public class Item : MonoBehaviour
 
     private void Start()
     {
-        ItemActive();   
+        Initialize();
+        ItemActive();
+    }
+
+    protected virtual void Initialize()
+    {
+        
     }
 
     // 아이템 획득시 사용되는 함수
