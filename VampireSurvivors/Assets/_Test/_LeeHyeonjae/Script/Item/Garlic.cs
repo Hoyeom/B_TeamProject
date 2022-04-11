@@ -5,13 +5,8 @@ using UnityEngine;
 public class Garlic : Item
 {
     //해야할거
-    //마늘 스프라이트 이미지 넣기,레벨당 설정
-    //------------------------------------------------
-    // float minMight;  // 최소 공격력
-   //  float maxMight;  // 최대 공격력
-    // float coolDown;  // 쿨타임
-   //  float area;      // 범위(크기)
-   //-------------------------------------------------
+   //레벨당 수치 기제
+    
    
 
     LayerMask mask = new LayerMask();
@@ -26,6 +21,7 @@ public class Garlic : Item
     {
         GetComponent<SpriteRenderer>().enabled = true;
     }
+
     protected override void Level2()
     {
         minMight += 1;
@@ -45,7 +41,10 @@ public class Garlic : Item
 
     protected override void Level5()
     {
-        area += 1;
+        area += 0.5f;
+        transform.localScale = Vector3.one * (GetArea() * 2.0f);
+        Debug.Log(GetArea());
+        Debug.Log(transform.localScale);
     }
 
     protected override void Level6()
@@ -63,14 +62,16 @@ public class Garlic : Item
     protected override void Level8()
     {
         area += 1;
+        transform.localScale = Vector3.one * (GetArea() * 2.0f);
         coolDown -= 0.05f;
+        Debug.Log(GetArea());
+        Debug.Log(transform.localScale);
     }
 
 
     protected override void PassiveAttack()
     {
         Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, GetArea(), mask); // transform으로 해도 상관없음
-        Debug.Log("디버그");
         if (colliders != null)
         {
 
