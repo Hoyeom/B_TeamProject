@@ -181,9 +181,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bba59a12c35b7f541af6ffcc85da8b09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 256
   expPrefab: {fileID: 5865523720289440356, guid: d6b7a54b36e9e8246b04a5a83a99a20d, type: 3}
   hitSoundClip: {fileID: 8300000, guid: 6a81221f7206b79449a11244ce04eb01, type: 3}
   maxHealth: 10
   damage: 1
+  attackRadius: 1
   speed: 1
   dropExp: 3

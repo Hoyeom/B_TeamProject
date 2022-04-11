@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using _Project.Scripts.Player;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
@@ -7,7 +8,7 @@ using UnityEngine.SceneManagement;
 
 
 [RequireComponent(typeof(Rigidbody2D))]
-public class Player : MonoBehaviour
+public class Player : MonoBehaviour, IAttackable
 {
     private static readonly int HashIsMove = Animator.StringToHash("isMove");
     private const int EnemyLayer = 6; // "Enemy Layer" 6번
@@ -215,27 +216,20 @@ public class Player : MonoBehaviour
         _hitDelay = false;
     }
 
+    public void AttackChangeHealth(float damage)
+    {
+        if (_hitDelay) return;
+        Health -= damage;
+        if (Health <= 0)
+            onPlayerDead.Invoke();
+        StartCoroutine(HitDealay(0.05f));
+    }
+    
     public void HealPlayer(float heal)
     {
         Health = Mathf.Min(Health + heal, MaxHealth);
     }
     #endregion
-
-    
-    private void OnTriggerStay2D(Collider2D col)
-    {
-        if (col.gameObject.layer != EnemyLayer) return;
-        if (!_hitDelay)
-        {
-            Enemy enemy = col.gameObject.GetComponent<Enemy>();
-            Health -= enemy.damage;
-            
-            if (Health <= 0)
-                onPlayerDead.Invoke();
-            StartCoroutine(HitDealay(0.05f));
-        }
-    }
-
 
     private void OnDrawGizmos()
     {

@@ -1,22 +1,25 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using _Project.Scripts.Player;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+    public LayerMask targetLayer;
     private Player _player;
     private Rigidbody2D rigid;
     public GameObject expPrefab;
     public AudioClip hitSoundClip;
     private SpriteRenderer _renderer;
     private Animator _animator;
-
+    
     private readonly int hashHitAnim = Animator.StringToHash("hitTrigger");
     private readonly int enemyLayer = 6;
     public float maxHealth;
     private float health;
     public float damage;
+    public float attackRadius;
     public float speed;
     public float dropExp;
 
@@ -45,12 +48,22 @@ public class Enemy : MonoBehaviour
             rigid.MovePosition(rigid.position +
                                (Vector2) (playerPos - pos).normalized * speed * Time.deltaTime);
             _renderer.flipX = playerPos.x > pos.x;
+            Attack();
             yield return new WaitForFixedUpdate();
             rigid.velocity = Vector2.zero;
         }
     }
 
-    public float Attack() => damage;
+    public void Attack()
+    {
+        foreach (var collider in Physics2D.OverlapCircleAll(transform.position, attackRadius, targetLayer))
+        {
+            if (collider.TryGetComponent<IAttackable>(out IAttackable attackable))
+            {
+                attackable.AttackChangeHealth(damage);
+            }
+        }
+    }
 
     public void HitEnemy(float amount,Vector2 target)
     {
