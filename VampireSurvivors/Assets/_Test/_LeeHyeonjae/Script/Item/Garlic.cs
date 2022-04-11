@@ -4,7 +4,16 @@ using UnityEngine;
 
 public class Garlic : Item
 {
+    //해야할거
+    //마늘 스프라이트 이미지 넣기,레벨당 설정
+    //------------------------------------------------
+    // float minMight;  // 최소 공격력
+   //  float maxMight;  // 최대 공격력
+    // float coolDown;  // 쿨타임
+   //  float area;      // 범위(크기)
+   //-------------------------------------------------
    
+
     LayerMask mask = new LayerMask();
 
 
@@ -17,6 +26,46 @@ public class Garlic : Item
     {
         GetComponent<SpriteRenderer>().enabled = true;
     }
+    protected override void Level2()
+    {
+        minMight += 1;
+        maxMight += 1;
+    }
+
+    protected override void Level3()
+    {
+        minMight += 1;
+        maxMight += 1;
+    }
+
+    protected override void Level4()
+    {
+        coolDown -= 0.05f;
+    }
+
+    protected override void Level5()
+    {
+        area += 1;
+    }
+
+    protected override void Level6()
+    {
+        minMight += 1;
+        maxMight += 1;
+    }
+
+    protected override void Level7()
+    {
+        minMight += 1;
+        maxMight += 1;
+    }
+
+    protected override void Level8()
+    {
+        area += 1;
+        coolDown -= 0.05f;
+    }
+
 
     protected override void PassiveAttack()
     {

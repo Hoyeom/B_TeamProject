@@ -138,14 +138,14 @@ MonoBehaviour:
   spriteImg: {fileID: -3514555725737318775, guid: e16782d94594d364aa86ee6c57fc468d, type: 3}
   itemName: "\uB9C8\uB298"
   description:
-  - 1
-  - 2
-  - 3
-  - 4
-  - 5
-  - 6
-  - 7
-  - 8
+  - "\uD68D\uB4DD"
+  - "\uB370\uBBF8\uC9C0 \uC99D\uAC00"
+  - "\uB370\uBBF8\uC9C0 \uC99D\uAC00"
+  - "\uACF5\uACA9 \uAC04\uACA9 \uAC10\uC18C"
+  - "\uACF5\uACA9 \uBC94\uC704 \uC99D\uAC00"
+  - "\uB370\uBBF8\uC9C0 \uC99D\uAC00"
+  - "\uB370\uBBF8\uC9C0 \uC99D\uAC00"
+  - "\uACF5\uACA9 \uAC04\uACA9 \uAC10\uC18C,\uACF5\uACA9 \uBC94\uC704 \uC99D\uAC00"
   itemType: 2
   itemId: 9
   maxLevel: 8
