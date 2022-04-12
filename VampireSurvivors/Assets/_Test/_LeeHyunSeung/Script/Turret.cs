@@ -46,7 +46,7 @@ public class Turret : Item
 
             ProjectilePrefab stat = tempPrefab.GetComponent<ProjectilePrefab>(); // 발사체 속도 데미지 지정
             stat.speed = GetSpeed();
-            stat.amount = GetAmount();
+            stat.might = GetMight();
 
         }
         //else

@@ -1,10 +1,12 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
+using _Project.Scripts.Enemy;
 using _Project.Scripts.Player;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
+public class Enemy : MonoBehaviour,IEnemy
 {
     public LayerMask targetLayer;
     private Player _player;
@@ -21,6 +23,7 @@ public class Enemy : MonoBehaviour
     public float damage;
     public float attackRadius;
     public float speed;
+    public float curSpeed;
     public float dropExp;
 
     private void OnEnable()
@@ -46,7 +49,7 @@ public class Enemy : MonoBehaviour
             Vector2 playerPos = _player.transform.position;
             
             rigid.MovePosition(rigid.position +
-                               (Vector2) (playerPos - pos).normalized * speed * Time.deltaTime);
+                               (Vector2) (playerPos - pos).normalized * curSpeed * Time.deltaTime);
             _renderer.flipX = playerPos.x > pos.x;
             Attack();
             yield return new WaitForFixedUpdate();
@@ -65,9 +68,9 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    public void HitEnemy(float amount,Vector2 target)
+    public void HitEnemy(float damage, Vector2 target)
     {
-        health -= amount;
+        health -= damage;
         rigid.MovePosition(rigid.position + ((Vector2) transform.position - target) * 1 * Time.deltaTime);
         AudioManager.Instance.FXEnemyAudioPlay(hitSoundClip);
         if (health < 1)
@@ -80,23 +83,23 @@ public class Enemy : MonoBehaviour
         }
         _animator.SetTrigger(hashHitAnim);
     }
-    public void SpeedSlow()
+    
+    public void SpeedSlow(float slow, float time)
     {
-        if (health < 1)
-        {
-            StopCoroutine(EnemySpeedSlow());
-        }
-        else
-        {
-            StartCoroutine(EnemySpeedSlow());
-        }
+        float curSpeed = speed;
+        StartCoroutine(EnemySpeedSlow(slow, time));
     }
-    IEnumerator EnemySpeedSlow()
+    
+    IEnumerator EnemySpeedSlow(float slow, float time)
     {
-        //Debug.Log("coroutine start" + Time.time);
-        speed = 0.2f;
-        yield return new WaitForSecondsRealtime(2.0f);
-        speed = 1f;
-        //Debug.Log("coroutine end" + Time.time);
+        float timer = time;
+         curSpeed *=  slow;
+        while (timer > 0 || health < 1)
+        {
+            timer -= Time.deltaTime;
+            yield return new WaitForFixedUpdate();
+        }
+        curSpeed = speed;
     }
+    
 }
