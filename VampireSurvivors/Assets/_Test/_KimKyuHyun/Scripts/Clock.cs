@@ -14,7 +14,7 @@ public class Clock: Item
 
         ClockPrefab stat = tempPrefab.GetComponent<ClockPrefab>(); // 발사체 속도 데미지 지정
         stat.speed = GetSpeed();
-        stat.amount = GetMight();
+        stat.might = GetMight();
 
         tempPrefab.transform.Rotate(0, 0, 30 * angle); // 방향 지정
         angle++;
