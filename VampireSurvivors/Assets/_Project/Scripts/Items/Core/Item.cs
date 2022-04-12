@@ -36,6 +36,7 @@ public class Item : MonoBehaviour
     public float duration;  // 지속시간
     public int amount;      // 개수
     public int penetrate; // 관통 (투사체에만)
+    public float attackInterval; // 발사 간격
 
     private void Awake()
     {
@@ -113,7 +114,8 @@ public class Item : MonoBehaviour
             for (int i = 0; i < GetAmount(); i++)
             {
                 ActiveAttack(i);
-                yield return new WaitForSeconds(.05f);
+                if(attackInterval>=0)
+                    yield return new WaitForSeconds(attackInterval);
             }
             yield return new WaitForSeconds(GetDuration());
             yield return new WaitForSeconds(GetCooldown());
