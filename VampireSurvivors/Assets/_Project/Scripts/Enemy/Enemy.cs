@@ -23,13 +23,13 @@ public class Enemy : MonoBehaviour,IEnemy
     public float damage;
     public float attackRadius;
     public float speed;
-    public float curSpeed;
     public float dropExp;
-
+    private float curSpeed;
     private bool isSlow = false;
     
     private void OnEnable()
     {
+        curSpeed = speed;
         _player = FindObjectOfType<Player>();
         rigid = GetComponent<Rigidbody2D>();
         _renderer = GetComponent<SpriteRenderer>();
