@@ -190,4 +190,5 @@ MonoBehaviour:
   damage: 1
   attackRadius: 1
   speed: 1
+  curSpeed: 1
   dropExp: 3

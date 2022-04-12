@@ -114,7 +114,7 @@ public class Item : MonoBehaviour
             for (int i = 0; i < GetAmount(); i++)
             {
                 ActiveAttack(i);
-                if(attackInterval>=0)
+                if(attackInterval>0)
                     yield return new WaitForSeconds(attackInterval);
             }
             yield return new WaitForSeconds(GetDuration());
