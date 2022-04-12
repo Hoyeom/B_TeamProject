@@ -86,8 +86,10 @@ public class Enemy : MonoBehaviour
         {
             StopCoroutine(EnemySpeedSlow());
         }
-
-        StartCoroutine(EnemySpeedSlow());
+        else
+        {
+            StartCoroutine(EnemySpeedSlow());
+        }
     }
     IEnumerator EnemySpeedSlow()
     {
