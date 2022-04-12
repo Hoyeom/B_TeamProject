@@ -26,6 +26,8 @@ public class Enemy : MonoBehaviour,IEnemy
     public float curSpeed;
     public float dropExp;
 
+    private bool isSlow = false;
+    
     private void OnEnable()
     {
         _player = FindObjectOfType<Player>();
@@ -86,20 +88,27 @@ public class Enemy : MonoBehaviour,IEnemy
     
     public void SpeedSlow(float slow, float time)
     {
-        float curSpeed = speed;
+        if(isSlow) { return; }
+        
+        isSlow = true;
+        
+        curSpeed = speed;
+        
         StartCoroutine(EnemySpeedSlow(slow, time));
     }
     
     IEnumerator EnemySpeedSlow(float slow, float time)
     {
         float timer = time;
-         curSpeed *=  slow;
+        curSpeed *=  slow;
+        Debug.Log($"적 현재 속도 {curSpeed}");
         while (timer > 0 || health < 1)
         {
             timer -= Time.deltaTime;
             yield return new WaitForFixedUpdate();
         }
         curSpeed = speed;
+        isSlow = false;
     }
     
 }
