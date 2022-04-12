@@ -1,4 +1,5 @@
 using System;
+using Unity.Mathematics;
 using UnityEngine;
 
 public class ProjectilePrefab : MonoBehaviour
@@ -20,7 +21,12 @@ public class ProjectilePrefab : MonoBehaviour
     {
         AudioManager.Instance.FXPlayerAudioPlay(shootSoundClip);
     }
-    
+
+    private void OnDisable()
+    {
+        transform.eulerAngles = Vector3.zero;
+    }
+
 
     protected virtual void OnTriggerEnter2D(Collider2D col)
     {
