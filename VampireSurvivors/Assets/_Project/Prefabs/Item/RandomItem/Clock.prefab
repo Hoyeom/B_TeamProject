@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &5411499579787024373
+--- !u!1 &6231835059598895567
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,47 +8,47 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5411499579787023883}
-  - component: {fileID: 5411499579787024372}
-  m_Layer: 7
-  m_Name: ICE
+  - component: {fileID: 2975692024830936874}
+  - component: {fileID: 7305716374975816336}
+  m_Layer: 0
+  m_Name: Clock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5411499579787023883
+--- !u!4 &2975692024830936874
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5411499579787024373}
+  m_GameObject: {fileID: 6231835059598895567}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5411499579787024372
+--- !u!114 &7305716374975816336
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5411499579787024373}
+  m_GameObject: {fileID: 6231835059598895567}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 909a8385563e4464b823b0e94a66eef4, type: 3}
+  m_Script: {fileID: 11500000, guid: 7fdf559eb251cb44f8f9a7b69456dbbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   weaponEquipFx: {fileID: 0}
-  spriteImg: {fileID: 8862701587616323045, guid: e16782d94594d364aa86ee6c57fc468d, type: 3}
-  itemName: ICE
+  spriteImg: {fileID: 8450120992082419419, guid: e16782d94594d364aa86ee6c57fc468d, type: 3}
+  itemName: "\uC2DC\uACC4\uBC14\uB298"
   description:
-  - "\uD68D\uB4DD"
-  - "\uD22C\uC0AC\uCCB4 \uC99D"
+  - 
+  - 
   - 
   - 
   - 
@@ -56,17 +56,17 @@ MonoBehaviour:
   - 
   - 
   itemType: 1
-  itemId: 3
+  itemId: 5
   maxLevel: 8
   level: 0
-  rarity: 50
-  minMight: 6.5
-  maxMight: 6.5
+  rarity: 5
+  minMight: 2
+  maxMight: 2
   coolDown: 1
-  area: 3
-  speed: 5
+  area: 2
+  speed: 10
   duration: 0
   amount: 1
   penetrate: 1
   attackInterval: 0
-  attackPrefab: {fileID: 3203706012645420968, guid: c6e7b606825a24c619c55662615ab802, type: 3}
+  attackPrefab: {fileID: 6533581718607724355, guid: 9fd75c6df83303c489e15f24d7766c59, type: 3}

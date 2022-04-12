@@ -76,6 +76,8 @@ public class ObjectPooler : MonoBehaviour
     public void DestroyGameObject(GameObject prefab)
     {
         prefab.transform.parent = transform;
+        prefab.transform.position = Vector3.zero;
+        prefab.transform.eulerAngles = Vector3.zero;
         prefab.SetActive(false);
     }
     #endregion

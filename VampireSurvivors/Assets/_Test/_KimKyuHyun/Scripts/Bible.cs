@@ -7,9 +7,11 @@ public class Bible : Item
 
     protected override void ActiveAttack(int i)
     {
-        tempPrefab = ObjectPooler.Instance.GenerateGameObject(attackPrefab);
+        tempPrefab = ObjectPooler.Instance.GenerateGameObject(attackPrefab, transform);
         tempPrefab.transform.position = transform.position; // 초기 위치 지정
-        tempPrefab.transform.Translate(area * Mathf.Sin(Mathf.PI * 2 * i / amount), area * Mathf.Cos(Mathf.PI * 2 * i / amount), 0); // 개수로 360도를나눠서 생성
+
+        tempPrefab.transform.position += Quaternion.Euler(0, 0, (360 / GetAmount()) * i) * Vector3.right * GetArea();
+        // tempPrefab.transform.Translate(GetArea() * Mathf.Sin(Mathf.PI * 2 * i / GetAmount()), GetArea() * Mathf.Cos(Mathf.PI * 2 * i / GetAmount()), 0); // 개수로 360도를나눠서 생성
 
         BiblePrefab stat = tempPrefab.GetComponent<BiblePrefab>(); // 발사체 속도 데미지 지정
         stat.speed = GetSpeed();

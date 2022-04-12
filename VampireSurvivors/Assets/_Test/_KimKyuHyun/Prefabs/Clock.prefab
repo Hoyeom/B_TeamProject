@@ -43,6 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fdf559eb251cb44f8f9a7b69456dbbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  weaponEquipFx: {fileID: 0}
   spriteImg: {fileID: 8450120992082419419, guid: e16782d94594d364aa86ee6c57fc468d, type: 3}
   itemName: "\uC2DC\uACC4\uBC14\uB298"
   description:
@@ -57,14 +58,15 @@ MonoBehaviour:
   itemType: 1
   itemId: 4
   maxLevel: 8
-  level: 1
-  rarity: 50
-  minMight: 0
-  maxMight: 0
+  level: 0
+  rarity: 5
+  minMight: 2
+  maxMight: 2
   coolDown: 1
   area: 2
   speed: 10
   duration: 0
   amount: 1
   penetrate: 1
+  attackInterval: 0
   attackPrefab: {fileID: 6533581718607724355, guid: 9fd75c6df83303c489e15f24d7766c59, type: 3}

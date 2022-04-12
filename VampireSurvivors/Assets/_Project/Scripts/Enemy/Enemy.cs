@@ -88,7 +88,7 @@ public class Enemy : MonoBehaviour,IEnemy
     
     public void SpeedSlow(float slow, float time)
     {
-        if(isSlow) { return; }
+        if (isSlow || health < 1) { return; }
         
         isSlow = true;
         

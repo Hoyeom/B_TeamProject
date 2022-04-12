@@ -10,6 +10,13 @@ public class Ice : Item
 
     protected override void ActiveAttack(int i)
     {
+        foreach (var collider in Physics2D.OverlapCircleAll(transform.position,GetArea(),1<<6))
+        {
+            target = collider.transform;
+            break;
+        }
+        
+        
         if (target == null) return;
 
         tempPrefab = ObjectPooler.Instance.GenerateGameObject(attackPrefab);
@@ -32,7 +39,6 @@ public class Ice : Item
 
     }
     protected override void Level2()
-
     {
         amount++;
     }
@@ -70,7 +76,7 @@ public class Ice : Item
         if(col.CompareTag("Enemy"))
         {
             //Debug.Log("col in");
-            target = col.transform;
+            //target = col.transform;
         }
     }
     private void OnTriggerExit2D(Collider2D col)
@@ -78,7 +84,7 @@ public class Ice : Item
         if (col.CompareTag("Enemy"))
         {
             //Debug.Log("col out");
-            target = null;
+            //target = null;
         }
     }
 }

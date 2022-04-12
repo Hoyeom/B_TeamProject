@@ -8,20 +8,12 @@ public class BiblePrefab : MonoBehaviour
     internal float duration;
     internal float coolDown;
     internal float area;
-    private Rigidbody2D rigid;
     public AudioClip shootSoundClip;
-    Vector3 offSet;
     Transform target;
-
-    private void Awake()
-    {
-        rigid = GetComponent<Rigidbody2D>();
-    }
 
     private void Start()
     {
         target = GameObject.FindObjectOfType<Player>().transform;
-        offSet = transform.position - target.position;
     }
 
     private void OnEnable()
@@ -29,12 +21,14 @@ public class BiblePrefab : MonoBehaviour
         AudioManager.Instance.FXPlayerAudioPlay(shootSoundClip);
     }
 
+    private void OnDisable()
+    {
+        transform.position = Vector3.zero;
+    }
+
     private void FixedUpdate()
     {
-        transform.position = target.position + offSet;
         transform.RotateAround(target.position, Vector3.forward, 90f * speed*Time.fixedDeltaTime);
-
-        offSet = transform.position - target.position;
         
         if(Time.timeSinceLevelLoad % (coolDown+duration)<duration)
         {
