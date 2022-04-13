@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class Turret : Item
 {
-    public GameObject attackPrefab;
+    public GameObject attackPrefab;         // burret오브젝트
     private GameObject tempPrefab;
 
-    private GameObject obj = null;
+    private GameObject obj = null;          // 터렛 이미지
 
-    private Transform TempTarget;
+    private Transform TempTarget;           // 목표물
 
-    public LayerMask LayerMask = 0;
+    public LayerMask LayerMask = 0;         // 범위 접근 인식
     public Vector2 size;
 
     void FixedUpdate()
@@ -20,25 +20,16 @@ public class Turret : Item
 
     }
 
-    //protected override void PassiveAttack()
-    //{
-    //    gameObject.transform.position = player.transform.position;
-    //    tempPrefab = ObjectPooler.Instance.GenerateGameObject(attackPrefab);
-    //    tempPrefab.transform.position = transform.position; // 초기 위치 지정
-    //}
-
-
     protected override void ActiveAttack(int i)
     {
-        //GameObject enemy = GameObject.FindGameObjectWithTag("Enemy");
+        // 이미지 있으면 이동
+        if(obj != null)
+            gameObject.transform.position = obj.transform.position;
+        // 타겟이 있으면
         if (TempTarget != null)
         {
-            //TempTarget = enemy.transform;
-            //Debug.Log(TempTarget);
             tempPrefab = ObjectPooler.Instance.GenerateGameObject(attackPrefab);
-            gameObject.transform.position = obj.transform.position;
             tempPrefab.transform.position = transform.position; // 초기 위치 지정
-            //tempPrefab.transform.Translate(Vector2.one * Random.Range(-.1f, .1f)); // 위치 지정
 
             Vector2 view = TempTarget.position - tempPrefab.transform.position;
             float angle = Mathf.Atan2(view.y + 0.5f, view.x) * Mathf.Rad2Deg;
@@ -49,16 +40,11 @@ public class Turret : Item
             stat.amount = GetAmount();
 
         }
-        //else
-        //Debug.Log("목표 없음");
     }
 
     protected override void WeaponEquipFX()
     {
-        // 예제
-
-        // weaponEquipFx = Instantiate(pigeon);    // 원하는 프리펩 저장
-        // PigeonScript pigeonScript = weaponEquipFx.GetComponent<PigeonScript>(); // 비둘기 스크립트를 저장할 전역변수에 저장
+        // 소환할 이미지
          obj = ObjectPooler.Instance.GenerateGameObject(weaponEquipFx);
         //obj.transform.position = gameObject.transform.parent.position;
         Debug.Log(obj);
