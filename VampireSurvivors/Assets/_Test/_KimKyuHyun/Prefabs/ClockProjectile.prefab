@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 6533581718607724353}
   - component: {fileID: 6533581718607724354}
   - component: {fileID: 3482830197660954449}
-  - component: {fileID: 6533581718607724352}
+  - component: {fileID: 7278522144526153208}
   m_Layer: 7
-  m_Name: KnifeProjectile
+  m_Name: ClockProjectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -73,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: -1002580999
   m_SortingLayer: 2
   m_SortingOrder: -1
-  m_Sprite: {fileID: 357357100735516682, guid: 92a588428afc8b84c9662e3635f3df59, type: 3}
+  m_Sprite: {fileID: 7933759948575267638, guid: 92a588428afc8b84c9662e3635f3df59, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -94,14 +94,14 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.1764706, y: 0.2647059}
+    oldSize: {x: 0.64705884, y: 0.38235295}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -110,7 +110,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.1764706, y: 0.2647059}
   m_EdgeRadius: 0
---- !u!114 &6533581718607724352
+--- !u!114 &7278522144526153208
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6533581718607724355}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d04f17f94bb6414bae840cc27b744e7, type: 3}
+  m_Script: {fileID: 11500000, guid: 713e62d91b2ada74f8a43a5f6fd2c38a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   shootSoundClip: {fileID: 8300000, guid: ae7d56116a4504842924c6dac3ceec65, type: 3}

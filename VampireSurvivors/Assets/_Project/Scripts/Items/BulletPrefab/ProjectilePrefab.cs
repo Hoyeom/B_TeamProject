@@ -1,11 +1,12 @@
 using System;
+using Unity.Mathematics;
 using UnityEngine;
 
 public class ProjectilePrefab : MonoBehaviour
 {
     internal int penetrate;
     internal float speed;
-    internal float amount;
+    internal float might;
     internal float area;
 
     internal Rigidbody2D rigid;
@@ -20,13 +21,18 @@ public class ProjectilePrefab : MonoBehaviour
     {
         AudioManager.Instance.FXPlayerAudioPlay(shootSoundClip);
     }
-    
+
+    private void OnDisable()
+    {
+        transform.eulerAngles = Vector3.zero;
+    }
+
 
     protected virtual void OnTriggerEnter2D(Collider2D col)
     {
         if (!col.CompareTag("Enemy")) return;
 
-        col.gameObject.GetComponent<Enemy>()?.HitEnemy(amount, transform.position);
+        col.gameObject.GetComponent<Enemy>()?.HitEnemy(might, transform.position);
         if (--penetrate > 0) return;
         ObjectPooler.Instance.DestroyGameObject(gameObject);
     }

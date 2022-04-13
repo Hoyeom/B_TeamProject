@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5411499579787023883}
   - component: {fileID: 5411499579787024372}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: ICE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56,7 +56,7 @@ MonoBehaviour:
   - 
   - 
   itemType: 1
-  itemId: 3
+  itemId: 4
   maxLevel: 8
   level: 0
   rarity: 50

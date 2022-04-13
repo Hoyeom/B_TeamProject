@@ -14,8 +14,8 @@ public class IcePrefab : ProjectilePrefab
 
         //col.gameObject.GetComponent<Enemy>()?.HitEnemy(amount, transform.position);
         Enemy enemy = col.gameObject.GetComponent<Enemy>();
-        enemy.HitEnemy(amount, transform.position);
-        enemy.SpeedSlow();
+        enemy.HitEnemy(might, transform.position);
+        enemy.SpeedSlow(0.2f, 2);
 
         if (--penetrate > 0) return;
         ObjectPooler.Instance.DestroyGameObject(gameObject);

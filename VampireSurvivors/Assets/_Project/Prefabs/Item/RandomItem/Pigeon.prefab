@@ -60,14 +60,15 @@ MonoBehaviour:
   maxLevel: 8
   level: 0
   rarity: 50
-  minMight: 200
-  maxMight: 200
+  minMight: 80
+  maxMight: 80
   coolDown: 1
   area: 1
   speed: 0
   duration: 0
   amount: 3
   penetrate: 1
+  attackInterval: 0
   LayerMask:
     serializedVersion: 2
     m_Bits: 64

@@ -13,7 +13,7 @@ public class Axe : Item
 
         ProjectilePrefab stat = tempPrefab.GetComponent<ProjectilePrefab>(); // 발사체 속도 데미지 지정
         stat.speed = GetSpeed();
-        stat.amount = GetAmount();
+        stat.might = GetMight();
         stat.penetrate = GetPenetrate();
         stat.transform.localScale = Vector3.one * GetArea();
         stat.rigid.AddForce(((Vector2.up) + Vector2.right * Random.Range(-.4f, .4f)) * speed, ForceMode2D.Impulse);
