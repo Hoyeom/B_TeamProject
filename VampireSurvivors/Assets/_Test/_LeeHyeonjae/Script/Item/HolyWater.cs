@@ -2,66 +2,42 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HolyWater : MonoBehaviour
+public class HolyWater : Item
 {
-    private float amount = 0.2f;
-    private float HolyWaterCreateDelay = 5.0f; // 레벨별로 나중에
-    private float HolyWaterAttackDelay = 0.3f; // 레벨별로 나중에
-    private float HoleyWaterRange = 4.6f; // 레벨별로 나중에
-    private GameObject _player;
-    public GameObject Water;
-    private Transform WaterStartLine;
-    private Rigidbody2D rigid;
-    private IEnumerator coroutine;
+
+    /* minMight;  // 최소 공격력
+     maxMight;  // 최대 공격력
+     coolDown;  // 쿨타임
+     area;      // 범위(크기)
+     speed;     // 투사체 속도
+     duration;  // 지속시간
+     amount;      // 개수
+     penetrate; // 관통 (투사체에만)*/
 
 
-    private void Start()
-    {
-        coroutine = holyWater();
-        _player = GameObject.FindWithTag("Player");
-        //WaterStartLine = _player.transform;
-        StartCoroutine(HolyWaterSet());
-    }
 
-    private IEnumerator HolyWaterSet()
-    {
-        while (true)
-        {
-            yield return new WaitForSeconds(HolyWaterCreateDelay);
-            WaterStartLine = _player.transform;
-            GameObject instance = Instantiate(Water, WaterStartLine.position, WaterStartLine.rotation);
-            Debug.Log(instance.name);
-            Destroy(instance, HolyWaterCreateDelay);
-            StartCoroutine(coroutine);
-        }
-
-    }
-
+    public GameObject attackPrefab;
+    private GameObject tempPrefab;
     
-    private IEnumerator holyWater()
+
+    protected override void ActiveAttack(int i)
     {
-        while (true)
-        {
-            Vector2 playerPos = _player.transform.position;
-            LayerMask mask = LayerMask.GetMask("Enemy");
-            Collider2D[] col2d = Physics2D.OverlapCircleAll(playerPos, HoleyWaterRange, mask); // transform으로 해도 상관없음
-            if (col2d != null)
-            {
+        tempPrefab = ObjectPooler.Instance.GenerateGameObject(attackPrefab);
+        tempPrefab.transform.position = new Vector2(transform.position.x + 1, 6f); // 초기 위치 지정
+        tempPrefab.transform.Translate(Vector2.one * Random.Range(1f, .4f)); // 위치 지정
+        tempPrefab.transform.rotation = player.viewRotation; // 방향 지정
 
-                //데미지 주기
-                for (int i = 0; i < col2d.Length; i++)
-                {
-                    col2d[i].gameObject.GetComponent<Enemy>().HitEnemy(amount, transform.position);
-                    Debug.Log("데미지 작동");
 
-                }
-                yield return new WaitForSeconds(HolyWaterAttackDelay);
-                
-            }
-            
-        }
+        // ProjectilePrefab stat = tempPrefab.GetComponent<ProjectilePrefab>(); // 발사체 속도 데미지 지정
+        HolyWaterPerfab stat = tempPrefab.GetComponent<HolyWaterPerfab>(); // 발사체 속도 데미지 지정
+        stat.speed = GetSpeed();
+        stat.amount = GetAmount();
+        stat.area = GetArea();
+        stat.rigid.AddForce((Vector2.down * Random.Range(-.2f, .2f)) * speed, ForceMode2D.Impulse);
+        stat.rigid.AddTorque(Random.Range(-90f, 90f));
+        //Debug.Log("작동");
+
+
+
     }
-
 }
-
-

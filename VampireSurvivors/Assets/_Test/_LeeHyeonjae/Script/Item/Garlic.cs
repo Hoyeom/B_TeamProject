@@ -6,9 +6,8 @@ public class Garlic : Item
 {
     //해야할거
    //레벨당 수치 기제
+   //마늘 오라에 애니메이션 넣기??
     
-   
-
     LayerMask mask = new LayerMask();
 
 

@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &8709512156756067015
+--- !u!1 &6897271750696580281
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,38 +8,38 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8709512156756067014}
-  - component: {fileID: 8709512156756067013}
-  - component: {fileID: 886664266}
-  - component: {fileID: 3853694474865453333}
-  m_Layer: 0
-  m_Name: HolyWater
-  m_TagString: Aura
+  - component: {fileID: 2948019223339140534}
+  - component: {fileID: -2319891612254521646}
+  - component: {fileID: 2451221013196847519}
+  - component: {fileID: -2061982678918172456}
+  m_Layer: 7
+  m_Name: HolyWaterPrefab
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8709512156756067014
+--- !u!4 &2948019223339140534
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8709512156756067015}
+  m_GameObject: {fileID: 6897271750696580281}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12, y: -1.42, z: -2.37281}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &8709512156756067013
+--- !u!212 &-2319891612254521646
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8709512156756067015}
+  m_GameObject: {fileID: 6897271750696580281}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -70,9 +70,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: -1002580999
+  m_SortingLayer: 2
+  m_SortingOrder: -1
   m_Sprite: {fileID: 1992433364365936153, guid: 92a588428afc8b84c9662e3635f3df59, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -84,57 +84,38 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!58 &886664266
-CircleCollider2D:
+--- !u!50 &2451221013196847519
+Rigidbody2D:
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8709512156756067015}
-  m_Enabled: 1
-  m_Density: 1
+  m_GameObject: {fileID: 6897271750696580281}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.4705882
---- !u!114 &3853694474865453333
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &-2061982678918172456
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8709512156756067015}
+  m_GameObject: {fileID: 6897271750696580281}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6516f8c5d3167a04f9509afc98740e69, type: 3}
+  m_Script: {fileID: 11500000, guid: 74777c66349d6624da42b723e55cc7d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weaponEquipFx: {fileID: 0}
-  spriteImg: {fileID: 1992433364365936153, guid: 92a588428afc8b84c9662e3635f3df59, type: 3}
-  itemName: "\uC131\uC218"
-  description:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  itemType: 1
-  itemId: 10
-  maxLevel: 8
-  level: 0
-  rarity: 1
-  minMight: 1
-  maxMight: 1
-  coolDown: 0.3
-  area: 2
-  speed: 3
-  duration: 0
-  amount: 1
-  penetrate: 0
-  attackPrefab: {fileID: 6897271750696580281, guid: d6578d6666dacf64b9aa110b88ef086e, type: 3}
+  lifeTime: 1
+  HolyWaterZones: {fileID: 5666074403146493387, guid: 68f878c5827dc4b4fa081edc135d38f6, type: 3}
