@@ -5,7 +5,7 @@ using UnityEngine;
 public class PigeonAttack : Item
 {
     GameObject myPigeon = null; // 테스트용
-    GameObject Player = null; // 테스트용
+    //GameObject Player = null; // 테스트용
 
     // 적 Search 함수용 변수
     public LayerMask LayerMask = 0;     // OverlapSphere 함수 LayerMask "Enemy" Layer를 찾기위한 변수
@@ -120,9 +120,9 @@ public class PigeonAttack : Item
      */
 
     // 사거리 시각화용
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireCube(player.transform.position, size);
-    }
+    //private void OnDrawGizmos()
+    //{
+    //    Gizmos.color = Color.red;
+    //    Gizmos.DrawWireCube(player.transform.position, size);
+    //}
 }

@@ -17,7 +17,7 @@ public class AttackCurve : ProjectilePrefab
     public float CorPosition = 0.5f;  // y축 보정용
 
     // Bezier Curve 좌표값 불러오기
-    private void OnEnable()
+    private void Start() // Start 테스트
     {
         t = 0;
         myPigeon = GameObject.FindWithTag("Bird").transform;
