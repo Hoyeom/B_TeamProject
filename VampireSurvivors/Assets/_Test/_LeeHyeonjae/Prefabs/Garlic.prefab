@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2776192116483267536}
   - component: {fileID: 2776192116483267539}
   m_Layer: 11
-  m_Name: Garlic (1)
+  m_Name: Garlic
   m_TagString: Aura
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

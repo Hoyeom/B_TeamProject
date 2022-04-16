@@ -117,5 +117,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74777c66349d6624da42b723e55cc7d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lifeTime: 1
   HolyWaterZones: {fileID: 5666074403146493387, guid: 68f878c5827dc4b4fa081edc135d38f6, type: 3}
