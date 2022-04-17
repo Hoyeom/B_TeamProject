@@ -178,6 +178,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MeleeMonsterSpown (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4705761110368077410, guid: 9a42e07f17703944984e04041ca4933b, type: 3}
+      propertyPath: enemyCount
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 9096367701005009206, guid: 9a42e07f17703944984e04041ca4933b, type: 3}
       propertyPath: enemyCount
       value: 8
@@ -376,6 +380,10 @@ PrefabInstance:
     - target: {fileID: 1351161209910754285, guid: 9a42e07f17703944984e04041ca4933b, type: 3}
       propertyPath: m_Name
       value: MeleeMonsterSpown (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4705761110368077410, guid: 9a42e07f17703944984e04041ca4933b, type: 3}
+      propertyPath: enemyCount
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 9096367701005009206, guid: 9a42e07f17703944984e04041ca4933b, type: 3}
       propertyPath: enemyCount
@@ -886,6 +894,10 @@ PrefabInstance:
     - target: {fileID: 1351161209910754285, guid: 9a42e07f17703944984e04041ca4933b, type: 3}
       propertyPath: m_Name
       value: MeleeMonsterSpown
+      objectReference: {fileID: 0}
+    - target: {fileID: 4705761110368077410, guid: 9a42e07f17703944984e04041ca4933b, type: 3}
+      propertyPath: enemyCount
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 9096367701005009206, guid: 9a42e07f17703944984e04041ca4933b, type: 3}
       propertyPath: enemyCount
@@ -1538,6 +1550,10 @@ PrefabInstance:
     - target: {fileID: 1351161209910754285, guid: 9a42e07f17703944984e04041ca4933b, type: 3}
       propertyPath: m_Name
       value: MeleeMonsterSpown (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4705761110368077410, guid: 9a42e07f17703944984e04041ca4933b, type: 3}
+      propertyPath: enemyCount
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 9096367701005009206, guid: 9a42e07f17703944984e04041ca4933b, type: 3}
       propertyPath: enemyCount

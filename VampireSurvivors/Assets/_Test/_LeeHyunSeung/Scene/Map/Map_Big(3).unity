@@ -178,6 +178,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MeleeMonsterSpown (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4705761110368077410, guid: 9a42e07f17703944984e04041ca4933b, type: 3}
+      propertyPath: enemyCount
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 9096367701005009206, guid: 9a42e07f17703944984e04041ca4933b, type: 3}
       propertyPath: enemyCount
       value: 4
@@ -782,6 +786,10 @@ PrefabInstance:
       propertyPath: enemyCount
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 3740230333855555163, guid: 4f527448a8cd1934798f85cc5fd472ee, type: 3}
+      propertyPath: enemyCount
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 7249084796877188801, guid: 4f527448a8cd1934798f85cc5fd472ee, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -886,6 +894,10 @@ PrefabInstance:
     - target: {fileID: 1351161209910754285, guid: 9a42e07f17703944984e04041ca4933b, type: 3}
       propertyPath: m_Name
       value: MeleeMonsterSpown
+      objectReference: {fileID: 0}
+    - target: {fileID: 4705761110368077410, guid: 9a42e07f17703944984e04041ca4933b, type: 3}
+      propertyPath: enemyCount
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 9096367701005009206, guid: 9a42e07f17703944984e04041ca4933b, type: 3}
       propertyPath: enemyCount
@@ -1776,6 +1788,10 @@ PrefabInstance:
       propertyPath: enemyCount
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 3740230333855555163, guid: 4f527448a8cd1934798f85cc5fd472ee, type: 3}
+      propertyPath: enemyCount
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 7249084796877188801, guid: 4f527448a8cd1934798f85cc5fd472ee, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -2413,6 +2429,10 @@ PrefabInstance:
     - target: {fileID: 1351161209910754285, guid: 9a42e07f17703944984e04041ca4933b, type: 3}
       propertyPath: m_Name
       value: MeleeMonsterSpown (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4705761110368077410, guid: 9a42e07f17703944984e04041ca4933b, type: 3}
+      propertyPath: enemyCount
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 9096367701005009206, guid: 9a42e07f17703944984e04041ca4933b, type: 3}
       propertyPath: enemyCount

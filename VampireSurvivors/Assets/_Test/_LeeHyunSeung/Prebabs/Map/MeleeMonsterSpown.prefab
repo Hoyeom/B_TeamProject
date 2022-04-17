@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 940352198065878876}
   - component: {fileID: 1830168423698652078}
-  - component: {fileID: 9096367701005009206}
+  - component: {fileID: 4705761110368077410}
   m_Layer: 0
   m_Name: MeleeMonsterSpown
   m_TagString: Untagged
@@ -83,7 +83,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &9096367701005009206
+--- !u!114 &4705761110368077410
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -92,9 +92,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 1351161209910754285}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22709f3b96693514ebdf2b2e54f1079c, type: 3}
+  m_Script: {fileID: 11500000, guid: fa3e6d0259fae934284de4c0241a3568, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyObject: {fileID: 0}
+  enemy: {fileID: 434821925509080541, guid: 4f67aee6de613b94a89a0285739d19ab, type: 3}
   enemyCount: 0
-  expPrefab: {fileID: 0}
