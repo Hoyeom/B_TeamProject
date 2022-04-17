@@ -708,6 +708,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MeleeMonsterSpown
       objectReference: {fileID: 0}
+    - target: {fileID: 1830168423698652078, guid: 9a42e07f17703944984e04041ca4933b, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 9096367701005009206, guid: 9a42e07f17703944984e04041ca4933b, type: 3}
       propertyPath: enemyCount
       value: 10
@@ -2344,6 +2348,10 @@ PrefabInstance:
     - target: {fileID: 2231122743007499753, guid: 4f527448a8cd1934798f85cc5fd472ee, type: 3}
       propertyPath: enemyCount
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3740230333855555163, guid: 4f527448a8cd1934798f85cc5fd472ee, type: 3}
+      propertyPath: enemyCount
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7249084796877188801, guid: 4f527448a8cd1934798f85cc5fd472ee, type: 3}
       propertyPath: m_RootOrder

@@ -178,6 +178,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: MeleeMonsterSpown (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1351161209910754285, guid: 9a42e07f17703944984e04041ca4933b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4705761110368077410, guid: 9a42e07f17703944984e04041ca4933b, type: 3}
+      propertyPath: enemyCount
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 9096367701005009206, guid: 9a42e07f17703944984e04041ca4933b, type: 3}
       propertyPath: enemyCount
       value: 12
@@ -588,7 +596,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &454862318
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -825,6 +833,14 @@ PrefabInstance:
     - target: {fileID: 1351161209910754285, guid: 9a42e07f17703944984e04041ca4933b, type: 3}
       propertyPath: m_Name
       value: MeleeMonsterSpown
+      objectReference: {fileID: 0}
+    - target: {fileID: 1351161209910754285, guid: 9a42e07f17703944984e04041ca4933b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4705761110368077410, guid: 9a42e07f17703944984e04041ca4933b, type: 3}
+      propertyPath: enemyCount
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 9096367701005009206, guid: 9a42e07f17703944984e04041ca4933b, type: 3}
       propertyPath: enemyCount
@@ -2291,6 +2307,14 @@ PrefabInstance:
     - target: {fileID: 1351161209910754285, guid: 9a42e07f17703944984e04041ca4933b, type: 3}
       propertyPath: m_Name
       value: MeleeMonsterSpown (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1351161209910754285, guid: 9a42e07f17703944984e04041ca4933b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4705761110368077410, guid: 9a42e07f17703944984e04041ca4933b, type: 3}
+      propertyPath: enemyCount
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 9096367701005009206, guid: 9a42e07f17703944984e04041ca4933b, type: 3}
       propertyPath: enemyCount
