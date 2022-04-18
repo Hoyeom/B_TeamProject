@@ -27,8 +27,8 @@ public class PigeonAttack : Item
         if (TempTarget != null)
         {
             tempPrefab = ObjectPooler.Instance.GenerateGameObject(attackPrefab);
-            tempPrefab.GetComponent<AttackCurve>().myPigeon = myPigeon.transform; // 비둘기 연결 
-            tempPrefab.GetComponent<AttackCurve>().enemy.transform.position = TempTarget.position;        // 가까운 적 인식
+            AttackCurve attackCurve = tempPrefab.GetComponent<AttackCurve>();
+            attackCurve.Initialized(myPigeon.transform, TempTarget);
         }
     }
 

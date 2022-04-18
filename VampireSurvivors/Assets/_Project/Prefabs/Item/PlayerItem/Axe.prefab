@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1284760106273838158
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1284760106273838156}
+  - component: {fileID: 4574472010188672153}
+  m_Layer: 0
+  m_Name: Axe
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1284760106273838156
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1284760106273838158}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4574472010188672153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1284760106273838158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57cfe8028a60c0743ba5be12db7a9c53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponEquipFx: {fileID: 0}
+  spriteImg: {fileID: 6099581493293703690, guid: e16782d94594d364aa86ee6c57fc468d, type: 3}
+  itemName: "\uB3C4\uB07C"
+  description:
+  - "\uD68D\uB4DD"
+  - "\uD22C\uC0AC\uCCB4 1 \uC99D\uAC00"
+  - "\uB300\uBBF8\uC9C0 20 \uC99D\uAC00"
+  - "\uC801 2\uCCB4 \uCD94\uAC00 \uAD00\uD1B5"
+  - "\uD22C\uC0AC\uCCB4 1 \uC99D\uAC00"
+  - "\uB300\uBBF8\uC9C0 20 \uC99D\uAC00"
+  - "\uC801 2\uCCB4 \uCD94\uAC00 \uAD00\uD1B5"
+  - "\uB300\uBBF8\uC9C0 20 \uC99D\uAC00"
+  itemType: 1
+  itemId: 1
+  maxLevel: 8
+  level: 0
+  rarity: 50
+  minMight: 20
+  maxMight: 20
+  coolDown: 2
+  area: 2
+  speed: 7
+  duration: 0
+  amount: 1
+  penetrate: 2
+  attackInterval: 0
+  attackPrefab: {fileID: 6533581718607724355, guid: 91fa0d64f6c3d824da9db9fa160a369d, type: 3}

@@ -77,7 +77,7 @@ public class Garlic : Item
             //데미지 주기
             for (int i = 0; i < colliders.Length; i++)
             {
-                colliders[i].gameObject.GetComponent<Enemy>().HitEnemy(GetMight(), transform.position);
+                colliders[i].gameObject.GetComponent<Enemy>().TakeDamage(GetMight(), transform.position);
                 Debug.Log(GetMight());
             }
         }

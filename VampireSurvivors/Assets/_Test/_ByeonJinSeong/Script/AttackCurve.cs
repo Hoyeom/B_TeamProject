@@ -10,31 +10,31 @@ public class AttackCurve : ProjectilePrefab
     // 임시 포인터 변수
     Vector2[] point = new Vector2[4];              // 위치 계산용 4개 포인트 배열
     [HideInInspector] public Transform myPigeon = null;  // 둘기 위치
-    [HideInInspector] public GameObject enemy;     // 적 Prefands 위치 저자용
     public float posX = 3;    // x좌표 생성용
     public float posY = 2;    // y좌표 생성용
 
     public float CorPosition = 0.5f;  // y축 보정용
 
     // Bezier Curve 좌표값 불러오기
-    private void Start() // Start 테스트
+    protected override void OnEnable()
     {
+        base.OnEnable();
         t = 0;
-        myPigeon = GameObject.FindWithTag("Bird").transform;
-        if(myPigeon == null)
-        {
-            
-        }
-        // P0 -> 시작 위치
+    }
+
+    public void Initialized(Transform myPigeon,Transform enemy)
+    {
+            // P0 -> 시작 위치
         point[0] = myPigeon.transform.position;
         // P1 -> 비둘기 Object의 Point, 1
         point[1] = RandPoint(myPigeon.transform.position);
         // P2 -> 적 Object의 Point, 2
-        point[2] = RandPoint(enemy.transform.position); ;
+        point[2] = RandPoint(enemy.position); ;
         // P3 -> 적 Object 위치
-        point[3] = enemy.transform.position;
+        point[3] = enemy.position;
         point[3][1] += CorPosition;
     }
+
     void FixedUpdate()
     {
         if (t > 1)

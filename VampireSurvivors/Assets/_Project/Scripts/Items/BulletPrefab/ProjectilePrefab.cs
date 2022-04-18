@@ -32,7 +32,7 @@ public class ProjectilePrefab : MonoBehaviour
     {
         if (!col.CompareTag("Enemy")) return;
 
-        col.gameObject.GetComponent<Enemy>()?.HitEnemy(might, transform.position);
+        col.gameObject.GetComponent<Enemy>()?.TakeDamage(might, transform.position);
         if (--penetrate > 0) return;
         ObjectPooler.Instance.DestroyGameObject(gameObject);
     }

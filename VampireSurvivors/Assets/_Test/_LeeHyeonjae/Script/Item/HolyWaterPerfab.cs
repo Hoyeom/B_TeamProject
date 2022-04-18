@@ -52,7 +52,7 @@ public class HolyWaterPerfab : MonoBehaviour
                 //데미지 주기
                 for (int i = 0; i < cols.Length; i++)
                 {
-                    cols[i].gameObject.GetComponent<Enemy>().HitEnemy(might, transform.position);
+                    cols[i].gameObject.GetComponent<Enemy>().TakeDamage(might, transform.position);
                      
                 }
             }

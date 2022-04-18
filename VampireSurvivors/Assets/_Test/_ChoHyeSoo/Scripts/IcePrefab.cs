@@ -12,9 +12,9 @@ public class IcePrefab : ProjectilePrefab
     {
         if (!col.CompareTag("Enemy")) return;
 
-        //col.gameObject.GetComponent<Enemy>()?.HitEnemy(amount, transform.position);
+        //col.gameObject.GetComponent<Enemy>()?.TakeDamage(amount, transform.position);
         Enemy enemy = col.gameObject.GetComponent<Enemy>();
-        enemy.HitEnemy(might, transform.position);
+        enemy.TakeDamage(might, transform.position);
         enemy.SpeedSlow(0.2f, 2);
 
         if (--penetrate > 0) return;

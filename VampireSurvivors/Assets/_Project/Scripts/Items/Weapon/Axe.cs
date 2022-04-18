@@ -16,6 +16,7 @@ public class Axe : Item
         stat.might = GetMight();
         stat.penetrate = GetPenetrate();
         stat.transform.localScale = Vector3.one * GetArea();
+        stat.GetComponent<CircleCollider2D>().radius = GetArea() / 10;
         stat.rigid.AddForce(((Vector2.up) + Vector2.right * Random.Range(-.4f, .4f)) * speed, ForceMode2D.Impulse);
         stat.rigid.AddTorque(Random.Range(-90f, 90f));
     }

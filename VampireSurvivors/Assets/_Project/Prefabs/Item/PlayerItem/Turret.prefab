@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2824608643339787134
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2824608643339787128}
+  - component: {fileID: 1325087801619466065}
+  m_Layer: 0
+  m_Name: Turret
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2824608643339787128
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2824608643339787134}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1325087801619466065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2824608643339787134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e0a0a80c864c854b9a6b9d3dbd0529a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponEquipFx: {fileID: 9118832623699179580, guid: 6e7a7bc56b055f8499d11e298df45758, type: 3}
+  spriteImg: {fileID: 21300000, guid: 5805c25039225f24fa929ecb35d8e976, type: 3}
+  itemName: "\uD130\uB81B"
+  description:
+  - "\uC0DD\uC131"
+  - "\uB300\uBBF8\uC9C0 3\uC99D\uAC00"
+  - "\uB300\uBBF8\uC9C0 3\uC99D\uAC00, \uD22C\uC0AC\uCCB4 1\uC99D\uAC00"
+  - "\uB370\uBBF8\uC9C0 3\uC99D\uAC00"
+  - "\uACF5\uC18D 0.3\uC99D\uAC00"
+  - "\uB300\uBBF8\uC9C0 3\uC99D\uAC00"
+  - "\uB300\uBBF8\uC9C0 3\uC99D\uAC00, \uD22C\uC0AC\uCCB4 1\uC99D\uAC00"
+  - "\uACF5\uC18D 0.3\uC99D\uAC00"
+  itemType: 1
+  itemId: 9
+  maxLevel: 8
+  level: 0
+  rarity: 50
+  minMight: 5
+  maxMight: 5
+  coolDown: 1
+  area: 0
+  speed: 7
+  duration: 0
+  amount: 1
+  penetrate: 1
+  attackInterval: 0
+  attackPrefab: {fileID: 4074944520704556248, guid: 1a6a7a007e4e1d142b08de362b135471, type: 3}
+  LayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  size: {x: 15, y: 10}

@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6231835059598895567
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2975692024830936874}
+  - component: {fileID: 7305716374975816336}
+  m_Layer: 0
+  m_Name: Clock
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2975692024830936874
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6231835059598895567}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7305716374975816336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6231835059598895567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fdf559eb251cb44f8f9a7b69456dbbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponEquipFx: {fileID: 0}
+  spriteImg: {fileID: 8450120992082419419, guid: e16782d94594d364aa86ee6c57fc468d, type: 3}
+  itemName: "\uC2DC\uACC4\uBC14\uB298"
+  description:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  itemType: 1
+  itemId: 3
+  maxLevel: 8
+  level: 0
+  rarity: 5
+  minMight: 2
+  maxMight: 2
+  coolDown: 1
+  area: 2
+  speed: 10
+  duration: 0
+  amount: 1
+  penetrate: 1
+  attackInterval: 0
+  attackPrefab: {fileID: 6533581718607724355, guid: 9fd75c6df83303c489e15f24d7766c59, type: 3}

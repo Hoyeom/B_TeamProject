@@ -47,7 +47,7 @@ public class BiblePrefab : MonoBehaviour
 
         //if (penetrate-- < 1) return;
 
-        col.gameObject.GetComponent<Enemy>()?.HitEnemy(amount, transform.position);
+        col.gameObject.GetComponent<Enemy>()?.TakeDamage(amount, transform.position);
         //ObjectPooler.Instance.DestroyGameObject(gameObject);
     }
 }

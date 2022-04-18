@@ -84,7 +84,7 @@ public class Enemy_2 : MonoBehaviour, IEnemy
         //}
     }
 
-    public void HitEnemy(float damage, Vector2 target)
+    public void TakeDamage(float damage, Vector2 target)
     {
         health -= damage;
         rigid.MovePosition(rigid.position + ((Vector2)transform.position - target) * 1 * Time.deltaTime);

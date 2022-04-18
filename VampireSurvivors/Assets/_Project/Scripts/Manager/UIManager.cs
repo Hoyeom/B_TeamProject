@@ -14,9 +14,19 @@ public class UIManager : MonoBehaviour
     public Transform itemButtonContents;
     [Header("Health")]
     public Slider hpSlider;
+
+    public GameObject damageTextPrefab;
+    
     private void Awake()
     {
-        Instance = this;
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
     public void SetMaxExp(float min, float max, int level = 1)
@@ -33,5 +43,10 @@ public class UIManager : MonoBehaviour
 
     public void SetHpValue(float cur) => hpSlider.value = cur;
 
+    public void SpawnDamageText(int damage,Vector3 pos)
+    {
+        GameObject obj = ObjectPooler.Instance.GenerateGameObject(damageTextPrefab);
+        obj.GetComponent<DamageTextPrefab>().SpawnText(damage, pos);
+    }
 
 }

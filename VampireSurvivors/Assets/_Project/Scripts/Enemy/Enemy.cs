@@ -70,9 +70,14 @@ public class Enemy : MonoBehaviour,IEnemy
         }
     }
 
-    public void HitEnemy(float damage, Vector2 target)
+    public void TakeDamage(float damage, Vector2 target)
     {
+        if (health < 1)
+        { return; }
+        
+        UIManager.Instance.SpawnDamageText((int) damage, transform.position);
         health -= damage;
+
         rigid.MovePosition(rigid.position + ((Vector2) transform.position - target) * 1 * Time.deltaTime);
         AudioManager.Instance.FXEnemyAudioPlay(hitSoundClip);
         if (health < 1)
