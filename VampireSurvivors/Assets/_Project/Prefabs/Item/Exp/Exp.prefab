@@ -134,7 +134,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538134f63b65bb94aa394c6731ed07d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  exp: 100
+  exp: 50
   expSprite:
   - {fileID: 124106431076995637, guid: e16782d94594d364aa86ee6c57fc468d, type: 3}
   - {fileID: -2291968272303781032, guid: e16782d94594d364aa86ee6c57fc468d, type: 3}

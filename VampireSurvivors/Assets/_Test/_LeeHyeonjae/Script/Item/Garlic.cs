@@ -78,7 +78,7 @@ public class Garlic : Item
             for (int i = 0; i < colliders.Length; i++)
             {
                 colliders[i].gameObject.GetComponent<Enemy>().TakeDamage(GetMight(), transform.position);
-                Debug.Log(GetMight());
+                // Debug.Log(GetMight());
             }
         }
 

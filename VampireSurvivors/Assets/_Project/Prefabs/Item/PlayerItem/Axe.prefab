@@ -59,7 +59,7 @@ MonoBehaviour:
   itemId: 1
   maxLevel: 8
   level: 0
-  rarity: 50
+  rarity: 5
   minMight: 20
   maxMight: 20
   coolDown: 2
