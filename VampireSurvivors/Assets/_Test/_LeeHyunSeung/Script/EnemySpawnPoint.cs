@@ -11,13 +11,11 @@ public class EnemySpawnPoint : MonoBehaviour
     // 오브젝트 활성화시 생성
     private void OnEnable()
     {
-        StartCoroutine(Spowner(1));       
-    }
+        if(enemy != null)
+        {
+            StartCoroutine(Spowner(1));       
 
-    // 한번만 생성후 종료
-    private void Update()
-    {
-        StopCoroutine(Spowner(0));
+        }
     }
 
     IEnumerator Spowner(float delay )
@@ -32,6 +30,9 @@ public class EnemySpawnPoint : MonoBehaviour
             // 몬스터간의 간격
             yield return new WaitForSeconds(interval);
         }
+
+        // 적 오브젝트 생성이후 오브젝트 비활성화
+        gameObject.SetActive(false);
     }
     //private void EnemySpown()
     //{
