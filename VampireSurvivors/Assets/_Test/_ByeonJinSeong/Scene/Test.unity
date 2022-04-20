@@ -4895,6 +4895,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 940031446, guid: 7c98b0b3d82584e409d0b703ca3e5282, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 940031446, guid: 7c98b0b3d82584e409d0b703ca3e5282, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.84
+      objectReference: {fileID: 0}
     - target: {fileID: 434821925509080353, guid: 7c98b0b3d82584e409d0b703ca3e5282, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -4947,5 +4955,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_2
       objectReference: {fileID: 0}
+    - target: {fileID: 2499827915606509374, guid: 7c98b0b3d82584e409d0b703ca3e5282, type: 3}
+      propertyPath: enemySo
+      value: 
+      objectReference: {fileID: 11400000, guid: ceb5e50fe317fbf4a846387402c7ce88, type: 2}
+    - target: {fileID: 2499827915606509374, guid: 7c98b0b3d82584e409d0b703ca3e5282, type: 3}
+      propertyPath: enemyPrefabSo
+      value: 
+      objectReference: {fileID: 11400000, guid: 0c639f0bb7248fc4fb1574480640d679, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c98b0b3d82584e409d0b703ca3e5282, type: 3}

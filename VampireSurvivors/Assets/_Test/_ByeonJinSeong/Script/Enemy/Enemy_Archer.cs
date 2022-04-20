@@ -9,47 +9,47 @@ using UnityEngine;
 /* Test 작업 목록
  * 
  * ---- Script ----
- * 1. 스크립트 대공사....
+ * 1. 스크립트 구조 변경 .... (50%)
+ * 1-1. 공통 함수 고민
+ * 1-2. 미라 몬스터 변경?.
  * 
+ * 2. 1. size형식 전부 묶기?...
  */
 
-public class Enemy_2 : MonoBehaviour, IEnemy
+public class Enemy_Archer : MonoBehaviour, IEnemy
 {
-    public LayerMask targetLayer;
+    // Test 한번만 호출?
     private Player _player;
     private Rigidbody2D rigid;
-    public GameObject expPrefab;
-    public AudioClip hitSoundClip;
     private SpriteRenderer _renderer;
     private Animator _animator;
 
-    private readonly int hashHitAnim = Animator.StringToHash("hitTrigger");
-    // private readonly int enemyLayer = 6;
-    public float maxHealth;
-    private float health;
-    public float damage;
-    public float attackRadius;
-    public float speed;
-    public float dropExp;
-    private float curSpeed;
+    // Test 추가 변수
+    public Vector2 size;
+    private bool firstShoot;             // 초기 쿨타임용
+    private float timeset;                // 쿨타임
+
+    public EnemySO enemySo;
+    public EnemyPrefabSO enemyPrefabSo;
+
+    private float curSpeed;               // 수정 여부 고민
+    private float health;    
     private bool isSlow = false;
 
-    // Test 추가 변수
-    public Vector2 size;                 // 공격사정거리
-    public GameObject EnemyArrowPrefab;  // 생성된 공격 오브젝트
-    private GameObject enemyArrow;       // 생성된 공격 오브젝트
-    public float collTime;               // 쿨타임
-    public float timeset;                // 쿨타임
-    private bool firstShoot;             // 초기 쿨타임용
+    private readonly int hashHitAnim = Animator.StringToHash("hitTrigger");
+    private readonly int hashAttackAnim = Animator.StringToHash("Attack");
+    private readonly int enemyLayer = 6;
 
     private void OnEnable()
     {
-        curSpeed = speed;
+        curSpeed = enemySo.MosterSpeed;
+        health = enemySo.MaxHealth;
+
         _player = FindObjectOfType<Player>();
         rigid = GetComponent<Rigidbody2D>();
         _renderer = GetComponent<SpriteRenderer>();
         _animator = GetComponent<Animator>();
-        health = maxHealth;
+
         StartCoroutine(Move());
     }
 
@@ -78,10 +78,7 @@ public class Enemy_2 : MonoBehaviour, IEnemy
 
     void PlayerSearch()
     {
-        // 플레이어 기준 사정거리 안 적을 저장하는 변수
-        Collider2D col = Physics2D.OverlapBox(transform.position, size, 0, targetLayer);
-
-        // 사정거리안 적이 존재할 경우
+        Collider2D col = Physics2D.OverlapBox(transform.position, size, 0, enemyPrefabSo.TarGetLayer);
 
         if (col != null)
         {
@@ -90,27 +87,29 @@ public class Enemy_2 : MonoBehaviour, IEnemy
         }
         else
         {
-            curSpeed = speed;
+            curSpeed = enemySo.MosterSpeed;
+            _animator.SetBool(hashAttackAnim, false);
+
             // Test 고민중
             timeset += Time.deltaTime;
-            timeset %= collTime;
+            timeset %= enemySo.CollTime;
         }
     }
 
     public void Arrow()
     {
-        timeset += !firstShoot ? collTime : Time.deltaTime;
-        if (timeset >= collTime)
+        timeset += !firstShoot ? enemySo.CollTime : Time.deltaTime;   // Test 낭비같음..
+        if (timeset >= enemySo.CollTime)
         {
             timeset = 0;
-            _animator.SetBool("Attack", true);
+            _animator.SetBool(hashAttackAnim, true);
             firstShoot = !firstShoot;
         }
     }
 
     public void ShootArrow()
     {
-        enemyArrow = ObjectPooler.Instance.GenerateGameObject(EnemyArrowPrefab);
+        GameObject enemyArrow = ObjectPooler.Instance.GenerateGameObject(enemyPrefabSo.ArcherArrow);
         enemyArrow.transform.position = transform.position;
 
         Vector2 pos = _player.transform.position - enemyArrow.transform.position;
@@ -124,12 +123,12 @@ public class Enemy_2 : MonoBehaviour, IEnemy
     {
         health -= damage;
         rigid.MovePosition(rigid.position + ((Vector2)transform.position - target) * 1 * Time.deltaTime);
-        AudioManager.Instance.FXEnemyAudioPlay(hitSoundClip);
+        AudioManager.Instance.FXEnemyAudioPlay(enemyPrefabSo.HitSoundClip);
         if (health < 1)
         {
-            GameObject prefab = ObjectPooler.Instance.GenerateGameObject(expPrefab);
+            GameObject prefab = ObjectPooler.Instance.GenerateGameObject(enemyPrefabSo.ExpPrefab);
             prefab.transform.position = transform.position;
-            prefab.GetComponent<Experience>().DropExp(dropExp);
+            prefab.GetComponent<Experience>().DropExp(enemySo.DropExp);
             ObjectPooler.Instance.DestroyGameObject(gameObject);
             return;
         }
@@ -142,7 +141,7 @@ public class Enemy_2 : MonoBehaviour, IEnemy
 
         isSlow = true;
 
-        curSpeed = speed;
+        curSpeed = enemySo.MosterSpeed;
 
         StartCoroutine(EnemySpeedSlow(slow, time));
     }
@@ -156,8 +155,7 @@ public class Enemy_2 : MonoBehaviour, IEnemy
             timer -= Time.deltaTime;
             yield return new WaitForFixedUpdate();
         }
-        curSpeed = speed;
+        curSpeed = enemySo.MosterSpeed;
         isSlow = false;
     }
-
 }
