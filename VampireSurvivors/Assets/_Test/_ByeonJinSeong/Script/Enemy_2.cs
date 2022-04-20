@@ -10,7 +10,6 @@ using UnityEngine;
  * 
  * ---- Script ----
  * 1. 스크립트 대공사....
- * 2. 애니메이션과 공격속도 모션 맞추기
  * 
  */
 
@@ -87,7 +86,7 @@ public class Enemy_2 : MonoBehaviour, IEnemy
         if (col != null)
         {
             curSpeed = 0f;
-            ShootArrow();
+            Arrow();
         }
         else
         {
@@ -98,23 +97,27 @@ public class Enemy_2 : MonoBehaviour, IEnemy
         }
     }
 
-    public void ShootArrow()
+    public void Arrow()
     {
         timeset += !firstShoot ? collTime : Time.deltaTime;
-        if(timeset >= collTime)
+        if (timeset >= collTime)
         {
             timeset = 0;
-            // enemyArrow = ObjectPooler.Instance.GenerateGameObject(EnemyArrowPrefab);
             _animator.SetBool("Attack", true);
-            //enemyArrow.transform.position = transform.position;
             firstShoot = !firstShoot;
-
-            //Vector2 pos = _player.transform.position - enemyArrow.transform.position;
-            //Vector2 pos1 = _player.transform.position - transform.position;
-            //float rad = Mathf.Atan2(pos.y, pos.x) * Mathf.Rad2Deg;
-
-            //enemyArrow.transform.rotation = Quaternion.Euler(0,0,rad);
         }
+    }
+
+    public void ShootArrow()
+    {
+        enemyArrow = ObjectPooler.Instance.GenerateGameObject(EnemyArrowPrefab);
+        enemyArrow.transform.position = transform.position;
+
+        Vector2 pos = _player.transform.position - enemyArrow.transform.position;
+        Vector2 pos1 = _player.transform.position - transform.position;
+        float rad = Mathf.Atan2(pos.y, pos.x) * Mathf.Rad2Deg;
+
+        enemyArrow.transform.rotation = Quaternion.Euler(0, 0, rad);
     }
 
     public void TakeDamage(float damage, Vector2 target)
