@@ -24,7 +24,7 @@ public class AttackCurve : ProjectilePrefab
 
     public void Initialized(Transform myPigeon,Transform enemy)
     {
-            // P0 -> 시작 위치
+        // P0 -> 시작 위치
         point[0] = myPigeon.transform.position;
         // P1 -> 비둘기 Object의 Point, 1
         point[1] = RandPoint(myPigeon.transform.position);
@@ -44,7 +44,6 @@ public class AttackCurve : ProjectilePrefab
         }
 
         t += Time.fixedDeltaTime;
-        // Debug.Log($"speed {speed}"); 왜 0일까?...
         AttackTrajectroy();
     }
 

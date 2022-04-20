@@ -15,7 +15,6 @@ public class PigeonAttack : Item
 
     public GameObject attackPrefab;     // 공격 오브젝트
     private GameObject tempPrefab;      // 생성된 공격 오브젝트
-    
 
     void FixedUpdate()
     {
@@ -32,6 +31,7 @@ public class PigeonAttack : Item
         }
     }
 
+    // test_ 4/20 몬스터 많아지면 최적화하기
     void EnemySearch()
     {
         // 플레이어 기준 사정거리 안 적을 저장하는 변수

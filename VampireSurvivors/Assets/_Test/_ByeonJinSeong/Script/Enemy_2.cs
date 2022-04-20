@@ -7,17 +7,11 @@ using _Project.Scripts.Player;
 using UnityEngine;
 
 /* Test 작업 목록
- * ---- Anim ----
- * 1. sprite 찾기
- * 2. 애니메이션만들기(Move, hit)
  * 
  * ---- Script ----
- * 3. Player 공격 사거리 기능 (노가다?... 이벤트? >> 이벤트로 할거면 비둘기도 바꿔야하나?)
- * 4. L62 공격 방식 수정
- * 5. 원거리 공격 오브젝트 (Pool로 생성)
+ * 1. 스크립트 대공사....
+ * 2. 애니메이션과 공격속도 모션 맞추기
  * 
- * ---- 참고 ----
- * 6. gamemanager에서 생성 중
  */
 
 public class Enemy_2 : MonoBehaviour, IEnemy
@@ -31,7 +25,7 @@ public class Enemy_2 : MonoBehaviour, IEnemy
     private Animator _animator;
 
     private readonly int hashHitAnim = Animator.StringToHash("hitTrigger");
-    private readonly int enemyLayer = 6;
+    // private readonly int enemyLayer = 6;
     public float maxHealth;
     private float health;
     public float damage;
@@ -41,13 +35,21 @@ public class Enemy_2 : MonoBehaviour, IEnemy
     private float curSpeed;
     private bool isSlow = false;
 
+    // Test 추가 변수
+    public Vector2 size;                 // 공격사정거리
+    public GameObject EnemyArrowPrefab;  // 생성된 공격 오브젝트
+    private GameObject enemyArrow;       // 생성된 공격 오브젝트
+    public float collTime;               // 쿨타임
+    public float timeset;                // 쿨타임
+    private bool firstShoot;             // 초기 쿨타임용
+
     private void OnEnable()
     {
         curSpeed = speed;
         _player = FindObjectOfType<Player>();
         rigid = GetComponent<Rigidbody2D>();
         _renderer = GetComponent<SpriteRenderer>();
-        //_animator = GetComponent<Animator>();
+        _animator = GetComponent<Animator>();
         health = maxHealth;
         StartCoroutine(Move());
     }
@@ -67,21 +69,52 @@ public class Enemy_2 : MonoBehaviour, IEnemy
             rigid.MovePosition(rigid.position +
                                (Vector2)(playerPos - pos).normalized * curSpeed * Time.deltaTime);
             _renderer.flipX = playerPos.x > pos.x;
-            Attack();
+
+            PlayerSearch();
+
             yield return new WaitForFixedUpdate();
             rigid.velocity = Vector2.zero;
         }
     }
 
-    public void Attack()
+    void PlayerSearch()
     {
-        //foreach (var collider in Physics2D.OverlapCircleAll(transform.position, attackRadius, targetLayer))
-        //{
-        //    if (collider.TryGetComponent<IAttackable>(out IAttackable attackable))
-        //    {
-        //        attackable.AttackChangeHealth(damage);
-        //    }
-        //}
+        // 플레이어 기준 사정거리 안 적을 저장하는 변수
+        Collider2D col = Physics2D.OverlapBox(transform.position, size, 0, targetLayer);
+
+        // 사정거리안 적이 존재할 경우
+
+        if (col != null)
+        {
+            curSpeed = 0f;
+            ShootArrow();
+        }
+        else
+        {
+            curSpeed = speed;
+            // Test 고민중
+            timeset += Time.deltaTime;
+            timeset %= collTime;
+        }
+    }
+
+    public void ShootArrow()
+    {
+        timeset += !firstShoot ? collTime : Time.deltaTime;
+        if(timeset >= collTime)
+        {
+            timeset = 0;
+            // enemyArrow = ObjectPooler.Instance.GenerateGameObject(EnemyArrowPrefab);
+            _animator.SetBool("Attack", true);
+            //enemyArrow.transform.position = transform.position;
+            firstShoot = !firstShoot;
+
+            //Vector2 pos = _player.transform.position - enemyArrow.transform.position;
+            //Vector2 pos1 = _player.transform.position - transform.position;
+            //float rad = Mathf.Atan2(pos.y, pos.x) * Mathf.Rad2Deg;
+
+            //enemyArrow.transform.rotation = Quaternion.Euler(0,0,rad);
+        }
     }
 
     public void TakeDamage(float damage, Vector2 target)
@@ -97,7 +130,7 @@ public class Enemy_2 : MonoBehaviour, IEnemy
             ObjectPooler.Instance.DestroyGameObject(gameObject);
             return;
         }
-        //임시 삭제 _animator.SetTrigger(hashHitAnim);
+        _animator.SetTrigger(hashHitAnim);
     }
 
     public void SpeedSlow(float slow, float time)

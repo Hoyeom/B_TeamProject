@@ -31,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 434821925509080541}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.08, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -138,7 +138,7 @@ Rigidbody2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 434821925509080541}
   m_BodyType: 0
-  m_Simulated: 0
+  m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 2
@@ -160,7 +160,7 @@ Animator:
   m_GameObject: {fileID: 434821925509080541}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ed3a01eaa1ac15a4a884e1ae0d47e099, type: 2}
+  m_Controller: {fileID: 9100000, guid: f35acf3bd522d9749825f4ac30f721ca, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -191,3 +191,7 @@ MonoBehaviour:
   attackRadius: 0.2
   speed: 1
   dropExp: 3
+  size: {x: 8, y: 8}
+  EnemyArrowPrefab: {fileID: 6470638828404753454, guid: 5195dd2652e3e164ea57f8b0da9c9ae3, type: 3}
+  collTime: 1
+  timeset: 0
