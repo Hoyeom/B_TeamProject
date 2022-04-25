@@ -18,18 +18,21 @@ public class Medusa : FMBase
 
     [SerializeField] private FMSpecSO monsterSpec;
 
+    private FMSpecSO spec;
     /*
      * Test 현재 상태 저장 변수
      * 처리 방법 고민
      */
+    
     private float CurrentHP;
-
+    
     private IState<Medusa>[] saveState;
     private StateMachine<Medusa> currentState;
     
     //~~~~~~~~~~~~~~ Test 테스트용 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     private void OnEnable()
     {
+        spec = Instantiate(monsterSpec);
         MgrInfo();
     }
     void Start()
