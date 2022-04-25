@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class AttackCurve : ProjectilePrefab
 {
+    public TrailRenderer trail;
     public float tspeed = 2f;
     public float t = 0;
 
@@ -19,8 +20,10 @@ public class AttackCurve : ProjectilePrefab
     protected override void OnEnable()
     {
         base.OnEnable();
+        trail.Clear();
         t = 0;
     }
+
 
     public void Initialized(Transform myPigeon,Transform enemy)
     {

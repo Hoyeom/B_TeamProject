@@ -46,9 +46,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 276895c57a604324290be370ad006408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.6
-  MyPigeon: {fileID: 0}
-  enemy: {fileID: 3504066889720596627, guid: 9331dd55e72840145942e06197486a9a, type: 3}
+  shootSoundClip: {fileID: 0}
+  trail: {fileID: -7896194247088767677}
+  tspeed: 2
+  t: 0
+  myPigeon: {fileID: 0}
   posX: 2
   posY: 3
   CorPosition: 0.5

@@ -47,10 +47,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shootSoundClip: {fileID: 0}
+  trail: {fileID: -7896194247088767677}
   tspeed: 2
   t: 0
   myPigeon: {fileID: 0}
-  enemy: {fileID: 3504066889720596627, guid: 9331dd55e72840145942e06197486a9a, type: 3}
   posX: 5
   posY: 5
   CorPosition: 0.5

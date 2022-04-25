@@ -28,6 +28,7 @@ public class PigeonAttack : Item
             tempPrefab = ObjectPooler.Instance.GenerateGameObject(attackPrefab);
             AttackCurve attackCurve = tempPrefab.GetComponent<AttackCurve>();
             attackCurve.Initialized(myPigeon.transform, TempTarget);
+            attackCurve.might = GetMight();
         }
     }
 
