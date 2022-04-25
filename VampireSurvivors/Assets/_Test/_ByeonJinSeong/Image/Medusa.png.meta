@@ -1,0 +1,4092 @@
+fileFormatVersion: 2
+guid: d9ccdec0f4d9cd6429e17a29a12ac48a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6422575121423821414
+    second: Medusa_0
+  - first:
+      213: 7169066014164074324
+    second: Medusa_1
+  - first:
+      213: -4805714290751291368
+    second: Medusa_2
+  - first:
+      213: 2944029976820816500
+    second: Medusa_3
+  - first:
+      213: -3760533611219282714
+    second: Medusa_4
+  - first:
+      213: 6978664042723895299
+    second: Medusa_5
+  - first:
+      213: 3540760685651993656
+    second: Medusa_6
+  - first:
+      213: -5130526071911507577
+    second: Medusa_7
+  - first:
+      213: 7575216849355083942
+    second: Medusa_8
+  - first:
+      213: -970080872512861533
+    second: Medusa_9
+  - first:
+      213: -6829931156766664617
+    second: Medusa_10
+  - first:
+      213: 3079704727329495372
+    second: Medusa_11
+  - first:
+      213: 7101676336525478510
+    second: Medusa_12
+  - first:
+      213: -8914319286710887091
+    second: Medusa_13
+  - first:
+      213: -1832141590188163832
+    second: Medusa_14
+  - first:
+      213: 8585154105370091835
+    second: Medusa_15
+  - first:
+      213: -6395654525706955654
+    second: Medusa_16
+  - first:
+      213: -3373300848729584650
+    second: Medusa_17
+  - first:
+      213: 2443212768333429510
+    second: Medusa_18
+  - first:
+      213: -1577490417843643259
+    second: Medusa_19
+  - first:
+      213: 3562135971743187930
+    second: Medusa_20
+  - first:
+      213: -5736556360319786661
+    second: Medusa_21
+  - first:
+      213: 2779495373467667443
+    second: Medusa_22
+  - first:
+      213: -6770104175523111027
+    second: Medusa_23
+  - first:
+      213: -4893029833568890077
+    second: Medusa_24
+  - first:
+      213: 2947606797327002759
+    second: Medusa_25
+  - first:
+      213: 8187053831082733535
+    second: Medusa_26
+  - first:
+      213: -497287879164739316
+    second: Medusa_27
+  - first:
+      213: 3102704880766863292
+    second: Medusa_28
+  - first:
+      213: 4586082041855157888
+    second: Medusa_29
+  - first:
+      213: -7232655775376450499
+    second: Medusa_30
+  - first:
+      213: -1837982649993530683
+    second: Medusa_31
+  - first:
+      213: -5827117307217205820
+    second: Medusa_32
+  - first:
+      213: 8460378635298581919
+    second: Medusa_33
+  - first:
+      213: -3027986355123972858
+    second: Medusa_34
+  - first:
+      213: 2374133016855399960
+    second: Medusa_35
+  - first:
+      213: 3128779439935479368
+    second: Medusa_36
+  - first:
+      213: -7404453827653399876
+    second: Medusa_37
+  - first:
+      213: 3828214606293271901
+    second: Medusa_38
+  - first:
+      213: 6326054001149660785
+    second: Medusa_39
+  - first:
+      213: -6328252528439041919
+    second: Medusa_40
+  - first:
+      213: -1997740919915841364
+    second: Medusa_41
+  - first:
+      213: 404785739604994287
+    second: Medusa_42
+  - first:
+      213: -2413723494116809369
+    second: Medusa_43
+  - first:
+      213: 9175377080796781588
+    second: Medusa_44
+  - first:
+      213: 1509601104229982706
+    second: Medusa_45
+  - first:
+      213: 1036355367970503221
+    second: Medusa_46
+  - first:
+      213: -6927614579026358078
+    second: Medusa_47
+  - first:
+      213: 3711901958898931792
+    second: Medusa_48
+  - first:
+      213: 4957464046287975623
+    second: Medusa_49
+  - first:
+      213: 5306004823040602357
+    second: Medusa_50
+  - first:
+      213: 3142211579263378110
+    second: Medusa_51
+  - first:
+      213: 5184876029287258111
+    second: Medusa_52
+  - first:
+      213: -3331379480066152494
+    second: Medusa_53
+  - first:
+      213: -6973027972790758423
+    second: Medusa_54
+  - first:
+      213: 1491164039108049824
+    second: Medusa_55
+  - first:
+      213: 6900657201088290315
+    second: Medusa_56
+  - first:
+      213: 167189739241552228
+    second: Medusa_57
+  - first:
+      213: -2373592282252889560
+    second: Medusa_58
+  - first:
+      213: -1603357637611066830
+    second: Medusa_59
+  - first:
+      213: 6312595445807123120
+    second: Medusa_60
+  - first:
+      213: -5614945437029002352
+    second: Medusa_61
+  - first:
+      213: 2770955564981204522
+    second: Medusa_62
+  - first:
+      213: -990095199439288799
+    second: Medusa_63
+  - first:
+      213: -4757824941920496328
+    second: Medusa_64
+  - first:
+      213: -3834060688144678995
+    second: Medusa_65
+  - first:
+      213: 5800944660764437409
+    second: Medusa_66
+  - first:
+      213: -5419712883681350984
+    second: Medusa_67
+  - first:
+      213: 8776676128210593234
+    second: Medusa_68
+  - first:
+      213: -4356548038440340847
+    second: Medusa_69
+  - first:
+      213: -878336361121361092
+    second: Medusa_70
+  - first:
+      213: 2121308821280225779
+    second: Medusa_71
+  - first:
+      213: -8684217139252538794
+    second: Medusa_72
+  - first:
+      213: 8251643724492702343
+    second: Medusa_73
+  - first:
+      213: -2082556527359510429
+    second: Medusa_74
+  - first:
+      213: 5942680453134632307
+    second: Medusa_75
+  - first:
+      213: 5853630101351166132
+    second: Medusa_76
+  - first:
+      213: 2070795883532618428
+    second: Medusa_77
+  - first:
+      213: -3355373031855883362
+    second: Medusa_78
+  - first:
+      213: 7888137286293556552
+    second: Medusa_79
+  - first:
+      213: 6317901044975544017
+    second: Medusa_80
+  - first:
+      213: -7846471677279354610
+    second: Medusa_81
+  - first:
+      213: -8587467613049592690
+    second: Medusa_82
+  - first:
+      213: 5464989600903149729
+    second: Medusa_83
+  - first:
+      213: 3979323251476534184
+    second: Medusa_84
+  - first:
+      213: -5299533555331465887
+    second: Medusa_85
+  - first:
+      213: 165943662779918957
+    second: Medusa_86
+  - first:
+      213: 2571865556895126252
+    second: Medusa_87
+  - first:
+      213: -8656406080198169643
+    second: Medusa_88
+  - first:
+      213: -4384089385097480056
+    second: Medusa_89
+  - first:
+      213: -8255966307407607565
+    second: Medusa_90
+  - first:
+      213: -1179703289239100021
+    second: Medusa_91
+  - first:
+      213: 1412543695994696100
+    second: Medusa_92
+  - first:
+      213: -534094197349758707
+    second: Medusa_93
+  - first:
+      213: 7781687327695176206
+    second: Medusa_94
+  - first:
+      213: -4848118218226616053
+    second: Medusa_95
+  - first:
+      213: 8041970484615582944
+    second: Medusa_96
+  - first:
+      213: 6495581481954851452
+    second: Medusa_97
+  - first:
+      213: 7547325755173601177
+    second: Medusa_98
+  - first:
+      213: -7701844047381743038
+    second: Medusa_99
+  - first:
+      213: 8111285951325904156
+    second: Medusa_100
+  - first:
+      213: -8138142276759959473
+    second: Medusa_101
+  - first:
+      213: 1277028555995722297
+    second: Medusa_102
+  - first:
+      213: -5642342314014396687
+    second: Medusa_103
+  - first:
+      213: -2758753024832104424
+    second: Medusa_104
+  - first:
+      213: -5256688049252423261
+    second: Medusa_105
+  - first:
+      213: 1701024226583605022
+    second: Medusa_106
+  - first:
+      213: -1941743419499276927
+    second: Medusa_107
+  - first:
+      213: 1392165201302354008
+    second: Medusa_108
+  - first:
+      213: 1444640826217930219
+    second: Medusa_109
+  - first:
+      213: 634112639338096498
+    second: Medusa_110
+  - first:
+      213: 2450409083512338887
+    second: Medusa_111
+  - first:
+      213: -6805441613225792568
+    second: Medusa_112
+  - first:
+      213: 159095944618637893
+    second: Medusa_113
+  - first:
+      213: -8804052053217690960
+    second: Medusa_114
+  - first:
+      213: -45586851920445672
+    second: Medusa_115
+  - first:
+      213: -7317025977576793832
+    second: Medusa_116
+  - first:
+      213: -5584505579530934773
+    second: Medusa_117
+  - first:
+      213: 7809287336070308853
+    second: Medusa_118
+  - first:
+      213: 5537915122509370082
+    second: Medusa_119
+  - first:
+      213: -8103165579493669128
+    second: Medusa_120
+  - first:
+      213: -4136303646497362528
+    second: Medusa_121
+  - first:
+      213: 2874004322404022522
+    second: Medusa_122
+  - first:
+      213: 7905982211452166626
+    second: Medusa_123
+  - first:
+      213: 5668933130777498641
+    second: Medusa_124
+  - first:
+      213: -7607955661041910878
+    second: Medusa_125
+  - first:
+      213: 3549561029729367399
+    second: Medusa_126
+  - first:
+      213: -7774688909333934444
+    second: Medusa_127
+  - first:
+      213: 2021908679084780531
+    second: Medusa_128
+  - first:
+      213: -6424634634879642982
+    second: Medusa_129
+  - first:
+      213: 7695646724950522237
+    second: Medusa_130
+  - first:
+      213: 3219151374282973890
+    second: Medusa_131
+  - first:
+      213: -6186317650355724287
+    second: Medusa_132
+  - first:
+      213: -1845825866063462950
+    second: Medusa_133
+  - first:
+      213: 6294479211098381313
+    second: Medusa_134
+  - first:
+      213: -6294141838466111278
+    second: Medusa_135
+  - first:
+      213: -5373148921946963837
+    second: Medusa_136
+  - first:
+      213: -6323924385172917029
+    second: Medusa_137
+  - first:
+      213: -6542663277329058974
+    second: Medusa_138
+  - first:
+      213: -77707468191025414
+    second: Medusa_139
+  - first:
+      213: -4524758402815878912
+    second: Medusa_140
+  - first:
+      213: 8236032095890655752
+    second: Medusa_141
+  - first:
+      213: 6586196893354907939
+    second: Medusa_142
+  - first:
+      213: 8396927067725872866
+    second: Medusa_143
+  - first:
+      213: -3436108460236709736
+    second: Medusa_144
+  - first:
+      213: 5616986803598738677
+    second: Medusa_145
+  - first:
+      213: 1359752745797403844
+    second: Medusa_146
+  - first:
+      213: 3376201885845045763
+    second: Medusa_147
+  - first:
+      213: -3422540420112483174
+    second: Medusa_148
+  - first:
+      213: -2867936623118288824
+    second: Medusa_149
+  - first:
+      213: -3500387740078268751
+    second: Medusa_150
+  - first:
+      213: -6418004762147751068
+    second: Medusa_151
+  - first:
+      213: 7538992759416840317
+    second: Medusa_152
+  - first:
+      213: 2026061763462047261
+    second: Medusa_153
+  - first:
+      213: 3559704764118112461
+    second: Medusa_Move1
+  - first:
+      213: -8605095150101606129
+    second: Medusa_Move2
+  - first:
+      213: -8408173869212744764
+    second: Medusa_Move3
+  - first:
+      213: 8858372707523580718
+    second: Medusa_Move4
+  - first:
+      213: 2712213831556964469
+    second: Medusa_Move5
+  - first:
+      213: 2107318032356148403
+    second: Medusa_Move6
+  - first:
+      213: -8279085533745408979
+    second: Medusa_160
+  - first:
+      213: -6013548958295487513
+    second: Medusa_161
+  - first:
+      213: -4177565481621649352
+    second: Medusa_162
+  - first:
+      213: 500362867027864698
+    second: Medusa_163
+  - first:
+      213: -84234263869138043
+    second: Medusa_164
+  - first:
+      213: 112684434438990044
+    second: Medusa_165
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Medusa_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1508
+        width: 70
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a95954094fd6ed6a0800000000000000
+      internalID: -6422575121423821414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_1
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1508
+        width: 70
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f33997e83ad7360800000000000000
+      internalID: 7169066014164074324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1507
+        width: 72
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81040c7705cae4db0800000000000000
+      internalID: -4805714290751291368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_3
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1507
+        width: 75
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a91807aab4bd820800000000000000
+      internalID: 2944029976820816500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_4
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1507
+        width: 79
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e49b51da96efcbc0800000000000000
+      internalID: -3760533611219282714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_5
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1508
+        width: 70
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3086959e8f139d060800000000000000
+      internalID: 6978664042723895299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_6
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1508
+        width: 70
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 834a4f6751f432130800000000000000
+      internalID: 3540760685651993656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_7
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 1508
+        width: 70
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78995d468b5bcc8b0800000000000000
+      internalID: -5130526071911507577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_8
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 1508
+        width: 70
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a01d5ad693902960800000000000000
+      internalID: 7575216849355083942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_9
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1363
+        width: 81
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa487e06949982f0800000000000000
+      internalID: -970080872512861533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_10
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 1363
+        width: 77
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 758dc88acc53731a0800000000000000
+      internalID: -6829931156766664617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_11
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1363
+        width: 77
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49d09de12f4dba20800000000000000
+      internalID: 3079704727329495372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_12
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1364
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a066470093e8260800000000000000
+      internalID: 7101676336525478510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_13
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 1364
+        width: 75
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d1f2db6d9f94480800000000000000
+      internalID: -8914319286710887091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_14
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 1364
+        width: 75
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d7d9a4eece296e0800000000000000
+      internalID: -1832141590188163832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_15
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1211
+        width: 81
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3122983c28942770800000000000000
+      internalID: 8585154105370091835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_16
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1211
+        width: 77
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a741e1138121e37a0800000000000000
+      internalID: -6395654525706955654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_17
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1211
+        width: 73
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb03f620c0af21d0800000000000000
+      internalID: -3373300848729584650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_18
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 1212
+        width: 78
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b763f611908e120800000000000000
+      internalID: 2443212768333429510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_19
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 1212
+        width: 71
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58cd8d7a2d0ab1ae0800000000000000
+      internalID: -1577490417843643259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_20
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 1212
+        width: 73
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad3c4651bcf3f6130800000000000000
+      internalID: 3562135971743187930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_21
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1063
+        width: 82
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b51a1254268a360b0800000000000000
+      internalID: -5736556360319786661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_22
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1063
+        width: 77
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fbc166d050c29620800000000000000
+      internalID: 2779495373467667443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_23
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1063
+        width: 70
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8f5e853f12cb02a0800000000000000
+      internalID: -6770104175523111027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_24
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 1064
+        width: 70
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 323dcbe6a47781cb0800000000000000
+      internalID: -4893029833568890077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_25
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 1064
+        width: 70
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ce33cd3c008e820800000000000000
+      internalID: 2947606797327002759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_26
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 1064
+        width: 72
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdfefae15124e9170800000000000000
+      internalID: 8187053831082733535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_27
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 934
+        width: 80
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0147430f474919f0800000000000000
+      internalID: -497287879164739316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_28
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 933
+        width: 85
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb7caf476a50f0b20800000000000000
+      internalID: 3102704880766863292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_29
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 933
+        width: 90
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0862397a15905af30800000000000000
+      internalID: 4586082041855157888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_30
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 933
+        width: 98
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c520e74e170ab90800000000000000
+      internalID: -7232655775376450499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_31
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 942
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c2fdc3948c2e76e0800000000000000
+      internalID: -1837982649993530683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_32
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 977
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c5a9c6beabe12fa0800000000000000
+      internalID: -5827117307217205820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_33
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 983
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9da6463b8d496570800000000000000
+      internalID: 8460378635298581919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_34
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 983
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6051b16f37e6af5d0800000000000000
+      internalID: -3027986355123972858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_35
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 983
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e413f666d92f020800000000000000
+      internalID: 2374133016855399960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_36
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 983
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e56e9d258ab6b20800000000000000
+      internalID: 3128779439935479368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_37
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 983
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba00f669781e3990800000000000000
+      internalID: -7404453827653399876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_38
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 983
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d558214d6ec802530800000000000000
+      internalID: 3828214606293271901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_39
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 959
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ec670e898aac750800000000000000
+      internalID: 6326054001149660785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_40
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 959
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1806c699ad78d28a0800000000000000
+      internalID: -6328252528439041919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_41
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 959
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca87723c7399644e0800000000000000
+      internalID: -1997740919915841364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_42
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 959
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe8ac4b4c761e9500800000000000000
+      internalID: 404785739604994287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_43
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 959
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7652723454bb08ed0800000000000000
+      internalID: -2413723494116809369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_44
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 959
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c172d77dc755f70800000000000000
+      internalID: 9175377080796781588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_45
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 959
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f16a22c43e23f410800000000000000
+      internalID: 1509601104229982706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_46
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 959
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a73f067bfd16e00800000000000000
+      internalID: 1036355367970503221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_47
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 959
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c011549e3b2cdf90800000000000000
+      internalID: -6927614579026358078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_48
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 956
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0585f354a23538330800000000000000
+      internalID: 3711901958898931792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_49
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 959
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4f3c9c8437cc440800000000000000
+      internalID: 4957464046287975623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_50
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 959
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f038dd2647b2a940800000000000000
+      internalID: 5306004823040602357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_51
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 959
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb2ec1f78c06b9b20800000000000000
+      internalID: 3142211579263378110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_52
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 959
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff7da1a274164f740800000000000000
+      internalID: 5184876029287258111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_53
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 959
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d7a1a6630094c1d0800000000000000
+      internalID: -3331379480066152494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_54
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 959
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3d1f0e004da3f90800000000000000
+      internalID: -6973027972790758423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_55
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 959
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab3fd40bcda1b410800000000000000
+      internalID: 1491164039108049824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_56
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 956
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0edb93c92f04cf50800000000000000
+      internalID: 6900657201088290315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_57
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 959
+        width: 26
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46935999e2af15200800000000000000
+      internalID: 167189739241552228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_58
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 943
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82235b6256e4f0fd0800000000000000
+      internalID: -2373592282252889560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_59
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 943
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a684a39babfb9e0800000000000000
+      internalID: -1603357637611066830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_60
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 941
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba0516cc18da9750800000000000000
+      internalID: 6312595445807123120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_61
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 943
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0939fa0dfd4b312b0800000000000000
+      internalID: -5614945437029002352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_62
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 943
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a26b81bb769647620800000000000000
+      internalID: 2770955564981204522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_63
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 943
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1260a9f69a97242f0800000000000000
+      internalID: -990095199439288799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_64
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 940
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835d5516c6fc8fdb0800000000000000
+      internalID: -4757824941920496328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_65
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 943
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dafb8db2e1eaacac0800000000000000
+      internalID: -3834060688144678995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_66
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 943
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab209a2f68118050800000000000000
+      internalID: 5800944660764437409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_67
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 943
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8baa09fd8df49c4b0800000000000000
+      internalID: -5419712883681350984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_68
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 943
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5a4a210740dc970800000000000000
+      internalID: 8776676128210593234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_69
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 943
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 192b6d914ae6a83c0800000000000000
+      internalID: -4356548038440340847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_70
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 943
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c335d02bbb58fc3f0800000000000000
+      internalID: -878336361121361092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_71
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 943
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f97f4f3227607d10800000000000000
+      internalID: 2121308821280225779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_72
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 943
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6525e76d5867b7780800000000000000
+      internalID: -8684217139252538794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_73
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 806
+        width: 83
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78208739f3ab38270800000000000000
+      internalID: 8251643724492702343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_74
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 805
+        width: 95
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368b01a4fd54913e0800000000000000
+      internalID: -2082556527359510429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_75
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 805
+        width: 101
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3754fbee264a87250800000000000000
+      internalID: 5942680453134632307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_76
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 805
+        width: 105
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0f19530954c3150800000000000000
+      internalID: 5853630101351166132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_77
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 800
+        width: 93
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba8d4072e1fcbc10800000000000000
+      internalID: 2070795883532618428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_78
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 800
+        width: 83
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9bfd4b41025f61d0800000000000000
+      internalID: -3355373031855883362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_79
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 682
+        width: 85
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d8a09911b487d60800000000000000
+      internalID: 7888137286293556552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_80
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 681
+        width: 100
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d626d7d681bda750800000000000000
+      internalID: 6317901044975544017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_81
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 681
+        width: 111
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01c997f49bbb1390800000000000000
+      internalID: -7846471677279354610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_82
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 680
+        width: 107
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e84e10c44bf23d880800000000000000
+      internalID: -8587467613049592690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_83
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 693
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a83907561b87db40800000000000000
+      internalID: 5464989600903149729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_84
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 693
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a316b2f965693730800000000000000
+      internalID: 3979323251476534184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_85
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 693
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d743f3f464476b0800000000000000
+      internalID: -5299533555331465887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_86
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 693
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a69b0d1ec8d4200800000000000000
+      internalID: 165943662779918957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_87
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 693
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2dbc0091a11b320800000000000000
+      internalID: 2571865556895126252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_88
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 641
+        width: 4
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dba14e98844ed780800000000000000
+      internalID: -8656406080198169643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_89
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 645
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88834b1aee59823c0800000000000000
+      internalID: -4384089385097480056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_90
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 649
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f84069a26aec6d80800000000000000
+      internalID: -8255966307407607565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_91
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 653
+        width: 30
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b852b88db1ad0afe0800000000000000
+      internalID: -1179703289239100021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_92
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 654
+        width: 30
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a13b7de10d5a9310800000000000000
+      internalID: 1412543695994696100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_93
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 653
+        width: 30
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09ce5248248698f0800000000000000
+      internalID: -534094197349758707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_94
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 650
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e020e68356b1efb60800000000000000
+      internalID: 7781687327695176206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_95
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 645
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09b08dba2608bcb0800000000000000
+      internalID: -4848118218226616053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_96
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 641
+        width: 4
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e410bd2c81da9f60800000000000000
+      internalID: 8041970484615582944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_97
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 545
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a368951f0f42a50800000000000000
+      internalID: 6495581481954851452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_98
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 546
+        width: 89
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f774179cc7db860800000000000000
+      internalID: 7547325755173601177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_99
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 547
+        width: 92
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24aba5025ad8d1590800000000000000
+      internalID: -7701844047381743038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_100
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 548
+        width: 79
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d9568e893119070800000000000000
+      internalID: 8111285951325904156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_101
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 550
+        width: 83
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48422e87b28f0f80800000000000000
+      internalID: -8138142276759959473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_102
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 553
+        width: 76
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 932b728a4bae8b110800000000000000
+      internalID: 1277028555995722297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_103
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 416
+        width: 72
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fe24005f8f52b1b0800000000000000
+      internalID: -5642342314014396687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_104
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 417
+        width: 73
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81819db8db0f6b9d0800000000000000
+      internalID: -2758753024832104424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_105
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 417
+        width: 72
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9a441021e7c07b0800000000000000
+      internalID: -5256688049252423261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_106
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 418
+        width: 67
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f69db85804b9710800000000000000
+      internalID: 1701024226583605022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_107
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 466
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1851bc3d5aa8d05e0800000000000000
+      internalID: -1941743419499276927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_108
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 463
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8587944efd6f15310800000000000000
+      internalID: 1392165201302354008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_109
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 463
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed1fba6d256c0410800000000000000
+      internalID: 1444640826217930219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_110
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 466
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2772557f512dcc800800000000000000
+      internalID: 634112639338096498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_111
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 466
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c9b421241a910220800000000000000
+      internalID: 2450409083512338887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_112
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 466
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cbe308d8e63e81a0800000000000000
+      internalID: -6805441613225792568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_113
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 463
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54af2303be8353200800000000000000
+      internalID: 159095944618637893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_114
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 410
+        width: 49
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba39efad49b1d580800000000000000
+      internalID: -8804052053217690960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_115
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 445
+        width: 124
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f7adceffa0e5ff0800000000000000
+      internalID: -45586851920445672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_116
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 448
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819da3204a3b47a90800000000000000
+      internalID: -7317025977576793832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_117
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 448
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b062fdd63c9df72b0800000000000000
+      internalID: -5584505579530934773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_118
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 448
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f36d6fe479206c60800000000000000
+      internalID: 7809287336070308853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_119
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 448
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e25f697670aadc40800000000000000
+      internalID: 5537915122509370082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_120
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 432
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f68b1e76d5cb8f80800000000000000
+      internalID: -8103165579493669128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_121
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 432
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad2f53afb5e896c0800000000000000
+      internalID: -4136303646497362528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_122
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 432
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af834df34b382e720800000000000000
+      internalID: 2874004322404022522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_123
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 432
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e1e9220fe0b7bd60800000000000000
+      internalID: 7905982211452166626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_124
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 429
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1149f6ba5a81cae40800000000000000
+      internalID: 5668933130777498641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_125
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 432
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2abbcac82ac1b6690800000000000000
+      internalID: -7607955661041910878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_126
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 432
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765b69d33f2924130800000000000000
+      internalID: 3549561029729367399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_127
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 432
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e4bf701a1ca1490800000000000000
+      internalID: -7774688909333934444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_128
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 430
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fba0292b334f0c10800000000000000
+      internalID: 2021908679084780531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_129
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 429
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a92d358b6dc17d6a0800000000000000
+      internalID: -6424634634879642982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_130
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 432
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d79f29d4ced6cca60800000000000000
+      internalID: 7695646724950522237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_131
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 432
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2e85e7e19bcac20800000000000000
+      internalID: 3219151374282973890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_132
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 432
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10061de9fd8c52aa0800000000000000
+      internalID: -6186317650355724287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_133
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 432
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add3f08872f4266e0800000000000000
+      internalID: -1845825866063462950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_134
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 432
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c999f2e7b7a5750800000000000000
+      internalID: 6294479211098381313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_135
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 413
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d8ad408857b6a8a0800000000000000
+      internalID: -6294141838466111278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_136
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 416
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 380041e068dbe65b0800000000000000
+      internalID: -5373148921946963837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_137
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 416
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4765bf648ec38a0800000000000000
+      internalID: -6323924385172917029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_138
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 416
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263fecde96ac335a0800000000000000
+      internalID: -6542663277329058974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_139
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 416
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6341a287debeef0800000000000000
+      internalID: -77707468191025414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_140
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 413
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00912b1b434d431c0800000000000000
+      internalID: -4524758402815878912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_141
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 416
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a474a0e834c4270800000000000000
+      internalID: 8236032095890655752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_142
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 416
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3295339ed2fd66b50800000000000000
+      internalID: 6586196893354907939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_143
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 416
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eeb9a4eda0e78470800000000000000
+      internalID: 8396927067725872866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_144
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 416
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89060e98f8d7050d0800000000000000
+      internalID: -3436108460236709736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_145
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 416
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f44f80ecbb83fd40800000000000000
+      internalID: 5616986803598738677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_146
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 416
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4cd930befced210800000000000000
+      internalID: 1359752745797403844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_147
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 416
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3024ccf2abdaade20800000000000000
+      internalID: 3376201885845045763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_148
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 280
+        width: 77
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c77cd0f91b080d0800000000000000
+      internalID: -3422540420112483174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_149
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 280
+        width: 79
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84873b416da0338d0800000000000000
+      internalID: -2867936623118288824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_150
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 280
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be908075ef1c6fc0800000000000000
+      internalID: -3500387740078268751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_151
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 280
+        width: 94
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46bfa614caaaee6a0800000000000000
+      internalID: -6418004762147751068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_152
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 280
+        width: 76
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70684da8f1ef9860800000000000000
+      internalID: 7538992759416840317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_153
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 280
+        width: 81
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16282870740e1c10800000000000000
+      internalID: 2026061763462047261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_Move1
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 140
+        width: 83
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc896827f9c966130800000000000000
+      internalID: 3559704764118112461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_Move2
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 140
+        width: 99
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01d1cf7d8f849880800000000000000
+      internalID: -8605095150101606129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_Move3
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 140
+        width: 94
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c34ad31a6a205b80800000000000000
+      internalID: -8408173869212744764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_Move4
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 139
+        width: 102
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2355f73b034fea70800000000000000
+      internalID: 8858372707523580718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_Move5
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 138
+        width: 88
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 570aad02c18b3a520800000000000000
+      internalID: 2712213831556964469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_Move6
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 139
+        width: 85
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b40d5bd592be3d10800000000000000
+      internalID: 2107318032356148403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_160
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 5
+        width: 79
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2497005297ca1d80800000000000000
+      internalID: -8279085533745408979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_161
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 5
+        width: 84
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb806565159b8ca0800000000000000
+      internalID: -6013548958295487513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_162
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 5
+        width: 93
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8380202045e4606c0800000000000000
+      internalID: -4177565481621649352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_163
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 4
+        width: 94
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7cedf36065a1f600800000000000000
+      internalID: 500362867027864698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_164
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 4
+        width: 99
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58bd920226db4def0800000000000000
+      internalID: -84234263869138043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medusa_165
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 4
+        width: 83
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8a37665e5509100800000000000000
+      internalID: 112684434438990044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

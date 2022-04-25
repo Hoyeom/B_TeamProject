@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 4452097098550322338}
   - component: {fileID: 2499827915606509374}
   m_Layer: 6
-  m_Name: Enemy_2
+  m_Name: Enemy_Archer
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: -1002580999
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: -7710184027935022880, guid: 6f2af435a39e6254885e2747d7527284, type: 3}
+  m_Sprite: {fileID: 9162833894702555884, guid: c8889faa0993314458ef2c84d55cba3f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -104,7 +104,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.9117647, y: 0.9117647}
+    oldSize: {x: 0.41, y: 0.84}
     newSize: {x: 1.0294118, y: 1.4117647}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -181,17 +181,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 580dc870063395644a1ed45d210a47f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLayer:
-    serializedVersion: 2
-    m_Bits: 256
-  expPrefab: {fileID: 5865523720289440356, guid: d6b7a54b36e9e8246b04a5a83a99a20d, type: 3}
-  hitSoundClip: {fileID: 8300000, guid: 6a81221f7206b79449a11244ce04eb01, type: 3}
-  maxHealth: 10
-  damage: 1
-  attackRadius: 0.2
-  speed: 1
-  dropExp: 3
   size: {x: 8, y: 8}
-  EnemyArrowPrefab: {fileID: 6470638828404753454, guid: 5195dd2652e3e164ea57f8b0da9c9ae3, type: 3}
-  collTime: 1
-  timeset: 0
+  enemySo: {fileID: 11400000, guid: ceb5e50fe317fbf4a846387402c7ce88, type: 2}
+  enemyPrefabSo: {fileID: 11400000, guid: 0c639f0bb7248fc4fb1574480640d679, type: 2}

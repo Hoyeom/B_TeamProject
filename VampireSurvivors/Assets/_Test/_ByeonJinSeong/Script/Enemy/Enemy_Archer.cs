@@ -29,7 +29,7 @@ public class Enemy_Archer : MonoBehaviour, IEnemy
     private bool firstShoot;             // 초기 쿨타임용
     private float timeset;                // 쿨타임
 
-    public EnemySO enemySo;
+    public EnemySO enemySo;               // Test 접근지정자 변경 고민
     public EnemyPrefabSO enemyPrefabSo;
 
     private float curSpeed;               // 수정 여부 고민
