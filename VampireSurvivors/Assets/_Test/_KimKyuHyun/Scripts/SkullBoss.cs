@@ -20,6 +20,7 @@ public class SkullBoss : MonoBehaviour
     private int shoot_time;
     public GameObject attackPrefab;
     public int angle; //발사각
+    public GameObject enemyObject;
 
     private readonly int hashHitAnim = Animator.StringToHash("hitTrigger");
     private readonly int enemyLayer = 6;
@@ -62,6 +63,8 @@ public class SkullBoss : MonoBehaviour
             {
                 Fire();
                 yield return new WaitForSeconds(3f);
+                _renderer.flipX = playerPos.x > pos.x;
+                Spawn();
             }
             else
             {
@@ -88,6 +91,14 @@ public class SkullBoss : MonoBehaviour
             }
         }
     }
+
+    public void Spawn()
+    {
+        GameObject obj = ObjectPooler.Instance.GenerateGameObject(enemyObject);
+        obj.transform.position = transform.position;
+        obj.transform.Translate(Vector2.one * UnityEngine.Random.Range(-.3f, .3f));
+    }
+
 
     private void Fire()
     {

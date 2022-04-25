@@ -1,20 +1,36 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using _Project.Scripts.Player;
 
-public class SkullPrefab : MonoBehaviour
+public class BonePrefab : MonoBehaviour
 {
     public GameObject attackPrefab;
-    public int power;   //데미지
-    public int divide; //분할 횟수
+
+    public float attackRadius;
+    public LayerMask targetLayer;
+    public LayerMask wall;
+    public float damage;
+
+    private int divide; //분할 횟수
     private int divide_angle;
     private float delay;    //분할 주기
+    private float delayRandom;
+
+    private void OnEnable()
+    {
+        delayRandom = UnityEngine.Random.Range(50, 100);
+        delay = 0;
+        divide = 1;
+    }
     private void FixedUpdate()
     {
-   
-        transform.Translate(Vector2.left * 5 * Time.fixedDeltaTime);
+        Attack();
+        Wall();
+
+        transform.Translate(Vector2.left * 4 * Time.fixedDeltaTime);
         delay++;
-        if (divide > 0 && delay>50)
+        if (divide > 0 && delay>delayRandom)
         {
             
             divide_angle = UnityEngine.Random.Range(0, 45); //0~45 랜덤
@@ -40,4 +56,23 @@ public class SkullPrefab : MonoBehaviour
         }
     }
 
+    public void Attack()
+    {
+        foreach (var collider in Physics2D.OverlapCircleAll(transform.position, attackRadius, targetLayer))
+        {
+            if (collider.TryGetComponent<IAttackable>(out IAttackable attackable))
+            {
+                attackable.AttackChangeHealth(damage);
+                ObjectPooler.Instance.DestroyGameObject(gameObject);
+            }
+        }
+    }
+
+    public void Wall()
+    {
+        foreach (var collider in Physics2D.OverlapCircleAll(transform.position, attackRadius, wall))
+        {
+            ObjectPooler.Instance.DestroyGameObject(gameObject);
+        }
+    }
 }
