@@ -133,7 +133,7 @@ TextureImporter:
     second: UI_42
   - first:
       213: 7359777851653371123
-    second: UI_43
+    second: QuitButton
   - first:
       213: 4155290992980403602
     second: UI_44
@@ -1309,7 +1309,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_43
+      name: QuitButton
       rect:
         serializedVersion: 2
         x: 417
@@ -1318,7 +1318,7 @@ TextureImporter:
         height: 33
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 7, y: 6, z: 7, w: 6}
       outline: []
       physicsShape: []
       tessellationDetail: 0
