@@ -3258,7 +3258,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6aa63d5800d87834fa3d443f76a94d3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _player: {fileID: 11400000, guid: 32131357103ed2843b3934590d9e8d4b, type: 2}
+  _player: {fileID: 0}
 --- !u!4 &1190611793
 Transform:
   m_ObjectHideFlags: 0
@@ -3582,7 +3582,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   monsters:
   - "\uBA54\uB450\uC0AC"
-  - "\uAE30\uD0C0 \uB2E4\uB978 \uBCF4\uC2A4"
   monsterPrefab: {fileID: 2582217741268637134, guid: 2067caf4ae8224a41a858724f21269e9, type: 3}
 --- !u!4 &1474601969
 Transform:

@@ -164,4 +164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec4a94fecec702d47b596477fa29db20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _rigid: {fileID: 0}
+  _renderer: {fileID: 0}
+  searchPlayer: {fileID: 11400000, guid: aeaded3047d316448a865e0300784c0f, type: 2}
   monsterSpec: {fileID: 11400000, guid: cadc6ff452f4e9842ad55010a6093965, type: 2}

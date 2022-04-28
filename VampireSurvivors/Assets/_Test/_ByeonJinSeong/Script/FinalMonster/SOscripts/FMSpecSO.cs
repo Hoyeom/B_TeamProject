@@ -3,6 +3,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "MonsterSpec", menuName = "SO/MonsterSpec")]
 public class FMSpecSO : ScriptableObject
 {
+    // 중복이 많음 나중에 수정
     [SerializeField] private float monsterSpeed;
     public float MonsterSpeed => monsterSpeed;
 
@@ -21,7 +22,12 @@ public class FMSpecSO : ScriptableObject
     [SerializeField] private float dropExp;
     public float DropExp => dropExp;
 
-
     [SerializeField] private float collTime;
     public float CollTime => collTime;
+
+    [SerializeField] private float attackRange;
+    public float AttackRange => attackRange;
+
+    [SerializeField] private LayerMask targetLayer;
+    public LayerMask TarGetLayer => targetLayer;
 }

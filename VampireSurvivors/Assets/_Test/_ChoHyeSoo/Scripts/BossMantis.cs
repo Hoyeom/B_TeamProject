@@ -79,6 +79,4 @@ public class BossMantis : MonoBehaviour
         obj.transform.position = transform.position;
         obj.transform.Translate(Vector2.one * UnityEngine.Random.Range(-.3f, .3f));
     }
-
-
 }
