@@ -3538,7 +3538,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2113316403290961196}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &2225678971128513057
 BoxCollider2D:
@@ -3824,6 +3824,18 @@ PrefabInstance:
     - target: {fileID: 5645558121159999060, guid: 74f1e0f0f1ac96a4b838381fae204973, type: 3}
       propertyPath: m_Name
       value: Bose_Map(Mantis)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8936808804968942629, guid: 74f1e0f0f1ac96a4b838381fae204973, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8936808804968942629, guid: 74f1e0f0f1ac96a4b838381fae204973, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8936808804968942629, guid: 74f1e0f0f1ac96a4b838381fae204973, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 74f1e0f0f1ac96a4b838381fae204973, type: 3}

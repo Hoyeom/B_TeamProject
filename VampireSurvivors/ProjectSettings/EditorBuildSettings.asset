@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Test/_LeeDongGyu/Scene/Conse.unity
     guid: 73ef41b0c5c09844da01cad3b1978d03
+  - enabled: 1
+    path: Assets/_Test/_LeeHyunSeung/Scene/MainUI.unity
+    guid: 053645e0ef9399244972c2669b0d683e
+  - enabled: 1
+    path: Assets/_Test/_LeeHyunSeung/Scene/Test.unity
+    guid: 2cdb23ede00e433459e4343652c1d950
   m_configObjects: {}

@@ -1512,7 +1512,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1120511092236320293}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &8448165275291700391
 BoxCollider2D:
@@ -6342,6 +6342,18 @@ PrefabInstance:
     - target: {fileID: 5645558121159999060, guid: 74f1e0f0f1ac96a4b838381fae204973, type: 3}
       propertyPath: m_Name
       value: Big_Map(4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8936808804968942629, guid: 74f1e0f0f1ac96a4b838381fae204973, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 8936808804968942629, guid: 74f1e0f0f1ac96a4b838381fae204973, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8936808804968942629, guid: 74f1e0f0f1ac96a4b838381fae204973, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 74f1e0f0f1ac96a4b838381fae204973, type: 3}
