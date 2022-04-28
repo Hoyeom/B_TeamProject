@@ -28,4 +28,5 @@ public abstract class FMBase : MonoBehaviour
     {
         Debug.Log($"{monsterName} : {txt}");
     }
+
 }

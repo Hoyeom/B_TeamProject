@@ -5,11 +5,12 @@ using UnityEngine;
 
 public class BossMonsterMgr : TestSingleTon<BossMonsterMgr>
 {
-    public ConfigSO _player;   // Test 접근지정자 변경 고민
+    public Player _player;   // Test 접근지정자 변경 고민
 
     protected override void Awake()
     {
         base.Awake();
+        _player = FindObjectOfType<Player>();
     }
 
 

@@ -25,9 +25,9 @@ public class MonsterContrl : MonoBehaviour
     private void Update()
     {
         // Test용
-        //for(int i=0; i < entitys.Count; i++)
-        //{
-        //    entitys[i].Updated();
-        //}
+        for (int i = 0; i < entitys.Count; i++)
+        {
+            entitys[i].Updated();
+        }
     }
 }
