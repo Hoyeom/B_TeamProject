@@ -53,11 +53,10 @@ public class BossMantis : MonoBehaviour
             shoot_time++;
             if (shoot_time % fire_rate == 0)
             {
-
                 rigid.MovePosition(rigid.position +
                                    (Vector2)(playerPos - pos).normalized * curSpeed*200 * Time.deltaTime);
 
-                yield return new WaitForSeconds(3f);
+                //yield return new WaitForSeconds(3f);
                 _renderer.flipX = playerPos.x > pos.x;
                 Spawn();
             }

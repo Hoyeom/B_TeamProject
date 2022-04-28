@@ -18,7 +18,7 @@ public class PigeonAttack : Item
 
     void FixedUpdate()
     {
-        InvokeRepeating("EnemySearch", 0f, 1f);
+        EnemySearch();
     }
 
     protected override void ActiveAttack(int i)
@@ -119,11 +119,4 @@ public class PigeonAttack : Item
      * Amount    : 프리팹 개수
      * penetrate : 관통
      */
-
-    // 사거리 시각화용
-    //private void OnDrawGizmos()
-    //{
-    //    Gizmos.color = Color.red;
-    //    Gizmos.DrawWireCube(player.transform.position, size);
-    //}
 }
