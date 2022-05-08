@@ -13,6 +13,7 @@ public class ReaperAttack : MonoBehaviour
     private Vector3 playerPos;
     private Vector3 dir;
     private Vector3 debug;
+    private GameObject Ping;
 
 
     private void OnEnable()
@@ -28,15 +29,19 @@ public class ReaperAttack : MonoBehaviour
         playerPos = _player.transform.position;
         dir = playerPos - transform.position;
         dir = dir.normalized;
-        //Debug.Log(Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height)));
-        //Debug.DrawRay(_player.transform.position,debug - transform.position,Color.green,1);
-        //Debug.DrawRay(transform.position, Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height)) - transform.position,Color.green,1);
+        Invoke("ScyOn", 1f);
+        InvokeRepeating("ScytheMove", 1f, Time.fixedDeltaTime);
     }
 
-
-    private void FixedUpdate()
+    void ScyOn()
     {
-        transform.Translate(dir * movement *Time.fixedDeltaTime , Space.World);
+        GetComponent<SpriteRenderer>().enabled = true;
+        //ObjectPooler.Instance.DestroyGameObject(Ping);
+    }
+
+   void ScytheMove()
+   {
+        transform.Translate(dir * movement * Time.fixedDeltaTime, Space.World);
         transform.Rotate(0, 0, -Time.fixedDeltaTime * speed);
     }
 
@@ -46,6 +51,9 @@ public class ReaperAttack : MonoBehaviour
         if (other.CompareTag ("Player"))
         {
             other.gameObject.GetComponent<Player>().AttackChangeHealth(might);
+            playerPos = _player.transform.position;
+            dir = playerPos - transform.position;
+            dir = dir.normalized;
             ObjectPooler.Instance.DestroyGameObject(gameObject);
         }
     }
