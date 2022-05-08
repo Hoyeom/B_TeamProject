@@ -6,6 +6,7 @@ public class Reaper : MonoBehaviour
 {
    // private GameObject Missile;
     public  GameObject AttackPrefab;
+    public GameObject PingPrefab;
     private Player _player;
     private Transform target;
 
@@ -21,9 +22,41 @@ public class Reaper : MonoBehaviour
         while (true)
         {
             GameObject Missile = ObjectPooler.Instance.GenerateGameObject(AttackPrefab);
-            Vector2 pos = _player.transform.position - AttackPrefab.transform.position;
+            //GameObject Ping = ObjectPooler.Instance.GenerateGameObject(PingPrefab);
+            switch(Random.Range(0,4))
+            {
+                case 0: // 위쪽
+                    Missile.transform.position = Camera.main.ScreenToWorldPoint(
+                        new Vector3(Random.Range(0, Screen.width), Screen.height, -Camera.main.transform.position.z));
+                    Debug.Log(Missile.transform.position);
+                    Debug.DrawRay(_player.transform.position, Missile.transform.position - _player.transform.position, Color.green, 1);
+                    break;
+
+                case 1: // 아래쪽
+                    Missile.transform.position = Camera.main.ScreenToWorldPoint(
+                        new Vector3(Random.Range(0, Screen.width), -Screen.height + Screen.height, -Camera.main.transform.position.z));
+                    Debug.Log(Missile.transform.position);
+                    Debug.DrawRay(_player.transform.position, Missile.transform.position - _player.transform.position, Color.green, 1);
+                    break;
+
+                case 2: // 오른쪽
+                    Missile.transform.position = Camera.main.ScreenToWorldPoint(
+                        new Vector3(Screen.width, (Random.Range(0 , Screen.height)), -Camera.main.transform.position.z));
+                    Debug.Log(Missile.transform.position);
+                    Debug.DrawRay(_player.transform.position, Missile.transform.position - _player.transform.position, Color.green, 1);
+                    break;
+
+                case 3: // 왼쪽
+                    Missile.transform.position = Camera.main.ScreenToWorldPoint(
+                        new Vector3(-Screen.width + Screen.width, (Random.Range(0,Screen.height)), -Camera.main.transform.position.z));
+                    Debug.Log(Missile.transform.position);
+                    Debug.DrawRay(_player.transform.position, Missile.transform.position - _player.transform.position, Color.green, 1);
+                    break;
+            }
+            //Ping.transform.position = Missile.transform.position;
+            //Debug.Log(Missile.transform.position);
+            Vector2 pos = _player.transform.position - Missile.transform.position;
             float rad = Mathf.Atan2(pos.y, pos.x) * Mathf.Rad2Deg;
-            Missile.transform.position = (transform.position * Vector2.one * Random.Range(-1f, 1f));
             Missile.transform.rotation = Quaternion.Euler(0, 0, rad);
             yield return new WaitForSeconds(2f);
         }
