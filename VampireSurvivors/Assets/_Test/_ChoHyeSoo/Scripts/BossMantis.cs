@@ -16,8 +16,6 @@ public class BossMantis : MonoBehaviour
     private Animator _animator;
 
 
-    //private Animator anim = null;
-
     private readonly int hashHitAnim = Animator.StringToHash("hitTrigger");
     public float speed;
     public float maxHealth;
@@ -33,6 +31,7 @@ public class BossMantis : MonoBehaviour
     private bool resurrectCheck;
     private float damage;
     private int rushTime;
+    private int rushUI;
     private int resurrectAmount;
     private int rushSpeed;
 
@@ -45,7 +44,6 @@ public class BossMantis : MonoBehaviour
         _renderer = GetComponent<SpriteRenderer>();
         _animator = GetComponent<Animator>();
 
-        //anim = GetComponent<Animator>();
 
         curSpeed = speed;
         health = maxHealth;
@@ -78,7 +76,20 @@ public class BossMantis : MonoBehaviour
             shoot_time++;
             if (shoot_time % fire_rate == 0)
             {
-           
+                _animator.SetTrigger("IsAttack");
+                //yield return new WaitForFixedUpdate();
+
+                
+                rushUI = 0;
+                while (rushUI < 10)
+                {
+                    yield return new WaitForFixedUpdate();
+                    rushUI++;
+                }
+                
+
+
+
                 rushTime = 0;
                 while (rushTime < 10)
                 {
