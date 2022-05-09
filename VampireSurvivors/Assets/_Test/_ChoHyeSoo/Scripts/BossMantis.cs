@@ -17,6 +17,8 @@ public class BossMantis : MonoBehaviour
 
 
     private readonly int hashHitAnim = Animator.StringToHash("hitTrigger");
+    private readonly int hashAttackAnim = Animator.StringToHash("IsAttack");
+
     public float speed;
     public float maxHealth;
     public int fire_rate;  //프레임기준 공격딜레이
@@ -29,7 +31,7 @@ public class BossMantis : MonoBehaviour
     private float curSpeed;
     private float health;
     private bool resurrectCheck;
-    private float damage;
+    private float myDamage;
     private int rushTime;
     private int rushUI;
     private int resurrectAmount;
@@ -49,7 +51,7 @@ public class BossMantis : MonoBehaviour
         health = maxHealth;
         shoot_time = fire_rate;
         resurrectCheck = false;
-        damage = 1;
+        myDamage = 1;
         resurrectAmount = 10;
         rushSpeed = 10;
 
@@ -76,7 +78,7 @@ public class BossMantis : MonoBehaviour
             shoot_time++;
             if (shoot_time % fire_rate == 0)
             {
-                _animator.SetTrigger("IsAttack");
+                _animator.SetTrigger(hashAttackAnim);
                 //yield return new WaitForFixedUpdate();
 
                 
@@ -100,7 +102,6 @@ public class BossMantis : MonoBehaviour
                     yield return new WaitForFixedUpdate();
 
                     rushTime++;
-
                 }
 
                 //yield return new WaitForSeconds(3f);
@@ -128,7 +129,7 @@ public class BossMantis : MonoBehaviour
         {
             if (collider.TryGetComponent<IAttackable>(out IAttackable attackable))
             {
-                attackable.AttackChangeHealth(damage);
+                attackable.AttackChangeHealth(myDamage);
             }
         }
     }
@@ -154,7 +155,7 @@ public class BossMantis : MonoBehaviour
             resurrectCheck = true;
             health = resurrectAmount;
             curSpeed = resurrectAmount;
-            damage = resurrectAmount;
+            myDamage = resurrectAmount;
         }
 
         rigid.MovePosition(rigid.position + ((Vector2)transform.position - target) * 1 * Time.deltaTime);
