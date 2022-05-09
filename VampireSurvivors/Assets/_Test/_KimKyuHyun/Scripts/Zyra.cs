@@ -6,7 +6,7 @@ using _Project.Scripts.Enemy;
 using _Project.Scripts.Player;
 using UnityEngine;
 
-public class SkullBoss : MonoBehaviour
+public class Zyra : MonoBehaviour
 {
     public LayerMask targetLayer;
     private Player _player;
@@ -19,8 +19,7 @@ public class SkullBoss : MonoBehaviour
     public int fire_rate;  //프레임기준 공격딜레이
     private int shoot_time;
     public GameObject attackPrefab;
-    public int angle; //발사각
-    public GameObject enemyObject;
+    public GameObject spawnPoint;
 
     private readonly int hashHitAnim = Animator.StringToHash("hitTrigger");
     private readonly int enemyLayer = 6;
@@ -66,16 +65,18 @@ public class SkullBoss : MonoBehaviour
                 yield return new WaitForSeconds(3f);
                 Spawn();
             }
+            /*
             else
             {
                 rigid.MovePosition(rigid.position +
                                    (Vector2)(playerPos - pos).normalized * curSpeed * Time.deltaTime);
                 _renderer.flipX = playerPos.x > pos.x;
             }
+            */
             Attack();
-            
-            
-           
+
+
+
             yield return new WaitForFixedUpdate();
             rigid.velocity = Vector2.zero;
         }
@@ -94,14 +95,16 @@ public class SkullBoss : MonoBehaviour
 
     public void Spawn()
     {
-        GameObject obj = ObjectPooler.Instance.GenerateGameObject(enemyObject);
-        obj.transform.position = transform.position;
-        obj.transform.Translate(Vector2.one * UnityEngine.Random.Range(-.3f, .3f));
+        GameObject obj = ObjectPooler.Instance.GenerateGameObject(spawnPoint);
+        obj.transform.position = new Vector2(0, 0);
+        obj.transform.Translate(Vector2.right * UnityEngine.Random.Range(-6f, 6f));
+        obj.transform.Translate(Vector2.up * UnityEngine.Random.Range(-3f, 3f));
     }
 
 
     private void Fire()
     {
+        /*
         GameObject skull_1 = ObjectPooler.Instance.GenerateGameObject(attackPrefab);
         skull_1.transform.position = transform.position;
         skull_1.transform.LookAt(_player.transform);
@@ -116,6 +119,7 @@ public class SkullBoss : MonoBehaviour
         skull_3.transform.position = transform.position;
         skull_3.transform.LookAt(_player.transform);
         skull_3.transform.Rotate(0, 90, -angle);
+        */
     }
 
     public void TakeDamage(float damage, Vector2 target)
