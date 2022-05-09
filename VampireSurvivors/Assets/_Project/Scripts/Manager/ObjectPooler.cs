@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -19,6 +20,7 @@ public class ObjectPooler : MonoBehaviour
     }
 
     private Dictionary<int,List<GameObject>> gameObjects = new Dictionary<int, List<GameObject>>();
+    private Dictionary<GameObject, Coroutine> destroyTimer = new Dictionary<GameObject, Coroutine>();
 
     #region GenerateGameObject
     public GameObject GenerateGameObject(GameObject prefab,Transform parent = null)
@@ -59,27 +61,55 @@ public class ObjectPooler : MonoBehaviour
         return gameObjects[hashKey][index];
     }
     
+
     #endregion
     #region DestroyGameObject
 
     public void AllDestroyGameObject()
     {
         foreach (var key in gameObjects.Keys)
-            for (int i = 0; i < gameObjects[key].Count; i++)
+        {
+            gameObjects[key][0].transform.parent = transform;
+            for (int i = 1; i < gameObjects[key].Count; i++)
             {
-                if (i == 0)
-                    gameObjects[key][i].transform.parent = transform;
-                else
-                    DestroyGameObject(gameObjects[key][i]);
+                DestroyGameObject(gameObjects[key][i]);
             }
+        }
     }
-    public void DestroyGameObject(GameObject prefab)
+
+    public void DestroyGameObject(GameObject prefab, float time = 0)
+    {
+        if (destroyTimer.TryGetValue(prefab, out Coroutine coroutine))
+        {
+            destroyTimer.Remove(prefab);
+            StopCoroutine(coroutine);
+        }
+        
+        if (time > 0)
+        {
+            destroyTimer.Add(prefab, StartCoroutine(DestroyRoutine(prefab, time)));
+        }
+        else
+        {
+            DestroyObject(prefab);
+        }
+
+    }
+
+    IEnumerator DestroyRoutine(GameObject prefab,float time)
+    {
+        yield return new WaitForSeconds(time);
+        DestroyObject(prefab);
+    }
+
+    private void DestroyObject(GameObject prefab)
     {
         prefab.transform.parent = transform;
         prefab.transform.position = Vector3.zero;
         prefab.transform.eulerAngles = Vector3.zero;
         prefab.SetActive(false);
     }
+    
     #endregion
 
 }
