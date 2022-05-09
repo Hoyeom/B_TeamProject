@@ -1,0 +1,528 @@
+fileFormatVersion: 2
+guid: 23d66b21f4ba4544a860e0676e546cb8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3600483785719142900
+    second: PlayStation - Castlevania Symphony of the Night - Slinger_0
+  - first:
+      213: 8103000258674825344
+    second: PlayStation - Castlevania Symphony of the Night - Slinger_1
+  - first:
+      213: -4720660758871725423
+    second: PlayStation - Castlevania Symphony of the Night - Slinger_2
+  - first:
+      213: -295833405455323675
+    second: PlayStation - Castlevania Symphony of the Night - Slinger_3
+  - first:
+      213: 89156604288404113
+    second: PlayStation - Castlevania Symphony of the Night - Slinger_4
+  - first:
+      213: 5498308967293796982
+    second: PlayStation - Castlevania Symphony of the Night - Slinger_5
+  - first:
+      213: -8247228555303061993
+    second: PlayStation - Castlevania Symphony of the Night - Slinger_6
+  - first:
+      213: 7907551765382027125
+    second: PlayStation - Castlevania Symphony of the Night - Slinger_7
+  - first:
+      213: 8338950331671253687
+    second: PlayStation - Castlevania Symphony of the Night - Slinger_8
+  - first:
+      213: 848462042661046845
+    second: PlayStation - Castlevania Symphony of the Night - Slinger_9
+  - first:
+      213: 2560683749250034781
+    second: PlayStation - Castlevania Symphony of the Night - Slinger_10
+  - first:
+      213: -7119238374865221068
+    second: PlayStation - Castlevania Symphony of the Night - Slinger_11
+  - first:
+      213: 1480608572747151606
+    second: PlayStation - Castlevania Symphony of the Night - Slinger_12
+  - first:
+      213: -6099907649106741158
+    second: PlayStation - Castlevania Symphony of the Night - Slinger_13
+  - first:
+      213: -4731188397529930226
+    second: PlayStation - Castlevania Symphony of the Night - Slinger_14
+  - first:
+      213: -2647136719472169118
+    second: PlayStation - Castlevania Symphony of the Night - Slinger_15
+  - first:
+      213: 2476077325723337804
+    second: PlayStation - Castlevania Symphony of the Night - Slinger_16
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Slinger_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 95
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0628a4b213880ec0800000000000000
+      internalID: -3600483785719142900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Slinger_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 95
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0881631cdc3a37070800000000000000
+      internalID: 8103000258674825344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Slinger_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 95
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a235a0d08dc7eb0800000000000000
+      internalID: -4720660758871725423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Slinger_3
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 104
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed242bc51df4ebf0800000000000000
+      internalID: -295833405455323675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Slinger_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 52
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a8dff857fbc3100800000000000000
+      internalID: 89156604288404113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Slinger_5
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 51
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67244ecdfdaed4c40800000000000000
+      internalID: 5498308967293796982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Slinger_6
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 51
+        width: 22
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 716f3bb1355fb8d80800000000000000
+      internalID: -8247228555303061993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Slinger_7
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 51
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577db924f644dbd60800000000000000
+      internalID: 7907551765382027125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Slinger_8
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 51
+        width: 22
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b214ee1527e9b370800000000000000
+      internalID: 8338950331671253687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Slinger_9
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 51
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ac6328bb756cb00800000000000000
+      internalID: 848462042661046845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Slinger_10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ce9288d40698320800000000000000
+      internalID: 2560683749250034781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Slinger_11
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 3
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a44dada62633d90800000000000000
+      internalID: -7119238374865221068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Slinger_12
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 3
+        width: 19
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8fdfdf6ad2c8410800000000000000
+      internalID: 1480608572747151606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Slinger_13
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 3
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a58fd44df46c85ba0800000000000000
+      internalID: -6099907649106741158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Slinger_14
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 3
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0667c72831775eb0800000000000000
+      internalID: -4731188397529930226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Slinger_15
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 3
+        width: 24
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26fe7f3cd2b734bd0800000000000000
+      internalID: -2647136719472169118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Slinger_16
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 3
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44832c753bcc5220800000000000000
+      internalID: 2476077325723337804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
