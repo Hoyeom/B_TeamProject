@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6035532388492676348}
   - component: {fileID: 6035532388492676347}
   - component: {fileID: 6035532388492676345}
+  - component: {fileID: 7280350855361663949}
   - component: {fileID: -4484544207543103327}
   m_Layer: 6
   m_Name: SkullBoss
@@ -157,7 +158,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6035532388492676344}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d613068403b24d5499c020fbda4c2818, type: 3}
   m_Name: 
@@ -176,6 +177,21 @@ MonoBehaviour:
   attackRadius: 0.3
   speed: 0
   dropExp: 20
+--- !u!114 &7280350855361663949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6035532388492676344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec4a94fecec702d47b596477fa29db20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rigid: {fileID: 0}
+  _renderer: {fileID: 0}
+  monsterSpec: {fileID: 11400000, guid: 9f9be9239251cd94882ab416918f6fb1, type: 2}
 --- !u!95 &-4484544207543103327
 Animator:
   serializedVersion: 3

@@ -14,9 +14,9 @@ public enum States
     Monster_SpAttack,
 }
 
-
-public class Medusa : FMBase
+public class FMonster : FMBase
 {
+    [HideInInspector] public float CurrentTime;
     [HideInInspector] public Rigidbody2D _rigid;
     [HideInInspector] public SpriteRenderer _renderer;
     Animator _animator;
@@ -25,10 +25,9 @@ public class Medusa : FMBase
 
     [SerializeField] public FMSpecSO monsterSpec;
 
-    private float CurrentHP;
     
-    private IState<Medusa>[] saveState;
-    private StateMachine<Medusa> stateMachine;
+    private IState<FMonster>[] saveState;
+    private StateMachine<FMonster> stateMachine;
     
     //~~~~~~~~~~~~~~ Test 테스트용 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     private void OnEnable()
@@ -45,10 +44,9 @@ public class Medusa : FMBase
 
         StateInit();
 
-        stateMachine = new StateMachine<Medusa>();
+        stateMachine = new StateMachine<FMonster>();
         stateMachine.Initialize(this, saveState[(int)States.Monster_Move]);
 
-        CurrentHP = monsterSpec.MaxHealth;
     }
 
 
@@ -56,7 +54,7 @@ public class Medusa : FMBase
     public void StateInit()
     {
         // Test 추적, 공격, 특수공격 추가하기
-        saveState = new IState<Medusa>[Enum.GetValues(typeof(States)).Length];
+        saveState = new IState<FMonster>[Enum.GetValues(typeof(States)).Length];
         saveState[(int)States.Monster_Move] = new MonsterStates.Monster_Move();
         saveState[(int)States.Monster_Attack] = new MonsterStates.Monster_Attack();
         saveState[(int)States.Monster_SpAttack] = new MonsterStates.Monster_SpAttack();

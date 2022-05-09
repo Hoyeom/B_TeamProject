@@ -28,6 +28,14 @@ public class FMSpecSO : ScriptableObject
     [SerializeField] private float attackRange;
     public float AttackRange => attackRange;
 
+    [SerializeField] private bool attackBool;
+    public bool AttackBool => attackBool;
+
+    [SerializeField] private GameObject attackprefabs;
+    public GameObject Attackprefabs => attackprefabs;
+
     [SerializeField] private LayerMask targetLayer;
     public LayerMask TarGetLayer => targetLayer;
+
+    
 }

@@ -1,3 +1,5 @@
+using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -16,13 +18,17 @@ public class MonsterContrl : MonoBehaviour
         for(int i = 0; i < monsters.Length; i++)
         {
             GameObject obj = Instantiate(monsterPrefab, transform);
-            Medusa entity = obj.GetComponent<Medusa>();
+            FMonster entity = obj.GetComponent<FMonster>();
             entity.Initialize(monsters[i]);
             entitys.Add(entity);
         }
     }
 
-    private void Update()
+    private void Start()
+    {
+    }
+
+    private void FixedUpdate()
     {
         // Test용
         for (int i = 0; i < entitys.Count; i++)
@@ -30,4 +36,5 @@ public class MonsterContrl : MonoBehaviour
             entitys[i].Updated();
         }
     }
+
 }
