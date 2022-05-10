@@ -1,0 +1,1056 @@
+fileFormatVersion: 2
+guid: 888ae7b59a4e4f84cbd11e8498f6415f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4183987470669742706
+    second: PC Computer - Ragnarok Online - Pinguicula_0
+  - first:
+      213: -3108994094377035223
+    second: PC Computer - Ragnarok Online - Pinguicula_1
+  - first:
+      213: 8621956489711966740
+    second: PC Computer - Ragnarok Online - Pinguicula_2
+  - first:
+      213: -9140064835419245537
+    second: PC Computer - Ragnarok Online - Pinguicula_3
+  - first:
+      213: -5822112721363442769
+    second: PC Computer - Ragnarok Online - Pinguicula_4
+  - first:
+      213: 4555167350617535948
+    second: PC Computer - Ragnarok Online - Pinguicula_5
+  - first:
+      213: 7056456713718003237
+    second: PC Computer - Ragnarok Online - Pinguicula_6
+  - first:
+      213: 1287981648828202281
+    second: PC Computer - Ragnarok Online - Pinguicula_7
+  - first:
+      213: -4044343325270069287
+    second: PC Computer - Ragnarok Online - Pinguicula_8
+  - first:
+      213: -354159864583786194
+    second: PC Computer - Ragnarok Online - Pinguicula_9
+  - first:
+      213: 8014252365034186845
+    second: PC Computer - Ragnarok Online - Pinguicula_10
+  - first:
+      213: 2861512261310043853
+    second: PC Computer - Ragnarok Online - Pinguicula_11
+  - first:
+      213: -2591213920359830441
+    second: PC Computer - Ragnarok Online - Pinguicula_12
+  - first:
+      213: 8181303008564416267
+    second: PC Computer - Ragnarok Online - Pinguicula_13
+  - first:
+      213: 5123260733004940873
+    second: PC Computer - Ragnarok Online - Pinguicula_14
+  - first:
+      213: 7982879074042140660
+    second: PC Computer - Ragnarok Online - Pinguicula_15
+  - first:
+      213: -6698147843578675345
+    second: PC Computer - Ragnarok Online - Pinguicula_16
+  - first:
+      213: 1118931084103707758
+    second: PC Computer - Ragnarok Online - Pinguicula_17
+  - first:
+      213: 7660296143535130820
+    second: PC Computer - Ragnarok Online - Pinguicula_18
+  - first:
+      213: -2390581614063666411
+    second: PC Computer - Ragnarok Online - Pinguicula_19
+  - first:
+      213: 2074159737747322745
+    second: PC Computer - Ragnarok Online - Pinguicula_20
+  - first:
+      213: -5402377462258171076
+    second: PC Computer - Ragnarok Online - Pinguicula_21
+  - first:
+      213: 3506530374898084485
+    second: PC Computer - Ragnarok Online - Pinguicula_23
+  - first:
+      213: -5189063988932352639
+    second: PC Computer - Ragnarok Online - Pinguicula_25
+  - first:
+      213: 903089043680420643
+    second: PC Computer - Ragnarok Online - Pinguicula_26
+  - first:
+      213: 8268975644342554058
+    second: PC Computer - Ragnarok Online - Pinguicula_27
+  - first:
+      213: -5377940472650313185
+    second: PC Computer - Ragnarok Online - Pinguicula_28
+  - first:
+      213: 4595985777536090285
+    second: PC Computer - Ragnarok Online - Pinguicula_29
+  - first:
+      213: 7536290388206258713
+    second: PC Computer - Ragnarok Online - Pinguicula_30
+  - first:
+      213: 7393872479379334692
+    second: PC Computer - Ragnarok Online - Pinguicula_31
+  - first:
+      213: -378798206905359909
+    second: PC Computer - Ragnarok Online - Pinguicula_32
+  - first:
+      213: -6760382108653760708
+    second: PC Computer - Ragnarok Online - Pinguicula_33
+  - first:
+      213: 708405171899682915
+    second: PC Computer - Ragnarok Online - Pinguicula_37
+  - first:
+      213: -4583507134234277337
+    second: PC Computer - Ragnarok Online - Pinguicula_38
+  - first:
+      213: 1317137690076381190
+    second: PC Computer - Ragnarok Online - Pinguicula_39
+  - first:
+      213: 783234750143226561
+    second: PC Computer - Ragnarok Online - Pinguicula_40
+  - first:
+      213: -9055925177751169755
+    second: PC Computer - Ragnarok Online - Pinguicula_41
+  - first:
+      213: -5792107470203994148
+    second: PC Computer - Ragnarok Online - Pinguicula_42
+  - first:
+      213: 4594108451720154741
+    second: PC Computer - Ragnarok Online - Pinguicula_43
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 40
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Pinguicula_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 436
+        width: 69
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27284f5df62801a30800000000000000
+      internalID: 4183987470669742706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Pinguicula_1
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 435
+        width: 73
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a9ed3e752aad4d0800000000000000
+      internalID: -3108994094377035223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Pinguicula_2
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 437
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ad72e0fb757a770800000000000000
+      internalID: 8621956489711966740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Pinguicula_3
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 436
+        width: 72
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14fbc45577f72180800000000000000
+      internalID: -9140064835419245537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Pinguicula_4
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 436
+        width: 69
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa369d8a353b33fa0800000000000000
+      internalID: -5822112721363442769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Pinguicula_5
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 436
+        width: 69
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5f3023294373f30800000000000000
+      internalID: 4555167350617535948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Pinguicula_6
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 435
+        width: 69
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 526f4129ef19de160800000000000000
+      internalID: 7056456713718003237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Pinguicula_7
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 436
+        width: 69
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d70af4c74dfd110800000000000000
+      internalID: 1287981648828202281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Pinguicula_8
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 412
+        width: 53
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df2e8b6c2b9fd7c0800000000000000
+      internalID: -4044343325270069287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Pinguicula_9
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 334
+        width: 69
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2178c5ca75c51bf0800000000000000
+      internalID: -354159864583786194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Pinguicula_10
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 333
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d58623e8018583f60800000000000000
+      internalID: 8014252365034186845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Pinguicula_11
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 335
+        width: 73
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc65fcf9d3226b720800000000000000
+      internalID: 2861512261310043853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Pinguicula_12
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 333
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ca7e31ba82a0cd0800000000000000
+      internalID: -2591213920359830441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Pinguicula_13
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 334
+        width: 69
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f01596db3d98170800000000000000
+      internalID: 8181303008564416267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Pinguicula_14
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 334
+        width: 69
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94687721e7a791740800000000000000
+      internalID: 5123260733004940873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Pinguicula_15
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 332
+        width: 69
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f75e250932e8ce60800000000000000
+      internalID: 7982879074042140660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Pinguicula_16
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 334
+        width: 69
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6fb17a46066b03a0800000000000000
+      internalID: -6698147843578675345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Pinguicula_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 674
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ce42484ed378f00800000000000000
+      internalID: 1118931084103707758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Pinguicula_18
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 229
+        width: 69
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8c4bda1c6de4a60800000000000000
+      internalID: 7660296143535130820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Pinguicula_19
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 229
+        width: 69
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51bb72710b2f2ded0800000000000000
+      internalID: -2390581614063666411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Pinguicula_20
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 224
+        width: 92
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977b8d7ca45e8cc10800000000000000
+      internalID: 2074159737747322745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Pinguicula_21
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 224
+        width: 100
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3386833256e605b0800000000000000
+      internalID: -5402377462258171076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Pinguicula_23
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 224
+        width: 100
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58aeaed2cc2b9a030800000000000000
+      internalID: 3506530374898084485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Pinguicula_25
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 229
+        width: 69
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1856aee7bcdbcf7b0800000000000000
+      internalID: -5189063988932352639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Pinguicula_26
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 229
+        width: 69
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3236e1153ba688c00800000000000000
+      internalID: 903089043680420643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Pinguicula_27
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 126
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd0561a98d41c270800000000000000
+      internalID: 8268975644342554058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Pinguicula_28
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 124
+        width: 70
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f125b7832a7bd55b0800000000000000
+      internalID: -5377940472650313185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Pinguicula_29
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 121
+        width: 82
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da049cec6b838cf30800000000000000
+      internalID: 4595985777536090285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Pinguicula_30
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 121
+        width: 86
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a8939dd28469860800000000000000
+      internalID: 7536290388206258713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Pinguicula_31
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 120
+        width: 91
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42621f778df4c9660800000000000000
+      internalID: 7393872479379334692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Pinguicula_32
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 124
+        width: 70
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd1e9dba90d3ebaf0800000000000000
+      internalID: -378798206905359909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Pinguicula_33
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 176
+        width: 57
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f49cb4a4c4e22a0800000000000000
+      internalID: -6760382108653760708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Pinguicula_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 27
+        width: 674
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360512420c2c4d900800000000000000
+      internalID: 708405171899682915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Pinguicula_38
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 26
+        width: 69
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a4f7ebb8c1460c0800000000000000
+      internalID: -4583507134234277337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Pinguicula_39
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 25
+        width: 70
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600084920c9674210800000000000000
+      internalID: 1317137690076381190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Pinguicula_40
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 31
+        width: 77
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c267020bdb9eda00800000000000000
+      internalID: 783234750143226561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Pinguicula_41
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 29
+        width: 69
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52510abf704e25280800000000000000
+      internalID: -9055925177751169755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Pinguicula_42
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 27
+        width: 74
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdfba9991fc4e9fa0800000000000000
+      internalID: -5792107470203994148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Pinguicula_43
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 2
+        width: 87
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e4664db4d81cf30800000000000000
+      internalID: 4594108451720154741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

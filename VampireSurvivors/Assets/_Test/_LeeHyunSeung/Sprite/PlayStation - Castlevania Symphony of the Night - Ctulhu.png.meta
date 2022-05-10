@@ -1,0 +1,1248 @@
+fileFormatVersion: 2
+guid: b22cc38006338014b9f5656358a9a615
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 924199312153574859
+    second: PlayStation - Castlevania Symphony of the Night - Ctulhu_0
+  - first:
+      213: 6711197482766030893
+    second: PlayStation - Castlevania Symphony of the Night - Ctulhu_1
+  - first:
+      213: 2864492753650379216
+    second: PlayStation - Castlevania Symphony of the Night - Ctulhu_2
+  - first:
+      213: 7763109278680084359
+    second: PlayStation - Castlevania Symphony of the Night - Ctulhu_3
+  - first:
+      213: 4146036401150290291
+    second: PlayStation - Castlevania Symphony of the Night - Ctulhu_4
+  - first:
+      213: -2822885668794893412
+    second: PlayStation - Castlevania Symphony of the Night - Ctulhu_5
+  - first:
+      213: -3289601800009925033
+    second: PlayStation - Castlevania Symphony of the Night - Ctulhu_6
+  - first:
+      213: 6797676404983322605
+    second: PlayStation - Castlevania Symphony of the Night - Ctulhu_7
+  - first:
+      213: 7253168558612576556
+    second: PlayStation - Castlevania Symphony of the Night - Ctulhu_8
+  - first:
+      213: -1312110333836927304
+    second: PlayStation - Castlevania Symphony of the Night - Ctulhu_9
+  - first:
+      213: 5356534812456259221
+    second: PlayStation - Castlevania Symphony of the Night - Ctulhu_10
+  - first:
+      213: -5168646531894003885
+    second: PlayStation - Castlevania Symphony of the Night - Ctulhu_11
+  - first:
+      213: -5688467394761908496
+    second: PlayStation - Castlevania Symphony of the Night - Ctulhu_12
+  - first:
+      213: -2552132315517652046
+    second: PlayStation - Castlevania Symphony of the Night - Ctulhu_13
+  - first:
+      213: 2089139430911257125
+    second: PlayStation - Castlevania Symphony of the Night - Ctulhu_14
+  - first:
+      213: 130351069173688701
+    second: PlayStation - Castlevania Symphony of the Night - Ctulhu_15
+  - first:
+      213: -7963816400900890988
+    second: PlayStation - Castlevania Symphony of the Night - Ctulhu_16
+  - first:
+      213: -8011325074788219661
+    second: PlayStation - Castlevania Symphony of the Night - Ctulhu_17
+  - first:
+      213: -2491610059916485628
+    second: PlayStation - Castlevania Symphony of the Night - Ctulhu_18
+  - first:
+      213: 1680052956295768338
+    second: PlayStation - Castlevania Symphony of the Night - Ctulhu_19
+  - first:
+      213: -5907019818509569503
+    second: PlayStation - Castlevania Symphony of the Night - Ctulhu_20
+  - first:
+      213: 1686359356242206947
+    second: PlayStation - Castlevania Symphony of the Night - Ctulhu_21
+  - first:
+      213: -1994268409754107660
+    second: PlayStation - Castlevania Symphony of the Night - Ctulhu_22
+  - first:
+      213: 7001485837575570898
+    second: PlayStation - Castlevania Symphony of the Night - Ctulhu_23
+  - first:
+      213: 7167213323752078992
+    second: PlayStation - Castlevania Symphony of the Night - Ctulhu_24
+  - first:
+      213: 7859246612077182709
+    second: PlayStation - Castlevania Symphony of the Night - Ctulhu_25
+  - first:
+      213: -7203412362068176708
+    second: PlayStation - Castlevania Symphony of the Night - Ctulhu_26
+  - first:
+      213: 6844598580931293515
+    second: PlayStation - Castlevania Symphony of the Night - Ctulhu_27
+  - first:
+      213: 2112754395296431819
+    second: PlayStation - Castlevania Symphony of the Night - Ctulhu_28
+  - first:
+      213: 5229607085231218050
+    second: PlayStation - Castlevania Symphony of the Night - Ctulhu_29
+  - first:
+      213: 4038924785751272974
+    second: PlayStation - Castlevania Symphony of the Night - Ctulhu_30
+  - first:
+      213: -5321942056771994422
+    second: PlayStation - Castlevania Symphony of the Night - Ctulhu_31
+  - first:
+      213: -8459464091138529090
+    second: PlayStation - Castlevania Symphony of the Night - Ctulhu_32
+  - first:
+      213: -8203827266095545543
+    second: PlayStation - Castlevania Symphony of the Night - Ctulhu_33
+  - first:
+      213: -1412892245769663678
+    second: PlayStation - Castlevania Symphony of the Night - Ctulhu_34
+  - first:
+      213: 5625189090527683364
+    second: PlayStation - Castlevania Symphony of the Night - Ctulhu_35
+  - first:
+      213: -7819445137510449620
+    second: PlayStation - Castlevania Symphony of the Night - Ctulhu_36
+  - first:
+      213: -86438316563495847
+    second: PlayStation - Castlevania Symphony of the Night - Ctulhu_37
+  - first:
+      213: 4120344764583441332
+    second: PlayStation - Castlevania Symphony of the Night - Ctulhu_38
+  - first:
+      213: 6275798932267322123
+    second: PlayStation - Castlevania Symphony of the Night - Ctulhu_39
+  - first:
+      213: -7492662120455354723
+    second: PlayStation - Castlevania Symphony of the Night - Ctulhu_40
+  - first:
+      213: -3338648972200936355
+    second: PlayStation - Castlevania Symphony of the Night - Ctulhu_41
+  - first:
+      213: 4030164099948413540
+    second: PlayStation - Castlevania Symphony of the Night - Ctulhu_42
+  - first:
+      213: -2315077173260841470
+    second: PlayStation - Castlevania Symphony of the Night - Ctulhu_43
+  - first:
+      213: 2905891768079087205
+    second: PlayStation - Castlevania Symphony of the Night - Ctulhu_44
+  - first:
+      213: -4117404956731670397
+    second: PlayStation - Castlevania Symphony of the Night - Ctulhu_45
+  - first:
+      213: 378075492359787654
+    second: PlayStation - Castlevania Symphony of the Night - Ctulhu_46
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 40
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Ctulhu_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 236
+        width: 56
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcdf296b06a63dc00800000000000000
+      internalID: 924199312153574859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Ctulhu_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 236
+        width: 55
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d28d3c99d86f22d50800000000000000
+      internalID: 6711197482766030893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Ctulhu_2
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 236
+        width: 56
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9e2039bf8b0c720800000000000000
+      internalID: 2864492753650379216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Ctulhu_3
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 236
+        width: 55
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78fe34c12ca1cbb60800000000000000
+      internalID: 7763109278680084359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Ctulhu_4
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 235
+        width: 57
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 379e664e32ea98930800000000000000
+      internalID: 4146036401150290291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Ctulhu_5
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 235
+        width: 55
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b70f5c07813d8d0800000000000000
+      internalID: -2822885668794893412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Ctulhu_6
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 235
+        width: 54
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e3ce9879cf852d0800000000000000
+      internalID: -3289601800009925033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Ctulhu_7
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 235
+        width: 55
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de7d519bca2365e50800000000000000
+      internalID: 6797676404983322605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Ctulhu_8
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 235
+        width: 51
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c297228006e68a460800000000000000
+      internalID: 7253168558612576556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Ctulhu_9
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 235
+        width: 56
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bed78d6a927acde0800000000000000
+      internalID: -1312110333836927304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Ctulhu_10
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 235
+        width: 55
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e0873280c365a40800000000000000
+      internalID: 5356534812456259221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Ctulhu_11
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 235
+        width: 56
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35737e82d574548b0800000000000000
+      internalID: -5168646531894003885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Ctulhu_12
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 220
+        width: 46
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe13d21b018e01b0800000000000000
+      internalID: -5688467394761908496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Ctulhu_13
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 254
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b376c94e21059cd0800000000000000
+      internalID: -2552132315517652046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Ctulhu_14
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 253
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a2ab16e3d1efc10800000000000000
+      internalID: 2089139430911257125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Ctulhu_15
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 253
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d79a0365b991fc100800000000000000
+      internalID: 130351069173688701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Ctulhu_16
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 253
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e5fdf6d27da7190800000000000000
+      internalID: -7963816400900890988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Ctulhu_17
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 253
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f481115a4e02d090800000000000000
+      internalID: -8011325074788219661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Ctulhu_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 124
+        width: 55
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40c53e30ad50c6dd0800000000000000
+      internalID: -2491610059916485628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Ctulhu_19
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 124
+        width: 54
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 219aadf234fb05710800000000000000
+      internalID: 1680052956295768338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Ctulhu_20
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 124
+        width: 56
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1227b8495cc060ea0800000000000000
+      internalID: -5907019818509569503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Ctulhu_21
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 124
+        width: 51
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0297856e6276710800000000000000
+      internalID: 1686359356242206947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Ctulhu_22
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 124
+        width: 56
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f0c2d9827fe254e0800000000000000
+      internalID: -1994268409754107660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Ctulhu_23
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 124
+        width: 56
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5ce9816464a2160800000000000000
+      internalID: 7001485837575570898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Ctulhu_24
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 124
+        width: 55
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e70bf5b8e077360800000000000000
+      internalID: 7167213323752078992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Ctulhu_25
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 124
+        width: 55
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe7d035727a11d60800000000000000
+      internalID: 7859246612077182709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Ctulhu_26
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 126
+        width: 51
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb0d44c3f96580c90800000000000000
+      internalID: -7203412362068176708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Ctulhu_27
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 125
+        width: 56
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b417d862526ecfe50800000000000000
+      internalID: 6844598580931293515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Ctulhu_28
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 124
+        width: 55
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcef94dbde2025d10800000000000000
+      internalID: 2112754395296431819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Ctulhu_29
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 125
+        width: 56
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d9216bfeb439840800000000000000
+      internalID: 5229607085231218050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Ctulhu_30
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 126
+        width: 51
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ea93981b42d0830800000000000000
+      internalID: 4038924785751272974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Ctulhu_31
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 126
+        width: 56
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: accb4ee65e9a426b0800000000000000
+      internalID: -5321942056771994422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Ctulhu_32
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 126
+        width: 55
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb8e381ba32f99a80800000000000000
+      internalID: -8459464091138529090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Ctulhu_33
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 127
+        width: 50
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93306b53196262e80800000000000000
+      internalID: -8203827266095545543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Ctulhu_34
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 128
+        width: 54
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24bcef00df5646ce0800000000000000
+      internalID: -1412892245769663678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Ctulhu_35
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 127
+        width: 54
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4232e4f9cafa01e40800000000000000
+      internalID: 5625189090527683364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Ctulhu_36
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 7
+        width: 55
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2eb80e9310cb7390800000000000000
+      internalID: -7819445137510449620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Ctulhu_37
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 7
+        width: 92
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 954004e1fc8eccef0800000000000000
+      internalID: -86438316563495847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Ctulhu_38
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 7
+        width: 96
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3f22d9bb76e2930800000000000000
+      internalID: 4120344764583441332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Ctulhu_39
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1
+        width: 122
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0bc197d0ed181750800000000000000
+      internalID: 6275798932267322123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Ctulhu_40
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1
+        width: 95
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d96cb30df77b40890800000000000000
+      internalID: -7492662120455354723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Ctulhu_41
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 1
+        width: 93
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c7d3ed27cbaa1d0800000000000000
+      internalID: -3338648972200936355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Ctulhu_42
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 3
+        width: 90
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46205fb65e40ee730800000000000000
+      internalID: 4030164099948413540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Ctulhu_43
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 7
+        width: 82
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e0c24a3913fdfd0800000000000000
+      internalID: -2315077173260841470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Ctulhu_44
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 7
+        width: 77
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566f510ca2dc35820800000000000000
+      internalID: 2905891768079087205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Ctulhu_45
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 6
+        width: 70
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 380839db10a0cd6c0800000000000000
+      internalID: -4117404956731670397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Ctulhu_46
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 6
+        width: 66
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 684d26c38a13f3500800000000000000
+      internalID: 378075492359787654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

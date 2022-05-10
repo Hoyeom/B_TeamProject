@@ -1,0 +1,1920 @@
+fileFormatVersion: 2
+guid: a858bfae8b95e304d94ba45b7472ef64
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6780595795889958781
+    second: PC Computer - Ragnarok Online - Ferus Green_0
+  - first:
+      213: -526190867294637290
+    second: PC Computer - Ragnarok Online - Ferus Green_1
+  - first:
+      213: 460538952889877258
+    second: PC Computer - Ragnarok Online - Ferus Green_2
+  - first:
+      213: 7458081777581118211
+    second: PC Computer - Ragnarok Online - Ferus Green_3
+  - first:
+      213: -636963522188839382
+    second: PC Computer - Ragnarok Online - Ferus Green_4
+  - first:
+      213: -1256574590831031332
+    second: PC Computer - Ragnarok Online - Ferus Green_5
+  - first:
+      213: 119283876708053749
+    second: PC Computer - Ragnarok Online - Ferus Green_6
+  - first:
+      213: 1736681947698401499
+    second: PC Computer - Ragnarok Online - Ferus Green_7
+  - first:
+      213: 7362824874051542387
+    second: PC Computer - Ragnarok Online - Ferus Green_8
+  - first:
+      213: -8048102158561216273
+    second: PC Computer - Ragnarok Online - Ferus Green_9
+  - first:
+      213: -2663395610407342226
+    second: PC Computer - Ragnarok Online - Ferus Green_10
+  - first:
+      213: 2435668941264717405
+    second: PC Computer - Ragnarok Online - Ferus Green_11
+  - first:
+      213: 4380956256543075298
+    second: PC Computer - Ragnarok Online - Ferus Green_12
+  - first:
+      213: -8178581445460503574
+    second: PC Computer - Ragnarok Online - Ferus Green_13
+  - first:
+      213: -3059535798505232794
+    second: PC Computer - Ragnarok Online - Ferus Green_14
+  - first:
+      213: -7414222182210152060
+    second: PC Computer - Ragnarok Online - Ferus Green_15
+  - first:
+      213: -2413399505778045113
+    second: PC Computer - Ragnarok Online - Ferus Green_16
+  - first:
+      213: 5489436306400820780
+    second: PC Computer - Ragnarok Online - Ferus Green_17
+  - first:
+      213: -7540452472845881560
+    second: PC Computer - Ragnarok Online - Ferus Green_18
+  - first:
+      213: 3300385932561003402
+    second: PC Computer - Ragnarok Online - Ferus Green_19
+  - first:
+      213: 5706979382248441538
+    second: PC Computer - Ragnarok Online - Ferus Green_20
+  - first:
+      213: 20829257686242254
+    second: PC Computer - Ragnarok Online - Ferus Green_21
+  - first:
+      213: -6384110600045705499
+    second: PC Computer - Ragnarok Online - Ferus Green_22
+  - first:
+      213: -1843890101010925976
+    second: PC Computer - Ragnarok Online - Ferus Green_23
+  - first:
+      213: 6918417659701931071
+    second: PC Computer - Ragnarok Online - Ferus Green_24
+  - first:
+      213: -2647965515930670970
+    second: PC Computer - Ragnarok Online - Ferus Green_25
+  - first:
+      213: -2103562296166548718
+    second: PC Computer - Ragnarok Online - Ferus Green_26
+  - first:
+      213: 2637713797062970052
+    second: PC Computer - Ragnarok Online - Ferus Green_27
+  - first:
+      213: -2884961628389757562
+    second: PC Computer - Ragnarok Online - Ferus Green_28
+  - first:
+      213: -3704803494368849656
+    second: PC Computer - Ragnarok Online - Ferus Green_29
+  - first:
+      213: 8861460718898917957
+    second: PC Computer - Ragnarok Online - Ferus Green_30
+  - first:
+      213: 7619631809517677374
+    second: PC Computer - Ragnarok Online - Ferus Green_31
+  - first:
+      213: 3733327229251378296
+    second: PC Computer - Ragnarok Online - Ferus Green_32
+  - first:
+      213: -6407173458210420155
+    second: PC Computer - Ragnarok Online - Ferus Green_33
+  - first:
+      213: -8857329736245598340
+    second: PC Computer - Ragnarok Online - Ferus Green_34
+  - first:
+      213: -6689561041920085591
+    second: PC Computer - Ragnarok Online - Ferus Green_35
+  - first:
+      213: 1761261650541098135
+    second: PC Computer - Ragnarok Online - Ferus Green_36
+  - first:
+      213: 8758041165510778666
+    second: PC Computer - Ragnarok Online - Ferus Green_37
+  - first:
+      213: -336153460398137302
+    second: PC Computer - Ragnarok Online - Ferus Green_38
+  - first:
+      213: -5325889575659867243
+    second: PC Computer - Ragnarok Online - Ferus Green_39
+  - first:
+      213: 8060468857541939270
+    second: PC Computer - Ragnarok Online - Ferus Green_40
+  - first:
+      213: -7147049087947564592
+    second: PC Computer - Ragnarok Online - Ferus Green_41
+  - first:
+      213: -7085452397681454811
+    second: PC Computer - Ragnarok Online - Ferus Green_42
+  - first:
+      213: -8441019820901363657
+    second: PC Computer - Ragnarok Online - Ferus Green_43
+  - first:
+      213: -2162569503036006345
+    second: PC Computer - Ragnarok Online - Ferus Green_44
+  - first:
+      213: -500247943711711536
+    second: PC Computer - Ragnarok Online - Ferus Green_45
+  - first:
+      213: -2604428224880445578
+    second: PC Computer - Ragnarok Online - Ferus Green_46
+  - first:
+      213: -8826097271624704278
+    second: PC Computer - Ragnarok Online - Ferus Green_47
+  - first:
+      213: -350101449591489225
+    second: PC Computer - Ragnarok Online - Ferus Green_48
+  - first:
+      213: -9098254052659009308
+    second: PC Computer - Ragnarok Online - Ferus Green_49
+  - first:
+      213: 8168958280440991368
+    second: PC Computer - Ragnarok Online - Ferus Green_50
+  - first:
+      213: -3208892429086651615
+    second: PC Computer - Ragnarok Online - Ferus Green_51
+  - first:
+      213: 4319887906823800656
+    second: PC Computer - Ragnarok Online - Ferus Green_52
+  - first:
+      213: 4066611792161885179
+    second: PC Computer - Ragnarok Online - Ferus Green_53
+  - first:
+      213: -3094336159391675236
+    second: PC Computer - Ragnarok Online - Ferus Green_54
+  - first:
+      213: 2391435811141020132
+    second: PC Computer - Ragnarok Online - Ferus Green_55
+  - first:
+      213: 1637396827993659532
+    second: PC Computer - Ragnarok Online - Ferus Green_56
+  - first:
+      213: -1552808606984567431
+    second: PC Computer - Ragnarok Online - Ferus Green_57
+  - first:
+      213: -1975312747546064985
+    second: PC Computer - Ragnarok Online - Ferus Green_58
+  - first:
+      213: -6539566100940335820
+    second: PC Computer - Ragnarok Online - Ferus Green_59
+  - first:
+      213: -2434391401816268166
+    second: PC Computer - Ragnarok Online - Ferus Green_60
+  - first:
+      213: 288222395110420920
+    second: PC Computer - Ragnarok Online - Ferus Green_61
+  - first:
+      213: 219785243649414692
+    second: PC Computer - Ragnarok Online - Ferus Green_62
+  - first:
+      213: 8011826487094275386
+    second: PC Computer - Ragnarok Online - Ferus Green_63
+  - first:
+      213: 5309809051974202632
+    second: PC Computer - Ragnarok Online - Ferus Green_64
+  - first:
+      213: 4130365755021824131
+    second: PC Computer - Ragnarok Online - Ferus Green_65
+  - first:
+      213: 8571023749858471664
+    second: PC Computer - Ragnarok Online - Ferus Green_66
+  - first:
+      213: 5754172405834274643
+    second: PC Computer - Ragnarok Online - Ferus Green_67
+  - first:
+      213: -6398338536486612516
+    second: PC Computer - Ragnarok Online - Ferus Green_68
+  - first:
+      213: 5643476339916550135
+    second: PC Computer - Ragnarok Online - Ferus Green_69
+  - first:
+      213: -3826311453727048702
+    second: PC Computer - Ragnarok Online - Ferus Green_70
+  - first:
+      213: 2349601592032437229
+    second: PC Computer - Ragnarok Online - Ferus Green_71
+  - first:
+      213: 9054604175531833392
+    second: PC Computer - Ragnarok Online - Ferus Green_72
+  - first:
+      213: -1923371255639990122
+    second: PC Computer - Ragnarok Online - Ferus Green_73
+  - first:
+      213: 7477861919934894518
+    second: PC Computer - Ragnarok Online - Ferus Green_74
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 40
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 833
+        width: 88
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 380d87c7c0c76e1a0800000000000000
+      internalID: -6780595795889958781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_1
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 832
+        width: 88
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61339dea13892b8f0800000000000000
+      internalID: -526190867294637290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_2
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 834
+        width: 85
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a034b34dcb9246600800000000000000
+      internalID: 460538952889877258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_3
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 835
+        width: 85
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3035982bcdd608760800000000000000
+      internalID: 7458081777581118211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_4
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 834
+        width: 85
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a267d052d0d0927f0800000000000000
+      internalID: -636963522188839382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_5
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 833
+        width: 88
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdb0cb73110cf8ee0800000000000000
+      internalID: -1256574590831031332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_6
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 711
+        width: 86
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f27d9acd08c7a100800000000000000
+      internalID: 119283876708053749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_7
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 713
+        width: 80
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd09564b70fe91810800000000000000
+      internalID: 1736681947698401499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_8
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 715
+        width: 73
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d904986320e2660800000000000000
+      internalID: 7362824874051542387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_9
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 716
+        width: 74
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe877ea3ab56f4090800000000000000
+      internalID: -8048102158561216273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_10
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 715
+        width: 73
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6fe559bdc7b90bd0800000000000000
+      internalID: -2663395610407342226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_11
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 713
+        width: 80
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5609825ffb3dc120800000000000000
+      internalID: 2435668941264717405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_12
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 784
+        width: 5
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb66c701884ccc30800000000000000
+      internalID: 4380956256543075298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_13
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 762
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3d9b0e187df7e80800000000000000
+      internalID: -8178581445460503574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_14
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 762
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6662180c6685a85d0800000000000000
+      internalID: -3059535798505232794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_15
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 762
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489da8f15346b1990800000000000000
+      internalID: -7414222182210152060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_16
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 762
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f0ffcafe1e18ed0800000000000000
+      internalID: -2413399505778045113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_17
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 762
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e37248c356e2c40800000000000000
+      internalID: 5489436306400820780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_18
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 759
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f2e4e4d6eea5790800000000000000
+      internalID: -7540452472845881560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_19
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 730
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a83befbf4835dcd20800000000000000
+      internalID: 3300385932561003402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_20
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 603
+        width: 90
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c68563e283433f40800000000000000
+      internalID: 5706979382248441538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_21
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 596
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec3d25979100a4000800000000000000
+      internalID: 20829257686242254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_22
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 597
+        width: 90
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e64875db351767a0800000000000000
+      internalID: -6384110600045705499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_23
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 598
+        width: 89
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8667264f8bf2966e0800000000000000
+      internalID: -1843890101010925976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_24
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 601
+        width: 89
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ca256c438230060800000000000000
+      internalID: 6918417659701931071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_25
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 601
+        width: 89
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688e77d8469804bd0800000000000000
+      internalID: -2647965515930670970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_26
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 602
+        width: 16
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b761e9c35aec2e0800000000000000
+      internalID: -2103562296166548718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_27
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 523
+        width: 110
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cac51529ba0b9420800000000000000
+      internalID: 2637713797062970052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_28
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 579
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d22352fae86f7d0800000000000000
+      internalID: -2884961628389757562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_29
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 579
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 801d48bc9d4e59cc0800000000000000
+      internalID: -3704803494368849656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_30
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 579
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5423c05e29b3afa70800000000000000
+      internalID: 8861460718898917957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_31
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 579
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b619d92ce5eb960800000000000000
+      internalID: 7619631809517677374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_32
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 576
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c52d1c5517fc330800000000000000
+      internalID: 3733327229251378296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_33
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 483
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a8e09bfa52517a0800000000000000
+      internalID: -6407173458210420155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_34
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 484
+        width: 85
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77a3947881741580800000000000000
+      internalID: -8857329736245598340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_35
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 483
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a1bf09dca7e923a0800000000000000
+      internalID: -6689561041920085591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_36
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 480
+        width: 89
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 794350db322417810800000000000000
+      internalID: 1761261650541098135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_37
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 481
+        width: 86
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f9486b900da8970800000000000000
+      internalID: 8758041165510778666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_38
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 479
+        width: 90
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2063f2753eb55bf0800000000000000
+      internalID: -336153460398137302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_39
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 525
+        width: 16
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59376d116a3a616b0800000000000000
+      internalID: -5325889575659867243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_40
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 327
+        width: 95
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 640d2e048b98cdf60800000000000000
+      internalID: 8060468857541939270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_41
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 315
+        width: 94
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d91b90a8b490dc90800000000000000
+      internalID: -7147049087947564592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_42
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 314
+        width: 142
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521d14ba59a6bad90800000000000000
+      internalID: -7085452397681454811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_43
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 326
+        width: 157
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 730942102397bda80800000000000000
+      internalID: -8441019820901363657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_44
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 332
+        width: 117
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7302279ae720df1e0800000000000000
+      internalID: -2162569503036006345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_45
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 325
+        width: 125
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de91774523ce09f0800000000000000
+      internalID: -500247943711711536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_46
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 321
+        width: 104
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677fffc04563bdbd0800000000000000
+      internalID: -2604428224880445578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_47
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 157
+        width: 91
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeed3cb4b47638580800000000000000
+      internalID: -8826097271624704278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_48
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 145
+        width: 90
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73dffb52690342bf0800000000000000
+      internalID: -350101449591489225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_49
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 156
+        width: 131
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8600bc4228cb180800000000000000
+      internalID: -9098254052659009308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_50
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 159
+        width: 129
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ecbaa6648fd5170800000000000000
+      internalID: 8168958280440991368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_51
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 165
+        width: 105
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b89d15659b773d0800000000000000
+      internalID: -3208892429086651615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_52
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 162
+        width: 116
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0570dbbd92353fb30800000000000000
+      internalID: 4319887906823800656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_53
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 157
+        width: 94
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb493f01e18f6830800000000000000
+      internalID: 4066611792161885179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_54
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 231
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c00d358a5be05d0800000000000000
+      internalID: -3094336159391675236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_55
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 210
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9653a2336103120800000000000000
+      internalID: 2391435811141020132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_56
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 210
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88d9e06db339b610800000000000000
+      internalID: 1637396827993659532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_57
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 210
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97504809cc0537ae0800000000000000
+      internalID: -1552808606984567431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_58
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 210
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7473295874694e0800000000000000
+      internalID: -1975312747546064985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_59
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 8
+        width: 87
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435d340874bce35a0800000000000000
+      internalID: -6539566100940335820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_60
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 9
+        width: 87
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72e9720bed473ed0800000000000000
+      internalID: -2434391401816268166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_61
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 20
+        width: 89
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b17ed4cdb8fff300800000000000000
+      internalID: 288222395110420920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_62
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 30
+        width: 110
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426989eb385dc0300800000000000000
+      internalID: 219785243649414692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_63
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 7
+        width: 79
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3de155ddb9bf2f60800000000000000
+      internalID: 8011826487094275386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_64
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 7
+        width: 79
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8057310433b30b940800000000000000
+      internalID: 5309809051974202632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_65
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 16
+        width: 89
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 380938445c1025930800000000000000
+      internalID: 4130365755021824131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_66
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 15
+        width: 117
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe20c370b462f670800000000000000
+      internalID: 8571023749858471664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_67
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 54
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3575b12f05deadf40800000000000000
+      internalID: 5754172405834274643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_68
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 54
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd1d50c30098437a0800000000000000
+      internalID: -6398338536486612516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_69
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 54
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff2c0ba4d7a15e40800000000000000
+      internalID: 5643476339916550135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_70
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 54
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c3798610636eac0800000000000000
+      internalID: -3826311453727048702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_71
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 38
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de329c003367b9020800000000000000
+      internalID: 2349601592032437229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_72
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 35
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038f758368a68ad70800000000000000
+      internalID: 9054604175531833392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_73
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 38
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 690a1609800de45e0800000000000000
+      internalID: -1923371255639990122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Ferus Green_74
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 35
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b1d329fbc3b6c760800000000000000
+      internalID: 7477861919934894518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

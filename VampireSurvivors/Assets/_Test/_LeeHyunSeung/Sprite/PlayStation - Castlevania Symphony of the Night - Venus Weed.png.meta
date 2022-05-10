@@ -1,0 +1,3192 @@
+fileFormatVersion: 2
+guid: 84dc8852bd546eb43a61fd0f376f09a0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3749564109655833006
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_0
+  - first:
+      213: 1490045916852043868
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_1
+  - first:
+      213: 5523068002560742796
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_2
+  - first:
+      213: 6398653690070559151
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_3
+  - first:
+      213: 2651695789288363890
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_4
+  - first:
+      213: 9029042267398956472
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_5
+  - first:
+      213: 7108950384179792381
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_6
+  - first:
+      213: -4129418463263874734
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_7
+  - first:
+      213: 122642953377091686
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_8
+  - first:
+      213: 1344197364864740315
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_9
+  - first:
+      213: 5606950342165865773
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_10
+  - first:
+      213: -8373075217880503117
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_11
+  - first:
+      213: -2142124676779808961
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_12
+  - first:
+      213: 4654636858885677696
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_13
+  - first:
+      213: -2779661221753260238
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_14
+  - first:
+      213: 4933718008210558815
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_15
+  - first:
+      213: 5567833927152807108
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_16
+  - first:
+      213: -6803783750935081573
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_17
+  - first:
+      213: -8286735923150388034
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_18
+  - first:
+      213: -4277623331627580649
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_19
+  - first:
+      213: 6740575189507248027
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_20
+  - first:
+      213: -8140148813655139366
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_21
+  - first:
+      213: -7109702012872238305
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_22
+  - first:
+      213: 5905171208804336034
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_23
+  - first:
+      213: -6439921187403309410
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_24
+  - first:
+      213: 2781652063551408029
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_25
+  - first:
+      213: 559760352587404896
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_26
+  - first:
+      213: 7967647081486948005
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_27
+  - first:
+      213: 3080728620054852864
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_28
+  - first:
+      213: -907550950583357707
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_29
+  - first:
+      213: 4736424562496170906
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_30
+  - first:
+      213: 7954157923787758974
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_31
+  - first:
+      213: -7825186282045579181
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_32
+  - first:
+      213: 6207554576918396814
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_33
+  - first:
+      213: -2182364422017357777
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_34
+  - first:
+      213: -369557651170321132
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_35
+  - first:
+      213: 9002272824060601718
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_36
+  - first:
+      213: -9121418891405177330
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_37
+  - first:
+      213: -5876343084529161782
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_38
+  - first:
+      213: 7478441969918201380
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_39
+  - first:
+      213: 7829542718703211262
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_40
+  - first:
+      213: -6724167595470647603
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_41
+  - first:
+      213: 7944803914191495405
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_42
+  - first:
+      213: -1921719342335145039
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_43
+  - first:
+      213: 1634175830340929480
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_44
+  - first:
+      213: 4713979450423016728
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_45
+  - first:
+      213: 5198474131634657030
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_46
+  - first:
+      213: -2946510013851989532
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_47
+  - first:
+      213: 3528042120664888068
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_48
+  - first:
+      213: -5831030462462274032
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_49
+  - first:
+      213: -3063688779581616150
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_50
+  - first:
+      213: 117684392291987237
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_51
+  - first:
+      213: -6311014861895775382
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_52
+  - first:
+      213: -4819828097574372680
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_53
+  - first:
+      213: -4689192322095745934
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_54
+  - first:
+      213: 1534621193638249865
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_55
+  - first:
+      213: 2542671726163088653
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_56
+  - first:
+      213: 3038464983567563077
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_57
+  - first:
+      213: 8183974592604273714
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_58
+  - first:
+      213: 6727406115519283359
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_59
+  - first:
+      213: 2814383795136255620
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_60
+  - first:
+      213: -1930300671250619891
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_61
+  - first:
+      213: -4546956502091738731
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_62
+  - first:
+      213: -6590541144705853775
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_63
+  - first:
+      213: -8777572751859709200
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_64
+  - first:
+      213: -6909205762176382577
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_65
+  - first:
+      213: -6753928404757150595
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_66
+  - first:
+      213: -5680603220296265524
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_67
+  - first:
+      213: 6672251731364913334
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_68
+  - first:
+      213: -4360701025064193359
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_69
+  - first:
+      213: -7811729622024751300
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_70
+  - first:
+      213: 2157233989532247542
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_71
+  - first:
+      213: 3998517770428927343
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_72
+  - first:
+      213: -194526446786409148
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_73
+  - first:
+      213: -7902430344775868909
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_74
+  - first:
+      213: 6239913369170569458
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_75
+  - first:
+      213: 5520853487256901482
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_76
+  - first:
+      213: 7470275568909645389
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_77
+  - first:
+      213: -751586518273131194
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_78
+  - first:
+      213: -3108838895380502148
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_79
+  - first:
+      213: -3819670384634584700
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_80
+  - first:
+      213: 1681918704593527688
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_81
+  - first:
+      213: -6398040865521171182
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_82
+  - first:
+      213: 7644714167899278506
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_83
+  - first:
+      213: -8706645864056664497
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_84
+  - first:
+      213: 1990552165261612703
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_85
+  - first:
+      213: 6414649441534201727
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_86
+  - first:
+      213: -6631615904438737567
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_87
+  - first:
+      213: 4184237075216336216
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_88
+  - first:
+      213: 3847825162826833071
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_89
+  - first:
+      213: 3434545583562701295
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_90
+  - first:
+      213: -6916282200145969042
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_91
+  - first:
+      213: -433741840928440612
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_92
+  - first:
+      213: -2019821264833752645
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_93
+  - first:
+      213: 3696138121942848541
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_94
+  - first:
+      213: 1516984170674086888
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_95
+  - first:
+      213: 3857883695450832370
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_96
+  - first:
+      213: 1979222890748031623
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_97
+  - first:
+      213: 8605111181955339229
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_98
+  - first:
+      213: -5993321881975154463
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_99
+  - first:
+      213: -4368092280450377415
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_100
+  - first:
+      213: -2395280944304441771
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_101
+  - first:
+      213: 1765302672497713325
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_102
+  - first:
+      213: 3278703910334063585
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_103
+  - first:
+      213: 1768770566920668855
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_104
+  - first:
+      213: 6488850946060640274
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_105
+  - first:
+      213: -3032196117838986121
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_106
+  - first:
+      213: -5810898895481397034
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_107
+  - first:
+      213: 4820180100159639702
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_108
+  - first:
+      213: -2712812024589330767
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_109
+  - first:
+      213: -757871195850489945
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_110
+  - first:
+      213: -4373117275472311795
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_111
+  - first:
+      213: -7033088889496440869
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_112
+  - first:
+      213: -2583861605003604331
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_113
+  - first:
+      213: 7731842298457676291
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_114
+  - first:
+      213: 8564957827379775970
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_115
+  - first:
+      213: -6936631772400852
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_116
+  - first:
+      213: 2462228890192284676
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_117
+  - first:
+      213: 8831302617313249289
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_118
+  - first:
+      213: -5719593154276556205
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_119
+  - first:
+      213: 7214417379198836552
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_120
+  - first:
+      213: 5585936007643160561
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_121
+  - first:
+      213: -1823490831214018688
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_122
+  - first:
+      213: 1850084912314784424
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_123
+  - first:
+      213: -2146082305913225103
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_124
+  - first:
+      213: 9132623717839515642
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_125
+  - first:
+      213: -122031958088476884
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_126
+  - first:
+      213: -1970070264391470610
+    second: PlayStation - Castlevania Symphony of the Night - Venus Weed_127
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 635
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256096dee4fd6fbc0800000000000000
+      internalID: -3749564109655833006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_1
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 635
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c50ccf4edd4bda410800000000000000
+      internalID: 1490045916852043868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_2
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 634
+        width: 54
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8595faf511e5ac40800000000000000
+      internalID: 5523068002560742796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_3
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 633
+        width: 42
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9e56d21a59cc850800000000000000
+      internalID: 6398653690070559151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_4
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 632
+        width: 43
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2779ee46547bcc420800000000000000
+      internalID: 2651695789288363890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_5
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 631
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b56d42ba1a9d4d70800000000000000
+      internalID: 9029042267398956472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_6
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 631
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df9c9e6a5b018a260800000000000000
+      internalID: 7108950384179792381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_7
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 631
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 251a73849cb51b6c0800000000000000
+      internalID: -4129418463263874734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_8
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 631
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6601f36cd17b3b100800000000000000
+      internalID: 122642953377091686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_9
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 632
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb67c8a16c87a210800000000000000
+      internalID: 1344197364864740315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_10
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 633
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d252d0a11a3efcd40800000000000000
+      internalID: 5606950342165865773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 577
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bc2b98a37cdccb80800000000000000
+      internalID: -8373075217880503117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_12
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 578
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f37e0f7b4f4a542e0800000000000000
+      internalID: -2142124676779808961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_13
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 577
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0822254df87989040800000000000000
+      internalID: 4654636858885677696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_14
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 577
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 237f77998d8ac69d0800000000000000
+      internalID: -2779661221753260238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_15
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 578
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f86557366187440800000000000000
+      internalID: 4933718008210558815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_16
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 579
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ccaf44057be44d40800000000000000
+      internalID: 5567833927152807108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_17
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 579
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d80fcf9ba1491a0800000000000000
+      internalID: -6803783750935081573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_18
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 579
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4072935999ffc80800000000000000
+      internalID: -8286735923150388034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_19
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 579
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7134a636e34d2a4c0800000000000000
+      internalID: -4277623331627580649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 520
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f0468fb655b8d50800000000000000
+      internalID: 6740575189507248027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_21
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 519
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb944748c1680f80800000000000000
+      internalID: -8140148813655139366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_22
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 520
+        width: 54
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1bded720b3455d90800000000000000
+      internalID: -7109702012872238305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_23
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 520
+        width: 52
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a185ae6de163f150800000000000000
+      internalID: 5905171208804336034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_24
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 521
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e505bdccdc0a6a0800000000000000
+      internalID: -6439921187403309410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_25
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 521
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d97c6b060d96a9620800000000000000
+      internalID: 2781652063551408029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_26
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 521
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066d15f231ba4c700800000000000000
+      internalID: 559760352587404896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_27
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 521
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a615b36ec4c29e60800000000000000
+      internalID: 7967647081486948005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_28
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 520
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005bfb78b52f0ca20800000000000000
+      internalID: 3080728620054852864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_29
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 519
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe29e6083bb763f0800000000000000
+      internalID: -907550950583357707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_30
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 519
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9be4018b092bb140800000000000000
+      internalID: 4736424562496170906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_31
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 449
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d5abe1d78d26e60800000000000000
+      internalID: 7954157923787758974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_32
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 449
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350e96d398a576390800000000000000
+      internalID: -7825186282045579181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_33
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 448
+        width: 54
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f3219aff9a52650800000000000000
+      internalID: 6207554576918396814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_34
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 447
+        width: 42
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f28643fee1fa6b1e0800000000000000
+      internalID: -2182364422017357777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_35
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 446
+        width: 43
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d17f536411fdaf0800000000000000
+      internalID: -369557651170321132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_36
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 445
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675e849ff6f7eec70800000000000000
+      internalID: 9002272824060601718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_37
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 445
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ec14a78d53a6180800000000000000
+      internalID: -9121418891405177330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_38
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 445
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac9e05c4919037ea0800000000000000
+      internalID: -5876343084529161782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_39
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 445
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ec8526953c8c760800000000000000
+      internalID: 7478441969918201380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_40
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 446
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef21d06be9f18ac60800000000000000
+      internalID: 7829542718703211262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_41
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 447
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce87c5b235fea2a0800000000000000
+      internalID: -6724167595470647603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_42
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 391
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0648b011d914e60800000000000000
+      internalID: 7944803914191495405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_43
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 392
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bbcd1a907ea455e0800000000000000
+      internalID: -1921719342335145039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_44
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 391
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c7000c6242cda610800000000000000
+      internalID: 1634175830340929480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_45
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 391
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d74fc955b6b6140800000000000000
+      internalID: 4713979450423016728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_46
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 392
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60714261ea0b42840800000000000000
+      internalID: 5198474131634657030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_47
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 393
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e98831f0c4eb17d0800000000000000
+      internalID: -2946510013851989532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_48
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 393
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403b8dacd9f16f030800000000000000
+      internalID: 3528042120664888068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_49
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 393
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 016547240b4041fa0800000000000000
+      internalID: -5831030462462274032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_50
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 393
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef00be79479b75d0800000000000000
+      internalID: -3063688779581616150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_51
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 334
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52feb2ec45912a100800000000000000
+      internalID: 117684392291987237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_52
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 333
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6bcd789b65ca68a0800000000000000
+      internalID: -6311014861895775382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_53
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 334
+        width: 54
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8baf1adb1e78c1db0800000000000000
+      internalID: -4819828097574372680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_54
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 334
+        width: 52
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2747efd6d64aceeb0800000000000000
+      internalID: -4689192322095745934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_55
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 335
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985089748d11c4510800000000000000
+      internalID: 1534621193638249865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_56
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 335
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d05516a9672694320800000000000000
+      internalID: 2542671726163088653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_57
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 335
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549f108ddcbca2a20800000000000000
+      internalID: 3038464983567563077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_58
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 335
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23cfffa0881539170800000000000000
+      internalID: 8183974592604273714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_59
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 334
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f90415ff73c8c5d50800000000000000
+      internalID: 6727406115519283359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_60
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 333
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48656b28623be0720800000000000000
+      internalID: 2814383795136255620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_61
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 333
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02a86444c13635e0800000000000000
+      internalID: -1930300671250619891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_62
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 263
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5915ba3f627f5e0c0800000000000000
+      internalID: -4546956502091738731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_63
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 263
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b616304fb1b984a0800000000000000
+      internalID: -6590541144705853775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_64
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 262
+        width: 54
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa0147761ccf2680800000000000000
+      internalID: -8777572751859709200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_65
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 261
+        width: 42
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89056147f19d10a0800000000000000
+      internalID: -6909205762176382577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_66
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 260
+        width: 43
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74870456e93542a0800000000000000
+      internalID: -6753928404757150595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_67
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 259
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc01d40e7717a21b0800000000000000
+      internalID: -5680603220296265524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_68
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 259
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b0adfb3999989c50800000000000000
+      internalID: 6672251731364913334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_69
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 259
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b2fd5d858dab73c0800000000000000
+      internalID: -4360701025064193359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_70
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 259
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3771dd0c49279390800000000000000
+      internalID: -7811729622024751300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_71
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 260
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f5e77b42e800fd10800000000000000
+      internalID: 2157233989532247542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_72
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 261
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6dc0862ab69d7730800000000000000
+      internalID: 3998517770428927343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_73
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 205
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d80ef2a37ec4df0800000000000000
+      internalID: -194526446786409148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_74
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 206
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31edd55687de45290800000000000000
+      internalID: -7902430344775868909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_75
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 205
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f86f961620a89650800000000000000
+      internalID: 6239913369170569458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_76
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 205
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a679ce4fef20e9c40800000000000000
+      internalID: 5520853487256901482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_77
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 206
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46732bfc00cba760800000000000000
+      internalID: 7470275568909645389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_78
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 207
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d7b503b04d195f0800000000000000
+      internalID: -751586518273131194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_79
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 207
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c796de8fe7f2bd4d0800000000000000
+      internalID: -3108838895380502148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_80
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 207
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 481a6ccc50ecdfac0800000000000000
+      internalID: -3819670384634584700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_81
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 207
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 883e1609620675710800000000000000
+      internalID: 1681918704593527688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_82
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 148
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2158d282bb79537a0800000000000000
+      internalID: -6398040865521171182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_83
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 147
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac4803480b771a60800000000000000
+      internalID: 7644714167899278506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_84
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 148
+        width: 54
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e47c767b7cb2780800000000000000
+      internalID: -8706645864056664497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_85
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 148
+        width: 52
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f969d4dd5acdf9b10800000000000000
+      internalID: 1990552165261612703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_86
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 149
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7fcd494ea9650950800000000000000
+      internalID: 6414649441534201727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_87
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 149
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16529118874c7f3a0800000000000000
+      internalID: -6631615904438737567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_88
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 149
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8550a4c6375611a30800000000000000
+      internalID: 4184237075216336216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_89
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 149
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac5a145998366530800000000000000
+      internalID: 3847825162826833071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_90
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 148
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe93421e205f9af20800000000000000
+      internalID: 3434545583562701295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_91
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 147
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6041f5abfd6400a0800000000000000
+      internalID: -6916282200145969042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_92
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 147
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde7c3ff71a0bf9f0800000000000000
+      internalID: -433741840928440612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_93
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2
+        width: 108
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1ddc7d24728f3e0800000000000000
+      internalID: -2019821264833752645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_94
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 56
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d14de27f9025b4330800000000000000
+      internalID: 3696138121942848541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_95
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 31
+        width: 38
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e36beed0196d0510800000000000000
+      internalID: 1516984170674086888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_96
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 56
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd3e14f7c4f98530800000000000000
+      internalID: 3857883695450832370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_97
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 56
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782bb569bbc977b10800000000000000
+      internalID: 1979222890748031623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_98
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 56
+        width: 15
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd39035370f7b6770800000000000000
+      internalID: 8605111181955339229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_99
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 56
+        width: 30
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e89b48908173dca0800000000000000
+      internalID: -5993321881975154463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_100
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 56
+        width: 28
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93911adc63b6163c0800000000000000
+      internalID: -4368092280450377415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_101
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 56
+        width: 32
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 556b8710ca042ced0800000000000000
+      internalID: -2395280944304441771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_102
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 56
+        width: 28
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0264b7d6d9f7810800000000000000
+      internalID: 1765302672497713325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_103
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 56
+        width: 30
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3652bc5db408d20800000000000000
+      internalID: 3278703910334063585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_104
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 56
+        width: 28
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b60972957feb8810800000000000000
+      internalID: 1768770566920668855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_105
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 56
+        width: 32
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210e6685e870d0a50800000000000000
+      internalID: 6488850946060640274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_106
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 56
+        width: 28
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77483e232b97be5d0800000000000000
+      internalID: -3032196117838986121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_107
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 56
+        width: 30
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d02f15fd3a8b5fa0800000000000000
+      internalID: -5810898895481397034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_108
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 56
+        width: 28
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6901c6f3348b4e240800000000000000
+      internalID: 4820180100159639702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_109
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 56
+        width: 32
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b6d1f336d72a5ad0800000000000000
+      internalID: -2712812024589330767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_110
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 56
+        width: 28
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7afb4d9a9208b75f0800000000000000
+      internalID: -757871195850489945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_111
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 56
+        width: 30
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0a495af1019f43c0800000000000000
+      internalID: -4373117275472311795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_112
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 16
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf61dbfae2756e90800000000000000
+      internalID: -7033088889496440869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_113
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 2
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e4df46f87442cd0800000000000000
+      internalID: -2583861605003604331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_114
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 2
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ad8eafa950d4b60800000000000000
+      internalID: 7731842298457676291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_115
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 2
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e94c21d3c7dcd670800000000000000
+      internalID: 8564957827379775970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_116
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 2
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23b44f8b2b57eff0800000000000000
+      internalID: -6936631772400852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_117
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 2
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40c8d9351289b2220800000000000000
+      internalID: 2462228890192284676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_118
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 2
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9080fe0b0f61f8a70800000000000000
+      internalID: 8831302617313249289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_119
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 2
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3520793745cef90b0800000000000000
+      internalID: -5719593154276556205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_120
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 2
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f1d8cf162ce1460800000000000000
+      internalID: 7214417379198836552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_121
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 2
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff52a1143b358d40800000000000000
+      internalID: 5585936007643160561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_122
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 2
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f7e4210c8a1b6e0800000000000000
+      internalID: -1823490831214018688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_123
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 2
+        width: 52
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa15d2fc62dca910800000000000000
+      internalID: 1850084912314784424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_124
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1708a4163859732e0800000000000000
+      internalID: -2146082305913225103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_125
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 2
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: affa12972e89dbe70800000000000000
+      internalID: 9132623717839515642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_126
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 2
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2714e6a4947e4ef0800000000000000
+      internalID: -122031958088476884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Venus Weed_127
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 2
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee1f26c4887e8a4e0800000000000000
+      internalID: -1970070264391470610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
