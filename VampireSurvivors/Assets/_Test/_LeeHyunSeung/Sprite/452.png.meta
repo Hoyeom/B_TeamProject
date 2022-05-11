@@ -1,247 +1,301 @@
 fileFormatVersion: 2
-guid: 1465fef21f6771242a7a8d629a325fd9
+guid: 52d1d2550a79b994daa685d4744407cd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3858919424759039549
-    second: PC Computer - Ragnarok Online - Grove_0
+      213: 999195538477104452
+    second: 452_0
   - first:
-      213: 4113424687109950523
-    second: PC Computer - Ragnarok Online - Grove_1
+      213: -6203810904107792574
+    second: 452_1
   - first:
-      213: 3704223596446849425
-    second: PC Computer - Ragnarok Online - Grove_2
+      213: -2245061798586624485
+    second: 452_2
   - first:
-      213: -636855814032706136
-    second: PC Computer - Ragnarok Online - Grove_3
+      213: -3706557154710595957
+    second: 452_3
   - first:
-      213: -5771115436033697727
-    second: PC Computer - Ragnarok Online - Grove_4
+      213: -1051268886161889873
+    second: 452_4
   - first:
-      213: 2654004427991594357
-    second: PC Computer - Ragnarok Online - Grove_5
+      213: -5263127266143145552
+    second: 452_5
   - first:
-      213: -1018497376762468666
-    second: PC Computer - Ragnarok Online - Grove_6
+      213: 1082296120298391365
+    second: 452_6
   - first:
-      213: 7070818415430239754
-    second: PC Computer - Ragnarok Online - Grove_7
+      213: 8645328131318258297
+    second: 452_7
   - first:
-      213: -6625628882255776281
-    second: PC Computer - Ragnarok Online - Grove_8
+      213: 3482010683187747032
+    second: 452_8
   - first:
-      213: 6088406785306400290
-    second: PC Computer - Ragnarok Online - Grove_9
+      213: 8566225800178157033
+    second: 452_9
   - first:
-      213: 7662762933000267480
-    second: PC Computer - Ragnarok Online - Grove_10
+      213: -9122299341714028654
+    second: 452_10
   - first:
-      213: 1653068929120786599
-    second: PC Computer - Ragnarok Online - Grove_11
+      213: 7602270565223354774
+    second: 452_11
   - first:
-      213: -1357551848541267558
-    second: PC Computer - Ragnarok Online - Grove_12
+      213: -4834974195947960279
+    second: 452_12
   - first:
-      213: -104060762846916028
-    second: PC Computer - Ragnarok Online - Grove_13
+      213: -2675443617000990526
+    second: 452_13
   - first:
-      213: -2475678832007492766
-    second: PC Computer - Ragnarok Online - Grove_14
+      213: -6761772489064564933
+    second: 452_14
   - first:
-      213: 6800148018354814458
-    second: PC Computer - Ragnarok Online - Grove_15
+      213: -2287988128983930990
+    second: 452_15
   - first:
-      213: 140876073998730386
-    second: PC Computer - Ragnarok Online - Grove_16
+      213: -710922668779112597
+    second: 452_16
   - first:
-      213: 6857974487705893880
-    second: PC Computer - Ragnarok Online - Grove_17
+      213: 6466078592977446652
+    second: 452_17
   - first:
-      213: 1997188084752989834
-    second: PC Computer - Ragnarok Online - Grove_18
+      213: -6351218284310492954
+    second: 452_18
   - first:
-      213: -5986374395025307913
-    second: PC Computer - Ragnarok Online - Grove_19
+      213: 6226569352898746118
+    second: 452_19
   - first:
-      213: 2562386412020834546
-    second: PC Computer - Ragnarok Online - Grove_20
+      213: 4475701841767003452
+    second: 452_20
   - first:
-      213: -4898403326646852755
-    second: PC Computer - Ragnarok Online - Grove_21
+      213: 6841740266885508107
+    second: 452_21
   - first:
-      213: 8789419021764579426
-    second: PC Computer - Ragnarok Online - Grove_22
+      213: -9014544760269418401
+    second: 452_22
   - first:
-      213: -3020591264537914923
-    second: PC Computer - Ragnarok Online - Grove_23
+      213: -6988469768694811208
+    second: 452_23
   - first:
-      213: 7633260985184998617
-    second: PC Computer - Ragnarok Online - Grove_24
+      213: 2374225095780812817
+    second: 452_24
   - first:
-      213: 1389338104019751241
-    second: PC Computer - Ragnarok Online - Grove_25
+      213: 1976430884071801789
+    second: 452_25
   - first:
-      213: -619760689921359136
-    second: PC Computer - Ragnarok Online - Grove_26
+      213: -7499601872458324946
+    second: 452_26
   - first:
-      213: 6664926867539854683
-    second: PC Computer - Ragnarok Online - Grove_27
+      213: -7852346511207932793
+    second: 452_27
   - first:
-      213: -5154604794978861510
-    second: PC Computer - Ragnarok Online - Grove_28
+      213: -9097815440817400969
+    second: 452_28
   - first:
-      213: -1102153397725645664
-    second: PC Computer - Ragnarok Online - Grove_29
+      213: 736225097645666870
+    second: 452_29
   - first:
-      213: -3500100205919104168
-    second: PC Computer - Ragnarok Online - Grove_30
+      213: -2917304733169180036
+    second: 452_30
   - first:
-      213: 643838248978001798
-    second: PC Computer - Ragnarok Online - Grove_31
+      213: 4056807740310232769
+    second: 452_31
   - first:
-      213: -6240147369033486238
-    second: PC Computer - Ragnarok Online - Grove_32
+      213: -8140276968373415690
+    second: 452_32
   - first:
-      213: -1484669342371148443
-    second: PC Computer - Ragnarok Online - Grove_33
+      213: -3275897363134070400
+    second: 452_33
   - first:
-      213: 8529446530272701861
-    second: PC Computer - Ragnarok Online - Grove_34
+      213: -2867942159921201165
+    second: 452_34
   - first:
-      213: -6122176692729414622
-    second: PC Computer - Ragnarok Online - Grove_35
+      213: -3321738376346538679
+    second: 452_35
   - first:
-      213: 2522037012617877557
-    second: PC Computer - Ragnarok Online - Grove_36
+      213: -8165253241846844729
+    second: 452_36
   - first:
-      213: -5702306449620372797
-    second: PC Computer - Ragnarok Online - Grove_37
+      213: 6521927542510747836
+    second: 452_37
   - first:
-      213: -8145611987542600966
-    second: PC Computer - Ragnarok Online - Grove_38
+      213: -1030875174556066916
+    second: 452_38
   - first:
-      213: -439903030366085176
-    second: PC Computer - Ragnarok Online - Grove_39
+      213: -6785948222603279589
+    second: 452_39
   - first:
-      213: 9052249137243452353
-    second: PC Computer - Ragnarok Online - Grove_40
+      213: 7325197853584665891
+    second: 452_40
   - first:
-      213: 113893320520131750
-    second: PC Computer - Ragnarok Online - Grove_41
+      213: -2080881864626898693
+    second: 452_41
   - first:
-      213: 5530488498235953747
-    second: PC Computer - Ragnarok Online - Grove_42
+      213: 5631370220988477520
+    second: 452_42
   - first:
-      213: 4696095665424672314
-    second: PC Computer - Ragnarok Online - Grove_43
+      213: 5440993458971277551
+    second: 452_43
   - first:
-      213: 4697906552202004664
-    second: PC Computer - Ragnarok Online - Grove_44
+      213: -8585482008227163469
+    second: 452_44
   - first:
-      213: -4352014382259082406
-    second: PC Computer - Ragnarok Online - Grove_45
+      213: 8598533514878613205
+    second: 452_45
   - first:
-      213: -3939327214357354126
-    second: PC Computer - Ragnarok Online - Grove_46
+      213: -3646387651945276388
+    second: 452_46
   - first:
-      213: -344364185744517336
-    second: PC Computer - Ragnarok Online - Grove_47
+      213: 3376219314404854457
+    second: 452_47
   - first:
-      213: 8411979927092616001
-    second: PC Computer - Ragnarok Online - Grove_48
+      213: 5822711651576859354
+    second: 452_48
   - first:
-      213: 3564029209704877975
-    second: PC Computer - Ragnarok Online - Grove_49
+      213: -3548047375854233156
+    second: 452_49
   - first:
-      213: -792726622668992406
-    second: PC Computer - Ragnarok Online - Grove_50
+      213: -5736477905607373568
+    second: 452_50
   - first:
-      213: -5133104452635807553
-    second: PC Computer - Ragnarok Online - Grove_51
+      213: 3493322569704395425
+    second: 452_51
   - first:
-      213: -1089087502576651942
-    second: PC Computer - Ragnarok Online - Grove_52
+      213: -465550472011256152
+    second: 452_52
   - first:
-      213: 6301436810189503123
-    second: PC Computer - Ragnarok Online - Grove_53
+      213: 3705860375148392029
+    second: 452_53
   - first:
-      213: 4743292875349048030
-    second: PC Computer - Ragnarok Online - Grove_54
+      213: -468175278412308597
+    second: 452_54
   - first:
-      213: -2794753318651312658
-    second: PC Computer - Ragnarok Online - Grove_55
+      213: 1068413287501769696
+    second: 452_55
   - first:
-      213: 2439887705979778557
-    second: PC Computer - Ragnarok Online - Grove_56
+      213: -983319692515844177
+    second: 452_56
   - first:
-      213: 4964654373746549189
-    second: PC Computer - Ragnarok Online - Grove_57
+      213: -1326000334054077305
+    second: 452_57
   - first:
-      213: -4394464042176793621
-    second: PC Computer - Ragnarok Online - Grove_58
+      213: 6417790274213398135
+    second: 452_58
   - first:
-      213: 7254539237508548580
-    second: PC Computer - Ragnarok Online - Grove_59
+      213: -6670713871550511747
+    second: 452_59
   - first:
-      213: 2356913945881327058
-    second: PC Computer - Ragnarok Online - Grove_60
+      213: 8287081662990828367
+    second: 452_60
   - first:
-      213: 2543164377780219054
-    second: PC Computer - Ragnarok Online - Grove_61
+      213: 6308768606805272966
+    second: 452_61
   - first:
-      213: 3725538520904562539
-    second: PC Computer - Ragnarok Online - Grove_62
+      213: 2311566309509256098
+    second: 452_62
   - first:
-      213: -872973476574700694
-    second: PC Computer - Ragnarok Online - Grove_63
+      213: -5254111212003420707
+    second: 452_63
   - first:
-      213: 6813716715984563620
-    second: PC Computer - Ragnarok Online - Grove_64
+      213: -5894404255869784
+    second: 452_64
   - first:
-      213: -2137582194972729713
-    second: PC Computer - Ragnarok Online - Grove_65
+      213: 3534657220477438801
+    second: 452_65
   - first:
-      213: -5104603117091305933
-    second: PC Computer - Ragnarok Online - Grove_66
+      213: -125983697608273048
+    second: 452_66
   - first:
-      213: -4339577265596477210
-    second: PC Computer - Ragnarok Online - Grove_67
+      213: -361799244865068317
+    second: 452_67
   - first:
-      213: 6012564553169915054
-    second: PC Computer - Ragnarok Online - Grove_68
+      213: 6727345125954071118
+    second: 452_68
   - first:
-      213: 4121892580118584451
-    second: PC Computer - Ragnarok Online - Grove_69
+      213: 5913634222792739048
+    second: 452_69
   - first:
-      213: -9078665501206531175
-    second: PC Computer - Ragnarok Online - Grove_70
+      213: -1024876300533388174
+    second: 452_70
   - first:
-      213: -8696277844951440160
-    second: PC Computer - Ragnarok Online - Grove_71
+      213: -4353477871860123263
+    second: 452_71
   - first:
-      213: -34066042689288648
-    second: PC Computer - Ragnarok Online - Grove_72
+      213: -6217858403672278938
+    second: 452_72
   - first:
-      213: -6576341343386673342
-    second: PC Computer - Ragnarok Online - Grove_73
+      213: -5760109899544012284
+    second: 452_73
   - first:
-      213: 2226454683299395060
-    second: PC Computer - Ragnarok Online - Grove_74
+      213: -9084521257753358277
+    second: 452_74
   - first:
-      213: 2232111643831347356
-    second: PC Computer - Ragnarok Online - Grove_75
+      213: -8512092063905147059
+    second: 452_75
   - first:
-      213: 7711686701436915541
-    second: PC Computer - Ragnarok Online - Grove_76
+      213: -5436870890174310141
+    second: 452_76
   - first:
-      213: -2595157708545750947
-    second: PC Computer - Ragnarok Online - Grove_77
+      213: 7530212808276110110
+    second: 452_77
   - first:
-      213: 956393408641154736
-    second: PC Computer - Ragnarok Online - Grove_78
+      213: -4628216927798678909
+    second: 452_78
   - first:
-      213: -5552714199694733102
-    second: PC Computer - Ragnarok Online - Grove_79
+      213: 8595744340557064979
+    second: 452_79
+  - first:
+      213: 8618972037225011134
+    second: 452_80
+  - first:
+      213: -7661982654504996254
+    second: 452_81
+  - first:
+      213: 6660943816993925110
+    second: 452_82
+  - first:
+      213: 5240983814973190657
+    second: 452_83
+  - first:
+      213: -6003535686755916589
+    second: 452_84
+  - first:
+      213: -3403509212728012127
+    second: 452_85
+  - first:
+      213: -7581833988430997771
+    second: 452_86
+  - first:
+      213: 4181153555587076949
+    second: 452_87
+  - first:
+      213: -6330182257519709045
+    second: 452_88
+  - first:
+      213: -8503327458617791884
+    second: 452_89
+  - first:
+      213: -1128805073160074483
+    second: 452_90
+  - first:
+      213: -4894179683201856843
+    second: 452_91
+  - first:
+      213: 4040203080595397613
+    second: 452_92
+  - first:
+      213: -7761970143129576956
+    second: 452_93
+  - first:
+      213: -1472388083223131012
+    second: 452_94
+  - first:
+      213: -4085906315469897865
+    second: 452_95
+  - first:
+      213: -188182244703660801
+    second: 452_96
+  - first:
+      213: -5414642748728811436
+    second: 452_97
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -343,12 +397,180 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_0
+      name: 452_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 691
-        width: 96
+        x: 61
+        y: 1059
+        width: 131
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d351c5c0bdddd00800000000000000
+      internalID: 999195538477104452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_1
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1058
+        width: 137
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 247c5f61ad2a7e9a0800000000000000
+      internalID: -6203810904107792574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1059
+        width: 144
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b16d1746030f7d0e0800000000000000
+      internalID: -2245061798586624485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_3
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 1061
+        width: 139
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b86dacde7e9af8cc0800000000000000
+      internalID: -3706557154710595957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_4
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1071
+        width: 133
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa566e494842961f0800000000000000
+      internalID: -1051268886161889873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_5
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 1068
+        width: 137
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b17dddf2ad95f6b0800000000000000
+      internalID: -5263127266143145552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_6
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 1067
+        width: 144
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5474b205696150f00800000000000000
+      internalID: 1082296120298391365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_7
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 949
+        width: 136
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a9ae961206af770800000000000000
+      internalID: 8645328131318258297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_8
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 939
+        width: 105
         height: 87
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -357,20 +579,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d360e9975c2ad8530800000000000000
-      internalID: 3858919424759039549
+      spriteID: 8d855839446925030800000000000000
+      internalID: 3482010683187747032
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_1
+      name: 452_9
       rect:
         serializedVersion: 2
-        x: 147
-        y: 691
-        width: 95
-        height: 87
+        x: 330
+        y: 942
+        width: 117
+        height: 84
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -378,20 +600,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3cc28585f1d51930800000000000000
-      internalID: 4113424687109950523
+      spriteID: 9e5c76dbaf851e670800000000000000
+      internalID: 8566225800178157033
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_2
+      name: 452_10
       rect:
         serializedVersion: 2
-        x: 278
-        y: 691
+        x: 467
+        y: 948
+        width: 133
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2970b5aa415176180800000000000000
+      internalID: -9122299341714028654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_11
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 938
         width: 94
-        height: 86
+        height: 95
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -399,628 +642,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19995d23cbb086330800000000000000
-      internalID: 3704223596446849425
+      spriteID: 691db8eecc0b08960800000000000000
+      internalID: 7602270565223354774
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_3
+      name: 452_12
       rect:
         serializedVersion: 2
-        x: 408
-        y: 692
-        width: 93
-        height: 85
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8a53077e20f6927f0800000000000000
-      internalID: -636855814032706136
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_4
-      rect:
-        serializedVersion: 2
-        x: 536
-        y: 691
-        width: 97
-        height: 87
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 148107d6611e8efa0800000000000000
-      internalID: -5771115436033697727
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_5
-      rect:
-        serializedVersion: 2
-        x: 667
-        y: 691
-        width: 96
-        height: 87
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 575b0ca37fae4d420800000000000000
-      internalID: 2654004427991594357
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_6
-      rect:
-        serializedVersion: 2
-        x: 795
-        y: 691
-        width: 99
-        height: 86
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6c6e76538029dd1f0800000000000000
-      internalID: -1018497376762468666
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_7
-      rect:
-        serializedVersion: 2
-        x: 925
-        y: 691
-        width: 99
-        height: 86
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a068203d2e7902260800000000000000
-      internalID: 7070818415430239754
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_8
-      rect:
-        serializedVersion: 2
-        x: 1055
-        y: 692
-        width: 100
-        height: 85
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7e5739bb2a90d04a0800000000000000
-      internalID: -6625628882255776281
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_9
-      rect:
-        serializedVersion: 2
-        x: 1186
-        y: 691
-        width: 98
-        height: 86
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2261446a6bd5e7450800000000000000
-      internalID: 6088406785306400290
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_10
-      rect:
-        serializedVersion: 2
-        x: 1317
-        y: 698
-        width: 21
-        height: 29
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8d6e28bd94a975a60800000000000000
-      internalID: 7662762933000267480
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_11
-      rect:
-        serializedVersion: 2
-        x: 1317
-        y: 683
-        width: 11
-        height: 10
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7a8da75ce61e0f610800000000000000
-      internalID: 1653068929120786599
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_12
-      rect:
-        serializedVersion: 2
-        x: 1330
-        y: 683
-        width: 5
-        height: 7
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a99d58f49c1092de0800000000000000
-      internalID: -1357551848541267558
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_13
-      rect:
-        serializedVersion: 2
-        x: 1337
-        y: 683
-        width: 5
-        height: 7
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 442147b994d4e8ef0800000000000000
-      internalID: -104060762846916028
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_14
-      rect:
-        serializedVersion: 2
-        x: 1344
-        y: 683
-        width: 5
-        height: 10
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 26b4d30183f94add0800000000000000
-      internalID: -2475678832007492766
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_15
-      rect:
-        serializedVersion: 2
-        x: 31
-        y: 574
-        width: 68
-        height: 80
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: afd7d1e089afe5e50800000000000000
-      internalID: 6800148018354814458
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_16
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 574
-        width: 69
-        height: 80
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 294cb0cfa0e74f100800000000000000
-      internalID: 140876073998730386
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_17
-      rect:
-        serializedVersion: 2
-        x: 290
-        y: 575
-        width: 69
-        height: 79
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8fbb662267b6c2f50800000000000000
-      internalID: 6857974487705893880
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_18
-      rect:
-        serializedVersion: 2
-        x: 420
-        y: 575
-        width: 69
-        height: 78
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a8e38554bff67bb10800000000000000
-      internalID: 1997188084752989834
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_19
-      rect:
-        serializedVersion: 2
-        x: 550
-        y: 575
-        width: 69
-        height: 79
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7f6c50474302ceca0800000000000000
-      internalID: -5986374395025307913
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_20
-      rect:
-        serializedVersion: 2
-        x: 680
-        y: 574
-        width: 69
-        height: 80
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2f02ac99ddc6f8320800000000000000
-      internalID: 2562386412020834546
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_21
-      rect:
-        serializedVersion: 2
-        x: 811
-        y: 574
-        width: 68
-        height: 80
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d636f949020650cb0800000000000000
-      internalID: -4898403326646852755
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_22
-      rect:
-        serializedVersion: 2
-        x: 941
-        y: 575
-        width: 68
-        height: 79
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 260d65e280a4af970800000000000000
-      internalID: 8789419021764579426
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_23
-      rect:
-        serializedVersion: 2
-        x: 1071
-        y: 575
-        width: 68
-        height: 78
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5d1d199af34b416d0800000000000000
-      internalID: -3020591264537914923
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_24
-      rect:
-        serializedVersion: 2
-        x: 1201
-        y: 575
-        width: 68
-        height: 79
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9d4dccb5c6acee960800000000000000
-      internalID: 7633260985184998617
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_25
-      rect:
-        serializedVersion: 2
-        x: 1317
-        y: 647
-        width: 21
-        height: 29
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 941130305abe74310800000000000000
-      internalID: 1389338104019751241
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_26
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 445
-        width: 74
-        height: 83
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0e28c77afea2667f0800000000000000
-      internalID: -619760689921359136
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_27
-      rect:
-        serializedVersion: 2
-        x: 136
-        y: 441
-        width: 74
-        height: 90
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b558ba97ca39e7c50800000000000000
-      internalID: 6664926867539854683
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_28
-      rect:
-        serializedVersion: 2
-        x: 258
-        y: 441
-        width: 70
-        height: 91
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a3e72cdcf3a2778b0800000000000000
-      internalID: -5154604794978861510
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_29
-      rect:
-        serializedVersion: 2
-        x: 376
-        y: 439
-        width: 73
-        height: 94
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0a4b290035d54b0f0800000000000000
-      internalID: -1102153397725645664
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_30
-      rect:
-        serializedVersion: 2
-        x: 495
-        y: 443
-        width: 75
-        height: 86
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8539be338652d6fc0800000000000000
-      internalID: -3500100205919104168
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_31
-      rect:
-        serializedVersion: 2
-        x: 616
-        y: 449
-        width: 74
-        height: 74
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 68fa42be97f5fe800800000000000000
-      internalID: 643838248978001798
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_32
-      rect:
-        serializedVersion: 2
-        x: 736
-        y: 445
-        width: 73
+        x: 746
+        y: 946
+        width: 161
         height: 82
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -1029,713 +663,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 260bba2970b8669a0800000000000000
-      internalID: -6240147369033486238
+      spriteID: 9288758e598b6ecb0800000000000000
+      internalID: -4834974195947960279
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_33
+      name: 452_13
       rect:
         serializedVersion: 2
-        x: 856
-        y: 444
-        width: 74
-        height: 84
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 56d0e076915656be0800000000000000
-      internalID: -1484669342371148443
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_34
-      rect:
-        serializedVersion: 2
-        x: 983
-        y: 446
-        width: 21
-        height: 29
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5ada797ad6eae5670800000000000000
-      internalID: 8529446530272701861
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_35
-      rect:
-        serializedVersion: 2
-        x: 1080
-        y: 373
-        width: 273
-        height: 174
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 22cffa11cb8a90ba0800000000000000
-      internalID: -6122176692729414622
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_36
-      rect:
-        serializedVersion: 2
-        x: 979
-        y: 426
-        width: 13
-        height: 10
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 538d977fc43100320800000000000000
-      internalID: 2522037012617877557
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_37
-      rect:
-        serializedVersion: 2
-        x: 993
-        y: 426
-        width: 8
-        height: 10
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3c275f50f765dd0b0800000000000000
-      internalID: -5702306449620372797
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_38
-      rect:
-        serializedVersion: 2
-        x: 1003
-        y: 426
-        width: 8
-        height: 10
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: af21c5cfd09f4fe80800000000000000
-      internalID: -8145611987542600966
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_39
-      rect:
-        serializedVersion: 2
-        x: 1013
-        y: 426
-        width: 5
-        height: 7
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8cf596b468625e9f0800000000000000
-      internalID: -439903030366085176
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_40
-      rect:
-        serializedVersion: 2
-        x: 1020
-        y: 423
-        width: 5
-        height: 10
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1c37bb321ac00ad70800000000000000
-      internalID: 9052249137243452353
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_41
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 323
-        width: 73
-        height: 86
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6a464ef1f51a49100800000000000000
-      internalID: 113893320520131750
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_42
-      rect:
-        serializedVersion: 2
-        x: 136
-        y: 324
-        width: 74
-        height: 84
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 352dcb3ccfd30cc40800000000000000
-      internalID: 5530488498235953747
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_43
-      rect:
-        serializedVersion: 2
-        x: 255
-        y: 323
-        width: 75
-        height: 86
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a36a3e07022eb2140800000000000000
-      internalID: 4696095665424672314
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_44
-      rect:
-        serializedVersion: 2
-        x: 376
-        y: 329
-        width: 74
-        height: 74
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8b80bff5e11523140800000000000000
-      internalID: 4697906552202004664
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_45
-      rect:
-        serializedVersion: 2
-        x: 496
-        y: 325
-        width: 73
-        height: 82
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a5b6e003af98a93c0800000000000000
-      internalID: -4352014382259082406
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_46
-      rect:
-        serializedVersion: 2
-        x: 616
-        y: 324
-        width: 74
-        height: 84
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 279633e15c2b459c0800000000000000
-      internalID: -3939327214357354126
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_47
-      rect:
-        serializedVersion: 2
-        x: 736
-        y: 323
-        width: 73
-        height: 86
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 827d45bf892983bf0800000000000000
-      internalID: -344364185744517336
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_48
-      rect:
-        serializedVersion: 2
-        x: 856
-        y: 324
-        width: 74
-        height: 84
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 14b5214dc2b5db470800000000000000
-      internalID: 8411979927092616001
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_49
-      rect:
-        serializedVersion: 2
-        x: 982
-        y: 389
-        width: 21
-        height: 29
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 79f4395eea9f57130800000000000000
-      internalID: 3564029209704877975
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_50
-      rect:
-        serializedVersion: 2
-        x: 20
-        y: 163
-        width: 83
-        height: 105
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a60d1d3365baff4f0800000000000000
-      internalID: -792726622668992406
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_51
-      rect:
-        serializedVersion: 2
-        x: 136
-        y: 161
-        width: 92
-        height: 103
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fb0baa952bc83c8b0800000000000000
-      internalID: -5133104452635807553
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_52
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 183
-        width: 149
-        height: 69
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a51f997cfa8c2e0f0800000000000000
-      internalID: -1089087502576651942
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_53
-      rect:
-        serializedVersion: 2
-        x: 441
-        y: 184
-        width: 140
-        height: 67
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 39a7ae57463337750800000000000000
-      internalID: 6301436810189503123
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_54
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 163
-        width: 71
-        height: 106
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eda32d43dbf83d140800000000000000
-      internalID: 4743292875349048030
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_55
-      rect:
-        serializedVersion: 2
-        x: 750
-        y: 168
-        width: 71
-        height: 100
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ee5c1f6f9aa0739d0800000000000000
-      internalID: -2794753318651312658
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_56
-      rect:
-        serializedVersion: 2
-        x: 869
-        y: 183
-        width: 102
-        height: 61
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: df574c601f83cd120800000000000000
-      internalID: 2439887705979778557
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_57
-      rect:
-        serializedVersion: 2
-        x: 1012
-        y: 182
-        width: 108
-        height: 59
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5c1a0cb59def5e440800000000000000
-      internalID: 4964654373746549189
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_58
-      rect:
-        serializedVersion: 2
-        x: 1171
-        y: 211
-        width: 12
-        height: 10
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: be333db8c3ab303c0800000000000000
-      internalID: -4394464042176793621
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_59
-      rect:
-        serializedVersion: 2
-        x: 1184
-        y: 211
-        width: 10
-        height: 9
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4e784d4100d4da460800000000000000
-      internalID: 7254539237508548580
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_60
-      rect:
-        serializedVersion: 2
-        x: 1196
-        y: 211
-        width: 5
-        height: 7
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2d5bb6e0fb075b020800000000000000
-      internalID: 2356913945881327058
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_61
-      rect:
-        serializedVersion: 2
-        x: 1203
-        y: 211
-        width: 8
-        height: 10
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eac640ff6822b4320800000000000000
-      internalID: 2543164377780219054
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_62
-      rect:
-        serializedVersion: 2
-        x: 1213
-        y: 211
-        width: 5
-        height: 7
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b67fc87cb85c3b330800000000000000
-      internalID: 3725538520904562539
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_63
-      rect:
-        serializedVersion: 2
-        x: 1220
-        y: 208
-        width: 5
-        height: 10
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a6b5d6e8f3392e3f0800000000000000
-      internalID: -872973476574700694
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_64
-      rect:
-        serializedVersion: 2
-        x: 18
-        y: 10
-        width: 97
-        height: 91
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4ada668a04f2f8e50800000000000000
-      internalID: 6813716715984563620
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_65
-      rect:
-        serializedVersion: 2
-        x: 162
-        y: 24
-        width: 109
-        height: 62
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f8e537ea158c552e0800000000000000
-      internalID: -2137582194972729713
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_66
-      rect:
-        serializedVersion: 2
-        x: 305
-        y: 32
+        x: 906
+        y: 942
         width: 124
-        height: 47
+        height: 87
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1743,40 +684,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 336cb66a28ec829b0800000000000000
-      internalID: -5104603117091305933
+      spriteID: 2c8d118943aeedad0800000000000000
+      internalID: -2675443617000990526
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_67
+      name: 452_14
       rect:
         serializedVersion: 2
-        x: 456
-        y: 31
-        width: 122
-        height: 49
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6e0d2c01879b6c3c0800000000000000
-      internalID: -4339577265596477210
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_68
-      rect:
-        serializedVersion: 2
-        x: 634
-        y: 20
-        width: 86
+        x: 1047
+        y: 936
+        width: 129
         height: 89
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -1785,20 +705,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eac4cccea9be07350800000000000000
-      internalID: 6012564553169915054
+      spriteID: b373c412fbb5922a0800000000000000
+      internalID: -6761772489064564933
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_69
+      name: 452_15
       rect:
         serializedVersion: 2
-        x: 786
-        y: 34
-        width: 81
-        height: 60
+        x: 90
+        y: 812
+        width: 95
+        height: 85
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1806,20 +726,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38c59408677e33930800000000000000
-      internalID: 4121892580118584451
+      spriteID: 2972a914bee6f30e0800000000000000
+      internalID: -2287988128983930990
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_70
+      name: 452_16
       rect:
         serializedVersion: 2
-        x: 918
-        y: 41
-        width: 117
-        height: 47
+        x: 206
+        y: 817
+        width: 85
+        height: 80
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1827,19 +747,502 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 993bdf5d3d9120280800000000000000
-      internalID: -9078665501206531175
+      spriteID: b67f5a0799b4226f0800000000000000
+      internalID: -710922668779112597
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_71
+      name: 452_17
       rect:
         serializedVersion: 2
-        x: 1069
-        y: 41
-        width: 116
+        x: 320
+        y: 820
+        width: 73
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6ad28b8302cb950800000000000000
+      internalID: 6466078592977446652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_18
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 815
+        width: 120
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e805b0ee90fbd7a0800000000000000
+      internalID: -6351218284310492954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_19
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 808
+        width: 123
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6071dd036d7396650800000000000000
+      internalID: 6226569352898746118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_20
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 804
+        width: 78
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35751f9c13ec1e30800000000000000
+      internalID: 4475701841767003452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_21
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 804
+        width: 79
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c623d068eb2fe50800000000000000
+      internalID: 6841740266885508107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_22
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 815
+        width: 108
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5058483d47e5e280800000000000000
+      internalID: -9014544760269418401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_23
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 805
+        width: 91
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b5b36995c7f30f90800000000000000
+      internalID: -6988469768694811208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_24
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 684
+        width: 118
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11845da3521f2f020800000000000000
+      internalID: 2374225095780812817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_25
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 689
+        width: 97
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db30630ea61bd6b10800000000000000
+      internalID: 1976430884071801789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_26
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 690
+        width: 79
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e246443e4df0ce790800000000000000
+      internalID: -7499601872458324946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_27
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 696
+        width: 76
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c5c2a937cd60390800000000000000
+      internalID: -7852346511207932793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_28
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 726
+        width: 139
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 773d3021f011eb180800000000000000
+      internalID: -9097815440817400969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_29
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 685
+        width: 107
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632b5eb53d8973a00800000000000000
+      internalID: 736225097645666870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_30
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 682
+        width: 93
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c72a2ed3dc6a387d0800000000000000
+      internalID: -2917304733169180036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_31
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 682
+        width: 72
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ce1f3b552dac4830800000000000000
+      internalID: 4056807740310232769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_32
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 701
+        width: 123
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f01fcee93de70f80800000000000000
+      internalID: -8140276968373415690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_33
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 553
+        width: 60
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08141c564bca982d0800000000000000
+      internalID: -3275897363134070400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_34
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 562
+        width: 94
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ffb781fcc50338d0800000000000000
+      internalID: -2867942159921201165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_35
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 566
+        width: 94
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94de419cb80d6e1d0800000000000000
+      internalID: -3321738376346538679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_36
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 570
+        width: 79
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c2bc9a10713fae80800000000000000
+      internalID: -8165253241846844729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_37
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 566
+        width: 136
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb080369b8a828a50800000000000000
+      internalID: 6521927542510747836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_38
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 559
+        width: 119
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b11d49d7891b1f0800000000000000
+      internalID: -1030875174556066916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_39
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 575
+        width: 123
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13c9878b0873d1a0800000000000000
+      internalID: -6785948222603279589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_40
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 571
+        width: 141
         height: 46
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -1848,20 +1251,482 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e4e197ff5d905780800000000000000
-      internalID: -8696277844951440160
+      spriteID: 32d2e5423a458a560800000000000000
+      internalID: 7325197853584665891
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_72
+      name: 452_41
       rect:
         serializedVersion: 2
-        x: 1224
-        y: 63
+        x: 101
+        y: 423
+        width: 102
+        height: 122
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf87c5718f83f13e0800000000000000
+      internalID: -2080881864626898693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_42
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 429
+        width: 103
+        height: 103
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0503bb43165a62e40800000000000000
+      internalID: 5631370220988477520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_43
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 438
+        width: 140
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe8f43b29ba428b40800000000000000
+      internalID: 5440993458971277551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_44
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 432
+        width: 127
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b2dc12f99d3ad880800000000000000
+      internalID: -8585482008227163469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_45
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 434
+        width: 140
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d671afbca0245770800000000000000
+      internalID: 8598533514878613205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_46
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 448
+        width: 154
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c5e6cffbd656dc0800000000000000
+      internalID: -3646387651945276388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_47
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 303
+        width: 141
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba0ae6149dbade20800000000000000
+      internalID: 3376219314404854457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_48
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 312
+        width: 128
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada44c5a56d6ec050800000000000000
+      internalID: 5822711651576859354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_49
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 311
+        width: 127
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb993f3c5bdc2cec0800000000000000
+      internalID: -3548047375854233156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_50
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 321
+        width: 131
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d456eecbfe360b0800000000000000
+      internalID: -5736477905607373568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_51
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 306
+        width: 142
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2d5156e56ca7030800000000000000
+      internalID: 3493322569704395425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_52
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 320
+        width: 156
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aee0c2ff480a89f0800000000000000
+      internalID: -465550472011256152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_53
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 207
+        width: 106
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e6aef606cdd6330800000000000000
+      internalID: 3705860375148392029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_54
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 210
+        width: 70
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f5d959015b089f0800000000000000
+      internalID: -468175278412308597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_55
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 210
+        width: 113
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eba9da6934c3de00800000000000000
+      internalID: 1068413287501769696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_56
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 203
+        width: 94
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf52f213fb8a52f0800000000000000
+      internalID: -983319692515844177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_57
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 208
+        width: 130
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c48acb8b9199de0800000000000000
+      internalID: -1326000334054077305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_58
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 208
+        width: 109
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77642716042901950800000000000000
+      internalID: 6417790274213398135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_59
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 15
+        width: 107
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7506f7a31ddc63a0800000000000000
+      internalID: -6670713871550511747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_60
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 84
+        width: 15
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f43c83b9dd0a10370800000000000000
+      internalID: 8287081662990828367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_61
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 84
+        width: 14
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689a3c26f9f3d8750800000000000000
+      internalID: 6308768606805272966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_62
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 84
+        width: 9
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a35f01bf45541020800000000000000
+      internalID: 2311566309509256098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_63
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 84
         width: 7
-        height: 10
+        height: 14
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1869,39 +1734,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8360a9a5d19f68ff0800000000000000
-      internalID: -34066042689288648
+      spriteID: dd5932ea0b5a517b0800000000000000
+      internalID: -5254111212003420707
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_73
+      name: 452_64
       rect:
         serializedVersion: 2
-        x: 1233
-        y: 63
-        width: 5
-        height: 7
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 24fd8b124642cb4a0800000000000000
-      internalID: -6576341343386673342
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_74
-      rect:
-        serializedVersion: 2
-        x: 1240
-        y: 63
+        x: 1007
+        y: 84
         width: 6
         height: 9
       alignment: 7
@@ -1911,20 +1755,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f5b09afcb4f5ee10800000000000000
-      internalID: 2226454683299395060
+      spriteID: 8a49a20121f0beff0800000000000000
+      internalID: -5894404255869784
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_75
+      name: 452_65
       rect:
         serializedVersion: 2
-        x: 1252
-        y: 63
-        width: 8
-        height: 10
+        x: 1015
+        y: 84
+        width: 10
+        height: 9
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1932,20 +1776,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c98a49db6bd0afe10800000000000000
-      internalID: 2232111643831347356
+      spriteID: 15bc35db300ad0130800000000000000
+      internalID: 3534657220477438801
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_76
+      name: 452_66
       rect:
         serializedVersion: 2
-        x: 1224
-        y: 47
-        width: 7
-        height: 10
+        x: 1027
+        y: 84
+        width: 15
+        height: 9
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1953,19 +1797,124 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55f404a523a650b60800000000000000
-      internalID: 7711686701436915541
+      spriteID: 86391989e7a604ef0800000000000000
+      internalID: -125983697608273048
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_77
+      name: 452_67
       rect:
         serializedVersion: 2
-        x: 1233
-        y: 44
+        x: 1049
+        y: 84
+        width: 15
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e220d1f081aafaf0800000000000000
+      internalID: -361799244865068317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_68
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 84
+        width: 14
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4aa2f1cfb45c5d50800000000000000
+      internalID: 6727345125954071118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_69
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 84
+        width: 9
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e8872d6ef2711250800000000000000
+      internalID: 5913634222792739048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_70
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 84
+        width: 11
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27cadf74f68e6c1f0800000000000000
+      internalID: -1024876300533388174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_71
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 84
         width: 8
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 189f046f0f65593c0800000000000000
+      internalID: -4353477871860123263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_72
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 49
+        width: 10
         height: 13
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -1974,20 +1923,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d58830650d52cfbd0800000000000000
-      internalID: -2595157708545750947
+      spriteID: 668bf69b9bab5b9a0800000000000000
+      internalID: -6217858403672278938
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_78
+      name: 452_73
       rect:
         serializedVersion: 2
-        x: 1243
-        y: 47
-        width: 5
-        height: 7
+        x: 887
+        y: 53
+        width: 6
+        height: 9
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1995,20 +1944,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0beb49becbac54d00800000000000000
-      internalID: 956393408641154736
+      spriteID: 40ad772909aff00b0800000000000000
+      internalID: -5760109899544012284
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - Ragnarok Online - Grove_79
+      name: 452_74
       rect:
         serializedVersion: 2
-        x: 1250
-        y: 44
-        width: 5
-        height: 10
+        x: 895
+        y: 53
+        width: 9
+        height: 9
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2016,8 +1965,491 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d09debdadbc0f2b0800000000000000
-      internalID: -5552714199694733102
+      spriteID: b3050254c0c4de180800000000000000
+      internalID: -9084521257753358277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_75
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 53
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d47138bed59fed980800000000000000
+      internalID: -8512092063905147059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_76
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 53
+        width: 10
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3099f7d2bba5c84b0800000000000000
+      internalID: -5436870890174310141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_77
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 53
+        width: 6
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1be46007a0b08860800000000000000
+      internalID: 7530212808276110110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_78
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 53
+        width: 10
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a2c1bb93545cfb0800000000000000
+      internalID: -4628216927798678909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_79
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 53
+        width: 6
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b6afe7fe73a4770800000000000000
+      internalID: 8595744340557064979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_80
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 53
+        width: 10
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb752df076dbc9770800000000000000
+      internalID: 8618972037225011134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_81
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 53
+        width: 6
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2627603ee5b2ba590800000000000000
+      internalID: -7661982654504996254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_82
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 53
+        width: 7
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f7e1c04c1d607c50800000000000000
+      internalID: 6660943816993925110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_83
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 53
+        width: 10
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1027c050307bbb840800000000000000
+      internalID: 5240983814973190657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_84
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 53
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d4688ad9182faca0800000000000000
+      internalID: -6003535686755916589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_85
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 53
+        width: 9
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2d391576e44c0d0800000000000000
+      internalID: -3403509212728012127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_86
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 53
+        width: 6
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f65695682ae7c690800000000000000
+      internalID: -7581833988430997771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_87
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 49
+        width: 15
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55311209101760a30800000000000000
+      internalID: 4181153555587076949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_88
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 49
+        width: 10
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84be0986cca628a0800000000000000
+      internalID: -6330182257519709045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_89
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 53
+        width: 9
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ae24c9abc1ef980800000000000000
+      internalID: -8503327458617791884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_90
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 53
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b82a144cda550f0800000000000000
+      internalID: -1128805073160074483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_91
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 53
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bac1d33281641cb0800000000000000
+      internalID: -4894179683201856843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_92
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 49
+        width: 11
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: debd35fbb4fa11830800000000000000
+      internalID: 4040203080595397613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_93
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 53
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ad29d8741f74490800000000000000
+      internalID: -7761970143129576956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_94
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 53
+        width: 10
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c87ffd6d6019be0800000000000000
+      internalID: -1472388083223131012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_95
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 53
+        width: 8
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f34e8aad1fb47c0800000000000000
+      internalID: -4085906315469897865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_96
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 53
+        width: 14
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff41767de31736df0800000000000000
+      internalID: -188182244703660801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 452_97
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 53
+        width: 8
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450ef58ab135bd4b0800000000000000
+      internalID: -5414642748728811436
       vertices: []
       indices: 
       edges: []

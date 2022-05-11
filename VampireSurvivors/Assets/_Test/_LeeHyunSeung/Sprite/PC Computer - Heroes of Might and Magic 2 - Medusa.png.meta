@@ -1,0 +1,4344 @@
+fileFormatVersion: 2
+guid: 5bd7b666a701e9e4d85fc036cb185580
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6789638205491716224
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_0
+  - first:
+      213: -2950454704021162414
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_1
+  - first:
+      213: 6865408678111090645
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_2
+  - first:
+      213: -3723940574998909492
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_3
+  - first:
+      213: 1249011575967061222
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_4
+  - first:
+      213: -837819074083068621
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_5
+  - first:
+      213: 8343593663838772200
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_6
+  - first:
+      213: 8538397421665560814
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_7
+  - first:
+      213: 6969376557668056722
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_8
+  - first:
+      213: 265076879249531202
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_9
+  - first:
+      213: 1601373985055634557
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_10
+  - first:
+      213: -2613586728673043611
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_11
+  - first:
+      213: 8091287612976853121
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_12
+  - first:
+      213: -4180854361034999908
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_13
+  - first:
+      213: 3081248960529112930
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_14
+  - first:
+      213: -1955985022368527824
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_15
+  - first:
+      213: -5496181752854186616
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_16
+  - first:
+      213: -540827467889380810
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_17
+  - first:
+      213: 9212308301009234361
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_18
+  - first:
+      213: 4927431477978162466
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_19
+  - first:
+      213: 5326595902582527356
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_20
+  - first:
+      213: -3932757244269109400
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_21
+  - first:
+      213: 6101882208090113981
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_22
+  - first:
+      213: 7567021407735993068
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_23
+  - first:
+      213: 7265556154565705642
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_24
+  - first:
+      213: 5648743783048632872
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_25
+  - first:
+      213: -3218093317438998034
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_26
+  - first:
+      213: -6994088586270571337
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_27
+  - first:
+      213: -6204051261489082761
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_28
+  - first:
+      213: -6917319142014062049
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_29
+  - first:
+      213: 4892217177975748200
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_30
+  - first:
+      213: -7850011899099588666
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_31
+  - first:
+      213: -432611043588033413
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_32
+  - first:
+      213: -7005646213555959345
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_33
+  - first:
+      213: -7073284989650063536
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_34
+  - first:
+      213: -8804294933150715801
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_35
+  - first:
+      213: -5702826824867116505
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_36
+  - first:
+      213: -8505343346737486108
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_37
+  - first:
+      213: 4583349351404911428
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_38
+  - first:
+      213: 5067547751931567474
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_39
+  - first:
+      213: 705195116630180316
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_40
+  - first:
+      213: 4755871273603576820
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_41
+  - first:
+      213: -7152945217959779679
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_42
+  - first:
+      213: -5226300183024681321
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_43
+  - first:
+      213: -8807701003754303468
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_44
+  - first:
+      213: 1262711215424382349
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_45
+  - first:
+      213: -788292924534879977
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_46
+  - first:
+      213: -1326370407861752196
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_47
+  - first:
+      213: 7697540076029984818
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_48
+  - first:
+      213: -3387097478954236107
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_49
+  - first:
+      213: -7728498270439432538
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_50
+  - first:
+      213: 9088858249811896054
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_51
+  - first:
+      213: -2743908185000695105
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_52
+  - first:
+      213: 7396962075917877533
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_53
+  - first:
+      213: -3536413729770735719
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_54
+  - first:
+      213: -2828793936981717519
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_55
+  - first:
+      213: -7095727389403861187
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_56
+  - first:
+      213: -884264972818935379
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_57
+  - first:
+      213: 6249833970529743165
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_58
+  - first:
+      213: 8448055830127757032
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_59
+  - first:
+      213: 5928461722631348772
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_60
+  - first:
+      213: 7134107479780574593
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_61
+  - first:
+      213: -6549829629838064296
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_62
+  - first:
+      213: 2354979251654094528
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_63
+  - first:
+      213: -4982863003386046144
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_64
+  - first:
+      213: 6021254865137490268
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_65
+  - first:
+      213: 1660295229048490269
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_66
+  - first:
+      213: 8309595998393005987
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_67
+  - first:
+      213: 6683112255871674608
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_68
+  - first:
+      213: -219164932225069636
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_69
+  - first:
+      213: 1541295457203248125
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_70
+  - first:
+      213: 7911468237823032675
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_71
+  - first:
+      213: -4021676685987394610
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_72
+  - first:
+      213: 2050552209712477542
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_73
+  - first:
+      213: -2164705062291485378
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_74
+  - first:
+      213: 2562221111570780432
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_75
+  - first:
+      213: -4851744596580602445
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_76
+  - first:
+      213: 6120569168143538055
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_77
+  - first:
+      213: -3590997383021907225
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_78
+  - first:
+      213: 9100459344156774531
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_79
+  - first:
+      213: 5908821577320697441
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_80
+  - first:
+      213: 702829644730156222
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_81
+  - first:
+      213: 9184185044648169289
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_82
+  - first:
+      213: -2468157244779516472
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_83
+  - first:
+      213: -5700490338045649399
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_84
+  - first:
+      213: -5799240213348885145
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_85
+  - first:
+      213: 7626336534215482158
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_86
+  - first:
+      213: -822939066979332143
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_87
+  - first:
+      213: -6420752432748896365
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_88
+  - first:
+      213: 5102460519012870811
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_89
+  - first:
+      213: 213881449518976142
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_90
+  - first:
+      213: 3407349958999006189
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_91
+  - first:
+      213: -7985270015258865102
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_92
+  - first:
+      213: 3993396922806761390
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_93
+  - first:
+      213: 7361311463301667085
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_94
+  - first:
+      213: 7680286021780504485
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_95
+  - first:
+      213: -6634824144395972797
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_96
+  - first:
+      213: 6690443363562066667
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_97
+  - first:
+      213: -3679024071835757287
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_98
+  - first:
+      213: 1179339427288114580
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_99
+  - first:
+      213: 3947544550597719305
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_100
+  - first:
+      213: 3755433917338233806
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_101
+  - first:
+      213: 6934101138938415037
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_102
+  - first:
+      213: 6709551537851210300
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_103
+  - first:
+      213: -8320995632101245158
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_104
+  - first:
+      213: 1295065812812332601
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_105
+  - first:
+      213: 8830642038789906836
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_106
+  - first:
+      213: -7849629280199735021
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_107
+  - first:
+      213: 7864465330177699389
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_108
+  - first:
+      213: -5069474217681638321
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_109
+  - first:
+      213: 7145441137528249990
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_110
+  - first:
+      213: 7074373985916599552
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_111
+  - first:
+      213: 4726056398274305937
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_112
+  - first:
+      213: -108238256605016645
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_113
+  - first:
+      213: 6166830870957033027
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_114
+  - first:
+      213: -376029006526159706
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_115
+  - first:
+      213: 6719360027080504946
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_116
+  - first:
+      213: 3044397720780538990
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_117
+  - first:
+      213: -5507935428884438278
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_118
+  - first:
+      213: 4650024913715909816
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_119
+  - first:
+      213: -1713285884497466257
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_120
+  - first:
+      213: 1080176733939631230
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_121
+  - first:
+      213: 3471415133416983048
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_122
+  - first:
+      213: 3811621665554616391
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_123
+  - first:
+      213: -212770641227052451
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_124
+  - first:
+      213: -8142284322511824141
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_125
+  - first:
+      213: 4235809491304293437
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_126
+  - first:
+      213: -191156150624172955
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_127
+  - first:
+      213: 3329219375441588027
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_128
+  - first:
+      213: 8577437358606048648
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_129
+  - first:
+      213: -8654150960527754331
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_130
+  - first:
+      213: 6097677517328126293
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_131
+  - first:
+      213: -7369477424276895272
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_132
+  - first:
+      213: 3767877011092429127
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_133
+  - first:
+      213: 7666961762208956788
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_134
+  - first:
+      213: 7004090420108249533
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_135
+  - first:
+      213: 8019025285421864142
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_136
+  - first:
+      213: 468833210424925232
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_137
+  - first:
+      213: -4967469925401574248
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_138
+  - first:
+      213: -6100462969986381978
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_139
+  - first:
+      213: 8841779370375084546
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_140
+  - first:
+      213: 2634297678826709073
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_141
+  - first:
+      213: 2435835396475180912
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_142
+  - first:
+      213: -4973117632495536706
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_143
+  - first:
+      213: 5353419107701570048
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_144
+  - first:
+      213: 6019655138142351784
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_145
+  - first:
+      213: -5920102947098179778
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_146
+  - first:
+      213: -9007556518889994478
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_147
+  - first:
+      213: 3573114071077830980
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_148
+  - first:
+      213: 7822703971405658511
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_149
+  - first:
+      213: 4234839088122795860
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_150
+  - first:
+      213: 8868570691123804101
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_151
+  - first:
+      213: -4619109661095539684
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_152
+  - first:
+      213: 6605010396867639008
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_153
+  - first:
+      213: -1881785676273551538
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_154
+  - first:
+      213: -1459211047910538116
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_155
+  - first:
+      213: -3229139937420212096
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_156
+  - first:
+      213: -389246891168605027
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_157
+  - first:
+      213: -6338347658547606062
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_158
+  - first:
+      213: 3536401026857473789
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_159
+  - first:
+      213: -404913438443722752
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_160
+  - first:
+      213: 2203226433659173146
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_161
+  - first:
+      213: 4786042270185454207
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_162
+  - first:
+      213: -6171274253943713124
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_163
+  - first:
+      213: 7613957713713496467
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_164
+  - first:
+      213: 6315305737395406878
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_165
+  - first:
+      213: 8504818824033382881
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_166
+  - first:
+      213: -661610993354861613
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_167
+  - first:
+      213: 8941919301576279467
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_168
+  - first:
+      213: -4236647648648495975
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_169
+  - first:
+      213: 3532481089627089303
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_170
+  - first:
+      213: 8901125293405557400
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_171
+  - first:
+      213: 6202871466416147947
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_172
+  - first:
+      213: -1137502254542952895
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_173
+  - first:
+      213: -299874816752841276
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_174
+  - first:
+      213: -9157202815816844599
+    second: PC Computer - Heroes of Might and Magic 2 - Medusa_175
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 572
+        width: 55
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08fde30760c56c1a0800000000000000
+      internalID: -6789638205491716224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_1
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 571
+        width: 55
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25630f03411ed07d0800000000000000
+      internalID: -2950454704021162414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_2
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 571
+        width: 55
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d712b871d4d64f50800000000000000
+      internalID: 6865408678111090645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_3
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 571
+        width: 55
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccda68ef6c7e15cc0800000000000000
+      internalID: -3723940574998909492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_4
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 571
+        width: 57
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e41ed92961655110800000000000000
+      internalID: 1249011575967061222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_5
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 571
+        width: 57
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3356b37bdf77f54f0800000000000000
+      internalID: -837819074083068621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_6
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 571
+        width: 55
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb5f432b366ac370800000000000000
+      internalID: 8343593663838772200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_7
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 571
+        width: 53
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee8ac75773b7e7670800000000000000
+      internalID: 8538397421665560814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_8
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 622
+        width: 10
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e3db9cd0338b060800000000000000
+      internalID: 6969376557668056722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_9
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 622
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24166d9640ebda300800000000000000
+      internalID: 265076879249531202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_10
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 622
+        width: 7
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74facba729393610800000000000000
+      internalID: 1601373985055634557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_11
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 622
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b94c7b7bcaabbd0800000000000000
+      internalID: -2613586728673043611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_12
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 622
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 180f00be6370a4070800000000000000
+      internalID: 8091287612976853121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_13
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 622
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97bdd81c1f9af5c0800000000000000
+      internalID: -4180854361034999908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_14
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 602
+        width: 7
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f11ecba9bc2ca20800000000000000
+      internalID: 3081248960529112930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_15
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 602
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03a4db34cf1fad4e0800000000000000
+      internalID: -1955985022368527824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_16
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 602
+        width: 4
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8857428d0d3a9b3b0800000000000000
+      internalID: -5496181752854186616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_17
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 602
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632fdab88489e78f0800000000000000
+      internalID: -540827467889380810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_18
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 602
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b9a9034791b8df70800000000000000
+      internalID: 9212308301009234361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_19
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 602
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22567f392d0c16440800000000000000
+      internalID: 4927431477978162466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_20
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 602
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c759b7b70cedbe940800000000000000
+      internalID: 5326595902582527356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_21
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 602
+        width: 5
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86fde7b7f1a0c69c0800000000000000
+      internalID: -3932757244269109400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_22
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 602
+        width: 12
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db7cc720a8d3ea450800000000000000
+      internalID: 6101882208090113981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_23
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 599
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce251e7e0e5730960800000000000000
+      internalID: 7567021407735993068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_24
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 602
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aafba88f3d074d460800000000000000
+      internalID: 7265556154565705642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_25
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 602
+        width: 4
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a5fc7da8e546e40800000000000000
+      internalID: 5648743783048632872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_26
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 602
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee97dff8d290753d0800000000000000
+      internalID: -3218093317438998034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_27
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 602
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b48abfac7100fe90800000000000000
+      internalID: -6994088586270571337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_28
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 602
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e01a68f38c6e9a0800000000000000
+      internalID: -6204051261489082761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_29
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 602
+        width: 9
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12fd3ec3eeb000a0800000000000000
+      internalID: -6917319142014062049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_30
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 602
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866fe417a95a4e340800000000000000
+      internalID: 4892217177975748200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_31
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 599
+        width: 9
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c75497d4c72f0390800000000000000
+      internalID: -7850011899099588666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_32
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 602
+        width: 21
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7436054c8e0ff9f0800000000000000
+      internalID: -432611043588033413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_33
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 591
+        width: 41
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9cfe2e2e1f6ce90800000000000000
+      internalID: -7005646213555959345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_34
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 591
+        width: 41
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f2ecc17c4a6dd90800000000000000
+      internalID: -7073284989650063536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_35
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 591
+        width: 40
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760b7cbc76cd0d580800000000000000
+      internalID: -8804294933150715801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_36
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 586
+        width: 6
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a0a38b73d7bd0b0800000000000000
+      internalID: -5702826824867116505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_37
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 586
+        width: 7
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6eaf41a43f6f980800000000000000
+      internalID: -8505343346737486108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_38
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 584
+        width: 6
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44bb10493f35b9f30800000000000000
+      internalID: 4583349351404911428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_39
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 586
+        width: 7
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27dd534d4db835640800000000000000
+      internalID: 5067547751931567474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_40
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 586
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd10518e83b59c900800000000000000
+      internalID: 705195116630180316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_41
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 586
+        width: 9
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f330a4c9bf300240800000000000000
+      internalID: 4755871273603576820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_42
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 583
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2ada1e832abbc90800000000000000
+      internalID: -7152945217959779679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_43
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 586
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e31457ca37877b0800000000000000
+      internalID: -5226300183024681321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_44
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 586
+        width: 4
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4109f5f2a92c4c580800000000000000
+      internalID: -8807701003754303468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_45
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 586
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85a549092d068110800000000000000
+      internalID: 1262711215424382349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_46
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 586
+        width: 15
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719052ef2cb6f05f0800000000000000
+      internalID: -788292924534879977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_47
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 586
+        width: 5
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e6fc63429c79de0800000000000000
+      internalID: -1326370407861752196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_48
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 586
+        width: 6
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 230c9147ae723da60800000000000000
+      internalID: 7697540076029984818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_49
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 586
+        width: 6
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537cf4bd9cc9ef0d0800000000000000
+      internalID: -3387097478954236107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_50
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 586
+        width: 6
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae9c3735cbdeb490800000000000000
+      internalID: -7728498270439432538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_51
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 485
+        width: 55
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6aae16c6c122e70800000000000000
+      internalID: 9088858249811896054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_52
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 485
+        width: 54
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba2fb82b0eabe9d0800000000000000
+      internalID: -2743908185000695105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_53
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 485
+        width: 55
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d110f1831d947a660800000000000000
+      internalID: 7396962075917877533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_54
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 484
+        width: 53
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 997733213722ceec0800000000000000
+      internalID: -3536413729770735719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_55
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 484
+        width: 52
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd0d63e6ea1eb8d0800000000000000
+      internalID: -2828793936981717519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_56
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 485
+        width: 54
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3fa29bb889e68d90800000000000000
+      internalID: -7095727389403861187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_57
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 485
+        width: 56
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da19ec731b57ab3f0800000000000000
+      internalID: -884264972818935379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_58
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 485
+        width: 55
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d31389612eedbb650800000000000000
+      internalID: 6249833970529743165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_59
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 485
+        width: 55
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e6ce6d84068d3570800000000000000
+      internalID: 8448055830127757032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_60
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 485
+        width: 54
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42221f1c680264250800000000000000
+      internalID: 5928461722631348772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_61
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 485
+        width: 55
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18547c964f0710360800000000000000
+      internalID: 7134107479780574593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_62
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 484
+        width: 53
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8558c2677a45a15a0800000000000000
+      internalID: -6549829629838064296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_63
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 484
+        width: 52
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cee144f6219ea020800000000000000
+      internalID: 2354979251654094528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_64
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 485
+        width: 54
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0491dbeaf7059dab0800000000000000
+      internalID: -4982863003386046144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_65
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 485
+        width: 56
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c59dc9ad56bcf8350800000000000000
+      internalID: 6021254865137490268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_66
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 516
+        width: 41
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1906b5d6bd8a0710800000000000000
+      internalID: 1660295229048490269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_67
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 516
+        width: 42
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a7f83fc88d915370800000000000000
+      internalID: 8309595998393005987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_68
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 516
+        width: 42
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f86a45203f2fbc50800000000000000
+      internalID: 6683112255871674608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_69
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 400
+        width: 53
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd8083c7ae55fcf0800000000000000
+      internalID: -219164932225069636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_70
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 402
+        width: 54
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfbd58c5d08c36510800000000000000
+      internalID: 1541295457203248125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_71
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 401
+        width: 55
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d3a3f027e2bcd60800000000000000
+      internalID: 7911468237823032675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_72
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 403
+        width: 55
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb4042ac522038c0800000000000000
+      internalID: -4021676685987394610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_73
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 440
+        width: 47
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 665fd45de56057c10800000000000000
+      internalID: 2050552209712477542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_74
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 441
+        width: 63
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d40a6073c65f1e0800000000000000
+      internalID: -2164705062291485378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_75
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 404
+        width: 67
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 011de279686de8320800000000000000
+      internalID: 2562221111570780432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_76
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 404
+        width: 65
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd64ebbef32bacb0800000000000000
+      internalID: -4851744596580602445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_77
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 404
+        width: 69
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7875762fa31a0f450800000000000000
+      internalID: 6120569168143538055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_78
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 404
+        width: 70
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e23f93f7e63a2ec0800000000000000
+      internalID: -3590997383021907225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_79
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 404
+        width: 72
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3805955ae835b4e70800000000000000
+      internalID: 9100459344156774531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_80
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 411
+        width: 11
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e0d551be9500250800000000000000
+      internalID: 5908821577320697441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_81
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 404
+        width: 61
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb441cf86d3f0c900800000000000000
+      internalID: 702829644730156222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_82
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 404
+        width: 72
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f85b163a7c47f70800000000000000
+      internalID: 9184185044648169289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_83
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 404
+        width: 53
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd2c1f00185fbdd0800000000000000
+      internalID: -2468157244779516472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_84
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 284
+        width: 49
+        height: 135
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e1e337d3ac3e0b0800000000000000
+      internalID: -5700490338045649399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_85
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 375
+        width: 9
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ddd2c60c5f48fa0800000000000000
+      internalID: -5799240213348885145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_86
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 372
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b5f7bfba036d960800000000000000
+      internalID: 7626336534215482158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_87
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 372
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dfc7e857455494f0800000000000000
+      internalID: -822939066979332143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_88
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 375
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39fd6475ea7e4e6a0800000000000000
+      internalID: -6420752432748896365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_89
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 375
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9aa73cdec49fc640800000000000000
+      internalID: 5102460519012870811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_90
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 375
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ccf9e8b0cd7f200800000000000000
+      internalID: 213881449518976142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_91
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 372
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: debd39b1cb6594f20800000000000000
+      internalID: 3407349958999006189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_92
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 302
+        width: 56
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232dae89a3f9e2190800000000000000
+      internalID: -7985270015258865102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_93
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 302
+        width: 52
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea7f807e7556b6730800000000000000
+      internalID: 3993396922806761390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_94
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 302
+        width: 54
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d095b1326c1a82660800000000000000
+      internalID: 7361311463301667085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_95
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 303
+        width: 58
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5afff95e17bd59a60800000000000000
+      internalID: 7680286021780504485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_96
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 303
+        width: 54
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34fc71ee79e5ce3a0800000000000000
+      internalID: -6634824144395972797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_97
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 303
+        width: 54
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be29cfaaaca39dc50800000000000000
+      internalID: 6690443363562066667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_98
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 354
+        width: 124
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9155e16591b71fcc0800000000000000
+      internalID: -3679024071835757287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_99
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 357
+        width: 8
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 495ee11f5fadd5010800000000000000
+      internalID: 1179339427288114580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_100
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 357
+        width: 8
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 905f7619ade78c630800000000000000
+      internalID: 3947544550597719305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_101
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 357
+        width: 7
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb266c204bfd1430800000000000000
+      internalID: 3755433917338233806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_102
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 357
+        width: 5
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db74e075f30ea3060800000000000000
+      internalID: 6934101138938415037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_103
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 341
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a1ccf239d1d1d50800000000000000
+      internalID: 6709551537851210300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_104
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 341
+        width: 9
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f37032f82e58c80800000000000000
+      internalID: -8320995632101245158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_105
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 341
+        width: 13
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e7e65ce7ff8f110800000000000000
+      internalID: 1295065812812332601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_106
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 341
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49124b4c52ebc8a70800000000000000
+      internalID: 8830642038789906836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_107
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 338
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 319803f32c3801390800000000000000
+      internalID: -7849629280199735021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_108
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 341
+        width: 4
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3eed91dc81342d60800000000000000
+      internalID: 7864465330177699389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_109
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 341
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ca519ee0c95a9b0800000000000000
+      internalID: -5069474217681638321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_110
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 341
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e95dd3bd4b92360800000000000000
+      internalID: 7145441137528249990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_111
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 339
+        width: 11
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00db2d698a93d2260800000000000000
+      internalID: 7074373985916599552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_112
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 338
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f1a972143569140800000000000000
+      internalID: 4726056398274305937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_113
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 341
+        width: 9
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd43fb01e57f7ef0800000000000000
+      internalID: -108238256605016645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_114
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 341
+        width: 12
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3468e4df00cf49550800000000000000
+      internalID: 6166830870957033027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_115
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 341
+        width: 10
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4e3c06c9318caf0800000000000000
+      internalID: -376029006526159706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_116
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 341
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276b71c0856ff3d50800000000000000
+      internalID: 6719360027080504946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_117
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 341
+        width: 9
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64022ed89fdf3a20800000000000000
+      internalID: 3044397720780538990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_118
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 322
+        width: 16
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2ed83e8e1ef83b0800000000000000
+      internalID: -5507935428884438278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_119
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 325
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4d0caa505388040800000000000000
+      internalID: 4650024913715909816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_120
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 280
+        width: 14
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c66dfb09f2938e0800000000000000
+      internalID: -1713285884497466257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_121
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 325
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e740d19340f8dfe00800000000000000
+      internalID: 1080176733939631230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_122
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 325
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a0c37eba1fc2030800000000000000
+      internalID: 3471415133416983048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_123
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 322
+        width: 9
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740d091c5b995e430800000000000000
+      internalID: 3811621665554616391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_124
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 325
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a8707aa361c0df0800000000000000
+      internalID: -212770641227052451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_125
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 325
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa53706c8bc00f80800000000000000
+      internalID: -8142284322511824141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_126
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 325
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d34ab614a4e98ca30800000000000000
+      internalID: 4235809491304293437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_127
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 325
+        width: 4
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5644a696e70e85df0800000000000000
+      internalID: -191156150624172955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_128
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 325
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f2b8c0263c33e20800000000000000
+      internalID: 3329219375441588027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_129
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 325
+        width: 9
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88dd0ea15dd290770800000000000000
+      internalID: 8577437358606048648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_130
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 325
+        width: 11
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab33259d8746e780800000000000000
+      internalID: -8654150960527754331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_131
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 192
+        width: 76
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5519a37256d4f9450800000000000000
+      internalID: 6097677517328126293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_132
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 262
+        width: 18
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d907b9e35b5ab990800000000000000
+      internalID: -7369477424276895272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_133
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 264
+        width: 16
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7495683bd203a4430800000000000000
+      internalID: 3767877011092429127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_134
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 277
+        width: 11
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 471c7f6f915866a60800000000000000
+      internalID: 7666961762208956788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_135
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 102
+        width: 61
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9c449b027833160800000000000000
+      internalID: 7004090420108249533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_136
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 102
+        width: 67
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4127ea20d494f60800000000000000
+      internalID: 8019025285421864142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_137
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 102
+        width: 73
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c98462251a18600800000000000000
+      internalID: 468833210424925232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_138
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 192
+        width: 56
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 894c000fb60001bb0800000000000000
+      internalID: -4967469925401574248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_139
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 102
+        width: 73
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667898c104dc65ba0800000000000000
+      internalID: -6100462969986381978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_140
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 192
+        width: 65
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20a7599dd7f44ba70800000000000000
+      internalID: 8841779370375084546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_141
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 102
+        width: 82
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1502a1328c7ee8420800000000000000
+      internalID: 2634297678826709073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_142
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 192
+        width: 65
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077d9323363ddc120800000000000000
+      internalID: 2435835396475180912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_143
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 102
+        width: 98
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb53fd8acdfebfab0800000000000000
+      internalID: -4973117632495536706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_144
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 192
+        width: 70
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a3758905a2b4a40800000000000000
+      internalID: 5353419107701570048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_145
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 102
+        width: 75
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a17453647c1a8350800000000000000
+      internalID: 6019655138142351784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_146
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 148
+        width: 32
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3748745cb197dda0800000000000000
+      internalID: -5920102947098179778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_147
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 102
+        width: 68
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 217ce45f11bbef280800000000000000
+      internalID: -9007556518889994478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_148
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 192
+        width: 67
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4414b840150469130800000000000000
+      internalID: 3573114071077830980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_149
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 148
+        width: 26
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89fba6c0d3df8c60800000000000000
+      internalID: 7822703971405658511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_150
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 102
+        width: 61
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4579f78a6bb25ca30800000000000000
+      internalID: 4234839088122795860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_151
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 192
+        width: 57
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c7ffdd4e0e731b70800000000000000
+      internalID: 8868570691123804101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_152
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 148
+        width: 6
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c43df7c30a5efb0800000000000000
+      internalID: -4619109661095539684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_153
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 102
+        width: 54
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6be0b06f5b9ab50800000000000000
+      internalID: 6605010396867639008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_154
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 151
+        width: 82
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e47fb46c5ed82e5e0800000000000000
+      internalID: -1881785676273551538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_155
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 102
+        width: 55
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7487fc7847dfbbe0800000000000000
+      internalID: -1459211047910538116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_156
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 192
+        width: 54
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0888a0ce55acf23d0800000000000000
+      internalID: -3229139937420212096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_157
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 154
+        width: 5
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c58f9c30e199af0800000000000000
+      internalID: -389246891168605027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_158
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 102
+        width: 55
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd4755f26aa908a0800000000000000
+      internalID: -6338347658547606062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_159
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 159
+        width: 81
+        height: 105
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df69a2d4ff1d31130800000000000000
+      internalID: 3536401026857473789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_160
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 12
+        width: 64
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 008a7c08f55716af0800000000000000
+      internalID: -404913438443722752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_161
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 12
+        width: 62
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a19710aa4ce639e10800000000000000
+      internalID: 2203226433659173146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_162
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 12
+        width: 62
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a786256107b6240800000000000000
+      internalID: 4786042270185454207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_163
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 12
+        width: 68
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92db2a43ca3b5aa0800000000000000
+      internalID: -6171274253943713124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_164
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 12
+        width: 72
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3910dbc33363aa960800000000000000
+      internalID: 7613957713713496467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_165
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 12
+        width: 62
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e188075bb1974a750800000000000000
+      internalID: 6315305737395406878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_166
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 3
+        width: 16
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1b095f8af270670800000000000000
+      internalID: 8504818824033382881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_167
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 12
+        width: 66
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d317919e4c71d6f0800000000000000
+      internalID: -661610993354861613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_168
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 3
+        width: 12
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5c9ac7a34181c70800000000000000
+      internalID: 8941919301576279467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_169
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 12
+        width: 70
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99cffc709676435c0800000000000000
+      internalID: -4236647648648495975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_170
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 4
+        width: 6
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799e10bc5d4e50130800000000000000
+      internalID: 3532481089627089303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_171
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 12
+        width: 54
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 892deae4b46278b70800000000000000
+      internalID: 8901125293405557400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_172
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 4
+        width: 7
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed04270cb6051650800000000000000
+      internalID: 6202871466416147947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_173
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 12
+        width: 55
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 146e2cae9b7c630f0800000000000000
+      internalID: -1137502254542952895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_174
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 9
+        width: 5
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd8c566171a6dbf0800000000000000
+      internalID: -299874816752841276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Medusa_175
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 12
+        width: 79
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cab7035e841be080800000000000000
+      internalID: -9157202815816844599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

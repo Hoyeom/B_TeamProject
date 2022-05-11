@@ -1,0 +1,3120 @@
+fileFormatVersion: 2
+guid: 405604559f877934c8802a49ee20c683
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6986499267369213914
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_0
+  - first:
+      213: -6666408026196428805
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_1
+  - first:
+      213: 5778548895947115660
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_2
+  - first:
+      213: 6457873347251885305
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_3
+  - first:
+      213: -8302836582079009026
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_4
+  - first:
+      213: 7077184990988413940
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_5
+  - first:
+      213: -7594324889896507335
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_6
+  - first:
+      213: 5717256948734499685
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_7
+  - first:
+      213: 8365673168120881478
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_8
+  - first:
+      213: 1305576608126173208
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_9
+  - first:
+      213: 6016521331890932606
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_10
+  - first:
+      213: -2524342267260301373
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_11
+  - first:
+      213: 1965018521283077968
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_12
+  - first:
+      213: 6777449337086826227
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_13
+  - first:
+      213: 7248331286286005334
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_14
+  - first:
+      213: 419920229691833464
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_15
+  - first:
+      213: 1776322623751111906
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_16
+  - first:
+      213: -6333405317488667285
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_17
+  - first:
+      213: -2678334526409974270
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_18
+  - first:
+      213: -6907873222863617973
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_19
+  - first:
+      213: 8296872231310798651
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_20
+  - first:
+      213: 2105426843799833889
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_21
+  - first:
+      213: -6896184223197279689
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_22
+  - first:
+      213: 3362528980299151018
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_23
+  - first:
+      213: -942269209831304207
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_24
+  - first:
+      213: -3215454645556296603
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_25
+  - first:
+      213: -8708201732728250955
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_26
+  - first:
+      213: -3544014548403911403
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_27
+  - first:
+      213: 6076509022602450333
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_28
+  - first:
+      213: 2608986327521443111
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_29
+  - first:
+      213: -2000427690989865338
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_30
+  - first:
+      213: -922915068714283137
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_31
+  - first:
+      213: 8598440069504323026
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_32
+  - first:
+      213: 5983827173025183123
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_33
+  - first:
+      213: 6583622114012635677
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_34
+  - first:
+      213: -6568180342293362133
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_35
+  - first:
+      213: 9100219732741813775
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_36
+  - first:
+      213: -3681454932506402532
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_37
+  - first:
+      213: -5671961048656963051
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_38
+  - first:
+      213: -1953412064209038832
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_39
+  - first:
+      213: 4047519153872084574
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_40
+  - first:
+      213: -6961889085844898509
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_41
+  - first:
+      213: 6406702175718145113
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_42
+  - first:
+      213: 5962283636923493116
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_43
+  - first:
+      213: -3169020043781991503
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_44
+  - first:
+      213: -1209438832986532551
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_45
+  - first:
+      213: 8955713400317791599
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_46
+  - first:
+      213: -6606971223079890966
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_47
+  - first:
+      213: 6724694000694598236
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_48
+  - first:
+      213: -5539761225203095642
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_49
+  - first:
+      213: 466143217669544295
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_50
+  - first:
+      213: 8620126557262638365
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_51
+  - first:
+      213: -2293539769039892479
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_52
+  - first:
+      213: -7751862520253429784
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_53
+  - first:
+      213: 2119267344801820033
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_54
+  - first:
+      213: 4292979301875512119
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_55
+  - first:
+      213: 1676738062588418738
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_56
+  - first:
+      213: -4947065959233545612
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_57
+  - first:
+      213: 6373466193278609656
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_58
+  - first:
+      213: -1605775665086837157
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_59
+  - first:
+      213: 1702190655768437056
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_60
+  - first:
+      213: 3957717317599279200
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_61
+  - first:
+      213: -6365135734105569878
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_62
+  - first:
+      213: -6666522972168917885
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_63
+  - first:
+      213: 4906235068901717163
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_64
+  - first:
+      213: 9002232674074439188
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_65
+  - first:
+      213: 2745864581311893569
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_66
+  - first:
+      213: 1169555717401035030
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_67
+  - first:
+      213: -4166617702063698786
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_68
+  - first:
+      213: -232507631409916230
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_69
+  - first:
+      213: 6712200153937525545
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_70
+  - first:
+      213: -8603476414048505702
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_71
+  - first:
+      213: -2606424871299841310
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_72
+  - first:
+      213: 8830143710845551525
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_73
+  - first:
+      213: 5916165031199286319
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_74
+  - first:
+      213: 5834345251821414276
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_75
+  - first:
+      213: -5258045366372701317
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_76
+  - first:
+      213: -5173117637599633321
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_77
+  - first:
+      213: -8824019342170030115
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_78
+  - first:
+      213: 2533664547570232853
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_79
+  - first:
+      213: 287233824372699141
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_80
+  - first:
+      213: -1872362347535291154
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_81
+  - first:
+      213: -5755005369663926699
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_82
+  - first:
+      213: 153767150098320123
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_83
+  - first:
+      213: 5580214059269427595
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_84
+  - first:
+      213: 2505380624343335985
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_85
+  - first:
+      213: -2489273868595744914
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_86
+  - first:
+      213: -1082111346542887043
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_87
+  - first:
+      213: 1991215256351108740
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_88
+  - first:
+      213: 7242967873129748760
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_89
+  - first:
+      213: 1325710258767035821
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_90
+  - first:
+      213: -7054257648014088097
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_91
+  - first:
+      213: 353553694437327536
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_92
+  - first:
+      213: -662121077939432362
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_93
+  - first:
+      213: -7073834408366217913
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_94
+  - first:
+      213: 1157606309306073293
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_95
+  - first:
+      213: -3169882661875002732
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_96
+  - first:
+      213: 1221621119501123644
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_97
+  - first:
+      213: -2803847171936089083
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_98
+  - first:
+      213: 8270816733487058326
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_99
+  - first:
+      213: 5028223767505989639
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_100
+  - first:
+      213: -3835731760058321409
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_101
+  - first:
+      213: -8453028653333290417
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_102
+  - first:
+      213: -2914899496878252558
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_103
+  - first:
+      213: 1146414484056362204
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_104
+  - first:
+      213: 1753638750513096099
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_105
+  - first:
+      213: -7115141009384354589
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_106
+  - first:
+      213: -227405023721116384
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_107
+  - first:
+      213: -746068182731527403
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_108
+  - first:
+      213: -4008555518052858061
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_109
+  - first:
+      213: -369146667073206575
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_110
+  - first:
+      213: -8228866113466706459
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_111
+  - first:
+      213: -7731857268638117377
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_112
+  - first:
+      213: -5911688773764497782
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_113
+  - first:
+      213: 1929781517352437949
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_114
+  - first:
+      213: 8396077826396825059
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_115
+  - first:
+      213: -6100727852857467561
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_116
+  - first:
+      213: 3637703446892208721
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_117
+  - first:
+      213: 3694071832142215762
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_118
+  - first:
+      213: -8099913025448754005
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_119
+  - first:
+      213: -383279719477870782
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_120
+  - first:
+      213: 6825543954462668398
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_121
+  - first:
+      213: 7961253682316069559
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_122
+  - first:
+      213: -5841728727908338782
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_123
+  - first:
+      213: -7622630759193265529
+    second: PlayStation - Castlevania Symphony of the Night - Cerberos_124
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 40
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 623
+        width: 93
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6206ee0bee7fa0f90800000000000000
+      internalID: -6986499267369213914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_1
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 623
+        width: 93
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf7bfb668392c73a0800000000000000
+      internalID: -6666408026196428805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_2
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 623
+        width: 92
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c4724da97813050800000000000000
+      internalID: 5778548895947115660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_3
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 623
+        width: 95
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f459631899fe9950800000000000000
+      internalID: 6457873347251885305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_4
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 623
+        width: 94
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efeef017e1666cc80800000000000000
+      internalID: -8302836582079009026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_5
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 623
+        width: 91
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb2795b046373260800000000000000
+      internalID: 7077184990988413940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_6
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 623
+        width: 92
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938afc4cfb98b9690800000000000000
+      internalID: -7594324889896507335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_7
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 623
+        width: 91
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b14fe47e6c75f40800000000000000
+      internalID: 5717256948734499685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_8
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 623
+        width: 91
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641acd45c67d81470800000000000000
+      internalID: 8365673168120881478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_9
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 545
+        width: 94
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8108b6202075e1210800000000000000
+      internalID: 1305576608126173208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_10
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 545
+        width: 91
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b4be2464afe7350800000000000000
+      internalID: 6016521331890932606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_11
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 545
+        width: 90
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf027c151cb7fcd0800000000000000
+      internalID: -2524342267260301373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_12
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 545
+        width: 91
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 057242a1fe5254b10800000000000000
+      internalID: 1965018521283077968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_13
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 545
+        width: 92
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f6544c73465e0e50800000000000000
+      internalID: 6777449337086826227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_14
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 545
+        width: 91
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6547d6dc6ee379460800000000000000
+      internalID: 7248331286286005334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_15
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 545
+        width: 90
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c38cc593bd3d500800000000000000
+      internalID: 419920229691833464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_16
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 545
+        width: 91
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e4cc23d304c6a810800000000000000
+      internalID: 1776322623751111906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_17
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 545
+        width: 95
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6594886b693b18a0800000000000000
+      internalID: -6333405317488667285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_18
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 545
+        width: 92
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e5bab40f4a4dad0800000000000000
+      internalID: -2678334526409974270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_19
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 545
+        width: 91
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4008cd37ed4220a0800000000000000
+      internalID: -6907873222863617973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_20
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 545
+        width: 90
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f251ee559642370800000000000000
+      internalID: 8296872231310798651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_21
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 466
+        width: 87
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12dc2453f8af73d10800000000000000
+      internalID: 2105426843799833889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_22
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 467
+        width: 89
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a4cae8cf4db40a0800000000000000
+      internalID: -6896184223197279689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_23
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 465
+        width: 95
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6ffa9ca4a1aae20800000000000000
+      internalID: 3362528980299151018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_24
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 467
+        width: 95
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3973165236ce2f0800000000000000
+      internalID: -942269209831304207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_25
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 467
+        width: 97
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 564cc3c39096063d0800000000000000
+      internalID: -3215454645556296603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_26
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 467
+        width: 95
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd9a4089a0462780800000000000000
+      internalID: -8708201732728250955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_27
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 465
+        width: 95
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51581939b8121dec0800000000000000
+      internalID: -3544014548403911403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_28
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 467
+        width: 89
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d95dca6e2c8145450800000000000000
+      internalID: 6076509022602450333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_29
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 466
+        width: 87
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d34cbed3bf43420800000000000000
+      internalID: 2608986327521443111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_30
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 461
+        width: 71
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686b1bf1d9d0d34e0800000000000000
+      internalID: -2000427690989865338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_31
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 461
+        width: 72
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f0e6382a52133f0800000000000000
+      internalID: -922915068714283137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_32
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 461
+        width: 74
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd4a4dcfabc35770800000000000000
+      internalID: 8598440069504323026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_33
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 488
+        width: 27
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395fe753c13da0350800000000000000
+      internalID: 5983827173025183123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_34
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 479
+        width: 34
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1221216e69bd5b50800000000000000
+      internalID: 6583622114012635677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_35
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 461
+        width: 33
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a86e447c229d4a0800000000000000
+      internalID: -6568180342293362133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_36
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 369
+        width: 77
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f067314c1a97a4e70800000000000000
+      internalID: 9100219732741813775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_37
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 369
+        width: 81
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c11a85b7e38d8ecc0800000000000000
+      internalID: -3681454932506402532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_38
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 369
+        width: 81
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a13f24a752941b0800000000000000
+      internalID: -5671961048656963051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_39
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 369
+        width: 81
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0129bd4c31614e4e0800000000000000
+      internalID: -1953412064209038832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_40
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 369
+        width: 81
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e922cc93dab2830800000000000000
+      internalID: 4047519153872084574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_41
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 369
+        width: 81
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33dbb8813c6626f90800000000000000
+      internalID: -6961889085844898509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_42
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 369
+        width: 81
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95cf6654fad29e850800000000000000
+      internalID: 6406702175718145113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_43
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 369
+        width: 81
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfae2f4d0694eb250800000000000000
+      internalID: 5962283636923493116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_44
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 369
+        width: 81
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b318447f016504d0800000000000000
+      internalID: -3169020043781991503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_45
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 369
+        width: 81
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935564e0ac5373fe0800000000000000
+      internalID: -1209438832986532551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_46
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 283
+        width: 95
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6dc52063e5194c70800000000000000
+      internalID: 8955713400317791599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_47
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 283
+        width: 92
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef48178da25f44a0800000000000000
+      internalID: -6606971223079890966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_48
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 283
+        width: 93
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a1a9e8099e25d50800000000000000
+      internalID: 6724694000694598236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_49
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 284
+        width: 77
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7694f3480de13b0800000000000000
+      internalID: -5539761225203095642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_50
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 284
+        width: 81
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76996a769c2187600800000000000000
+      internalID: 466143217669544295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_51
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 301
+        width: 102
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1dec84be67d0a770800000000000000
+      internalID: 8620126557262638365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_52
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 294
+        width: 87
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10055245bb5bb20e0800000000000000
+      internalID: -2293539769039892479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_53
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 283
+        width: 86
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e741a4eb1adb6490800000000000000
+      internalID: -7751862520253429784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_54
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 283
+        width: 91
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d6ff6fb66296d10800000000000000
+      internalID: 2119267344801820033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_55
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 283
+        width: 93
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 733f46c0ee9b39b30800000000000000
+      internalID: 4292979301875512119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_56
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 283
+        width: 92
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba95f95268f44710800000000000000
+      internalID: 1676738062588418738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_57
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 197
+        width: 95
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a157388bd785bb0800000000000000
+      internalID: -4947065959233545612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_58
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 197
+        width: 92
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f825561cb9137850800000000000000
+      internalID: 6373466193278609656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_59
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 197
+        width: 77
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e48855a8327b9e0800000000000000
+      internalID: -1605775665086837157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_60
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 197
+        width: 70
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 041211102656f9710800000000000000
+      internalID: 1702190655768437056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_61
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 197
+        width: 73
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 068bae47ee2ace630800000000000000
+      internalID: 3957717317599279200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_62
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 197
+        width: 69
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa50e7516ce7aa7a0800000000000000
+      internalID: -6365135734105569878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_63
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 197
+        width: 70
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ce3e47da0cb73a0800000000000000
+      internalID: -6666522972168917885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_64
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 197
+        width: 69
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba473720dc2761440800000000000000
+      internalID: 4906235068901717163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_65
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 197
+        width: 73
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e2f93dbea5eec70800000000000000
+      internalID: 9002232674074439188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_66
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 197
+        width: 70
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1401c6ad9454b1620800000000000000
+      internalID: 2745864581311893569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_67
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 197
+        width: 77
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61147b87ab81b3010800000000000000
+      internalID: 1169555717401035030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_68
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 197
+        width: 92
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c83a196433d26c0800000000000000
+      internalID: -4166617702063698786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_69
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 197
+        width: 95
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab69e368a87f5ccf0800000000000000
+      internalID: -232507631409916230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_70
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 157
+        width: 37
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92bb4cc2a76862d50800000000000000
+      internalID: 6712200153937525545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_71
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 157
+        width: 38
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90ff2bd8cf4a9880800000000000000
+      internalID: -8603476414048505702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_72
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 156
+        width: 38
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e20e64936e14dbd0800000000000000
+      internalID: -2606424871299841310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_73
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 156
+        width: 38
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a34990cbe8fa8a70800000000000000
+      internalID: 8830143710845551525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_74
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 156
+        width: 38
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24a83d20c07a1250800000000000000
+      internalID: 5916165031199286319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_75
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 157
+        width: 38
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4876dc74812c7f050800000000000000
+      internalID: 5834345251821414276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_76
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 157
+        width: 37
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b677cf89ba707b0800000000000000
+      internalID: -5258045366372701317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_77
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 157
+        width: 39
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 750e09dbae46538b0800000000000000
+      internalID: -5173117637599633321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_78
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 156
+        width: 40
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf77c2f829ca8580800000000000000
+      internalID: -8824019342170030115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_79
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 156
+        width: 38
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51eace96b72692320800000000000000
+      internalID: 2533664547570232853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_80
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 156
+        width: 40
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500363534a57cf300800000000000000
+      internalID: 287233824372699141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_81
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 157
+        width: 39
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeca7587d580406e0800000000000000
+      internalID: -1872362347535291154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_82
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 157
+        width: 37
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e47bc8b1d1220b0800000000000000
+      internalID: -5755005369663926699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_83
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 157
+        width: 38
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa0cb7886a422200800000000000000
+      internalID: 153767150098320123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_84
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 156
+        width: 38
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8115652f17e07d40800000000000000
+      internalID: 5580214059269427595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_85
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 156
+        width: 38
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134812d5766e4c220800000000000000
+      internalID: 2505380624343335985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_86
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 156
+        width: 38
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6f20b1fa92547dd0800000000000000
+      internalID: -2489273868595744914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_87
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 157
+        width: 38
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7f34eda6719bf0f0800000000000000
+      internalID: -1082111346542887043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_88
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 62
+        width: 60
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e652ac9b732ab10800000000000000
+      internalID: 1991215256351108740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_89
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 66
+        width: 54
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819177dd7e0348460800000000000000
+      internalID: 7242967873129748760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_90
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 64
+        width: 44
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad76e8d47ed56210800000000000000
+      internalID: 1325710258767035821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_91
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 101
+        width: 9
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f58a9005b0e3a1e90800000000000000
+      internalID: -7054257648014088097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_92
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 105
+        width: 10
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b2c6fd363318e400800000000000000
+      internalID: 353553694437327536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_93
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 56
+        width: 59
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6541f1f336cafc6f0800000000000000
+      internalID: -662121077939432362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_94
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 5
+        width: 67
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74565699511b4dd90800000000000000
+      internalID: -7073834408366217913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_95
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 58
+        width: 53
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc080f71ec4a01010800000000000000
+      internalID: 1157606309306073293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_96
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 67
+        width: 54
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492554783805204d0800000000000000
+      internalID: -3169882661875002732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_97
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 75
+        width: 47
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30cafd8fe114f010800000000000000
+      internalID: 1221621119501123644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_98
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 85
+        width: 22
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c04404adbb619d0800000000000000
+      internalID: -2803847171936089083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_99
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 75
+        width: 18
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d4ad99ff7d7c270800000000000000
+      internalID: 8270816733487058326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_100
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 90
+        width: 13
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 700fe5930e6d7c540800000000000000
+      internalID: 5028223767505989639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_101
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 70
+        width: 29
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff53a0c694eb4cac0800000000000000
+      internalID: -3835731760058321409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_102
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 63
+        width: 53
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42eed1d93fc0ba80800000000000000
+      internalID: -8453028653333290417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_103
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 87
+        width: 13
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd5b94f9523c87d0800000000000000
+      internalID: -2914899496878252558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_104
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 87
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdcca8736e1e8ef00800000000000000
+      internalID: 1146414484056362204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_105
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 74
+        width: 10
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a561b4072d265810800000000000000
+      internalID: 1753638750513096099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_106
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 67
+        width: 14
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ecc4d813f0f14d90800000000000000
+      internalID: -7115141009384354589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_107
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 74
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02da6f4f55818dcf0800000000000000
+      internalID: -227405023721116384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_108
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 3
+        width: 25
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51be01ec0fe65a5f0800000000000000
+      internalID: -746068182731527403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_109
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1
+        width: 29
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337070c9effbe58c0800000000000000
+      internalID: -4008555518052858061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_110
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 2
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d60517ef0780eaf0800000000000000
+      internalID: -369146667073206575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_111
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e551924ed13dcd80800000000000000
+      internalID: -8228866113466706459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_112
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 2
+        width: 31
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff19dc087cce2b490800000000000000
+      internalID: -7731857268638117377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_113
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 2
+        width: 29
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e3a19b16675fda0800000000000000
+      internalID: -5911688773764497782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_114
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 2
+        width: 29
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db808ebc016f7ca10800000000000000
+      internalID: 1929781517352437949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_115
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1
+        width: 29
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e5aaec7c4cd48470800000000000000
+      internalID: 8396077826396825059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_116
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1
+        width: 30
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d5913475cd55ba0800000000000000
+      internalID: -6100727852857467561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_117
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 2
+        width: 29
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1526936f208bb7230800000000000000
+      internalID: 3637703446892208721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_118
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 3
+        width: 24
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25afc9162caf34330800000000000000
+      internalID: 3694071832142215762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_119
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 2
+        width: 28
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4419eb404579f80800000000000000
+      internalID: -8099913025448754005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_120
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 25
+        width: 13
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ff8e630215eaaf0800000000000000
+      internalID: -383279719477870782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_121
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 7
+        width: 9
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66ff84301439be50800000000000000
+      internalID: 6825543954462668398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_122
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 13
+        width: 6
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba48352b0e0c7e60800000000000000
+      internalID: 7961253682316069559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_123
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 14
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a334da3ca20eeea0800000000000000
+      internalID: -5841728727908338782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Cerberos_124
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 2
+        width: 6
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ab15006b9f63690800000000000000
+      internalID: -7622630759193265529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

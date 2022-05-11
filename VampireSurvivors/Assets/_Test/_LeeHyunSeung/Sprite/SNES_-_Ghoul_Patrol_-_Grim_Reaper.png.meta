@@ -1,0 +1,4512 @@
+fileFormatVersion: 2
+guid: 0fe8ac9beea79ff41a0e3274351e852f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5461982567157523259
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_0
+  - first:
+      213: -6589554689284952197
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_1
+  - first:
+      213: 6337497792763645294
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_2
+  - first:
+      213: -2062954742160893125
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_3
+  - first:
+      213: 1607586639388066394
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_4
+  - first:
+      213: 7015227993541254188
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_5
+  - first:
+      213: -8190963090360106410
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_6
+  - first:
+      213: -2617323597529366980
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_7
+  - first:
+      213: -2010248483114385396
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_8
+  - first:
+      213: 167098601698892344
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_9
+  - first:
+      213: -9164855970923299305
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_10
+  - first:
+      213: -2965393241866939133
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_11
+  - first:
+      213: -6906224938308628463
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_12
+  - first:
+      213: -8192850097013272196
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_13
+  - first:
+      213: 7542304874696252569
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_14
+  - first:
+      213: 6994187845269671136
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_15
+  - first:
+      213: 6711135442891005185
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_16
+  - first:
+      213: -4966676751914974100
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_17
+  - first:
+      213: 5614895660539089724
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_18
+  - first:
+      213: -7911785458157430155
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_19
+  - first:
+      213: 5842130674330518794
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_20
+  - first:
+      213: 1499329237957390039
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_21
+  - first:
+      213: -4327046261080673898
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_22
+  - first:
+      213: -422547283990072303
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_23
+  - first:
+      213: 4527405667202534905
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_24
+  - first:
+      213: -1707220837623781445
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_25
+  - first:
+      213: 6466255764622229836
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_26
+  - first:
+      213: -8107370989541097587
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_27
+  - first:
+      213: -631275819329164946
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_28
+  - first:
+      213: 1808753746405085474
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_29
+  - first:
+      213: 2712120622674188028
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_30
+  - first:
+      213: 5603872712743733122
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_31
+  - first:
+      213: 3079385742464054307
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_32
+  - first:
+      213: -6894461173653181422
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_33
+  - first:
+      213: -8071324038849895469
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_34
+  - first:
+      213: 4234318366500580739
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_35
+  - first:
+      213: 7115928973749584594
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_36
+  - first:
+      213: -4241576536730193248
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_37
+  - first:
+      213: -1305809351497954221
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_38
+  - first:
+      213: -5367324215434449197
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_39
+  - first:
+      213: -1198318204461606314
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_40
+  - first:
+      213: -4384769712123184818
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_41
+  - first:
+      213: 5045220684783146034
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_42
+  - first:
+      213: -4295930492317071823
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_43
+  - first:
+      213: 5722320657804243849
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_44
+  - first:
+      213: 2969261838969145398
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_45
+  - first:
+      213: -7353387739641805662
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_46
+  - first:
+      213: -3684004952864768981
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_47
+  - first:
+      213: 4791659672881593478
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_48
+  - first:
+      213: 4776710087439217770
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_49
+  - first:
+      213: -5791932370373520391
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_50
+  - first:
+      213: 5941945247438776375
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_51
+  - first:
+      213: 254171227132766565
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_52
+  - first:
+      213: 4793437662948134432
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_53
+  - first:
+      213: 8911920790274047475
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_54
+  - first:
+      213: 8357904956300382686
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_55
+  - first:
+      213: -4958119181501846651
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_56
+  - first:
+      213: -8008446557134551443
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_57
+  - first:
+      213: 1589253426913667479
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_58
+  - first:
+      213: 4289428587363912324
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_59
+  - first:
+      213: -3232274514184128576
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_60
+  - first:
+      213: -4919411305737753877
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_61
+  - first:
+      213: -2183874982442777245
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_62
+  - first:
+      213: 5419744143712976440
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_63
+  - first:
+      213: 6642470957628549442
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_64
+  - first:
+      213: -9080677582057034039
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_65
+  - first:
+      213: 5932398617475377768
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_66
+  - first:
+      213: 6762185580938317486
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_67
+  - first:
+      213: 6472251670250075818
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_68
+  - first:
+      213: 2298162441847519208
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_69
+  - first:
+      213: -4807412277691706705
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_70
+  - first:
+      213: 4305135597751341839
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_71
+  - first:
+      213: -6637602260721890008
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_72
+  - first:
+      213: -1648432267902299698
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_73
+  - first:
+      213: 3882440655221414895
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_74
+  - first:
+      213: 3283661330907704351
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_75
+  - first:
+      213: 4326836054449524217
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_76
+  - first:
+      213: -757480066481672279
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_77
+  - first:
+      213: -1739891169779841525
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_78
+  - first:
+      213: -9159272970189319637
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_79
+  - first:
+      213: -423735856508030151
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_80
+  - first:
+      213: -7247567709058121989
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_81
+  - first:
+      213: -4165428419881021067
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_82
+  - first:
+      213: 3708501932553508739
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_83
+  - first:
+      213: -5120776031039081606
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_84
+  - first:
+      213: -6437880695168236311
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_85
+  - first:
+      213: 3865122388218924218
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_86
+  - first:
+      213: -1813218041928880486
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_87
+  - first:
+      213: 5752228400900340955
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_88
+  - first:
+      213: -8537535746960367362
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_89
+  - first:
+      213: -2008732945610851848
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_90
+  - first:
+      213: 7905878294979592534
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_91
+  - first:
+      213: -5027470345437921342
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_92
+  - first:
+      213: 1582916662289172896
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_93
+  - first:
+      213: 1838653334450543802
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_94
+  - first:
+      213: -7566898106438114302
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_95
+  - first:
+      213: -2344799759928223256
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_96
+  - first:
+      213: -6209397624926191904
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_97
+  - first:
+      213: -2796899077125518088
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_98
+  - first:
+      213: -7897748726129363616
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_99
+  - first:
+      213: 6599177945596073267
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_100
+  - first:
+      213: -3943909668931266618
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_101
+  - first:
+      213: 512808353453974619
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_102
+  - first:
+      213: 1080072773989006237
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_103
+  - first:
+      213: 4523821648275620222
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_104
+  - first:
+      213: -375844649124287473
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_105
+  - first:
+      213: 2176886431055856958
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_106
+  - first:
+      213: -5141465182950518282
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_107
+  - first:
+      213: -2440250824481493022
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_108
+  - first:
+      213: -348299612237720660
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_109
+  - first:
+      213: 8883310210024141852
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_110
+  - first:
+      213: -4731407726916152959
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_111
+  - first:
+      213: -3034973209064933376
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_112
+  - first:
+      213: 7411029766663363946
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_113
+  - first:
+      213: 4675998259002972189
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_114
+  - first:
+      213: 6320778678236944911
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_115
+  - first:
+      213: 8667528183007652634
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_116
+  - first:
+      213: -1973693267185484784
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_117
+  - first:
+      213: -5186682856245885736
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_118
+  - first:
+      213: -434927752786041680
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_119
+  - first:
+      213: -809659210067116528
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_120
+  - first:
+      213: 5525050478321539119
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_121
+  - first:
+      213: -8240991629736192417
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_122
+  - first:
+      213: 2661764295529957265
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_123
+  - first:
+      213: -6139161368927406227
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_124
+  - first:
+      213: 4205528968277766109
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_125
+  - first:
+      213: 3274360159731439865
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_126
+  - first:
+      213: -8140067045052103247
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_127
+  - first:
+      213: 1598715344514152384
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_128
+  - first:
+      213: -2840212168593324761
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_129
+  - first:
+      213: 3049234771037681409
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_130
+  - first:
+      213: 101451996134500673
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_131
+  - first:
+      213: 2216364316786983193
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_132
+  - first:
+      213: -1451065587416706066
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_133
+  - first:
+      213: -16362957012382522
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_134
+  - first:
+      213: -8169128414254341664
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_135
+  - first:
+      213: -1059639629160287125
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_136
+  - first:
+      213: -4627818737671580756
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_137
+  - first:
+      213: -8196220609118285997
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_138
+  - first:
+      213: -8917544182921097979
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_139
+  - first:
+      213: 8855363461276650955
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_140
+  - first:
+      213: -13127299795231857
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_141
+  - first:
+      213: 5613705041696055429
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_142
+  - first:
+      213: 327192238007901287
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_143
+  - first:
+      213: 5565670728843632271
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_144
+  - first:
+      213: -9047092492599275562
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_145
+  - first:
+      213: 7593750102587656802
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_146
+  - first:
+      213: 879105375259661553
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_147
+  - first:
+      213: -3874394428396901375
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_148
+  - first:
+      213: 7549783431684602916
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_149
+  - first:
+      213: 6224595254323901347
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_150
+  - first:
+      213: -4445917991715389811
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_151
+  - first:
+      213: 6890899848447142203
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_152
+  - first:
+      213: -5721903809781281839
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_153
+  - first:
+      213: 8077408672393322939
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_154
+  - first:
+      213: -2483034944443924702
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_155
+  - first:
+      213: 3627077682603837192
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_156
+  - first:
+      213: 7352358801818248999
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_157
+  - first:
+      213: 2632367258699959452
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_158
+  - first:
+      213: -7449468148284391066
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_159
+  - first:
+      213: -4974543781355442651
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_160
+  - first:
+      213: 7441021148906198418
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_161
+  - first:
+      213: 6847622281207505175
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_162
+  - first:
+      213: 4264783427251006812
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_163
+  - first:
+      213: -2795939423011056535
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_164
+  - first:
+      213: 9070955102325091557
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_165
+  - first:
+      213: -6520418810817523008
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_166
+  - first:
+      213: -3775565365129108456
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_167
+  - first:
+      213: 2020685249102814045
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_168
+  - first:
+      213: 7959938798491902910
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_169
+  - first:
+      213: 3334218932171667958
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_170
+  - first:
+      213: 8057014342696510650
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_171
+  - first:
+      213: 5498390200133341316
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_172
+  - first:
+      213: 773552779012840764
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_173
+  - first:
+      213: 2717246132168549998
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_174
+  - first:
+      213: -7144095318830865418
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_175
+  - first:
+      213: -5040024729414196739
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_176
+  - first:
+      213: 6965375683692735177
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_177
+  - first:
+      213: -3253639607803095600
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_178
+  - first:
+      213: 8612384038258582772
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_179
+  - first:
+      213: 8720089159441791838
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_180
+  - first:
+      213: -7829762848030717025
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_181
+  - first:
+      213: -2548149724036317336
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_182
+  - first:
+      213: -158610876382124782
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_183
+  - first:
+      213: -8589783738269368406
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_184
+  - first:
+      213: -8068412164213838625
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_185
+  - first:
+      213: -4918780206740276352
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_186
+  - first:
+      213: -4810716785390532642
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_187
+  - first:
+      213: 4761330270032597238
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_188
+  - first:
+      213: -9006203100852004245
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_189
+  - first:
+      213: 5943835970898296557
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_190
+  - first:
+      213: 3023003761563037290
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_191
+  - first:
+      213: -2618648525538966545
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_192
+  - first:
+      213: -937460362197429246
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_193
+  - first:
+      213: -6871336095367107225
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_194
+  - first:
+      213: -4339280347645370413
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_195
+  - first:
+      213: -6648359766239349577
+    second: SNES_-_Ghoul_Patrol_-_Grim_Reaper_196
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 689
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc13334bc32334b0800000000000000
+      internalID: -5461982567157523259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 689
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f292d4ce23d84a0800000000000000
+      internalID: -6589554689284952197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_2
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 689
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6dcf7e3aa053f750800000000000000
+      internalID: 6337497792763645294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_3
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 689
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3bdacd8799ee53e0800000000000000
+      internalID: -2062954742160893125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_4
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 687
+        width: 4
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52c36af78b4f4610800000000000000
+      internalID: 1607586639388066394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_5
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 627
+        width: 42
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c176d11b81b5160800000000000000
+      internalID: 7015227993541254188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_6
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 615
+        width: 41
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65200c6877ad35e80800000000000000
+      internalID: -8190963090360106410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_7
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 624
+        width: 40
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3eb3032e066dabd0800000000000000
+      internalID: -2617323597529366980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_8
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 624
+        width: 44
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0003b5c7a92a14e0800000000000000
+      internalID: -2010248483114385396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_9
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 616
+        width: 45
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a1abcfa47a15200800000000000000
+      internalID: 167098601698892344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_10
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 614
+        width: 42
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ebf7b4d04efc080800000000000000
+      internalID: -9164855970923299305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_11
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 616
+        width: 21
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3055d2fce8ec8d6d0800000000000000
+      internalID: -2965393241866939133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_12
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 616
+        width: 19
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1109b2562092820a0800000000000000
+      internalID: -6906224938308628463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_13
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 616
+        width: 21
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71df7d8e362d4e80800000000000000
+      internalID: -8192850097013272196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_14
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 537
+        width: 57
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c97fb9256aba860800000000000000
+      internalID: 7542304874696252569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_16
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 536
+        width: 54
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d5d01d02eb22d50800000000000000
+      internalID: 6711135442891005185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_17
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 536
+        width: 56
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c64cae70fc1d21bb0800000000000000
+      internalID: -4966676751914974100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_18
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 536
+        width: 53
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c339051badd1ced40800000000000000
+      internalID: 5614895660539089724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_19
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 536
+        width: 59
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57adc635b01b33290800000000000000
+      internalID: -7911785458157430155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_22
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 535
+        width: 53
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691ba99e95e33f3c0800000000000000
+      internalID: -4327046261080673898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_31
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 468
+        width: 56
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2874899aa84f4cd40800000000000000
+      internalID: 5603872712743733122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_32
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 466
+        width: 58
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 324f8f9740d2cba20800000000000000
+      internalID: 3079385742464054307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_33
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 467
+        width: 56
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21cedaa4714f150a0800000000000000
+      internalID: -6894461173653181422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_34
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 457
+        width: 52
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d3e745ec85ecff80800000000000000
+      internalID: -8071324038849895469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_35
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 465
+        width: 44
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ded25be1253ca30800000000000000
+      internalID: 4234318366500580739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_36
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 512
+        width: 6
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d2014723bbd0c260800000000000000
+      internalID: 7115928973749584594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_37
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 469
+        width: 47
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2b098dc94e225c0800000000000000
+      internalID: -4241576536730193248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_38
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 499
+        width: 6
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35cc4933055d0ede0800000000000000
+      internalID: -1305809351497954221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_39
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 458
+        width: 21
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de6da8301f6385b0800000000000000
+      internalID: -5367324215434449197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_40
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 458
+        width: 21
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a9e2721f7be5fe0800000000000000
+      internalID: -1198318204461606314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_41
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 457
+        width: 25
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e497107ad2b2623c0800000000000000
+      internalID: -4384769712123184818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_42
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 457
+        width: 25
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 234d3f96b79340640800000000000000
+      internalID: 5045220684783146034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_43
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 457
+        width: 25
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1360ca16af9c164c0800000000000000
+      internalID: -4295930492317071823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_44
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 439
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9833d43f154c96f40800000000000000
+      internalID: 5722320657804243849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_45
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 439
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63801e429efe43920800000000000000
+      internalID: 2969261838969145398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_46
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 437
+        width: 4
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a400fa8fc483f990800000000000000
+      internalID: -7353387739641805662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_47
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 439
+        width: 4
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c37b99309cfdcc0800000000000000
+      internalID: -3684004952864768981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_48
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 439
+        width: 4
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68cfbaec5156f7240800000000000000
+      internalID: 4791659672881593478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_49
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 439
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a64f6d434884a4240800000000000000
+      internalID: 4776710087439217770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_50
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 376
+        width: 60
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f3dcc4323cee9fa0800000000000000
+      internalID: -5791932370373520391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_51
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 427
+        width: 6
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738a86488b7067250800000000000000
+      internalID: 5941945247438776375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_52
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 367
+        width: 69
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569af59626ff68300800000000000000
+      internalID: 254171227132766565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_53
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 375
+        width: 94
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e80016826b58240800000000000000
+      internalID: 4793437662948134432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_54
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 412
+        width: 6
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fdf3bacdb08dab70800000000000000
+      internalID: 8911920790274047475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_55
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 367
+        width: 34
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1d2c2964e3df370800000000000000
+      internalID: 8357904956300382686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_56
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 368
+        width: 21
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58b2888afd8313bb0800000000000000
+      internalID: -4958119181501846651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_57
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 368
+        width: 21
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d668b4f69484cd090800000000000000
+      internalID: -8008446557134551443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_58
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 289
+        width: 60
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799e24152992e0610800000000000000
+      internalID: 1589253426913667479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_59
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 291
+        width: 67
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a4b37e29c178b30800000000000000
+      internalID: 4289428587363912324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_60
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 290
+        width: 65
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7b1856477a423d0800000000000000
+      internalID: -3232274514184128576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_63
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 289
+        width: 47
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ef38b659cc63b40800000000000000
+      internalID: 5419744143712976440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_67
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 274
+        width: 6
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaec81155fb18dd50800000000000000
+      internalID: 6762185580938317486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_68
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 214
+        width: 57
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa63f264a9e02d950800000000000000
+      internalID: 6472251670250075818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_69
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 214
+        width: 67
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e7377e8096b4ef10800000000000000
+      internalID: 2298162441847519208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_70
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 231
+        width: 71
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa295531104a84db0800000000000000
+      internalID: -4807412277691706705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_71
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 267
+        width: 9
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f039bdd340aeebb30800000000000000
+      internalID: 4305135597751341839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_72
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 224
+        width: 47
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d875159ef72e3a0800000000000000
+      internalID: -6637602260721890008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_73
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 258
+        width: 6
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec1546b06979f19e0800000000000000
+      internalID: -1648432267902299698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_74
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 247
+        width: 16
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: febd104b43331e530800000000000000
+      internalID: 3882440655221414895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_75
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 258
+        width: 8
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ca0773598e19d20800000000000000
+      internalID: 3283661330907704351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_76
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 214
+        width: 27
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd01da87720c0c30800000000000000
+      internalID: 4326836054449524217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_77
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 214
+        width: 25
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9afabe094e3ec75f0800000000000000
+      internalID: -757480066481672279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_78
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 195
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b060f6d033aaad7e0800000000000000
+      internalID: -1739891169779841525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_79
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 195
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b225703f2c9b3e080800000000000000
+      internalID: -9159272970189319637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_80
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 195
+        width: 4
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9333e3acb769e1af0800000000000000
+      internalID: -423735856508030151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_81
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 195
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfebfff51977b6b90800000000000000
+      internalID: -7247567709058121989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_82
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 195
+        width: 8
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571dca7ebec6136c0800000000000000
+      internalID: -4165428419881021067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_83
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 195
+        width: 8
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38793b2fbde377330800000000000000
+      internalID: 3708501932553508739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_84
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 195
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a73b49fa4595fe8b0800000000000000
+      internalID: -5120776031039081606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_85
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 195
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e4072afd9d08a6a0800000000000000
+      internalID: -6437880695168236311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_86
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 195
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abcc233755ca3a530800000000000000
+      internalID: 3865122388218924218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_87
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 195
+        width: 4
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9eef763cc726d6e0800000000000000
+      internalID: -1813218041928880486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_88
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 195
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdcf396014504df40800000000000000
+      internalID: 5752228400900340955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_89
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 195
+        width: 11
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef06a31d874948980800000000000000
+      internalID: -8537535746960367362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_90
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 195
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f9bd38570c8f14e0800000000000000
+      internalID: -2008732945610851848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_91
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 195
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651cab11c6257bd60800000000000000
+      internalID: 7905878294979592534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_92
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 195
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cfbc558b56da3ab0800000000000000
+      internalID: -5027470345437921342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_93
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 195
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a90bc45156a7f510800000000000000
+      internalID: 1582916662289172896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_94
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 193
+        width: 9
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc13015775348910800000000000000
+      internalID: 1838653334450543802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_95
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 195
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2042e2a634afcf690800000000000000
+      internalID: -7566898106438114302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_96
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 195
+        width: 4
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e99e08aa09957fd0800000000000000
+      internalID: -2344799759928223256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_97
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 195
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eebe1942c9c3d9a0800000000000000
+      internalID: -6209397624926191904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_98
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 195
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fcc053ab1b6f29d0800000000000000
+      internalID: -2796899077125518088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_99
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 195
+        width: 4
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 065f3cda06f856290800000000000000
+      internalID: -7897748726129363616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_100
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 195
+        width: 7
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33598d8a06df49b50800000000000000
+      internalID: 6599177945596073267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_101
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 193
+        width: 11
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c79f154d0b6449c0800000000000000
+      internalID: -3943909668931266618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_102
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 195
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b542a710b7cdd1700800000000000000
+      internalID: 512808353453974619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_103
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 195
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b7f2927703dfe00800000000000000
+      internalID: 1080072773989006237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_104
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 193
+        width: 4
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71c0b422d7d7ce30800000000000000
+      internalID: 4523821648275620222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_105
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 195
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0c273e684bb8caf0800000000000000
+      internalID: -375844649124287473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_106
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 195
+        width: 8
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e35c377ecaad53e10800000000000000
+      internalID: 2176886431055856958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_107
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 195
+        width: 4
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1123128a8d5a8b0800000000000000
+      internalID: -5141465182950518282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_108
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 195
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef2debddcc722ed0800000000000000
+      internalID: -2440250824481493022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_109
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 195
+        width: 4
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca31a2919579a2bf0800000000000000
+      internalID: -348299612237720660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_110
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 195
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c14f61af19bd74b70800000000000000
+      internalID: 8883310210024141852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_111
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 195
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 181df9d8db9a65eb0800000000000000
+      internalID: -4731407726916152959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_112
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 195
+        width: 4
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0087bd242fb91e5d0800000000000000
+      internalID: -3034973209064933376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_113
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 195
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6dd0d5be4449d660800000000000000
+      internalID: 7411029766663363946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_114
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 195
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d18973e54ab74e040800000000000000
+      internalID: 4675998259002972189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_115
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 195
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a1d2c08bae7b750800000000000000
+      internalID: 6320778678236944911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_116
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 195
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1babdcb5fe394870800000000000000
+      internalID: 8667528183007652634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_117
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 195
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c34d93e680c94e0800000000000000
+      internalID: -1973693267185484784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_118
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 144
+        width: 35
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d40bd62c633508b0800000000000000
+      internalID: -5186682856245885736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_119
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 144
+        width: 26
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b4aa306383d6f9f0800000000000000
+      internalID: -434927752786041680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_120
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 144
+        width: 27
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e73dafc3383c4f0800000000000000
+      internalID: -809659210067116528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_121
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 36
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f281576132cecac40800000000000000
+      internalID: 5525050478321539119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_122
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 144
+        width: 35
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f565b9086cd12ad80800000000000000
+      internalID: -8240991629736192417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_123
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 144
+        width: 26
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19781ee268c70f420800000000000000
+      internalID: 2661764295529957265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_124
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 144
+        width: 27
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d67f74af2415dcaa0800000000000000
+      internalID: -6139161368927406227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_125
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 144
+        width: 32
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddfafc6905a0d5a30800000000000000
+      internalID: 4205528968277766109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_126
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 170
+        width: 11
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8db7b873dd07d20800000000000000
+      internalID: 3274360159731439865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_127
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 150
+        width: 11
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b54ec3862ca80f80800000000000000
+      internalID: -8140067045052103247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_128
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 92
+        width: 26
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c77bbea227cf2610800000000000000
+      internalID: 1598715344514152384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_129
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 92
+        width: 27
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 725c04ca41a8598d0800000000000000
+      internalID: -2840212168593324761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_130
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 127
+        width: 14
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10778746ede015a20800000000000000
+      internalID: 3049234771037681409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_131
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 131
+        width: 9
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149e95f8d0e686100800000000000000
+      internalID: 101451996134500673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_132
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 92
+        width: 34
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91180f27a9b12ce10800000000000000
+      internalID: 2216364316786983193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_133
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 92
+        width: 35
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3db3c4987ccdbe0800000000000000
+      internalID: -1451065587416706066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_134
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 92
+        width: 34
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc4dcf2afdd5cff0800000000000000
+      internalID: -16362957012382522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_135
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 92
+        width: 26
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e1e1d73dfc61ae80800000000000000
+      internalID: -8169128414254341664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_136
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 92
+        width: 27
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6479f91f576b41f0800000000000000
+      internalID: -1059639629160287125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_137
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 92
+        width: 31
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca35038906fa6cfb0800000000000000
+      internalID: -4627818737671580756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_138
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 101
+        width: 26
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35fc4cc08cc214e80800000000000000
+      internalID: -8196220609118285997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_139
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 72
+        width: 11
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d032410d48e3480800000000000000
+      internalID: -8917544182921097979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_140
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 72
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd4e5a762294ea70800000000000000
+      internalID: 8855363461276650955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_141
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 72
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b58d65acc51dff0800000000000000
+      internalID: -13127299795231857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_142
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 72
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580ec142ef2e7ed40800000000000000
+      internalID: 5613705041696055429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_143
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 72
+        width: 4
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76cd9bf5b9b6a8400800000000000000
+      internalID: 327192238007901287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_144
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 72
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e93892a0c3d3d40800000000000000
+      internalID: 5565670728843632271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_145
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 72
+        width: 11
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df4480cf45427280800000000000000
+      internalID: -9047092492599275562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_146
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 72
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ac2d12c7b626960800000000000000
+      internalID: 7593750102587656802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_147
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 72
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f41d7c5ea5333c00800000000000000
+      internalID: 879105375259661553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_148
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 72
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c66a77bc26b3ac0800000000000000
+      internalID: -3874394428396901375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_149
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 72
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42cb0b8d70836c860800000000000000
+      internalID: 7549783431684602916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_150
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 70
+        width: 9
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3fe8c8764326650800000000000000
+      internalID: 6224595254323901347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_151
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 72
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e394b542dec42c0800000000000000
+      internalID: -4445917991715389811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_152
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 72
+        width: 4
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b392c7117e461af50800000000000000
+      internalID: 6890899848447142203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_153
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 72
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1db480b0dc6b790b0800000000000000
+      internalID: -5721903809781281839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_154
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 72
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1e9af3468b81070800000000000000
+      internalID: 8077408672393322939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_155
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 72
+        width: 4
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22fb98bafdc7a8dd0800000000000000
+      internalID: -2483034944443924702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_156
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 72
+        width: 7
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 807495c6fe7f55230800000000000000
+      internalID: 3627077682603837192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_157
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 70
+        width: 11
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727e7933063d80660800000000000000
+      internalID: 7352358801818248999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_158
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 16
+        width: 58
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c0e2d231c088420800000000000000
+      internalID: 2632367258699959452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_159
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 14
+        width: 32
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6610ce7203c2e9890800000000000000
+      internalID: -7449468148284391066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_160
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 15
+        width: 29
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e2ea089ced6fab0800000000000000
+      internalID: -4974543781355442651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_161
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 15
+        width: 31
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29519ba8f41d34760800000000000000
+      internalID: 7441021148906198418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_162
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 16
+        width: 32
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7116c6b3f24a70f50800000000000000
+      internalID: 6847622281207505175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_163
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 14
+        width: 42
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5de4496eed8f2b30800000000000000
+      internalID: 4264783427251006812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_164
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 33
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9645ae588e3d239d0800000000000000
+      internalID: -2795939423011056535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_165
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 33
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ecaa970b9182ed70800000000000000
+      internalID: 9070955102325091557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_166
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 33
+        width: 4
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c2527263a1d285a0800000000000000
+      internalID: -6520418810817523008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_167
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 33
+        width: 7
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8142631ed4f7a9bc0800000000000000
+      internalID: -3775565365129108456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_168
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 33
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b15ab278aea0c10800000000000000
+      internalID: 2020685249102814045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_169
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 33
+        width: 4
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3a5f5e922677e60800000000000000
+      internalID: 7959938798491902910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_170
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 33
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9797f0476854e20800000000000000
+      internalID: 3334218932171667958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_171
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 31
+        width: 4
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab427a65bd340df60800000000000000
+      internalID: 8057014342696510650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_172
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 33
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 480df6b51c43e4c40800000000000000
+      internalID: 5498390200133341316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_173
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 33
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3d931077263cba00800000000000000
+      internalID: 773552779012840764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_174
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 33
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66e53be5f895b520800000000000000
+      internalID: 2717246132168549998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_175
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 33
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f32e8798231bdc90800000000000000
+      internalID: -7144095318830865418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_176
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 21
+        width: 4
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df12518363c3e0ab0800000000000000
+      internalID: -5040024729414196739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_177
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 21
+        width: 11
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca26a9b74cf9a060800000000000000
+      internalID: 6965375683692735177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_178
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 21
+        width: 7
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d551c5e300c8d2d0800000000000000
+      internalID: -3253639607803095600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_179
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 21
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f4a5a507a5558770800000000000000
+      internalID: 8612384038258582772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_180
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 19
+        width: 4
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b3346b3eaf30970800000000000000
+      internalID: 8720089159441791838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_181
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 21
+        width: 7
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b049f6c28175390800000000000000
+      internalID: -7829762848030717025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_182
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 21
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f3e40a35723acd0800000000000000
+      internalID: -2548149724036317336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_183
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 19
+        width: 4
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 215eabf8f308ccdf0800000000000000
+      internalID: -158610876382124782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_184
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 21
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaff60f5335fac880800000000000000
+      internalID: -8589783738269368406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_185
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 21
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdce79a82ed370090800000000000000
+      internalID: -8068412164213838625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_186
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 21
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08bf509767bfcbbb0800000000000000
+      internalID: -4918780206740276352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_187
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 8
+        width: 21
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed7c9cb6296ec3db0800000000000000
+      internalID: -4810716785390532642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_188
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 9
+        width: 8
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f09b9b67a4a31240800000000000000
+      internalID: 4761330270032597238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_189
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 7
+        width: 4
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ad1b62ff9830380800000000000000
+      internalID: -9006203100852004245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_190
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 9
+        width: 4
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deef490e25fbc7250800000000000000
+      internalID: 5943835970898296557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_191
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 7
+        width: 4
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e62a297edd3f920800000000000000
+      internalID: 3023003761563037290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_192
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 9
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe346ab4a01b8abd0800000000000000
+      internalID: -2618648525538966545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_193
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 9
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 204963874c87df2f0800000000000000
+      internalID: -937460362197429246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_194
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 9
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76de2572a3c14a0a0800000000000000
+      internalID: -6871336095367107225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_195
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 9
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df93c9a387c7c3c0800000000000000
+      internalID: -4339280347645370413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Ghoul_Patrol_-_Grim_Reaper_196
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 9
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b4fd4264084cb3a0800000000000000
+      internalID: -6648359766239349577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
