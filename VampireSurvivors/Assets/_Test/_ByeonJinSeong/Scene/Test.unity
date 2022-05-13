@@ -3587,7 +3587,8 @@ MonoBehaviour:
   - {fileID: 6035532388492676344, guid: 27a038130e222464783595ef2c132558, type: 3}
   - {fileID: 2582217741268637134, guid: 2067caf4ae8224a41a858724f21269e9, type: 3}
   - {fileID: 5985439078049867023, guid: 189e6ea92baff444ca819f2111c738cf, type: 3}
-  monsterpro: 4
+  - {fileID: 3720303581160112361, guid: a437cd29f784fef468326d486d58096a, type: 3}
+  monsterpro: 8
 --- !u!4 &1474601969
 Transform:
   m_ObjectHideFlags: 0

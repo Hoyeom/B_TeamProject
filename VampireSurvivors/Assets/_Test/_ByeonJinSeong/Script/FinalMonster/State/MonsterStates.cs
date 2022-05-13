@@ -17,10 +17,15 @@ namespace MonsterStates
                 entity.StateChange(States.Monster_SpAttack);
             }
 
-            if (entity.monsterSpec.AttackRange > Vector3.SqrMagnitude(entity.transform.position - BossMonsterMgr.Inst._player.transform.position))
+            if (entity.monsterSpec.AttackBool)
             {
-                entity.StateChange(States.Monster_Attack);
+                if (entity.monsterSpec.AttackRange > Vector3.SqrMagnitude(entity.transform.position - BossMonsterMgr.Inst._player.transform.position))
+                {
+                    entity.StateChange(States.Monster_Attack);
+                }
             }
+            // Test 근거리 공격모션 추가여부 고민
+            // else
 
             entity._rigid.MovePosition(entity._rigid.position +
                                 (Vector2)((Vector2)BossMonsterMgr.Inst._player.transform.position - (Vector2)entity.transform.position).normalized * curSpeed * Time.deltaTime);
@@ -71,10 +76,6 @@ namespace MonsterStates
             {
                 Attacks(entity);
                 time = 0;
-            }
-            else
-            {
-                // test 예정
             }
         }
 

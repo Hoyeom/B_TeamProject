@@ -9,7 +9,8 @@ public enum MonsterPro
     //Noting = 0,
     Skull = 1<<0,
     Medusa = 1<<1,
-    Reaper = 1<<2
+    Reaper = 1<<2,
+    Mantis = 1<<3
 }
 public class MonsterContrl : MonoBehaviour
 {
@@ -20,19 +21,20 @@ public class MonsterContrl : MonoBehaviour
     private List<FMBase> entitys;
     public MonsterPro monsterpro;
 
+    int count;
     private void Awake()
     {
         entitys = new List<FMBase>();
-        
         // Test
-        foreach(MonsterPro flagcheck in Enum.GetValues(typeof(MonsterPro)))
+        foreach (MonsterPro flagcheck in Enum.GetValues(typeof(MonsterPro)))
         {
             if (monsterpro.HasFlag(flagcheck))
             {
-                //Debug.Log((int)flagcheck / 2);
-                GameObject obj = Instantiate(monsterPrefab[(int)flagcheck / 2], transform);
+                count = 0;
+                CheckShift((int)flagcheck);
+                GameObject obj = Instantiate(monsterPrefab[count], transform);
                 FMonster entity = obj.GetComponent<FMonster>();
-                entity.Initialize(monsterPrefab[(int)flagcheck / 2].gameObject.name);
+                entity.Initialize(monsterPrefab[count].gameObject.name);
                 entitys.Add(entity);
             }
         }
@@ -48,11 +50,21 @@ public class MonsterContrl : MonoBehaviour
     /// </summary>
     private void FixedUpdate()
     {
-    
         for (int i = 0; i < entitys.Count; i++)
         {
             entitys[i].Updated();
         }
+    }
+    private void CheckShift(int num)
+    {
+        int shift = num>>1;
+        if(shift == 0)
+        {
+            //count ++;
+            return;
+        }
+        count++;
+        CheckShift(shift);
     }
 
 }

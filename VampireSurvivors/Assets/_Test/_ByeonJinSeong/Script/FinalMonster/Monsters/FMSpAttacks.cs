@@ -17,6 +17,9 @@ public class FMSpAttacks : MonoBehaviour
     public GameObject attackPrefab_Reaper;
     public GameObject pingPrefab_Reaper;
 
+    //[Header("Mantis")]
+  
+
     #region Skull
     // test 추가 패턴 시 랜덤 버전으로 변경하기
     public void SkullBossSp(Transform StartingPoint)
@@ -83,4 +86,10 @@ public class FMSpAttacks : MonoBehaviour
         Debug.DrawRay(BossMonsterMgr.Inst._player.transform.position, Missile.transform.position - BossMonsterMgr.Inst._player.transform.position, Color.green, 1);
     }
     #endregion
+
+    // 일단 대기
+    public void MantisBossSp()
+    {
+        Debug.Log("돌진");
+    }
 }
