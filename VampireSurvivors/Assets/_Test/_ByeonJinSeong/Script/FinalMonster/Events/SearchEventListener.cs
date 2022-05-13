@@ -8,7 +8,7 @@ public class SearchEventListener : MonoBehaviour
     public GameEvent Event;
 
     public UnityEvent Response;
-
+    
     private void OnEnable()
     {
         Event.RegisterListerner(this);

@@ -3282,6 +3282,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8304095950081621726, guid: 27a038130e222464783595ef2c132558, type: 3}
+      propertyPath: Response.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8794694082334626425, guid: f8b57e3ce5175144f8b498253b588481, type: 3}
+    - target: {fileID: 8304095950081621726, guid: 27a038130e222464783595ef2c132558, type: 3}
+      propertyPath: Response.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SkullBossSp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8304095950081621726, guid: 27a038130e222464783595ef2c132558, type: 3}
+      propertyPath: Response.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: FMSpAttacks, Assembly-CSharp
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 27a038130e222464783595ef2c132558, type: 3}
 --- !u!82 &8864001335324990368

@@ -3259,6 +3259,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _player: {fileID: 0}
+  SpAttack: {fileID: 11400000, guid: aeaded3047d316448a865e0300784c0f, type: 2}
 --- !u!4 &1190611793
 Transform:
   m_ObjectHideFlags: 0

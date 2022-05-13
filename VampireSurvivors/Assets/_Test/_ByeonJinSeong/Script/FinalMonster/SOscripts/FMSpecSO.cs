@@ -3,7 +3,9 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "MonsterSpec", menuName = "SO/MonsterSpec")]
 public class FMSpecSO : ScriptableObject
 {
-    // 중복이 많음 나중에 수정
+    /// <summary>
+    /// Test 나중에 분류해서 나누기
+    /// </summary>
     [SerializeField] private float monsterSpeed;
     public float MonsterSpeed => monsterSpeed;
 

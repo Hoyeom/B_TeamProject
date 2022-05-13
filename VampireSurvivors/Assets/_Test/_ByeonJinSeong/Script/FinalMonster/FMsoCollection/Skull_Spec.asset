@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e6982869074f1642b188013a3e5263d, type: 3}
   m_Name: Skull_Spec
   m_EditorClassIdentifier: 
-  monsterSpeed: 5
+  monsterSpeed: 1
   attackSpeed: 1
   maxHealth: 100
   damage: 10
   def: 1
   dropExp: 5
   collTime: 10
-  attackRange: 10
+  attackRange: 15
   attackBool: 1
   attackprefabs: {fileID: 6533581718607724355, guid: fc57fbce7ff1ef4449f8949f5d4902ab, type: 3}
   targetLayer:

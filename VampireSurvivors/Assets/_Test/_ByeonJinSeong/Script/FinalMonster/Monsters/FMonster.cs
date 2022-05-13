@@ -3,10 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-// Test 나중에 추가
-/// <summary>
-/// 이동, 공격, 특수공격
-/// </summary>
 public enum States
 {
     Monster_Move = 0,
@@ -21,21 +17,12 @@ public class FMonster : FMBase
     [HideInInspector] public SpriteRenderer _renderer;
     Animator _animator;
 
-    //public GameEvent searchPlayer;
-
     [SerializeField] public FMSpecSO monsterSpec;
 
-    
     private IState<FMonster>[] saveState;
     private StateMachine<FMonster> stateMachine;
     
-    //~~~~~~~~~~~~~~ Test 테스트용 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    private void OnEnable()
-    {
-        //spec = Instantiate(monsterSpec);
-        MgrInfo();
-    }
-    //~~~~~~~~~~~~~~ Test 테스트용 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    private void OnEnable() { MgrInfo(); }
 
     public override void Initialize(string name)
     {
@@ -49,29 +36,19 @@ public class FMonster : FMBase
 
     }
 
-
-
     public void StateInit()
     {
-        // Test 추적, 공격, 특수공격 추가하기
         saveState = new IState<FMonster>[Enum.GetValues(typeof(States)).Length];
         saveState[(int)States.Monster_Move] = new MonsterStates.Monster_Move();
         saveState[(int)States.Monster_Attack] = new MonsterStates.Monster_Attack();
         saveState[(int)States.Monster_SpAttack] = new MonsterStates.Monster_SpAttack();
     }
-    public override void Updated()
-    {
-        stateMachine.OnStateUpdate();
-    }
+    public override void Updated() { stateMachine.OnStateUpdate(); }
 
-    #region Test 상태 변경
-    public void StateChange(States state)
-    {
-        stateMachine.StateChage(saveState[(int)state]);
-    }
+    #region 상태 변경
+    public void StateChange(States state) { stateMachine.StateChage(saveState[(int)state]); }
     #endregion
 
-    //~~~~~~~~~~~~~~ Test 테스트용 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     // Test 테스트용 나중에 Move 상태 만들어서 옮기기
     public void MgrInfo()
     {
@@ -79,5 +56,4 @@ public class FMonster : FMBase
         _renderer = GetComponent<SpriteRenderer>();
         _animator = GetComponent<Animator>();
     }
-    //~~~~~~~~~~~~~~ Test 테스트용 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 }

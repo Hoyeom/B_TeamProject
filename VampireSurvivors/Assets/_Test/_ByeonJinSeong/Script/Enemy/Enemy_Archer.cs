@@ -113,7 +113,6 @@ public class Enemy_Archer : MonoBehaviour, IEnemy
         enemyArrow.transform.position = transform.position;
 
         Vector2 pos = _player.transform.position - enemyArrow.transform.position;
-        Vector2 pos1 = _player.transform.position - transform.position;
         float rad = Mathf.Atan2(pos.y, pos.x) * Mathf.Rad2Deg;
 
         enemyArrow.transform.rotation = Quaternion.Euler(0, 0, rad);

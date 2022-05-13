@@ -24,13 +24,17 @@ public class MonsterContrl : MonoBehaviour
         }
     }
 
-    private void Start()
-    {
-    }
-
+    // Test용 전부 소환 추 후 변경
+    /// <summary>
+    /// 작업 목록
+    /// 1. 소환될 보스 선택 정하기
+    /// 1-1. 번호지정
+    /// 1-2. 미리 소환?
+    /// 1-3. Flag
+    /// </summary>
     private void FixedUpdate()
     {
-        // Test용
+    
         for (int i = 0; i < entitys.Count; i++)
         {
             entitys[i].Updated();
