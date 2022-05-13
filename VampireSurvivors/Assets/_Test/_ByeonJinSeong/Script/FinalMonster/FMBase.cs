@@ -30,9 +30,6 @@ public abstract class FMBase : MonoBehaviour
 
     public abstract void Updated();
 
-    public void TestDebug(string txt)
-    {
-        Debug.Log($"{monsterName} : {txt}");
-    }
+    public void TestDebug(string txt) { Debug.Log($"{monsterName} : {txt}"); }
 
 }

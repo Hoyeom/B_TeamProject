@@ -3,24 +3,38 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[Flags]
+public enum MonsterPro
+{
+    //Noting = 0,
+    Skull = 1<<0,
+    Medusa = 1<<1,
+    Reaper = 1<<2
+}
 public class MonsterContrl : MonoBehaviour
 {
-    [SerializeField] private string[] monsters;
-    [SerializeField] private GameObject monsterPrefab;
+    // test 붕떠버린 친구 설계를 잘해야하는 이유
+    [Tooltip("대충 설계할 때 발생하는 현상")][SerializeField] private string[] monsters;
+    [SerializeField] private GameObject[] monsterPrefab;
 
     private List<FMBase> entitys;
+    public MonsterPro monsterpro;
 
     private void Awake()
     {
         entitys = new List<FMBase>();
-
+        
         // Test
-        for(int i = 0; i < monsters.Length; i++)
+        foreach(MonsterPro flagcheck in Enum.GetValues(typeof(MonsterPro)))
         {
-            GameObject obj = Instantiate(monsterPrefab, transform);
-            FMonster entity = obj.GetComponent<FMonster>();
-            entity.Initialize(monsters[i]);
-            entitys.Add(entity);
+            if (monsterpro.HasFlag(flagcheck))
+            {
+                //Debug.Log((int)flagcheck / 2);
+                GameObject obj = Instantiate(monsterPrefab[(int)flagcheck / 2], transform);
+                FMonster entity = obj.GetComponent<FMonster>();
+                entity.Initialize(monsterPrefab[(int)flagcheck / 2].gameObject.name);
+                entitys.Add(entity);
+            }
         }
     }
 
