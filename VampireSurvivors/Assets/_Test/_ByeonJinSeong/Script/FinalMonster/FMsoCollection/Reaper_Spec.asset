@@ -20,8 +20,8 @@ MonoBehaviour:
   dropExp: 5
   collTime: 2
   attackRange: 10
-  attackBool: 1
-  attackprefabs: {fileID: 6533581718607724355, guid: fc57fbce7ff1ef4449f8949f5d4902ab, type: 3}
+  attackBool: 0
+  attackprefabs: {fileID: 0}
   targetLayer:
     serializedVersion: 2
     m_Bits: 256

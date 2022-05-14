@@ -8,7 +8,6 @@ public class AttackCurve : ProjectilePrefab
     public float tspeed = 2f;
     public float t = 0;
 
-    // 임시 포인터 변수
     Vector2[] point = new Vector2[4];              // 위치 계산용 4개 포인트 배열
     [HideInInspector] public Transform myPigeon = null;  // 둘기 위치
     public float posX = 3;    // x좌표 생성용
@@ -23,7 +22,6 @@ public class AttackCurve : ProjectilePrefab
         trail.Clear();
         t = 0;
     }
-
 
     public void Initialized(Transform myPigeon,Transform enemy)
     {

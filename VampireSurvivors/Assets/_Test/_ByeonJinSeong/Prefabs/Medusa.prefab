@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 2582217741268637128}
   - component: {fileID: 2582217741268637135}
   - component: {fileID: 3332352430811431161}
+  - component: {fileID: 3490419695068605807}
+  - component: {fileID: -7230416625187196310}
   m_Layer: 0
   m_Name: Medusa
   m_TagString: Untagged
@@ -164,7 +166,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec4a94fecec702d47b596477fa29db20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CurrentTime: 0
   _rigid: {fileID: 0}
   _renderer: {fileID: 0}
-  searchPlayer: {fileID: 11400000, guid: aeaded3047d316448a865e0300784c0f, type: 2}
   monsterSpec: {fileID: 11400000, guid: cadc6ff452f4e9842ad55010a6093965, type: 2}
+--- !u!114 &3490419695068605807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2582217741268637134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4505c0d4d2669143bea3d364a6ef841, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: {fileID: 11400000, guid: aeaded3047d316448a865e0300784c0f, type: 2}
+  Response:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &-7230416625187196310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2582217741268637134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36deb186ffbe8da44a1a236b571f98ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventChannel: {fileID: 11400000, guid: 2e193e383d0998e419d75024590243c2, type: 2}

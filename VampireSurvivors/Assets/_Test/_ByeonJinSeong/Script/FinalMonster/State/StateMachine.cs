@@ -17,24 +17,13 @@ public class StateMachine<T> where T : class
 
     public void StateChage(IState<T> changeState)
     {
-        if (changeState == null)
-        {
-            return;
-        }
-        if (currentState != null)
-        {
-            currentState.StateExit(entityMain);
-        }
+        if (changeState == null) { return; }
+
+        if (currentState != null) { currentState.StateExit(entityMain); }
 
         currentState = changeState;
         currentState.StateEnter(entityMain);
     }
 
-    public void OnStateUpdate()
-    {
-        if (currentState != null)
-        {
-            currentState.StateUpdate(entityMain);
-        }
-    }
+    public void OnStateUpdate() { if (currentState != null) { currentState.StateUpdate(entityMain); } }
 }

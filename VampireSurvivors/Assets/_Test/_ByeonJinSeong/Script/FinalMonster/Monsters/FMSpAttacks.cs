@@ -41,8 +41,6 @@ public class FMSpAttacks : MonoBehaviour
     #region Reaper
     public void ReaperBossSp()
     {
-        Debug.Log("Sp Attack");
-
         GameObject Missile = ObjectPooler.Instance.GenerateGameObject(attackPrefab_Reaper);
         GameObject Ping = ObjectPooler.Instance.GenerateGameObject(pingPrefab_Reaper);
 
@@ -88,7 +86,7 @@ public class FMSpAttacks : MonoBehaviour
     #endregion
 
     // 일단 대기
-    public void MantisBossSp()
+    public void MantisBossSp(GameObject Mantis)
     {
         Debug.Log("돌진");
     }

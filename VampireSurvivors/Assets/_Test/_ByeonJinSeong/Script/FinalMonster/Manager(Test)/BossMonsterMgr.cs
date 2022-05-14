@@ -10,6 +10,8 @@ public class BossMonsterMgr : TestSingleTon<BossMonsterMgr>
 {
     [HideInInspector]public Player _player;   // Test 접근지정자 변경 고민
     public GameEvent SpAttack;
+
+    public AnimEventSo anievents;
     protected override void Awake()
     {
         base.Awake();
