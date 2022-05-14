@@ -5,7 +5,12 @@ using UnityEngine;
 public class FmAnimation : MonoBehaviour
 {
     public AnimEventSo EventChannel;
+    private Animator _animator;
 
+    private void Awake()
+    {
+        _animator = GetComponent<Animator>();
+    }
     private void OnEnable()
     {
         EventChannel.OnEventRaised += Anims;

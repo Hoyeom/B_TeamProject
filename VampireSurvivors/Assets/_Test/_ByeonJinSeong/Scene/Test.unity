@@ -3260,6 +3260,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _player: {fileID: 0}
   SpAttack: {fileID: 11400000, guid: aeaded3047d316448a865e0300784c0f, type: 2}
+  anievents: {fileID: 11400000, guid: 2e193e383d0998e419d75024590243c2, type: 2}
 --- !u!4 &1190611793
 Transform:
   m_ObjectHideFlags: 0
@@ -3588,7 +3589,7 @@ MonoBehaviour:
   - {fileID: 2582217741268637134, guid: 2067caf4ae8224a41a858724f21269e9, type: 3}
   - {fileID: 5985439078049867023, guid: 189e6ea92baff444ca819f2111c738cf, type: 3}
   - {fileID: 3720303581160112361, guid: a437cd29f784fef468326d486d58096a, type: 3}
-  monsterpro: 1
+  monsterpro: 5
 --- !u!4 &1474601969
 Transform:
   m_ObjectHideFlags: 0
@@ -3596,13 +3597,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1474601967}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 15
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &1621286142
 GameObject:
   m_ObjectHideFlags: 0
