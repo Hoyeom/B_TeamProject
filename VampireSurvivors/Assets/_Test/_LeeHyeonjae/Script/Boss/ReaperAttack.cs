@@ -5,56 +5,53 @@ using UnityEngine;
 public class ReaperAttack : MonoBehaviour
 {
     private float speed = 250f;
-    float movement= 3f;
+    private float movement= 2f;
     private Rigidbody2D rigid;
-    private Player _player;
     private float might = 10.0f;
-    Vector2 pos;
-    private Vector3 playerPos;
-    private Vector3 dir;
-    private Vector3 debug;
-    private GameObject Ping;
-
-
-    private void OnEnable()
-    {
-        rigid = GetComponent<Rigidbody2D>();
-        _player = FindObjectOfType<Player>();
-    }
-
+    public Renderer rend;
+    private Transform child;
+    Coroutine MoveAction;
 
     private void Start()
     {
-        debug = Camera.main.ScreenToWorldPoint(new Vector3(Random.Range(0, Screen.width), Screen.height));
-        playerPos = _player.transform.position;
-        dir = playerPos - transform.position;
-        dir = dir.normalized;
+        rend = GetComponentInChildren<SpriteRenderer>();
+        rigid = GetComponent<Rigidbody2D>();
+        child = transform.GetChild(0);
+    }
+
+    private void OnEnable()
+    {
         Invoke("ScyOn", 1f);
-        InvokeRepeating("ScytheMove", 1f, Time.fixedDeltaTime);
+        MoveAction = StartCoroutine(Move());
     }
 
     void ScyOn()
     {
-        GetComponent<SpriteRenderer>().enabled = true;
-        //ObjectPooler.Instance.DestroyGameObject(Ping);
+        rend.enabled = true;
     }
 
-   void ScytheMove()
-   {
-        transform.Translate(dir * movement * Time.fixedDeltaTime, Space.World);
-        transform.Rotate(0, 0, -Time.fixedDeltaTime * speed);
+   IEnumerator Move()
+    {
+        yield return new WaitForSeconds(1f);
+        while (true)
+        {
+            transform.Translate(Vector2.right * movement * Time.fixedDeltaTime);
+            child.Rotate(0, 0, -Time.fixedDeltaTime * speed);
+            yield return new WaitForFixedUpdate();
+        }
     }
 
+    private void OnDisable()
+    {
+        StopCoroutine(MoveAction);
+    }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag ("Player"))
         {
             other.gameObject.GetComponent<Player>().AttackChangeHealth(might);
-            playerPos = _player.transform.position;
-            dir = playerPos - transform.position;
-            dir = dir.normalized;
-            ObjectPooler.Instance.DestroyGameObject(gameObject);
+            ObjectPooler.Instance.DestroyGameObject(this.gameObject);
         }
     }
 

@@ -4129,6 +4129,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1239330149, guid: 189e6ea92baff444ca819f2111c738cf, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1239330149, guid: 189e6ea92baff444ca819f2111c738cf, type: 3}
+      propertyPath: PingPrefab
+      value: 
+      objectReference: {fileID: 6074026850583436906, guid: a0c3f64874de3c849875705ecf9bf7cf, type: 3}
     - target: {fileID: 2479818839404777960, guid: 189e6ea92baff444ca819f2111c738cf, type: 3}
       propertyPath: m_RootOrder
       value: 1
