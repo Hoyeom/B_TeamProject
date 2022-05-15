@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Krochi
+  m_Controller: {fileID: 9100000, guid: 1f5ea8a93808e3942a03d7a194afe3be, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: c2ef1006a5b369640ba00e40da655ccb, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 575f8dfe0c9b743b2a204c61c09c161c, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: ba8af09ad45bd09468170bb5a64927cd, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 8e2172efdc1154322a489a5b276d13a0, type: 2}
