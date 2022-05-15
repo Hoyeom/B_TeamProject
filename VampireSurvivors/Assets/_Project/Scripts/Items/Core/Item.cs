@@ -51,7 +51,8 @@ public class Item : MonoBehaviour
 
     protected virtual void Initialize()
     {
-        
+        if (transform.parent == player.transform)
+            level = 1;
     }
 
     // 아이템 획득시 사용되는 함수

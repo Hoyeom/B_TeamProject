@@ -13,6 +13,7 @@ public class Garlic : Item
 
     protected override void Initialize()
     {
+        base.Initialize();
         mask = LayerMask.GetMask("Enemy");
     }
 
