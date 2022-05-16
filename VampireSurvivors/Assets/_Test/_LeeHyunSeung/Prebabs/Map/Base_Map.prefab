@@ -78,6 +78,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8936808804968942629}
   - component: {fileID: 8141942812961761764}
+  - component: {fileID: 2821963261966782318}
   m_Layer: 0
   m_Name: PlayerPoint
   m_TagString: Untagged
@@ -150,6 +151,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2821963261966782318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2674667527445672059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d34a8010c43f503479ec3195f3b3d5b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5645558121159999060
 GameObject:
   m_ObjectHideFlags: 0
@@ -395,8 +408,16 @@ PrefabInstance:
       value: Gate
       objectReference: {fileID: 0}
     - target: {fileID: 1045256082824964741, guid: 2f588e74662f042439cb4bc1e854be2f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1045256082824964741, guid: 2f588e74662f042439cb4bc1e854be2f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1045256082824964742, guid: 2f588e74662f042439cb4bc1e854be2f, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1045256082824964761, guid: 2f588e74662f042439cb4bc1e854be2f, type: 3}
       propertyPath: m_RootOrder
