@@ -49,39 +49,32 @@ public class FMSpAttacks : MonoBehaviour
             case 0: // 위쪽
                 Ping.transform.position = Camera.main.ScreenToWorldPoint(
                     new Vector3(Random.Range(0, Screen.width), Screen.height - 0.2f, -Camera.main.transform.position.z));
-                WhatMathod(Missile, Ping);
                 break;
 
             case 1: // 아래쪽
                 Ping.transform.position = Camera.main.ScreenToWorldPoint(
                     new Vector3(Random.Range(0, Screen.width), -Screen.height + Screen.height + 0.2f, -Camera.main.transform.position.z));
-                WhatMathod(Missile, Ping);
                 break;
 
             case 2: // 오른쪽
                 Ping.transform.position = Camera.main.ScreenToWorldPoint(
                     new Vector3(Screen.width - 0.2f, (Random.Range(0, Screen.height)), -Camera.main.transform.position.z));
-                WhatMathod(Missile, Ping);
                 break;
 
             case 3: // 왼쪽
                 Ping.transform.position = Camera.main.ScreenToWorldPoint(
                     new Vector3(-Screen.width + Screen.width + 0.2f, (Random.Range(0, Screen.height)), -Camera.main.transform.position.z));
-                WhatMathod(Missile, Ping);
                 break;
         }
 
+        Missile.transform.position = Ping.transform.position;
+        Missile.GetComponentInChildren<SpriteRenderer>().enabled = false;
         Vector2 pos = BossMonsterMgr.Inst._player.transform.position - Missile.transform.position;
         float rad = Mathf.Atan2(pos.y, pos.x) * Mathf.Rad2Deg;
         Missile.transform.rotation = Quaternion.Euler(0, 0, rad);
-    }
+        Ping.transform.rotation = Quaternion.Euler(0, 0, rad);
 
-    // 현재님 이친구 이름좀 정해주세요
-    private void WhatMathod(GameObject Missile, GameObject Ping)
-    {
-        Missile.transform.position = Ping.transform.position;
-        Missile.GetComponent<SpriteRenderer>().enabled = false;
-        Debug.DrawRay(BossMonsterMgr.Inst._player.transform.position, Missile.transform.position - BossMonsterMgr.Inst._player.transform.position, Color.green, 1);
+        ObjectPooler.Instance.DestroyGameObject(Ping, 1f);
     }
     #endregion
 

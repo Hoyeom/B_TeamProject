@@ -3,9 +3,6 @@ using System.Collections.Generic;
 using _Project.Scripts.Player;
 using UnityEngine;
 
-/*
- * 
- */
 public class Enemy_Arrow : MonoBehaviour
 {
     // Test 임시

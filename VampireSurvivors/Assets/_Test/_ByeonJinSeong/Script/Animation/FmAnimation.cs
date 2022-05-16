@@ -1,28 +1,43 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class FmAnimation : MonoBehaviour
+public class FmAnimation : AnimatorParameterSO
 {
     public AnimEventSo EventChannel;
-    private Animator _animator;
 
-    private void Awake()
+    private void OnEnable() 
     {
-        _animator = GetComponent<Animator>();
-    }
-    private void OnEnable()
-    {
+        EventChannel.OnEventTypeNomal += SetParmeter;
+        EventChannel.OnEventTypeBool += SetParmeter;
+        EventChannel.OnEventTypeFlaot += SetParmeter;
         EventChannel.OnEventRaised += Anims;
+        
     }
 
-    private void OnDisable()
+    private void OnDisable() 
     {
+        EventChannel.OnEventTypeNomal -= SetParmeter;
+        EventChannel.OnEventTypeBool -= SetParmeter;
+        EventChannel.OnEventTypeFlaot -= SetParmeter;
         EventChannel.OnEventRaised -= Anims;
     }
 
-    void Anims()
+    public void Anims(FMonster entity ,int hesh)
     {
-        Debug.Log("애니메이션 실행 중 암튼 애니메이션 실행 중");
+        switch (parameterType)
+        {
+            case ParameterType.Bool:
+                entity._animator.SetBool(hesh, boolValue);
+                break;
+            // Test 일단 작성 필요 시 나중에 내용 추가
+            case ParameterType.Int:
+                entity._animator.SetInteger(hesh, intValue);
+                break;
+            case ParameterType.Float:
+                entity._animator.SetFloat(hesh, floatValue);
+                break;
+            case ParameterType.Trigger:
+                entity._animator.SetTrigger(hesh);
+                break;
+        }
     }
 }

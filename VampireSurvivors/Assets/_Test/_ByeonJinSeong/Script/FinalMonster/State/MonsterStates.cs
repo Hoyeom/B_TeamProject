@@ -15,7 +15,6 @@ namespace MonsterStates
         float curSpeed;
         public void StateEnter(FMonster entity) 
         {
-            BossMonsterMgr.Inst.anievents.RaiseEvent();
             curSpeed = entity.monsterSpec.MonsterSpeed;
         }
         public void StateUpdate(FMonster entity)
@@ -25,16 +24,10 @@ namespace MonsterStates
             if (entity.CurrentTime >= entity.monsterSpec.CollTime) { entity.StateChange(States.Monster_SpAttack); }
             
             // 일반 공격
-            if (entity.monsterSpec.AttackBool)
+            if (entity.monsterSpec.AttackRange > Vector3.SqrMagnitude(entity.transform.position - BossMonsterMgr.Inst._player.transform.position))
             {
-                if (entity.monsterSpec.AttackRange > Vector3.SqrMagnitude(entity.transform.position - BossMonsterMgr.Inst._player.transform.position))
-                {
-                    entity.StateChange(States.Monster_Attack);
-                }
+                entity.StateChange(States.Monster_Attack);
             }
-            // Test 근거리 공격모션 추가여부 고민
-            // Attack에서 처리 시 삭제
-            // else
 
             // 실제 이동
             entity._rigid.MovePosition(entity._rigid.position +
@@ -46,13 +39,6 @@ namespace MonsterStates
     }
     #endregion
 
-
-    /// <summary>
-    /// 작업 목록
-    /// 1. 근거리 OR 원거리 구분 처리
-    /// 2. 원거리 시 공격속도(매직넘버+...)
-    /// 3. 애니메이션 연결
-    /// </summary>
     #region 공격
     public class Monster_Attack : IState<FMonster>
     {
@@ -60,10 +46,13 @@ namespace MonsterStates
         float time;
         public void StateEnter(FMonster entity)
         {
-            if (!first && entity.monsterSpec.AttackBool)
+            if (entity.monsterSpec.AttackBool)
             {
-                Attacks(entity);
-                first = true;
+                if (!first)
+                {
+                    Attacks(entity);
+                    first = true;
+                }
             }
         }
 
@@ -83,7 +72,7 @@ namespace MonsterStates
                     entity.StateChange(States.Monster_Move);
                 }
                 // 공속
-                else if (time >= 0.3f)
+                else if (time >= entity.monsterSpec.AttackSpeed)
                 {
                     Attacks(entity);
                     time = 0;
@@ -91,11 +80,7 @@ namespace MonsterStates
             }
             else  // 근거리 전용
             {
-                /*
-                 * 1. 애니메이션 실행
-                 * 2. 클립 종료 확인
-                 * 3. 상태 변경
-                 */
+                BossMonsterMgr.Inst.anievents.RaiseEvent(entity, "Attack", AnimatorParameterSO.ParameterType.Trigger);
                 entity.StateChange(States.Monster_Move);
             }
 

@@ -15,7 +15,7 @@ public class FMonster : FMBase
     [HideInInspector] public float CurrentTime;
     [HideInInspector] public Rigidbody2D _rigid;
     [HideInInspector] public SpriteRenderer _renderer;
-    Animator _animator;
+    [HideInInspector] public Animator _animator;
 
     [SerializeField] public FMSpecSO monsterSpec;
 
@@ -49,7 +49,6 @@ public class FMonster : FMBase
     public void StateChange(States state) { stateMachine.StateChage(saveState[(int)state]); }
     #endregion
 
-    // Test 테스트용 나중에 Move 상태 만들어서 옮기기
     public void MgrInfo()
     {
         _rigid = GetComponent<Rigidbody2D>();

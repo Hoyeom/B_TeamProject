@@ -6,9 +6,6 @@ using UnityEngine;
 public abstract class TestSingleTon<T> : MonoBehaviour where T : TestSingleTon<T>
 {
     public static T Inst;
-    protected Rigidbody2D rigid;
-    protected SpriteRenderer _renderer;
-    protected Animator _animator;
 
     protected virtual void Awake()
     {
@@ -20,12 +17,5 @@ public abstract class TestSingleTon<T> : MonoBehaviour where T : TestSingleTon<T
 
         Inst = this as T;
         DontDestroyOnLoad(this);  // 자율
-    }
-
-    public void MgrInfo()
-    {
-        rigid = GetComponent<Rigidbody2D>();
-        _renderer = GetComponent<SpriteRenderer>();
-        _animator = GetComponent<Animator>();
     }
 }
