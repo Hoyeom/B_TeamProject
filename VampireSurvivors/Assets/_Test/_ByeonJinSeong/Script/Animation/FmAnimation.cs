@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class FmAnimation : AnimatorParameterSO
 {
-    public AnimEventSo EventChannel;
+    [SerializeField] private AnimEventSo EventChannel;
 
     private void OnEnable() 
     {

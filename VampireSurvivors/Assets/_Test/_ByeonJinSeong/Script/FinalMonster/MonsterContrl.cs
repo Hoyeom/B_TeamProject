@@ -10,6 +10,7 @@ public enum MonsterPro
     Medusa = 1<<1,
     Reaper = 1<<2,
     Mantis = 1<<3,
+    Alien = 1<<4
 }
 public class MonsterContrl : MonoBehaviour
 {

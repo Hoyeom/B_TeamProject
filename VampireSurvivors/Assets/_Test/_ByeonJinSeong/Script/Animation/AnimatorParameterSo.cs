@@ -4,14 +4,14 @@ using UnityEngine;
 
 public abstract class AnimatorParameterSO : MonoBehaviour
 {
-    public enum ParameterType { Bool, Int, Float, Trigger, }
+    [HideInInspector] public enum ParameterType { Bool, Int, Float, Trigger, }
 
-    public string parameterName = default;
-    public ParameterType parameterType = default;
+    protected string parameterName = default;
+    protected ParameterType parameterType = default;
 
-    public bool boolValue = default;
-    public int intValue = default;
-    public float floatValue = default;
+    protected bool boolValue = default;
+    protected int intValue = default;
+    protected float floatValue = default;
 
     public void SetParmeter(AnimatorParameterSO.ParameterType _Type) { parameterType = _Type; }
     public void SetParmeter(AnimatorParameterSO.ParameterType _Type, float value)

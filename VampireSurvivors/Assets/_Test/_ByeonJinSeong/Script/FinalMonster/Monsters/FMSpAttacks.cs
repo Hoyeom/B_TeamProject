@@ -78,9 +78,13 @@ public class FMSpAttacks : MonoBehaviour
     }
     #endregion
 
-    // 일단 대기
-    public void MantisBossSp(GameObject Mantis)
+    public void MantisBossSp(FMonster Mantis)
     {
-        Debug.Log("돌진");
+        Mantis.transform.position = Vector2.Lerp(Mantis.transform.position, BossMonsterMgr.Inst._player.transform.position, Time.deltaTime * 3f);
+        if (Vector3.SqrMagnitude(Mantis.transform.position - BossMonsterMgr.Inst._player.transform.position) < 2f) 
+        {
+            Mantis.StateChange(States.Monster_Move); 
+        }
     }
+
 }

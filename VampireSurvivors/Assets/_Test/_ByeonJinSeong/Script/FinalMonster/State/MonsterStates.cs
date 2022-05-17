@@ -3,7 +3,7 @@ using UnityEngine;
 
 /// <summary>
 /// 필요 spec
-/// 1. 공격 속도
+/// 1. 특수 공격 타입 지정
 /// 2. 돌진 종료 거리
 /// 3. 돌진 속도
 /// </summary>
@@ -106,23 +106,41 @@ namespace MonsterStates
     public class Monster_SpAttack : IState<FMonster>
     {
         public GameEvent SpAttack;
-        public void StateEnter(FMonster entity) { BossMonsterMgr.Inst.SpAttack.Raise(); }
+        public void StateEnter(FMonster entity) 
+        {
+            // test 추 후 변경
+            if (entity.name.Contains("Mantis") || entity.name.Contains("Alien")) 
+            {
+                entity.StateChange(States.Monster_SpAttack_C);
+            }
+            BossMonsterMgr.Inst.SpAttack.Raise();
+        }
 
         public void StateUpdate(FMonster entity)
         {
-            if (!entity.name.Contains("Mantis")) { entity.StateChange(States.Monster_Move); }
-
-            // 흠.... 이걸 어쩐다...
-            else
-            {
-                // Test 숫자 직접넣음
-                entity.transform.position = Vector2.Lerp(entity.transform.position, BossMonsterMgr.Inst._player.transform.position, Time.deltaTime * 3f);
-                if (Vector3.SqrMagnitude(entity.transform.position - BossMonsterMgr.Inst._player.transform.position) < 2f) { entity.StateChange(States.Monster_Move); }
-            }
+            entity.StateChange(States.Monster_Move);
         }
 
         public void StateExit(FMonster entity) { entity.CurrentTime = 0; }
     }
     #endregion
 
+    public class Monster_SpAttac_C : IState<FMonster>
+    {
+        float duration;
+        public void StateEnter(FMonster entity)
+        {
+            // test 나중애 변경
+            duration = entity.monsterSpec.CollTime;
+        }
+        public void StateUpdate(FMonster entity)
+        {
+            duration -= Time.deltaTime;
+            BossMonsterMgr.Inst.SpAttack.Raise();
+
+            if (duration <= 0) { entity.StateChange(States.Monster_Move); }
+        }
+
+        public void StateExit(FMonster entity) {  }
+    }
 }

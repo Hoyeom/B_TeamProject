@@ -8,6 +8,7 @@ public enum States
     Monster_Move = 0,
     Monster_Attack,
     Monster_SpAttack,
+    Monster_SpAttack_C,
 }
 
 public class FMonster : FMBase
@@ -42,6 +43,7 @@ public class FMonster : FMBase
         saveState[(int)States.Monster_Move] = new MonsterStates.Monster_Move();
         saveState[(int)States.Monster_Attack] = new MonsterStates.Monster_Attack();
         saveState[(int)States.Monster_SpAttack] = new MonsterStates.Monster_SpAttack();
+        saveState[(int)States.Monster_SpAttack_C] = new MonsterStates.Monster_SpAttac_C();
     }
     public override void Updated() { stateMachine.OnStateUpdate(); }
 
