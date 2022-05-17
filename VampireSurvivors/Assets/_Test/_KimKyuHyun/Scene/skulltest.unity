@@ -3238,6 +3238,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SkullBoss
       objectReference: {fileID: 0}
+    - target: {fileID: 6035532388492676345, guid: 27a038130e222464783595ef2c132558, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6035532388492676351, guid: 27a038130e222464783595ef2c132558, type: 3}
       propertyPath: m_RootOrder
       value: 9
