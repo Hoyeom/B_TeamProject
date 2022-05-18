@@ -14,18 +14,21 @@ public class RandumRoom : MonoBehaviour
     private void Awake()
     {
         stageIndex++;
-        addObject = (GameObject)Instantiate(stage[0], Vector3.zero, Quaternion.identity);
+        addObject = ObjectPooler.Instance.GenerateGameObject(stage[randomStage]);
+        //(GameObject)Instantiate(stage[0], Vector3.zero, Quaternion.identity);
     }
 
     public void NextStage()
     {
         stageIndex++;
-        Destroy(addObject);
+        //Destroy(addObject);
+        addObject.SetActive(false);
         if (stageIndex%5 != 0)
         {
             int random = Random.Range(0, stage.Length);
             randomStage = random;
-            addObject =(GameObject)Instantiate(stage[randomStage], Vector3.zero, Quaternion.identity);
+            addObject = ObjectPooler.Instance.GenerateGameObject(stage[randomStage]);
+            //(GameObject)Instantiate(stage[randomStage], Vector3.zero, Quaternion.identity);
             PlayerReposion();
             Debug.Log($"{addObject}Stage,{stageIndex % 5}");
             
@@ -33,9 +36,10 @@ public class RandumRoom : MonoBehaviour
         else
         {
             Debug.Log($"보스방 입장");
-            addObject = (GameObject)Instantiate(bossStage[(stageIndex / 5 )- 1], Vector3.zero, Quaternion.identity);
+            addObject = ObjectPooler.Instance.GenerateGameObject(bossStage[(stageIndex / 5) - 1]);
+            //(GameObject)Instantiate(bossStage[(stageIndex / 5 )- 1], Vector3.zero, Quaternion.identity);
             PlayerReposion();
-            Debug.Log($"{addObject}Stage,{stageIndex % 5}");
+            Debug.Log($"{addObject}Stage,{stageIndex}");
         }
     }
 
