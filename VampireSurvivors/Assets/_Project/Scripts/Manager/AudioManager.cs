@@ -9,18 +9,25 @@ public class AudioManager : MonoBehaviour
 
     #region Test
 
-    public AudioSource fx_PlayerAudioSource;
+    public AudioSource bgm_Audio;
+
+    public AudioSource fx_PlayerAudio;
     private float fx_PlayerSoundTimer;
     
-    public AudioSource fx_EnemyAudioSource;
+    public AudioSource fx_EnemyAudio;
     private float fx_EnemySoundTimer;
 
-    public AudioSource ui_AudioSource;
+    public AudioSource ui_Audio;
     #endregion
 
     private void Awake()
     {
         Instance = this;
+        bgm_Audio = gameObject.AddComponent<AudioSource>();
+        fx_PlayerAudio = gameObject.AddComponent<AudioSource>();
+        fx_EnemyAudio = gameObject.AddComponent<AudioSource>();
+        ui_Audio = gameObject.AddComponent<AudioSource>();
+
         StartCoroutine(FXPlayerTimer());
         StartCoroutine(FXEnemyTimer());
     }
@@ -28,7 +35,7 @@ public class AudioManager : MonoBehaviour
     {
         if (fx_PlayerSoundTimer > 0)
             return;
-        fx_PlayerAudioSource.PlayOneShot(clip);
+        fx_PlayerAudio.PlayOneShot(clip);
         fx_PlayerSoundTimer = 0.01f;
     }
     IEnumerator FXPlayerTimer()
@@ -44,7 +51,7 @@ public class AudioManager : MonoBehaviour
     {
         if (fx_EnemySoundTimer > 0)
             return;
-        fx_EnemyAudioSource.PlayOneShot(clip);
+        fx_EnemyAudio.PlayOneShot(clip);
         fx_EnemySoundTimer = 0.01f;
     }
     IEnumerator FXEnemyTimer()
@@ -62,7 +69,14 @@ public class AudioManager : MonoBehaviour
     
     public void UIAudioPlay(AudioClip clip)
     {
-        ui_AudioSource.PlayOneShot(clip);
+        ui_Audio.PlayOneShot(clip);
     }
+
+    public void SetUIVolume(float volume)
+    {
+        ui_Audio.volume = volume;
+    }
+
+
 
 }
