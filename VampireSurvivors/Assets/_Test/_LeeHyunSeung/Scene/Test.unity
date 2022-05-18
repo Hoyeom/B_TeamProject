@@ -6482,7 +6482,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0
+  near clip plane: 0.001
   far clip plane: 1000
   field of view: 60
   orthographic: 1
@@ -6510,7 +6510,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1503080046}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.523776, y: 0.28892848, z: -10}
+  m_LocalPosition: {x: -2.1914492, y: 0.05855129, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -9306,6 +9306,30 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 320668052}
+    - target: {fileID: 4500517492700376461, guid: 21d5da0356f6d2d4486a1f937da05a30, type: 3}
+      propertyPath: stage.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4500517492700376461, guid: 21d5da0356f6d2d4486a1f937da05a30, type: 3}
+      propertyPath: stage.Array.data[0]
+      value: 
+      objectReference: {fileID: 2113316403290961194, guid: b90b97779f5721545aaf594b4d3a0b81, type: 3}
+    - target: {fileID: 4500517492700376461, guid: 21d5da0356f6d2d4486a1f937da05a30, type: 3}
+      propertyPath: stage.Array.data[1]
+      value: 
+      objectReference: {fileID: 2113316403290961194, guid: a12b9432fbea5274fb4337ac46d305d9, type: 3}
+    - target: {fileID: 4500517492700376461, guid: 21d5da0356f6d2d4486a1f937da05a30, type: 3}
+      propertyPath: stage.Array.data[2]
+      value: 
+      objectReference: {fileID: 2113316403290961194, guid: 10d46cc0b672f494589e77edd668e8c2, type: 3}
+    - target: {fileID: 4500517492700376461, guid: 21d5da0356f6d2d4486a1f937da05a30, type: 3}
+      propertyPath: stage.Array.data[3]
+      value: 
+      objectReference: {fileID: 2113316403290961194, guid: 49fb03a2ec77d834b993f00a20ea0083, type: 3}
+    - target: {fileID: 4500517492700376461, guid: 21d5da0356f6d2d4486a1f937da05a30, type: 3}
+      propertyPath: stage.Array.data[4]
+      value: 
+      objectReference: {fileID: 2113316403290961194, guid: d1b1e34130140a448b7277010b5b2eb1, type: 3}
     - target: {fileID: 4500517492700376462, guid: 21d5da0356f6d2d4486a1f937da05a30, type: 3}
       propertyPath: gameOver
       value: 
