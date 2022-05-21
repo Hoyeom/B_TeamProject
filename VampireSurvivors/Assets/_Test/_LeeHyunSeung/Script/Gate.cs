@@ -9,7 +9,7 @@ public class Gate : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             //Debug.Log(collision.gameObject.name);
-            GameManager.Room.NextStage();
+            Managers.Game.Room.NextStage();
             
         }
     }

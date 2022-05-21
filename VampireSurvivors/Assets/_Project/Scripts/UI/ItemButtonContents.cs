@@ -6,7 +6,7 @@ public class ItemButtonContents : MonoBehaviour
     public AudioClip levelUpSound;
     private void OnEnable()
     {
-        AudioManager.Instance.UIAudioPlay(levelUpSound);
+        Managers.Audio.UIAudioPlay(levelUpSound);
         Time.timeScale = 0;
     }
 

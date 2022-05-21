@@ -21,24 +21,43 @@ public class Player : MonoBehaviour, IAttackable
     private Rigidbody2D _rigid; 
     private Animator _anim; 
 
-    public int level = 1;   // 레벨 기본값
-    private float maxExp = 10;  // 최대 경험치
-    private float minExp;   // 레벌업 이후 슬라이더 최소값
-    private float thisExp;  // 현재 경험치
-    public float ThisExp
+    private int _level = 1;   // 레벨 기본값
+
+    public int Level
     {
-        get => thisExp;
+        get => _level;
         set
         {
-            thisExp = value;
-            UIManager.Instance.SetExpValue(thisExp);
+            if (value > _level)
+            {
+                Managers.Item.GetRandItem();
+            }
+            _level = value;
             
-            if (maxExp <= thisExp && tempCoroutine == null) 
+            OnChangeLevel?.Invoke(_level);
+        }
+    }
+
+    public event Action<int> OnChangeLevel;
+
+    private float _maxExp = 10;  // 최대 경험치
+    private float _curExp;  // 현재 경험치
+    public float CurExp
+    {
+        get => _curExp;
+        set
+        {
+            _curExp = value;
+            OnChangeExp?.Invoke(_curExp, _maxExp);
+            
+            if (_maxExp <= _curExp && tempCoroutine == null) 
             {
                 tempCoroutine = StartCoroutine(LevelUp());
             }
         }
     }
+
+    public event Action<float, float> OnChangeExp;
 
     #region PlayerDefaultStat
 
@@ -67,6 +86,10 @@ public class Player : MonoBehaviour, IAttackable
             OnChangeHealth?.Invoke(Health, MaxHealth);
         }
     }
+
+    [SerializeField] private int firstItemId = 0;
+    public int FirstItemId => firstItemId;
+
     public event Action<float, float> OnChangeHealth;
     
     #endregion
@@ -93,6 +116,7 @@ public class Player : MonoBehaviour, IAttackable
     private void Start()
     {
         Health = MaxHealth;
+        Managers.Resource.Instantiate("UI/ExpUI");
     }
 
     private void FixedUpdate()
@@ -114,13 +138,13 @@ public class Player : MonoBehaviour, IAttackable
 
     public void AddExp(float exp)
     {
-        AudioManager.Instance.FXPlayerAudioPlay(expPickUpClip);
-        ThisExp += exp;
+        Managers.Audio.FXPlayerAudioPlay(expPickUpClip);
+        CurExp += exp;
     }
 
     IEnumerator LevelUp()
     {
-        while (maxExp<=ThisExp)
+        while (_maxExp<=CurExp)
         {
             onPlayerLevelUp.Invoke();
             
@@ -129,11 +153,8 @@ public class Player : MonoBehaviour, IAttackable
                 yield return null;
             }
             
-            minExp = maxExp;
-            maxExp *= 1.2f;
-            level++;
-            UIManager.Instance.SetMaxExp(minExp, maxExp, level);
-            UIManager.Instance.SetExpValue(ThisExp);
+            _maxExp *= 1.2f;
+            Level++;
             yield return null;
         }
 

@@ -32,7 +32,7 @@ public class HolyWater : Item
        // tempPrefab.transform.position = new Vector2(transform.position.x + 1, 6f); // 초기 위치 지정
         tempPrefab.transform.position = new Vector2(transform.position.x + Random.Range(-3f,3f), 6f); // 초기 위치 지정
         tempPrefab.transform.Translate(Vector2.one * Random.Range(1f, .4f)); // 위치 지정
-        tempPrefab.transform.rotation = player.viewRotation; // 방향 지정
+        tempPrefab.transform.rotation = Player.viewRotation; // 방향 지정
 
 
         HolyWaterPerfab stat = tempPrefab.GetComponent<HolyWaterPerfab>(); // 발사체 속도 데미지 지정

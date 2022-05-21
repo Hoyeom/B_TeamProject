@@ -16,7 +16,7 @@ public class ClockPrefab : MonoBehaviour
 
     private void OnEnable()
     {  
-        AudioManager.Instance.FXPlayerAudioPlay(shootSoundClip);
+        Managers.Audio.FXPlayerAudioPlay(shootSoundClip);
     }
 
     private void FixedUpdate()

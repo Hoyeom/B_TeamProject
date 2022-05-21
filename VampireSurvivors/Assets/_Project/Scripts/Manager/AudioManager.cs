@@ -3,10 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AudioManager : MonoBehaviour
+public class AudioManager
 {
-    public static AudioManager Instance;
-
     #region Test
 
     public AudioSource bgm_Audio;
@@ -20,59 +18,40 @@ public class AudioManager : MonoBehaviour
     public AudioSource ui_Audio;
     #endregion
 
-    private void Awake()
+    public void Initialize()
     {
-        Instance = this;
-        bgm_Audio = gameObject.AddComponent<AudioSource>();
-        fx_PlayerAudio = gameObject.AddComponent<AudioSource>();
-        fx_EnemyAudio = gameObject.AddComponent<AudioSource>();
-        ui_Audio = gameObject.AddComponent<AudioSource>();
-
-        StartCoroutine(FXPlayerTimer());
-        StartCoroutine(FXEnemyTimer());
+        bgm_Audio = Managers.Instance.gameObject.AddComponent<AudioSource>();
+        bgm_Audio.loop = true;
+        
+        fx_PlayerAudio = Managers.Instance.gameObject.AddComponent<AudioSource>();
+        fx_EnemyAudio = Managers.Instance.gameObject.AddComponent<AudioSource>();
+        ui_Audio = Managers.Instance.gameObject.AddComponent<AudioSource>();
     }
+
+    public void BgmAudioPlay(AudioClip clip)
+    {
+        if(clip == null) return;
+
+        bgm_Audio.clip = clip;
+        bgm_Audio.Play();
+    }
+    
     public void FXPlayerAudioPlay(AudioClip clip)
     {
         if (clip == null) return;
-
-        if (fx_PlayerSoundTimer > 0)
-            return;
+        
         fx_PlayerAudio.PlayOneShot(clip);
-        fx_PlayerSoundTimer = 0.01f;
     }
-    IEnumerator FXPlayerTimer()
-    {
-        while (true)
-        {
-            fx_PlayerSoundTimer -= Time.fixedDeltaTime;
-            yield return new WaitForFixedUpdate();
-        }
-    }
-    
+
     public void FXEnemyAudioPlay(AudioClip clip)
     {
         if (clip == null) return;
-
-        if (fx_EnemySoundTimer > 0)
-            return;
         fx_EnemyAudio.PlayOneShot(clip);
-        fx_EnemySoundTimer = 0.01f;
-    }
-    IEnumerator FXEnemyTimer()
-    {
-        while (true)
-        {
-            fx_EnemySoundTimer -= Time.fixedDeltaTime;
-            yield return new WaitForFixedUpdate();
-        }
     }
 
-
-
-
-    
     public void UIAudioPlay(AudioClip clip)
     {
+        if (clip == null) return;
         ui_Audio.PlayOneShot(clip);
     }
 
@@ -80,7 +59,5 @@ public class AudioManager : MonoBehaviour
     {
         ui_Audio.volume = volume;
     }
-
-
 
 }

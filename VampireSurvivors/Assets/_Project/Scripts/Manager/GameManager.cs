@@ -1,45 +1,29 @@
 using System.Collections;
 using UnityEngine;
 
-public class GameManager : MonoBehaviour
+public class GameManager
 {
-
-    private static GameManager instance;
-    public static GameManager Instance {
-        get
-        {
-            instance ??= GameObject.FindObjectOfType<GameManager>();
-            return instance;
-        }
-    }
-    private static RoomManager _room;
+    
+    private RoomManager _room;
     private Player _player;
-    public static RoomManager Room
-    {
-        get
-        {
-            if(_room == null)
-                _room = Instance.GetComponent<RoomManager>();
-            return _room;
-        }
-    }
+
     public Player Player
     {
         get
         {
             if(_player == null)
-                _player = GameObject.FindObjectOfType<Player>();
+                _player = Object.FindObjectOfType<Player>();
             return _player;
         }
     }
-    private static AudioManager _audio;
-    public AudioManager Audio
+
+    public RoomManager Room
     {
         get
         {
-            if(_audio==null)
-                Instance.GetComponent<AudioManager>();
-            return _audio;
+            if (_room == null)
+                _room = Object.FindObjectOfType<RoomManager>();
+            return _room;
         }
     }
 

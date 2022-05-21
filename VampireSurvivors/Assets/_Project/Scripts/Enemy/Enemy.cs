@@ -75,11 +75,11 @@ public class Enemy : MonoBehaviour,IEnemy
         if (health < 1)
         { return; }
         
-        UIManager.Instance.SpawnDamageText((int) damage, transform.position);
+        Managers.UI.SpawnDamageText((int) damage, transform.position);
         health -= damage;
 
         rigid.MovePosition(rigid.position + ((Vector2) transform.position - target) * 1 * Time.deltaTime);
-        AudioManager.Instance.FXEnemyAudioPlay(hitSoundClip);
+        Managers.Audio.FXEnemyAudioPlay(hitSoundClip);
         if (health < 1)
         {
             GameObject prefab = ObjectPooler.Instance.GenerateGameObject(expPrefab);

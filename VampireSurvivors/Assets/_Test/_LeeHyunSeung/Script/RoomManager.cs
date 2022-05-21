@@ -46,6 +46,6 @@ public class RoomManager : MonoBehaviour
     private void PlayerReposion()
     {
         Transform playerReposion = addObject.GetComponentInChildren<PlayerPoint>().transform;
-        GameManager.Instance.Player.transform.position = playerReposion.position;
+        Managers.Game.Player.transform.position = playerReposion.position;
     }
 }

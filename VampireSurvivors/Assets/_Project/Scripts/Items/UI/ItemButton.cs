@@ -51,7 +51,7 @@ public class ItemButton : MonoBehaviour
             item.EnableItem();
         else
             item.LevelUpItem();
-        UIManager.Instance.itemSelectPanel.SetActive(false);
+        Managers.UI.itemSelectPanel.SetActive(false);
     }
     
 }

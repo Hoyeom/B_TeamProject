@@ -39,7 +39,7 @@ public class PigeonAttack : Item
     void EnemySearch()
     {
         // 플레이어 기준 사정거리 안 적을 저장하는 변수
-        Collider2D[] cols = Physics2D.OverlapBoxAll(player.transform.position, size, 0, LayerMask);
+        Collider2D[] cols = Physics2D.OverlapBoxAll(Player.transform.position, size, 0, LayerMask);
         Transform ShortTarget = null;     // 가까운적 저장 변수
 
         // 사정거리안 적이 존재할 경우
@@ -107,7 +107,7 @@ public class PigeonAttack : Item
     protected override void WeaponEquipFX()
     {
         var obj = ObjectPooler.Instance.GenerateGameObject(weaponEquipFx);
-        obj.GetComponent<PigeonController>().target = player.transform;
+        obj.GetComponent<PigeonController>().target = Player.transform;
         myPigeon = obj;
     }
 

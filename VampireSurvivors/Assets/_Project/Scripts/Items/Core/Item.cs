@@ -11,37 +11,34 @@ public class Item : MonoBehaviour
         Active,
         Passive
     }
-    
-    internal Player player;
+
+
+    internal Player Player
+    {
+        get { return Managers.Game.Player; }
+    }
 
     public GameObject weaponEquipFx;
-    
-    [Header("UI")]
-    public Sprite spriteImg;
+
+    [Header("UI")] public Sprite spriteImg;
     public string itemName;
     public string[] description = new string[8];
 
     [Header("Item")] public ItemType itemType;
-    public int itemId;  // 같은 아이템 인지 확인용
+    public int itemId; // 같은 아이템 인지 확인용
     public int maxLevel;
     public int level;
     public int rarity;
 
-    [Header("Status")]
-    public float minMight;  // 최소 공격력
-    public float maxMight;  // 최대 공격력
-    public float coolDown;  // 쿨타임
-    public float area;      // 범위(크기)
-    public float speed;     // 투사체 속도
-    public float duration;  // 지속시간
-    public int amount;      // 개수
+    [Header("Status")] public float minMight; // 최소 공격력
+    public float maxMight; // 최대 공격력
+    public float coolDown; // 쿨타임
+    public float area; // 범위(크기)
+    public float speed; // 투사체 속도
+    public float duration; // 지속시간
+    public int amount; // 개수
     public int penetrate; // 관통 (투사체에만)
     public float attackInterval; // 발사 간격
-
-    private void Awake()
-    {
-        player = GameObject.FindWithTag("Player").GetComponent<Player>();
-    }
 
     private void Start()
     {
@@ -51,7 +48,7 @@ public class Item : MonoBehaviour
 
     protected virtual void Initialize()
     {
-        if (transform.parent == player.transform)
+        if (transform.parent == Managers.Game.Player.transform)
             level = 1;
     }
 
@@ -71,6 +68,7 @@ public class Item : MonoBehaviour
                 StartCoroutine(PassiveAttackRoutine());
                 break;
         }
+
         WeaponEquipFX();
     }
 
@@ -82,7 +80,7 @@ public class Item : MonoBehaviour
     protected virtual void ActiveAttack(int i)
     {
     }
-    
+
     // 획득후 쿨타임 마다 1회 호출
     protected virtual void PassiveAttack()
     {
@@ -91,18 +89,17 @@ public class Item : MonoBehaviour
     // 1회 사용
     protected virtual void InstantItemActive()
     {
-        
     }
-    
+
     // 무기 획득시 효과
     protected virtual void WeaponEquipFX()
     {
         // 예제
-        
+
         // weaponEquipFx = Instantiate(pigeon);    // 원하는 프리펩 저장
         // PigeonScript pigeonScript = weaponEquipFx.GetComponent<PigeonScript>(); // 비둘기 스크립트를 저장할 전역변수에 저장
     }
-    
+
     #endregion
 
     #region AttackRoutine
@@ -115,9 +112,10 @@ public class Item : MonoBehaviour
             for (int i = 0; i < GetAmount(); i++)
             {
                 ActiveAttack(i);
-                if(attackInterval>0)
+                if (attackInterval > 0)
                     yield return new WaitForSeconds(attackInterval);
             }
+
             yield return new WaitForSeconds(GetDuration());
             yield return new WaitForSeconds(GetCooldown());
         }
@@ -138,34 +136,35 @@ public class Item : MonoBehaviour
     #region GetItemInfo
 
     public int GetLevel() => level; // 아이템의 현재 레벨을 받아온다
-    internal bool IsMaxLevel() => (level > maxLevel - 1);   // 아이템이 최대 레벨인지 확인
-    internal bool IsMaxLevel(int level) => (level > maxLevel - 1);  // 캐릭터 레벨업 후 선택창에서 다음 레벨이 최대인지 확인
-    public ItemType GetItemType() => itemType;  // 아이템 종류
+    internal bool IsMaxLevel() => (level > maxLevel - 1); // 아이템이 최대 레벨인지 확인
+    internal bool IsMaxLevel(int level) => (level > maxLevel - 1); // 캐릭터 레벨업 후 선택창에서 다음 레벨이 최대인지 확인
+    public ItemType GetItemType() => itemType; // 아이템 종류
 
     #endregion
 
     #region StatLoad
-    internal float GetCooldown() => player.playerStatRank.GetCooldown(coolDown);
-    internal float GetDuration() => player.playerStatRank.GetDuration(duration);
-    internal float GetArea() => player.playerStatRank.GetArea(area);
-    internal float GetSpeed() => player.playerStatRank.GetSpeed(speed);
-    internal float GetMight() => player.playerStatRank.GetMight(Random.Range(minMight, maxMight)); // min max는 상속받은 후 지정
-    internal float GetAmount() => player.playerStatRank.GetAmounts(amount);
+
+    internal float GetCooldown() => Player.playerStatRank.GetCooldown(coolDown);
+    internal float GetDuration() => Player.playerStatRank.GetDuration(duration);
+    internal float GetArea() => Player.playerStatRank.GetArea(area);
+    internal float GetSpeed() => Player.playerStatRank.GetSpeed(speed);
+    internal float GetMight() => Player.playerStatRank.GetMight(Random.Range(minMight, maxMight)); // min max는 상속받은 후 지정
+    internal float GetAmount() => Player.playerStatRank.GetAmounts(amount);
     internal int GetPenetrate() => penetrate;
-    
+
     #endregion
 
     #region LevelUp
 
     // 아이템 획득시 호출되는 함수
-    public void EnableItem()  
+    public void EnableItem()
     {
         if (itemType == ItemType.Instant)
         {
-            player = GameObject.FindWithTag("Player").GetComponent<Player>();
             InstantItemActive();
             return;
         }
+
         // Jinseong Test용
         // if(itemName.Equals("비둘기"))
         // {
@@ -174,14 +173,14 @@ public class Item : MonoBehaviour
         //     player = GameObject.FindWithTag("Player").GetComponent<Player>();
         // }
         // ^^^^^Test용
-        transform.position = player.transform.position;
+        transform.position = Player.transform.position;
         LevelUpItem();
     }
 
     // 레벨 별 효과를 적용 함수
     public void LevelUpItem()
     {
-        if(IsMaxLevel()) return;
+        if (IsMaxLevel()) return;
         switch (++level)
         {
             case 1:
@@ -218,15 +217,37 @@ public class Item : MonoBehaviour
     #region LevelOverride
 
     // 아이템에서 레벨별 효과를 정의하는 Overriding 함수 
-    protected virtual void Level1() { }
-    protected virtual void Level2() { }
-    protected virtual void Level3() { }
-    protected virtual void Level4() { }
-    protected virtual void Level5() { }
-    protected virtual void Level6() { }
-    protected virtual void Level7() { }
-    protected virtual void Level8() { }
+    protected virtual void Level1()
+    {
+    }
 
+    protected virtual void Level2()
+    {
+    }
+
+    protected virtual void Level3()
+    {
+    }
+
+    protected virtual void Level4()
+    {
+    }
+
+    protected virtual void Level5()
+    {
+    }
+
+    protected virtual void Level6()
+    {
+    }
+
+    protected virtual void Level7()
+    {
+    }
+
+    protected virtual void Level8()
+    {
+    }
 
     #endregion
 

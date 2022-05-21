@@ -2,63 +2,68 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using Object = UnityEngine.Object;
 using Random = UnityEngine.Random;
 
-public class ItemManager : MonoBehaviour
+public class ItemManager
 {
-    [SerializeField] private GameObject[] items;
-    [SerializeField] private GameObject[] instantItems;
+    private GameObject[] items;
+    private GameObject[] instantItems;
 
-    private Player player;
     private Item playerItem;
     private GameObject[] itemObj;
     private Item[] itemScript;
     private int itemLen;
 
-    private void Awake()
-    {
-        player = GameObject.FindWithTag("Player").GetComponent<Player>();
 
-        playerItem = player.GetComponentInChildren<Item>();
-    }
-
-    private void Start()
+    public void Initialize()
     {
+        items = Managers.Resource.LoadAll<GameObject>("Items");
+        instantItems = Managers.Resource.LoadAll<GameObject>("Items/Instance");
+        
         itemLen = items.Length;
-        itemObj = new GameObject[itemLen];
         itemScript = new Item[itemLen];
-        for (int i = 0; i < itemLen; i++)
+        itemObj = new GameObject[itemLen];
+        
+        playerItem = Managers.Game.Player.GetComponentInChildren<Item>();
+        
+        for (var i = 0; i < items.Length; i++)
         {
-            itemObj[i] = Instantiate(items[i], transform);
+            itemObj[i] = Object.Instantiate(items[i], Managers.Instance.transform);
             itemScript[i] = itemObj[i].GetComponent<Item>();
-
+            
+            
             if (playerItem == null)  continue;
             if (playerItem.itemId != itemScript[i].itemId) continue;
             
-            Destroy(itemObj[i]);
+            Object.Destroy(itemObj[i]);
             itemScript[i] = playerItem;
             items[i] = itemObj[i] = playerItem.gameObject;
         }
+        
+        foreach (var item in instantItems)
+            Object.Instantiate(item, Managers.Instance.transform);
     }
 
-    public void ActiveRandomButton()
+    public void GetRandItem()
     {
-        UIManager.Instance.itemSelectPanel.SetActive(true);
+        Managers.UI.itemSelectPanel.SetActive(true);
 
         List<int> tempList = GetRandIndex();
+        
         if (tempList.Count == 0)
         {
-            for (int i = 0; i < instantItems.Length; i++)
+            foreach (var item in instantItems)
             {
-                GameObject button = Instantiate(UIManager.Instance.itemButton, UIManager.Instance.itemButtonContents);
-                button.GetComponent<ItemButton>().SetButtonImage(instantItems[i]);
+                GameObject button = Object.Instantiate(Managers.UI.itemButton, Managers.UI.itemButtonContents) as GameObject;
+                button.GetComponent<ItemButton>().SetButtonImage(item);
             }
         }
         else
         {
             foreach (var index in tempList)
             {
-                GameObject button = Instantiate(UIManager.Instance.itemButton, UIManager.Instance.itemButtonContents);
+                GameObject button = UnityEngine.Object.Instantiate(Managers.UI.itemButton, Managers.UI.itemButtonContents);
                 button.GetComponent<ItemButton>().SetButtonImage(itemObj[index]);
             }
         }

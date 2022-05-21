@@ -147,7 +147,7 @@ public class BossMantis : MonoBehaviour
         if (health < 1)
         { return; }
 
-        UIManager.Instance.SpawnDamageText((int)damage, transform.position);
+        Managers.UI.SpawnDamageText((int)damage, transform.position);
         health -= damage;
 
         if(resurrectCheck == false && health < 1)
@@ -159,7 +159,7 @@ public class BossMantis : MonoBehaviour
         }
 
         rigid.MovePosition(rigid.position + ((Vector2)transform.position - target) * 1 * Time.deltaTime);
-        AudioManager.Instance.FXEnemyAudioPlay(hitSoundClip);
+        Managers.Audio.FXEnemyAudioPlay(hitSoundClip);
         if (health < 1)
         {
             GameObject prefab = ObjectPooler.Instance.GenerateGameObject(expPrefab);

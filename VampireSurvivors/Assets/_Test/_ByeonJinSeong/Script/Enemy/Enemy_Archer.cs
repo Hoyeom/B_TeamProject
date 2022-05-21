@@ -122,7 +122,7 @@ public class Enemy_Archer : MonoBehaviour, IEnemy
     {
         health -= damage;
         rigid.MovePosition(rigid.position + ((Vector2)transform.position - target) * 1 * Time.deltaTime);
-        AudioManager.Instance.FXEnemyAudioPlay(enemyPrefabSo.HitSoundClip);
+        Managers.Audio.FXEnemyAudioPlay(enemyPrefabSo.HitSoundClip);
         if (health < 1)
         {
             GameObject prefab = ObjectPooler.Instance.GenerateGameObject(enemyPrefabSo.ExpPrefab);

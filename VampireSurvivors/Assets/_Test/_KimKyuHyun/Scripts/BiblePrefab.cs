@@ -18,7 +18,7 @@ public class BiblePrefab : MonoBehaviour
 
     private void OnEnable()
     {
-        AudioManager.Instance.FXPlayerAudioPlay(shootSoundClip);
+        Managers.Audio.FXPlayerAudioPlay(shootSoundClip);
     }
 
     private void OnDisable()

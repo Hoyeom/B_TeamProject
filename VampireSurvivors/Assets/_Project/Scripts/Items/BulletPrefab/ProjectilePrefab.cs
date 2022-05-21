@@ -20,7 +20,7 @@ public class ProjectilePrefab : MonoBehaviour
     protected virtual void OnEnable()
     {
         if(shootSoundClip != null)
-            AudioManager.Instance.FXPlayerAudioPlay(shootSoundClip);
+            Managers.Audio.FXPlayerAudioPlay(shootSoundClip);
     }
 
     private void OnDisable()

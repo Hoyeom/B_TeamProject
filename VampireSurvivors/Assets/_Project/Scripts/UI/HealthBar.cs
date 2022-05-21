@@ -27,8 +27,6 @@ public class HealthBar : MonoBehaviour
 
     private void OnChangeHealth(float cur, float max)
     {
-        Debug.Log(cur);
-        Debug.Log(max);
         slider.value = cur / max;
     }
 
