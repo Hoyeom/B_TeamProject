@@ -55,7 +55,7 @@ public class Player : MonoBehaviour, IAttackable
         set
         {
             maxHealth = value;
-            UIManager.Instance.SetMaxHp(maxHealth);
+            OnChangeHealth?.Invoke(Health, MaxHealth);
         }
     }
     public float Health
@@ -64,9 +64,10 @@ public class Player : MonoBehaviour, IAttackable
         set
         {
             health = value;
-            UIManager.Instance?.SetHpValue(health);
+            OnChangeHealth?.Invoke(Health, MaxHealth);
         }
     }
+    public event Action<float, float> OnChangeHealth;
     
     #endregion
 

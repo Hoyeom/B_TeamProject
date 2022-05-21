@@ -33,6 +33,8 @@ public class AudioManager : MonoBehaviour
     }
     public void FXPlayerAudioPlay(AudioClip clip)
     {
+        if (clip == null) return;
+
         if (fx_PlayerSoundTimer > 0)
             return;
         fx_PlayerAudio.PlayOneShot(clip);
@@ -49,6 +51,8 @@ public class AudioManager : MonoBehaviour
     
     public void FXEnemyAudioPlay(AudioClip clip)
     {
+        if (clip == null) return;
+
         if (fx_EnemySoundTimer > 0)
             return;
         fx_EnemyAudio.PlayOneShot(clip);

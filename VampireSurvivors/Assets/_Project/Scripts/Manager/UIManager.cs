@@ -4,6 +4,7 @@ using UnityEngine.UI;
 public class UIManager : MonoBehaviour
 {
     public static UIManager Instance;
+    [SerializeField] private GameObject inGameUI = null;
     
     [Header("LEVEL")]
     public Slider expSlider;

@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Test/_LeeHyunSeung/Scene/Test.unity
     guid: 2cdb23ede00e433459e4343652c1d950
+  - enabled: 1
+    path: Assets/_Project/Scenes/MainScene.unity
+    guid: f3962d9bc28014a4d8729daba794a33a
   m_configObjects: {}

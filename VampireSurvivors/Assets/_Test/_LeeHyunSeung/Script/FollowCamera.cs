@@ -10,12 +10,22 @@ public class FollowCamera : MonoBehaviour
 
     private void Awake()
     {
-        player = GameObject.Find("Player").transform;
         followCamera = GetComponent<CinemachineVirtualCamera>();
+        StartCoroutine(FindPlayer());
     }
 
-    private void Start()
+    IEnumerator FindPlayer()
     {
+        GameObject obj= null;
+
+        while(player != null)
+        {
+            obj = GameObject.Find("Player");
+            yield return null;
+        }
+
+        player = obj.transform;
         followCamera.Follow = player;
     }
+
 }

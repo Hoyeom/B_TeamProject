@@ -7,7 +7,7 @@ public class Select : MonoBehaviour
 {
     public GameObject select = null;
     public GameObject option = null;
-    public GameObject[] Char;
+    public GameObject[] character;
     private GameObject _player;
 
     //public AudioMixer masterMixer = null;
@@ -50,10 +50,38 @@ public class Select : MonoBehaviour
     //    }
     //}
 
-    public void OnStage()
+    public void PickCharacter1()
     {
-        SceneManager.LoadScene("Test");
-       _player = ObjectPooler.Instance.GenerateGameObject(Char[0]);
+        SceneManager.LoadScene("MainScene");
+        _player = Instantiate(character[0]);
+        _player.transform.position = new Vector3(0, 0, 0);
+    }
+
+    public void PickCharacter2()
+    {
+        SceneManager.LoadScene("MainScene");
+        _player = Instantiate(character[1]);
+        _player.transform.position = new Vector3(0, 0, 0);
+    }
+
+    public void PickCharacter3()
+    {
+        SceneManager.LoadScene("MainScene");
+        _player = Instantiate(character[2]);
+        _player.transform.position = new Vector3(0, 0, 0);
+    }
+
+    public void PickCharacter4()
+    {
+        SceneManager.LoadScene("MainScene");
+        _player = Instantiate(character[3]);
+        _player.transform.position = new Vector3(0, 0, 0);
+    }
+
+    public void PickCharacter5()
+    {
+        SceneManager.LoadScene("MainScene");
+        _player = Instantiate(character[4]);
         _player.transform.position = new Vector3(0, 0, 0);
     }
 }
