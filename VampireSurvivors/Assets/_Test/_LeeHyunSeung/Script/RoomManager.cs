@@ -45,7 +45,13 @@ public class RoomManager : MonoBehaviour
     // 케릭터 이동포인트로 이동
     private void PlayerReposion()
     {
-        Transform playerReposion = addObject.GetComponentInChildren<PlayerPoint>().transform;
+        Transform playerReposion = addObject.transform.Find("PlayerPoint").transform;
         Managers.Game.Player.transform.position = playerReposion.position;
+    }
+
+    private void GatOn()
+    {
+        GameObject gate = addObject.GetComponent<Gate>().gameObject;
+        gate.SetActive(true);
     }
 }
