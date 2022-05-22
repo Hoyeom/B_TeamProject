@@ -16,6 +16,7 @@ public class Select : MonoBehaviour
     public void OnStart()
     {
         select.SetActive(true);
+        DontDestroyOnLoad(gameObject);
     }
 
     public void OnOption()
@@ -53,35 +54,69 @@ public class Select : MonoBehaviour
     public void PickCharacter1()
     {
         SceneManager.LoadScene("MainScene");
-        _player = Instantiate(character[0]);
-        _player.transform.position = new Vector3(0, 0, 0);
-    }
+        
 
+        SceneManager.sceneLoaded += GenerateObject1;
+    }
+    
     public void PickCharacter2()
     {
         SceneManager.LoadScene("MainScene");
-        _player = Instantiate(character[1]);
-        _player.transform.position = new Vector3(0, 0, 0);
+        
+        
+        SceneManager.sceneLoaded += GenerateObject2;
     }
 
     public void PickCharacter3()
     {
         SceneManager.LoadScene("MainScene");
-        _player = Instantiate(character[2]);
-        _player.transform.position = new Vector3(0, 0, 0);
+        SceneManager.sceneLoaded += GenerateObject3;
     }
 
     public void PickCharacter4()
     {
         SceneManager.LoadScene("MainScene");
-        _player = Instantiate(character[3]);
-        _player.transform.position = new Vector3(0, 0, 0);
+        SceneManager.sceneLoaded += GenerateObject4;
     }
 
     public void PickCharacter5()
     {
         SceneManager.LoadScene("MainScene");
+        SceneManager.sceneLoaded += GenerateObject5;
+    }
+    
+    private void GenerateObject1(Scene arg0, LoadSceneMode arg1)
+    {
+        SceneManager.sceneLoaded -= GenerateObject1;
+        _player = Instantiate(character[0]);
+        Destroy(gameObject);
+    }
+    
+    private void GenerateObject2(Scene arg0, LoadSceneMode arg1)
+    {
+        SceneManager.sceneLoaded -= GenerateObject2;
+        _player = Instantiate(character[1]);
+        Destroy(gameObject);
+    }
+    
+    private void GenerateObject3(Scene arg0, LoadSceneMode arg1)
+    {
+        SceneManager.sceneLoaded -= GenerateObject3;
+        _player = Instantiate(character[2]);
+        Destroy(gameObject);
+    }
+    
+    private void GenerateObject4(Scene arg0, LoadSceneMode arg1)
+    {
+        SceneManager.sceneLoaded -= GenerateObject4;
+        _player = Instantiate(character[3]);
+        Destroy(gameObject);
+    }
+    
+    private void GenerateObject5(Scene arg0, LoadSceneMode arg1)
+    {
+        SceneManager.sceneLoaded -= GenerateObject5;
         _player = Instantiate(character[4]);
-        _player.transform.position = new Vector3(0, 0, 0);
+        Destroy(gameObject);
     }
 }
