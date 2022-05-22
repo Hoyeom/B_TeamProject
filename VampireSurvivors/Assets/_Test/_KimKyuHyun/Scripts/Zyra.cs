@@ -20,6 +20,7 @@ public class Zyra : MonoBehaviour
     private int shoot_time;
     public GameObject attackPrefab;
     public GameObject spawnPoint;
+    public GameObject plantWall;
 
     private readonly int hashHitAnim = Animator.StringToHash("hitTrigger");
     private readonly int enemyLayer = 6;
@@ -32,6 +33,7 @@ public class Zyra : MonoBehaviour
     private float curSpeed;
     private bool isSlow = false;
 
+    private int spawncount;
     private void OnEnable()
     {
         curSpeed = speed;
@@ -63,7 +65,12 @@ public class Zyra : MonoBehaviour
             {
                 Fire();
                 yield return new WaitForSeconds(3f);
-                Spawn();
+                if (spawncount % 4 == 0)
+                {
+                    SpawnWall();
+                }
+                else
+                    Spawn();
             }
             /*
             else
@@ -99,9 +106,20 @@ public class Zyra : MonoBehaviour
         obj.transform.position = new Vector2(0, 0);
         obj.transform.Translate(Vector2.right * UnityEngine.Random.Range(-6f, 6f));
         obj.transform.Translate(Vector2.up * UnityEngine.Random.Range(-3f, 3f));
+
+        spawncount++;
     }
 
-
+    public void SpawnWall()
+    {
+        for (int i = 0; i < 10; i++)
+        {
+            GameObject obj = ObjectPooler.Instance.GenerateGameObject(plantWall);
+            obj.transform.position = _player.transform.position;
+            obj.transform.Translate(Mathf.Cos(2 * Mathf.PI * i / 10) * 2, Mathf.Sin(2 * Mathf.PI * i / 10) * 2, 0);
+        }
+        spawncount++;
+    }
     private void Fire()
     {
         /*
@@ -127,11 +145,11 @@ public class Zyra : MonoBehaviour
         if (health < 1)
         { return; }
 
-        Managers.UI.SpawnDamageText((int)damage, transform.position);
+        UIManager.Instance.SpawnDamageText((int)damage, transform.position);
         health -= damage;
 
         rigid.MovePosition(rigid.position + ((Vector2)transform.position - target) * 1 * Time.deltaTime);
-        Managers.Audio.FXEnemyAudioPlay(hitSoundClip);
+        AudioManager.Instance.FXEnemyAudioPlay(hitSoundClip);
         if (health < 1)
         {
             GameObject prefab = ObjectPooler.Instance.GenerateGameObject(expPrefab);

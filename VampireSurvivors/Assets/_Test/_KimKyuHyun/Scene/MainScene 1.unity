@@ -220,7 +220,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &296732430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -573,12 +573,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
   expPrefab: {fileID: 5865523720289440356, guid: d6b7a54b36e9e8246b04a5a83a99a20d, type: 3}
   hitSoundClip: {fileID: 8300000, guid: 6a81221f7206b79449a11244ce04eb01, type: 3}
   fire_rate: 100
-  attackPrefab: {fileID: 0}
+  attackPrefab: {fileID: 4170307455715006849, guid: 2b8d8d17e33f2954eae095051eb4158c, type: 3}
   spawnPoint: {fileID: 5816089057312700965, guid: 103a5a0ef65eef04ab4374588457b2c9, type: 3}
+  plantWall: {fileID: 999327472}
   maxHealth: 100
   damage: 10
   attackRadius: 0.3
@@ -3745,6 +3746,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 993655559}
   m_CullTransparentMesh: 1
+--- !u!1 &999327472 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6752870744039541862, guid: d496cedf395605743a5523c0d2baed30, type: 3}
+  m_PrefabInstance: {fileID: 7324943951620509497}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1087542884
 GameObject:
   m_ObjectHideFlags: 0
@@ -4468,9 +4474,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22709f3b96693514ebdf2b2e54f1079c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyObject: {fileID: 434821925509080541, guid: 4f67aee6de613b94a89a0285739d19ab, type: 3}
-  enemyCount: 50
-  expPrefab: {fileID: 5865523720289440356, guid: d6b7a54b36e9e8246b04a5a83a99a20d, type: 3}
 --- !u!1 &1363349074
 GameObject:
   m_ObjectHideFlags: 0
@@ -5109,9 +5112,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcfc21f0913ec4548b84ef86757c85f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fx_PlayerAudioSource: {fileID: 2065082511}
-  fx_EnemyAudioSource: {fileID: 2065082512}
-  ui_AudioSource: {fileID: 2065082513}
+  bgm_Audio: {fileID: 0}
+  fx_PlayerAudio: {fileID: 0}
+  fx_EnemyAudio: {fileID: 0}
+  ui_Audio: {fileID: 0}
 --- !u!82 &2065082511
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5573,3 +5577,68 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!1001 &7324943951620509497
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 999327475, guid: d496cedf395605743a5523c0d2baed30, type: 3}
+      propertyPath: m_BodyType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117596259301548939, guid: d496cedf395605743a5523c0d2baed30, type: 3}
+      propertyPath: speed
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4670443182968257276, guid: d496cedf395605743a5523c0d2baed30, type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 4670443182968257276, guid: d496cedf395605743a5523c0d2baed30, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 4670443182968257276, guid: d496cedf395605743a5523c0d2baed30, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 4670443182968257276, guid: d496cedf395605743a5523c0d2baed30, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4670443182968257276, guid: d496cedf395605743a5523c0d2baed30, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4670443182968257276, guid: d496cedf395605743a5523c0d2baed30, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4670443182968257276, guid: d496cedf395605743a5523c0d2baed30, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4670443182968257276, guid: d496cedf395605743a5523c0d2baed30, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4670443182968257276, guid: d496cedf395605743a5523c0d2baed30, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4670443182968257276, guid: d496cedf395605743a5523c0d2baed30, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4670443182968257276, guid: d496cedf395605743a5523c0d2baed30, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6752870744039541862, guid: d496cedf395605743a5523c0d2baed30, type: 3}
+      propertyPath: m_Name
+      value: PlantWall
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d496cedf395605743a5523c0d2baed30, type: 3}

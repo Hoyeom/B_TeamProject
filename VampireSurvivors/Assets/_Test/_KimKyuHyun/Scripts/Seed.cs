@@ -16,7 +16,7 @@ public class Seed : MonoBehaviour
         Attack();
         Wall();
 
-        transform.Translate(Vector2.right * Time.fixedDeltaTime * speed);
+        transform.Translate(Vector2.right * Time.fixedDeltaTime * speed * Random.Range(1f,2f));
     }
 
     public void Attack()
