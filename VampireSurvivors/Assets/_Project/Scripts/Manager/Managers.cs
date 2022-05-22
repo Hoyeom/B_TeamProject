@@ -47,8 +47,8 @@ public class Managers : MonoBehaviour
 
         SceneManager.MoveGameObjectToScene(_instance.gameObject, managerScene);
         
-        _instance._item.Initialize();
         _instance._audio.Initialize();
+        _instance._item.Initialize();
         _instance._ui.Initialize();
     }
     

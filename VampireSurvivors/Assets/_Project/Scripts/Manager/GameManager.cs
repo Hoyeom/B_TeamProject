@@ -11,7 +11,7 @@ public class GameManager
     {
         get
         {
-            if(_player == null)
+            if(_player == null) 
                 _player = Object.FindObjectOfType<Player>();
             return _player;
         }

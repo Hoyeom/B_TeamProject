@@ -117,6 +117,7 @@ public class Player : MonoBehaviour, IAttackable
     {
         Health = MaxHealth;
         Managers.Resource.Instantiate("UI/ExpUI");
+        Managers.Item.InGameInit();
     }
 
     private void FixedUpdate()

@@ -24,7 +24,10 @@ public class ItemManager
         itemLen = items.Length;
         itemScript = new Item[itemLen];
         itemObj = new GameObject[itemLen];
-        
+    }
+
+    public void InGameInit()
+    {
         playerItem = Managers.Game.Player.GetComponentInChildren<Item>();
         
         for (var i = 0; i < items.Length; i++)
