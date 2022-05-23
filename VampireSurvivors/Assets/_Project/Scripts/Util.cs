@@ -5,11 +5,12 @@
     {
         public static T FindOrNewComponent<T>(out T component, string name) where T : Component
         {
-            component = GameObject.Find(name).GetComponent<T>();
-            
-            if (component == null) 
+            GameObject obj = GameObject.Find(name);
+
+            if (obj == null)
                 component = new GameObject(name).AddComponent<T>();
-            
+            else
+                component = obj.GetComponent<T>();
             return component;
         }
     }

@@ -53,7 +53,7 @@ public class Select : MonoBehaviour
 
     public void PickCharacter1()
     {
-        SceneManager.LoadScene("MainScene");
+        SceneManager.LoadScene("Random");
         
 
         SceneManager.sceneLoaded += GenerateObject1;
@@ -61,7 +61,7 @@ public class Select : MonoBehaviour
     
     public void PickCharacter2()
     {
-        SceneManager.LoadScene("MainScene");
+        SceneManager.LoadScene("Random");
         
         
         SceneManager.sceneLoaded += GenerateObject2;
@@ -69,19 +69,19 @@ public class Select : MonoBehaviour
 
     public void PickCharacter3()
     {
-        SceneManager.LoadScene("MainScene");
+        SceneManager.LoadScene("Random");
         SceneManager.sceneLoaded += GenerateObject3;
     }
 
     public void PickCharacter4()
     {
-        SceneManager.LoadScene("MainScene");
+        SceneManager.LoadScene("Random");
         SceneManager.sceneLoaded += GenerateObject4;
     }
 
     public void PickCharacter5()
     {
-        SceneManager.LoadScene("MainScene");
+        SceneManager.LoadScene("Random");
         SceneManager.sceneLoaded += GenerateObject5;
     }
     

@@ -18,9 +18,9 @@ public class FollowCamera : MonoBehaviour
     {
         GameObject obj= null;
 
-        while(player != null)
+        while(obj == null)
         {
-            obj = GameObject.Find("Player");
+            obj = GameObject.FindWithTag("Player");
             yield return null;
         }
 
