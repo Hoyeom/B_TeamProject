@@ -57,6 +57,7 @@ public class RoomManager : MonoBehaviour
             PlayerReposion();
             Debug.Log($"{addStage}Stage,{stageIndex}");
         }
+        MonsterCount();
     }
 
     // 케릭터 이동포인트로 이동
@@ -68,8 +69,10 @@ public class RoomManager : MonoBehaviour
 
     private void OnGet()
     {
-        GameObject gate = addStage.GetComponent<Gate>().gameObject;
+        //GameObject gate = addStage.GetComponentInChildren<Gate>().gameObject;
+        GameObject gate = addStage.transform.Find("Gate").gameObject;
         gate.SetActive(true);
+        stageEnemyCount = 0;
         killMonsterCount = 0;
     }
 

@@ -85,6 +85,7 @@ public class Enemy : MonoBehaviour,IEnemy
             GameObject prefab = ObjectPooler.Instance.GenerateGameObject(expPrefab);
             prefab.transform.position = transform.position;
             prefab.GetComponent<Experience>().DropExp(dropExp);
+            Managers.Game.Room.killMonsterCount++;
             ObjectPooler.Instance.DestroyGameObject(gameObject);
             return;
         }
