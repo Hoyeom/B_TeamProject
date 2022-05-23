@@ -220,7 +220,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &296732430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -579,7 +579,7 @@ MonoBehaviour:
   fire_rate: 100
   attackPrefab: {fileID: 4170307455715006849, guid: 2b8d8d17e33f2954eae095051eb4158c, type: 3}
   spawnPoint: {fileID: 5816089057312700965, guid: 103a5a0ef65eef04ab4374588457b2c9, type: 3}
-  plantWall: {fileID: 999327472}
+  plantWall: {fileID: 6752870744039541862, guid: d496cedf395605743a5523c0d2baed30, type: 3}
   maxHealth: 100
   damage: 10
   attackRadius: 0.3
@@ -3053,13 +3053,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58e0040f85d57874eb184bccaa1ad9a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  expSlider: {fileID: 858305959}
-  levelText: {fileID: 1621286144}
-  itemSelectPanel: {fileID: 182088465}
-  itemButton: {fileID: 175979726992737296, guid: 8e79afcda971b3b45b4e02083f80893d, type: 3}
-  itemButtonContents: {fileID: 1087542885}
-  hpSlider: {fileID: 1215579880}
-  damageTextPrefab: {fileID: 5232452965468194009, guid: 388a2ba30e19ca649a2e9f5d26b54069, type: 3}
 --- !u!4 &579552533
 Transform:
   m_ObjectHideFlags: 0
@@ -3746,11 +3739,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 993655559}
   m_CullTransparentMesh: 1
---- !u!1 &999327472 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6752870744039541862, guid: d496cedf395605743a5523c0d2baed30, type: 3}
-  m_PrefabInstance: {fileID: 7324943951620509497}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1087542884
 GameObject:
   m_ObjectHideFlags: 0
@@ -4351,7 +4339,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1315236181
 Transform:
   m_ObjectHideFlags: 0
@@ -4503,18 +4491,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98967ad9ca9a3c643ab009f43cbd5339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  items:
-  - {fileID: 1284760106273838158, guid: 986df9df3596c0a4ea076d8a65cb33f1, type: 3}
-  - {fileID: 6231835059598895567, guid: 4224e868025101c4eaa5771f12f9e435, type: 3}
-  - {fileID: 6231835059598895567, guid: 7cfca985e2bc83e47bdef47adc069293, type: 3}
-  - {fileID: 7216749338532320221, guid: 3724e82a1ea2d1f449db3932e853f3af, type: 3}
-  - {fileID: 8709512156756067015, guid: 3426893b033665c4590f3d698ed9383b, type: 3}
-  - {fileID: 5411499579787024373, guid: 9816b6989964a2b408089b6b9d0b6ab5, type: 3}
-  - {fileID: 1284760106273838158, guid: e9b512227e6fe1743ae3604548f2f6e8, type: 3}
-  - {fileID: 2788835567658999485, guid: 791e6a848780e93438f97a086e4d1750, type: 3}
-  - {fileID: 2824608643339787134, guid: 270b7f6060d0cf343ad71f51a7fef1ce, type: 3}
-  instantItems:
-  - {fileID: 1284760106273838158, guid: e947a59745d1cdc4497143480c10476c, type: 3}
 --- !u!4 &1363349076
 Transform:
   m_ObjectHideFlags: 0
@@ -4931,7 +4907,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   model: {fileID: 0}
-  level: 1
+  firstItemId: 0
   onPlayerDead:
     m_PersistentCalls:
       m_Calls:
@@ -5112,10 +5088,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcfc21f0913ec4548b84ef86757c85f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bgm_Audio: {fileID: 0}
-  fx_PlayerAudio: {fileID: 0}
-  fx_EnemyAudio: {fileID: 0}
-  ui_Audio: {fileID: 0}
 --- !u!82 &2065082511
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5577,68 +5549,3 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!1001 &7324943951620509497
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 999327475, guid: d496cedf395605743a5523c0d2baed30, type: 3}
-      propertyPath: m_BodyType
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1117596259301548939, guid: d496cedf395605743a5523c0d2baed30, type: 3}
-      propertyPath: speed
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4670443182968257276, guid: d496cedf395605743a5523c0d2baed30, type: 3}
-      propertyPath: m_RootOrder
-      value: 19
-      objectReference: {fileID: 0}
-    - target: {fileID: 4670443182968257276, guid: d496cedf395605743a5523c0d2baed30, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -3.05
-      objectReference: {fileID: 0}
-    - target: {fileID: 4670443182968257276, guid: d496cedf395605743a5523c0d2baed30, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.66
-      objectReference: {fileID: 0}
-    - target: {fileID: 4670443182968257276, guid: d496cedf395605743a5523c0d2baed30, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4670443182968257276, guid: d496cedf395605743a5523c0d2baed30, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4670443182968257276, guid: d496cedf395605743a5523c0d2baed30, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4670443182968257276, guid: d496cedf395605743a5523c0d2baed30, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4670443182968257276, guid: d496cedf395605743a5523c0d2baed30, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4670443182968257276, guid: d496cedf395605743a5523c0d2baed30, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4670443182968257276, guid: d496cedf395605743a5523c0d2baed30, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4670443182968257276, guid: d496cedf395605743a5523c0d2baed30, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6752870744039541862, guid: d496cedf395605743a5523c0d2baed30, type: 3}
-      propertyPath: m_Name
-      value: PlantWall
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: d496cedf395605743a5523c0d2baed30, type: 3}
