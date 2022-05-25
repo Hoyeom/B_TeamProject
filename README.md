@@ -1,8 +1,8 @@
 # Atents-B_TeamProject
 
-##작업 내용
+## 작업 내용
 
-###이동규
+### 이동규
 
 * 캐릭터
     * Player
