@@ -4,7 +4,10 @@ public class Knife : Item
 {
     public GameObject attackPrefab;
     private GameObject tempPrefab;
-
+    
+    /// <summary>
+    /// 바라보는 방향으로 발사체 발사
+    /// </summary>
     protected override void ActiveAttack(int i)
     {
         tempPrefab = ObjectPooler.Instance.GenerateGameObject(attackPrefab);

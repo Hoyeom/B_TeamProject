@@ -23,8 +23,12 @@ public class HealthBar : MonoBehaviour
         player.OnChangeHealth -= OnChangeHealth;
     }
 
-
-
+    
+    /// <summary>
+    /// 슬라이더 값을 0~1 사이 값으로 변경
+    /// </summary>
+    /// <param name="cur">현재 체력</param>
+    /// <param name="max">최대 체력</param>
     private void OnChangeHealth(float cur, float max)
     {
         slider.value = cur / max;

@@ -37,6 +37,10 @@ public class Managers : MonoBehaviour
     private void Start()
         => Initialize();
 
+    
+    /// <summary>
+    /// 모든 매니저 초기화
+    /// </summary>
     private static void Initialize()
     {
         if (_instance != null) return;

@@ -26,6 +26,13 @@ public class ItemManager
         itemObj = new GameObject[itemLen];
     }
 
+    /// <summary>
+    /// 게임 시작시
+    /// 호출 플레이어가 아이템을
+    /// 가지고 있는지 확인하고
+    /// 있다면 매니저의 아이템을 제거한 후
+    /// 플레이어의 아이템으로 교체한다
+    /// </summary>
     public void InGameInit()
     {
         playerItem = Managers.Game.Player.GetComponentInChildren<Item>();
@@ -48,6 +55,10 @@ public class ItemManager
             Object.Instantiate(item, Managers.Instance.transform);
     }
 
+    /// <summary>
+    /// 남은 아이템이 있다면 남은 아이템을 Get
+    /// 없다면 회복 아이템을 Get
+    /// </summary>
     public void GetRandItem()
     {
         Managers.UI.itemSelectPanel.SetActive(true);
@@ -72,6 +83,10 @@ public class ItemManager
         }
     }
 
+    /// <summary>
+    /// 아이템 희귀도 기준으로
+    /// 랜덤으로 아이템을 반환한다
+    /// </summary>
     private List<int> GetRandIndex()
     {
         List<int> indexList = new List<int>();

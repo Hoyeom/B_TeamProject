@@ -31,7 +31,7 @@ public class ItemButton : MonoBehaviour
         {
             this.nextLevel.text = "<color=#ffd400>New</color>";
         }
-        else if (item.IsMaxLevel(item.level + 1)) 
+        else if (item.IsMaxNextLevel()) 
         {
             this.nextLevel.text = "<color=#ffd400>Max</color>";
         }

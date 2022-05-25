@@ -13,10 +13,10 @@ public class Item : MonoBehaviour
     }
 
 
-    internal Player Player
-    {
-        get { return Managers.Game.Player; }
-    }
+    /// <summary>
+    /// 게임내 있는 플레이어에게 접근
+    /// </summary>
+    internal Player Player => Managers.Game.Player;
 
     public GameObject weaponEquipFx;
 
@@ -46,13 +46,18 @@ public class Item : MonoBehaviour
         ItemActive();
     }
 
+    /// <summary>
+    /// 아이템이 플레이어 오브젝트인지 확인하여 레벨 결정
+    /// </summary>
     protected virtual void Initialize()
     {
         if (transform.parent == Managers.Game.Player.transform)
             level = 1;
     }
 
-    // 아이템 획득시 사용되는 함수
+    /// <summary>
+    /// 아이템 획득시 공격방식 지정
+    /// </summary>
     public void ItemActive()
     {
         if (level <= 0) return;
@@ -70,34 +75,39 @@ public class Item : MonoBehaviour
         }
 
         WeaponEquipFX();
-    }
+    } 
 
     // 상속받아서 바꿔야하는 함수입니다. 바꾸는 것 예제는 Knife.cs 참조
 
     #region OverrideFunc
 
-    // 쿨타임을 마다 개수(amount) 만큼 반복 후 지속시간이 끝난 후 쿨타임 시작
+    /// <summary>
+    /// 쿨타임을 마다 개수(amount) 만큼 반복 후 지속시간이 끝난 후 쿨타임 시작
+    /// </summary>
+    /// <param name="i">반복 횟수</param>
     protected virtual void ActiveAttack(int i)
     {
     }
 
-    // 획득후 쿨타임 마다 1회 호출
+    /// <summary>
+    /// 쿨타임 마다 1회 호출
+    /// </summary>
     protected virtual void PassiveAttack()
     {
     }
 
-    // 1회 사용
+    /// <summary>
+    /// 1회 사용
+    /// </summary>
     protected virtual void InstantItemActive()
     {
     }
 
-    // 무기 획득시 효과
+    /// <summary>
+    /// 무기 활성화된 이후 효과 (이펙트)
+    /// </summary>
     protected virtual void WeaponEquipFX()
     {
-        // 예제
-
-        // weaponEquipFx = Instantiate(pigeon);    // 원하는 프리펩 저장
-        // PigeonScript pigeonScript = weaponEquipFx.GetComponent<PigeonScript>(); // 비둘기 스크립트를 저장할 전역변수에 저장
     }
 
     #endregion
@@ -135,9 +145,23 @@ public class Item : MonoBehaviour
 
     #region GetItemInfo
 
+    
+    /// <summary>
+    /// 아이템의 현재 레벨
+    /// </summary>
     public int GetLevel() => level; // 아이템의 현재 레벨을 받아온다
-    internal bool IsMaxLevel() => (level > maxLevel - 1); // 아이템이 최대 레벨인지 확인
-    internal bool IsMaxLevel(int level) => (level > maxLevel - 1); // 캐릭터 레벨업 후 선택창에서 다음 레벨이 최대인지 확인
+    /// <summary>
+    /// 아이템이 최대 레벨인지 확인
+    /// </summary>
+    internal bool IsMaxLevel() => (level > maxLevel - 1);
+
+    /// <summary>
+    /// 다음 레벨이 최대 레벨인지 확인
+    /// </summary>
+    internal bool IsMaxNextLevel() => (level + 1 > maxLevel - 1); // 캐릭터 레벨업 후 선택창에서 다음 레벨이 최대인지 확인
+    /// <summary>
+    /// 아이템 타입 확인
+    /// </summary>
     public ItemType GetItemType() => itemType; // 아이템 종류
 
     #endregion
@@ -148,6 +172,7 @@ public class Item : MonoBehaviour
     internal float GetDuration() => Player.playerStatRank.GetDuration(duration);
     internal float GetArea() => Player.playerStatRank.GetArea(area);
     internal float GetSpeed() => Player.playerStatRank.GetSpeed(speed);
+    /// <returns>최소 공격력과 최대 공격력 사이 값</returns>
     internal float GetMight() => Player.playerStatRank.GetMight(Random.Range(minMight, maxMight)); // min max는 상속받은 후 지정
     internal float GetAmount() => Player.playerStatRank.GetAmounts(amount);
     internal int GetPenetrate() => penetrate;
@@ -156,7 +181,9 @@ public class Item : MonoBehaviour
 
     #region LevelUp
 
-    // 아이템 획득시 호출되는 함수
+    /// <summary>
+    /// 아이템 획득시 호출
+    /// </summary>
     public void EnableItem()
     {
         if (itemType == ItemType.Instant)
@@ -164,20 +191,13 @@ public class Item : MonoBehaviour
             InstantItemActive();
             return;
         }
-
-        // Jinseong Test용
-        // if(itemName.Equals("비둘기"))
-        // {
-        //     Debug.Log($"테스트 용입니다 : {itemName}");
-        //     GameObject.Find("Nest").transform.GetChild(0).gameObject.SetActive(true);
-        //     player = GameObject.FindWithTag("Player").GetComponent<Player>();
-        // }
-        // ^^^^^Test용
         transform.position = Player.transform.position;
         LevelUpItem();
     }
 
-    // 레벨 별 효과를 적용 함수
+    /// <summary>
+    /// 레벨별 효과 적용
+    /// </summary>
     public void LevelUpItem()
     {
         if (IsMaxLevel()) return;
@@ -251,6 +271,10 @@ public class Item : MonoBehaviour
 
     #endregion
 
-    // public으로 작성된 아이템 설명을 가져온다
+   
+    /// <summary>
+    /// 아이템 설명 Get
+    /// </summary>
+    /// <returns>프리펩에 설정된 레벨에 알맞은 설멍</returns>
     internal string GetDescription() => description[level];
 }

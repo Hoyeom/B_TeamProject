@@ -5,6 +5,10 @@ public class Axe : Item
     public GameObject attackPrefab;
     private GameObject tempPrefab;
 
+    /// <summary>
+    /// 위로 발사체 발사 후 중력 적용을 받아 떨어진다
+    /// </summary>
+    /// <param name="i"></param>
     protected override void ActiveAttack(int i)
     {
         tempPrefab = ObjectPooler.Instance.GenerateGameObject(attackPrefab);

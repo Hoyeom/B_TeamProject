@@ -6,6 +6,9 @@ using UnityEngine;
 public class ObjectPooler : MonoBehaviour
 {
     private static ObjectPooler instance = null;
+    /// <summary>
+    /// 풀러가 없다면 생성한다
+    /// </summary>
     public static ObjectPooler Instance
     {
         get
@@ -19,10 +22,18 @@ public class ObjectPooler : MonoBehaviour
         }
     }
 
+    
     private Dictionary<int,List<GameObject>> gameObjects = new Dictionary<int, List<GameObject>>();
     private Dictionary<GameObject, Coroutine> destroyTimer = new Dictionary<GameObject, Coroutine>();
-
+    
     #region GenerateGameObject
+    
+    /// <summary>
+    /// 해당 오브젝트를 새로 생성하거나 풀에 있는 오브젝트를 가져온다
+    /// </summary>
+    /// <param name="prefab">원본 프리펩</param>
+    /// <param name="parent">부모 객체</param>
+    /// <returns></returns>
     public GameObject GenerateGameObject(GameObject prefab,Transform parent = null)
     {
         int index = 0;
@@ -65,6 +76,9 @@ public class ObjectPooler : MonoBehaviour
     #endregion
     #region DestroyGameObject
 
+    /// <summary>
+    /// 풀링된 오브젝트를 모두 풀로 되돌린다
+    /// </summary>
     public void AllDestroyGameObject()
     {
         foreach (var key in gameObjects.Keys)
@@ -77,6 +91,11 @@ public class ObjectPooler : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// 풀러 되돌린다
+    /// </summary>
+    /// <param name="prefab">발사체 또는 풀링된 오브젝트</param>
+    /// <param name="time">N초 후 풀로 반환</param>
     public void DestroyGameObject(GameObject prefab, float time = 0)
     {
         if (destroyTimer.TryGetValue(prefab, out Coroutine coroutine))
@@ -95,13 +114,17 @@ public class ObjectPooler : MonoBehaviour
         }
 
     }
-
+    
     IEnumerator DestroyRoutine(GameObject prefab,float time)
     {
         yield return new WaitForSeconds(time);
         DestroyObject(prefab);
     }
 
+    /// <summary>
+    /// 풀로 반환
+    /// </summary>
+    /// <param name="prefab"></param>
     private void DestroyObject(GameObject prefab)
     {
         prefab.transform.parent = transform;

@@ -7,17 +7,18 @@ public class AudioManager
 {
     #region Test
 
-    public AudioSource bgm_Audio;
+    private AudioSource bgm_Audio;
 
-    public AudioSource fx_PlayerAudio;
-    private float fx_PlayerSoundTimer;
-    
-    public AudioSource fx_EnemyAudio;
-    private float fx_EnemySoundTimer;
+    private AudioSource fx_PlayerAudio;
 
-    public AudioSource ui_Audio;
+    private AudioSource fx_EnemyAudio;
+
+    private AudioSource ui_Audio;
     #endregion
 
+    /// <summary>
+    /// 오디오 소스 추가
+    /// </summary>
     public void Initialize()
     {
         bgm_Audio = Managers.Instance.gameObject.AddComponent<AudioSource>();
@@ -28,6 +29,9 @@ public class AudioManager
         ui_Audio = Managers.Instance.gameObject.AddComponent<AudioSource>();
     }
 
+    /// <summary>
+    /// 배경 음악 재생
+    /// </summary>
     public void BgmAudioPlay(AudioClip clip)
     {
         if(clip == null) return;
@@ -36,6 +40,9 @@ public class AudioManager
         bgm_Audio.Play();
     }
     
+    /// <summary>
+    /// 플레이어 효과음 재생
+    /// </summary>
     public void FXPlayerAudioPlay(AudioClip clip)
     {
         if (clip == null) return;
@@ -43,18 +50,27 @@ public class AudioManager
         fx_PlayerAudio.PlayOneShot(clip);
     }
 
+    /// <summary>
+    /// 적의 효과음 재생
+    /// </summary>
     public void FXEnemyAudioPlay(AudioClip clip)
     {
         if (clip == null) return;
         fx_EnemyAudio.PlayOneShot(clip);
     }
 
+    /// <summary>
+    /// UI 효과음 재생
+    /// </summary>
     public void UIAudioPlay(AudioClip clip)
     {
         if (clip == null) return;
         ui_Audio.PlayOneShot(clip);
     }
 
+    /// <summary>
+    /// 볼륨 설정 예제 (현승님 아래 코드 보고 만드시면 됩니다 )
+    /// </summary>
     public void SetUIVolume(float volume)
     {
         ui_Audio.volume = volume;
