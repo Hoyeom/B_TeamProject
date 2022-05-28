@@ -11,6 +11,7 @@ public class RoomManager : MonoBehaviour
     public GameObject[] stage = null;
     public GameObject[] bossStage = null;
     private GameObject addStage = null;
+    GameObject gate = null;
 
     public int stageEnemyCount = 0;
     public int killMonsterCount = 0;
@@ -38,6 +39,8 @@ public class RoomManager : MonoBehaviour
     public void NextStage()
     {
         stageIndex++;
+        gate = addStage.transform.Find("Gate").gameObject;
+        gate.SetActive(false);
         addStage.SetActive(false);
         if (stageIndex%5 != 0)
         {
@@ -45,9 +48,10 @@ public class RoomManager : MonoBehaviour
             int random = Random.Range(0, stage.Length);
             randomStage = random;
             addStage = ObjectPooler.Instance.GenerateGameObject(stage[randomStage]);
+            gate = addStage.transform.Find("Gate").gameObject;
+            gate.SetActive(false);
             PlayerReposion();
             Debug.Log($"{addStage}Stage,{stageIndex % 5}");
-            
         }
         else
         {
@@ -70,7 +74,7 @@ public class RoomManager : MonoBehaviour
     private void OnGet()
     {
         //GameObject gate = addStage.GetComponentInChildren<Gate>().gameObject;
-        GameObject gate = addStage.transform.Find("Gate").gameObject;
+        gate = addStage.transform.Find("Gate").gameObject;
         gate.SetActive(true);
         stageEnemyCount = 0;
         killMonsterCount = 0;
@@ -81,6 +85,9 @@ public class RoomManager : MonoBehaviour
         EnemySpawnPoint[] monsterSpwner = addStage.GetComponentsInChildren<EnemySpawnPoint>();
         for(int i =0; i<monsterSpwner.Length; i++)
         {
+            GameObject spawnObj = monsterSpwner[i].gameObject;
+            Debug.Log(monsterSpwner[i].gameObject.name);
+            spawnObj.SetActive(true);
             stageEnemyCount += monsterSpwner[i].enemyCount;
         }
         return stageEnemyCount;

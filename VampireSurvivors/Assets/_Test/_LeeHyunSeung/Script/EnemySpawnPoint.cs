@@ -7,12 +7,19 @@ public class EnemySpawnPoint : MonoBehaviour
     public GameObject enemy = null;
     public int enemyCount = 0;
     public float interval = 0.2f;
+    private SpriteRenderer render = null;
+   
+    private void Awake()
+    {
+        render = GetComponent<SpriteRenderer>();
+    }
 
     // 오브젝트 활성화시 생성
     private void OnEnable()
     {
         if(enemy != null)
         {
+            render.color = new Color(1, 1, 1, 1);
             StartCoroutine(Spowner(1));       
 
         }
@@ -32,7 +39,8 @@ public class EnemySpawnPoint : MonoBehaviour
         }
 
         // 적 오브젝트 생성이후 오브젝트 비활성화
-        gameObject.SetActive(false);
+        //gameObject.SetActive(false);
+        render.color = new Color(1, 1, 1, 0);
     }
     //private void EnemySpown()
     //{
