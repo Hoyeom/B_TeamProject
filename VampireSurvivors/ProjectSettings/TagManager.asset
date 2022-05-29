@@ -11,6 +11,7 @@ TagManager:
   - Bird
   - Aura
   - Turret
+  - Exp
   layers:
   - Default
   - TransparentFX

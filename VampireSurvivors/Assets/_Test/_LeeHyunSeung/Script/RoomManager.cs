@@ -39,6 +39,7 @@ public class RoomManager : MonoBehaviour
     public void NextStage()
     {
         stageIndex++;
+        ExpOff();
         gate = addStage.transform.Find("Gate").gameObject;
         gate.SetActive(false);
         addStage.SetActive(false);
@@ -91,5 +92,14 @@ public class RoomManager : MonoBehaviour
             stageEnemyCount += monsterSpwner[i].enemyCount;
         }
         return stageEnemyCount;
+    }
+
+    private void ExpOff()
+    {
+        GameObject[] exp = GameObject.FindGameObjectsWithTag("Exp");
+        for (int i = 0; i < exp.Length; i++)
+        {
+            Destroy(exp[i]);
+        }
     }
 }
