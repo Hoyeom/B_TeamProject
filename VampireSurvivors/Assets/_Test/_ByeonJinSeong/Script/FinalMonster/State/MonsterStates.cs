@@ -101,7 +101,6 @@ namespace MonsterStates
     }
     #endregion
 
-    // test 즉발과 지속 나눠야 하나?
     #region SpAttack
     public class Monster_SpAttack : IState<FMonster>
     {
@@ -119,6 +118,7 @@ namespace MonsterStates
         public void StateUpdate(FMonster entity)
         {
             entity.StateChange(States.Monster_Move);
+            
         }
 
         public void StateExit(FMonster entity) { entity.CurrentTime = 0; }

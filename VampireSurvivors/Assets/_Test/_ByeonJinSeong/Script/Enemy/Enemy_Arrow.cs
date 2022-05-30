@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Enemy_Arrow : MonoBehaviour
 {
-    // Test 임시
+    // Test Trigger
     public float attackRadius;
     public LayerMask targetLayer;
     public LayerMask wall;

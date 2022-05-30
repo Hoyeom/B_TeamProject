@@ -36,6 +36,9 @@ public class FMSpecSO : ScriptableObject
     [SerializeField] private GameObject attackprefabs;
     public GameObject Attackprefabs => attackprefabs;
 
+    [SerializeField] private GameObject expPrefabs;
+    public GameObject ExpPrefabs => expPrefabs;
+
     [SerializeField] private LayerMask targetLayer;
     public LayerMask TarGetLayer => targetLayer;
 

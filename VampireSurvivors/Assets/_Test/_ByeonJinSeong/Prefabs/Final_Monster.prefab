@@ -46,3 +46,4 @@ MonoBehaviour:
   attackPrefab_Skull: {fileID: 6533581718607724355, guid: 0964e88c455fc1441abe08c4789d811f, type: 3}
   attackPrefab_Reaper: {fileID: 1826526414242275701, guid: a057842e8cf4301438d9e8d3303e8497, type: 3}
   pingPrefab_Reaper: {fileID: 6074026850583436906, guid: a0c3f64874de3c849875705ecf9bf7cf, type: 3}
+  attackPrefab_Medusa: {fileID: 8090281594266261584, guid: 66c090b4e13b8654f8d1eb264a240477, type: 3}

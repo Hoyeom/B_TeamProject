@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3747626546972176451}
   - component: {fileID: 434821925509080355}
   - component: {fileID: 4452097098550322338}
-  - component: {fileID: 434821925509080540}
+  - component: {fileID: 3527156856305385227}
   m_Layer: 6
   m_Name: Enemy
   m_TagString: Enemy
@@ -169,7 +169,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &434821925509080540
+--- !u!114 &3527156856305385227
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -178,7 +178,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 434821925509080541}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bba59a12c35b7f541af6ffcc85da8b09, type: 3}
+  m_Script: {fileID: 11500000, guid: 9748bbf25cc4758478656fd1fefafd8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   targetLayer:
@@ -188,6 +188,6 @@ MonoBehaviour:
   hitSoundClip: {fileID: 8300000, guid: 6a81221f7206b79449a11244ce04eb01, type: 3}
   maxHealth: 10
   damage: 1
-  attackRadius: 0.2
+  attackRadius: 2
   speed: 1
   dropExp: 3

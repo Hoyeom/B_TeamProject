@@ -22,6 +22,7 @@ MonoBehaviour:
   attackRange: 2
   attackBool: 0
   attackprefabs: {fileID: 0}
+  expPrefabs: {fileID: 5865523720289440356, guid: d6b7a54b36e9e8246b04a5a83a99a20d, type: 3}
   targetLayer:
     serializedVersion: 2
     m_Bits: 256

@@ -3,7 +3,6 @@ using UnityEngine;
 
 public class GameManager
 {
-    
     private RoomManager _room;
     private Player _player;
 

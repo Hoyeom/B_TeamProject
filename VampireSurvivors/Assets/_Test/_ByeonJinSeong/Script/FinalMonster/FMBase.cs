@@ -1,7 +1,7 @@
 using UnityEngine;
 using _Project.Scripts.Enemy;
 
-public abstract class FMBase : MonoBehaviour /*, IEnemy*/
+public abstract class FMBase : Enemy
 {
     /// <summary>
     /// Test 해당 클레스 문제점
@@ -25,9 +25,11 @@ public abstract class FMBase : MonoBehaviour /*, IEnemy*/
     {
         Number = Final_MonsterID;
         monsterName = name;
+
     }
 
     public abstract void Updated();
 
     public void TestDebug(string txt) { Debug.Log($"{monsterName} : {txt}"); }
+
 }

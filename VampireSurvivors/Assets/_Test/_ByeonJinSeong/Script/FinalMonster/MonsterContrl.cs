@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 [Flags]
 public enum MonsterPro
@@ -10,17 +11,19 @@ public enum MonsterPro
     Medusa = 1<<1,
     Reaper = 1<<2,
     Mantis = 1<<3,
-    Alien = 1<<4
+    Alien = 1<<4,
+    Zyra = 1<<5
 }
 public class MonsterContrl : MonoBehaviour
 {
-    // test 붕떠버린 친구 설계를 잘해야하는 이유
-    [Tooltip("대충 설계할 때 발생하는 현상")][SerializeField] private string[] monsters;
+    [SerializeField] private string[] monsters;
     [SerializeField] private GameObject[] monsterPrefab;
     [SerializeField]private MonsterPro monsterpro;
 
     private List<FMBase> entitys;
-    
+
+    public static UnityAction<FMonster> fmonster = delegate { };
+
     private int count;
     private void Awake()
     {
@@ -39,6 +42,7 @@ public class MonsterContrl : MonoBehaviour
                 entitys.Add(entity);
             }
         }
+        fmonster += FmonsterDie;
     }
 
     private void FixedUpdate()
@@ -57,4 +61,8 @@ public class MonsterContrl : MonoBehaviour
         CheckShift(shift);
     }
 
+    private void FmonsterDie(FMonster entity)
+    {
+        entitys.Remove(entity);
+    }
 }

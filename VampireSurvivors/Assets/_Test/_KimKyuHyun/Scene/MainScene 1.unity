@@ -4724,7 +4724,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   model: {fileID: 0}
-  firstItemId: 0
   onPlayerDead:
     m_PersistentCalls:
       m_Calls:

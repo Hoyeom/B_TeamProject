@@ -16,7 +16,7 @@ using UnityEngine;
  * 2. 1. size형식 전부 묶기?...
  */
 
-public class Enemy_Archer : MonoBehaviour, IEnemy
+public class Enemy_Archer : Enemy, IEnemy
 {
     // Test 한번만 호출?
     private Player _player;
@@ -38,7 +38,6 @@ public class Enemy_Archer : MonoBehaviour, IEnemy
 
     private readonly int hashHitAnim = Animator.StringToHash("hitTrigger");
     private readonly int hashAttackAnim = Animator.StringToHash("Attack");
-    private readonly int enemyLayer = 6;
 
     private void OnEnable()
     {
@@ -118,7 +117,7 @@ public class Enemy_Archer : MonoBehaviour, IEnemy
         enemyArrow.transform.rotation = Quaternion.Euler(0, 0, rad);
     }
 
-    public void TakeDamage(float damage, Vector2 target)
+    public override void  TakeDamage(float damage, Vector2 target)
     {
         health -= damage;
         rigid.MovePosition(rigid.position + ((Vector2)transform.position - target) * 1 * Time.deltaTime);
@@ -134,7 +133,7 @@ public class Enemy_Archer : MonoBehaviour, IEnemy
         _animator.SetTrigger(hashHitAnim);
     }
 
-    public void SpeedSlow(float slow, float time)
+    public override void SpeedSlow(float slow, float time)
     {
         if (isSlow || health < 1) { return; }
 

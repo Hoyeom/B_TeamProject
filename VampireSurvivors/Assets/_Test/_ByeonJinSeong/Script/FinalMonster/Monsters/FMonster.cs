@@ -1,3 +1,4 @@
+using _Project.Scripts.Enemy;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -11,9 +12,10 @@ public enum States
     Monster_SpAttack_C,
 }
 
-public class FMonster : FMBase
+public class FMonster : FMBase, IEnemy
 {
     [HideInInspector] public float CurrentTime;
+    [HideInInspector] public float health;
     [HideInInspector] public Rigidbody2D _rigid;
     [HideInInspector] public SpriteRenderer _renderer;
     [HideInInspector] public Animator _animator;
@@ -22,13 +24,14 @@ public class FMonster : FMBase
 
     private IState<FMonster>[] saveState;
     private StateMachine<FMonster> stateMachine;
-    
+
     private void OnEnable() { MgrInfo(); }
 
     public override void Initialize(string name)
     {
         base.Initialize(name);
         gameObject.name = $"{name}_{Number:D2}_(Clone)";
+        health = monsterSpec.MaxHealth;
 
         StateInit();
 
@@ -57,4 +60,35 @@ public class FMonster : FMBase
         _renderer = GetComponent<SpriteRenderer>();
         _animator = GetComponent<Animator>();
     }
+
+    public override void TakeDamage(float damage, Vector2 target)
+    {
+        if (health < 1)
+        {
+            return;
+        }
+
+        Managers.UI.SpawnDamageText((int)damage, transform.position);
+        health -= damage;
+
+        _rigid.MovePosition(_rigid.position + ((Vector2)transform.position - target) * 1 * Time.deltaTime);
+        //Managers.Audio.FXEnemyAudioPlay(hitSoundClip);
+        if (health < 1)
+        {
+            GameObject prefab = ObjectPooler.Instance.GenerateGameObject(monsterSpec.ExpPrefabs); // 임시
+            prefab.transform.position = transform.position;
+            prefab.GetComponent<Experience>().DropExp(monsterSpec.DropExp);
+            //Managers.Game.Room.killMonsterCount++;
+            FMonster entity = gameObject.GetComponent<FMonster>();
+            MonsterContrl.fmonster(entity);
+            Destroy(gameObject);
+            return;
+        }
+        //_animator.SetTrigger(hashHitAnim);
+    }
+
+    public void SpeedSlow(float slow, float time)
+    {
+    }
+
 }
