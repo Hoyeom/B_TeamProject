@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 999327475}
   - component: {fileID: 4988239281280785345}
   - component: {fileID: 1117596259301548939}
+  - component: {fileID: 149525970}
   m_Layer: 6
   m_Name: PlantWall
   m_TagString: Untagged
@@ -153,5 +154,24 @@ MonoBehaviour:
   hitSoundClip: {fileID: 8300000, guid: 6a81221f7206b79449a11244ce04eb01, type: 3}
   maxHealth: 50
   damage: 0.5
-  attackRadius: 0.3
+  attackRadius: 0.4
   speed: 0.2
+--- !u!95 &149525970
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6752870744039541862}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b8bfd261c83a68f4d8d65a16f37ba7a8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

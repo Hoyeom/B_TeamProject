@@ -424,6 +424,7 @@ GameObject:
   - component: {fileID: 390906427}
   - component: {fileID: 390906426}
   - component: {fileID: 390906431}
+  - component: {fileID: 390906432}
   m_Layer: 6
   m_Name: Zyra
   m_TagString: Enemy
@@ -585,6 +586,25 @@ MonoBehaviour:
   attackRadius: 0.3
   speed: 0
   dropExp: 10
+--- !u!95 &390906432
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 390906425}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 908cef9d0147b44428bc0c5ec16f07e7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &405962977
 GameObject:
   m_ObjectHideFlags: 0

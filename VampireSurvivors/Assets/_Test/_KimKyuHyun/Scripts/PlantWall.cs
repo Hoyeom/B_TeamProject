@@ -7,7 +7,7 @@ using UnityEngine;
 public class PlantWall : MonoBehaviour
 {
     public LayerMask targetLayer;
-    public LayerMask wall;
+    //public LayerMask wall;
     private Player _player;
     private Rigidbody2D rigid;
     public AudioClip hitSoundClip;
@@ -21,6 +21,8 @@ public class PlantWall : MonoBehaviour
     public float attackRadius;
     public float speed;
 
+    Vector2 playerPos;
+    private int count;
     private void OnEnable()
     {
         curSpeed = speed;
@@ -30,17 +32,21 @@ public class PlantWall : MonoBehaviour
         _animator = GetComponent<Animator>();
         health = maxHealth;
         StartCoroutine(Move());
+
+        playerPos = _player.transform.position;
+        count = 0;
     }
 
     IEnumerator Move()
     {
         while (true)
         {
-            Wall();
+            count++;
+            
             Attack();
 
             Vector2 pos = transform.position;
-            Vector2 playerPos = _player.transform.position;
+            
 
             rigid.MovePosition(rigid.position +
                                    (Vector2)(playerPos - pos).normalized * curSpeed * Time.deltaTime);
@@ -48,6 +54,11 @@ public class PlantWall : MonoBehaviour
 
             yield return new WaitForFixedUpdate();
             rigid.velocity = Vector2.zero;
+
+            if(count>500)
+            {
+                ObjectPooler.Instance.DestroyGameObject(gameObject);
+            }
         }
     }
 
@@ -87,11 +98,4 @@ public class PlantWall : MonoBehaviour
         //_animator.SetTrigger(hashHitAnim);
     }
 
-    public void Wall()
-    {
-        foreach (var collider in Physics2D.OverlapCircleAll(transform.position, attackRadius, wall))
-        {
-            ObjectPooler.Instance.DestroyGameObject(gameObject);
-        }
-    }
 }

@@ -16,6 +16,7 @@ public class Plant : MonoBehaviour
         _player = FindObjectOfType<Player>();
         _renderer = GetComponent<SpriteRenderer>();
         StartCoroutine(Attack());
+        Invoke("Die", 20); //20초뒤 제거
     }
 
     private void OnDisable()
@@ -49,5 +50,10 @@ public class Plant : MonoBehaviour
         float rad = Mathf.Atan2(pos.y, pos.x) * Mathf.Rad2Deg;
         
         seed.transform.rotation = Quaternion.Euler(0, 0, rad);
+    }
+
+    private void Die()
+    {
+            ObjectPooler.Instance.DestroyGameObject(gameObject);
     }
 }
