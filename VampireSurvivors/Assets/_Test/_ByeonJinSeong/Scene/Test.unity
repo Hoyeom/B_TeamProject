@@ -123,6 +123,71 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &36193568
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5379909426463253793, guid: 01d441317c98799478bb534cd10da48f, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 5379909426463253793, guid: 01d441317c98799478bb534cd10da48f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5379909426463253793, guid: 01d441317c98799478bb534cd10da48f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5379909426463253793, guid: 01d441317c98799478bb534cd10da48f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5379909426463253793, guid: 01d441317c98799478bb534cd10da48f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5379909426463253793, guid: 01d441317c98799478bb534cd10da48f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5379909426463253793, guid: 01d441317c98799478bb534cd10da48f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5379909426463253793, guid: 01d441317c98799478bb534cd10da48f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5379909426463253793, guid: 01d441317c98799478bb534cd10da48f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5379909426463253793, guid: 01d441317c98799478bb534cd10da48f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5379909426463253793, guid: 01d441317c98799478bb534cd10da48f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5379909426463253795, guid: 01d441317c98799478bb534cd10da48f, type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 5379909426905076427, guid: 01d441317c98799478bb534cd10da48f, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5379909426905076427, guid: 01d441317c98799478bb534cd10da48f, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 01d441317c98799478bb534cd10da48f, type: 3}
 --- !u!1 &182088465
 GameObject:
   m_ObjectHideFlags: 0
@@ -3263,7 +3328,7 @@ MonoBehaviour:
   - {fileID: 3720303581160112361, guid: a437cd29f784fef468326d486d58096a, type: 3}
   - {fileID: 4994254541718388118, guid: 9ecd5f91956aea04ca9c60f961aba26e, type: 3}
   - {fileID: 1461462485403590461, guid: fa40ba390069683408091a78f093f636, type: 3}
-  monsterpro: 1
+  monsterpro: 2
 --- !u!4 &1474601969
 Transform:
   m_ObjectHideFlags: 0
@@ -3517,13 +3582,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player_Panda
       objectReference: {fileID: 0}
-    - target: {fileID: 7007370281325976655, guid: 16a13fcaed38c2c4e910f148eb93b8ff, type: 3}
-      propertyPath: m_AnchorMax.x
+    - target: {fileID: 7007370280964041639, guid: 16a13fcaed38c2c4e910f148eb93b8ff, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7007370281325976655, guid: 16a13fcaed38c2c4e910f148eb93b8ff, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7007370281325976655, guid: 16a13fcaed38c2c4e910f148eb93b8ff, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16a13fcaed38c2c4e910f148eb93b8ff, type: 3}

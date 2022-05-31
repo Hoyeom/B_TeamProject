@@ -5,13 +5,22 @@ using UnityEngine.Events;
 
 public class EventListener : MonoBehaviour
 {
-    public GameEvent Event;
+    public GameEvent Event_Sp;
+    public UnityEvent Response_Sp;
 
-    public UnityEvent Response;
     
-    private void OnEnable() { Event.RegisterListerner(this); }
+    private void OnEnable() 
+    {
+        Event_Sp.RegisterListerner(this); 
+    }
 
-    private void OnDisable() { Event.UnregisterListerner(this); }
+    private void OnDisable() 
+    {
+        Event_Sp.UnregisterListerner(this); 
+    }
 
-    public void OnEventRaised() { Response.Invoke(); }
+    public void OnEventRaised() 
+    {
+        Response_Sp.Invoke(); 
+    }
 }

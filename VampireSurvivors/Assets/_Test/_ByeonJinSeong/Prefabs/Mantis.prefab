@@ -173,8 +173,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4505c0d4d2669143bea3d364a6ef841, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Event: {fileID: 11400000, guid: aeaded3047d316448a865e0300784c0f, type: 2}
-  Response:
+  Event_Sp: {fileID: 11400000, guid: aeaded3047d316448a865e0300784c0f, type: 2}
+  Response_Sp:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 8794694082334626425, guid: f8b57e3ce5175144f8b498253b588481, type: 3}
@@ -184,6 +184,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: -3568444009359943587}
           m_ObjectArgumentAssemblyTypeName: FMonster, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 8794694082334626425, guid: f8b57e3ce5175144f8b498253b588481, type: 3}
+        m_TargetAssemblyTypeName: FMSpAttacks, Assembly-CSharp
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 

@@ -93,4 +93,12 @@ public class FMSpAttacks : MonoBehaviour
     {
         Debug.Log("Zyra");
     }
+
+    public void OnAudio(AudioClip audio)
+    {
+        if(audio != null)
+        {
+            //Managers.Audio.FXPlayerAudioPlay(audio);
+        }
+    }
 }

@@ -18,7 +18,7 @@ MonoBehaviour:
   damage: 10
   def: 1
   dropExp: 5
-  collTime: 2
+  collTime: 1
   attackRange: 2
   attackBool: 0
   attackprefabs: {fileID: 0}

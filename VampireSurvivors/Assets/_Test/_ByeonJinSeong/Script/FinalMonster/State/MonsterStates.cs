@@ -75,6 +75,7 @@ namespace MonsterStates
                 else if (time >= entity.monsterSpec.AttackSpeed)
                 {
                     Attacks(entity);
+                    //Managers.Audio.FXPlayerAudioPlay();
                     time = 0;
                 }
             }
@@ -113,6 +114,7 @@ namespace MonsterStates
                 entity.StateChange(States.Monster_SpAttack_C);
             }
             BossMonsterMgr.Inst.SpAttack.Raise();
+            
         }
 
         public void StateUpdate(FMonster entity)
