@@ -39,6 +39,12 @@ public class FMSpecSO : ScriptableObject
     [SerializeField] private GameObject expPrefabs;
     public GameObject ExpPrefabs => expPrefabs;
 
+    [SerializeField] private AudioClip attackSound;
+    public AudioClip AttackSound => attackSound;
+
+    [SerializeField] private AudioClip hitSound;
+    public AudioClip HitSound => hitSound;
+
     [SerializeField] private LayerMask targetLayer;
     public LayerMask TarGetLayer => targetLayer;
 

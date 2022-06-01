@@ -188,6 +188,7 @@ MonoBehaviour:
   _rigid: {fileID: 0}
   _renderer: {fileID: 0}
   _animator: {fileID: 0}
+  AttackPos: {fileID: 0}
   monsterSpec: {fileID: 11400000, guid: fabd3895400766d4b8680fc0cef09d4f, type: 2}
 --- !u!114 &-18615366065881745
 MonoBehaviour:
@@ -205,13 +206,13 @@ MonoBehaviour:
   Response_Sp:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8133708035722715573, guid: f8b57e3ce5175144f8b498253b588481, type: 3}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 8794694082334626425, guid: f8b57e3ce5175144f8b498253b588481, type: 3}
+        m_TargetAssemblyTypeName: FMSpAttacks, Assembly-CSharp
+        m_MethodName: AlienBossSp
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgument: {fileID: 1977240288365495616}
+          m_ObjectArgumentAssemblyTypeName: FMonster, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 

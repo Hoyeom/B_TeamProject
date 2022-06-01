@@ -32,4 +32,6 @@ public abstract class FMBase : Enemy
 
     public void TestDebug(string txt) { Debug.Log($"{monsterName} : {txt}"); }
 
+    
+
 }

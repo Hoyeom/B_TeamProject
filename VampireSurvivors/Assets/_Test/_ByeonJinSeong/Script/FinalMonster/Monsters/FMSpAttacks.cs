@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class FMSpAttacks : MonoBehaviour
 {
+    float[] probs ;
+
     [Header("Skull")]
     public GameObject attackPrefab_Skull;
 
@@ -15,6 +17,13 @@ public class FMSpAttacks : MonoBehaviour
 
     [Header("Medusa")]
     public GameObject attackPrefab_Medusa;
+
+    [Header("Alien")]
+    public bool trigger;
+
+    [Header("Zyra")]
+    public GameObject spawnPoint;
+    public GameObject plantWall;
 
     #region Skull
     // test 추가 패턴 시 랜덤 버전으로 변경하기
@@ -89,16 +98,66 @@ public class FMSpAttacks : MonoBehaviour
         obj.transform.position = BossMonsterMgr.Inst._player.transform.position;
     }
 
-    public void ZyraBossSp()
+    public void AlienBossSp(FMonster Alien)
     {
-        Debug.Log("Zyra");
+        SpriteRenderer alien= Alien.GetComponent<SpriteRenderer>();
+        Color color = alien.color;
+
+        color.a = Alien._Test ? 0.01f : 1f;
+
+        alien.color = color;
     }
 
-    public void OnAudio(AudioClip audio)
+    public void ZyraBossSp()
     {
-        if(audio != null)
+        probs = new float[2]{ 0.7f, 0.3f };
+
+        int choose = RandomChoose(probs);
+
+        switch (choose)
         {
-            //Managers.Audio.FXPlayerAudioPlay(audio);
+            case 0:
+                GameObject obj = ObjectPooler.Instance.GenerateGameObject(spawnPoint);
+                obj.transform.position = new Vector2(0, 0);
+                obj.transform.Translate(Vector2.right * UnityEngine.Random.Range(-6f, 6f));
+                obj.transform.Translate(Vector2.up * UnityEngine.Random.Range(-3f, 3f));
+                ObjectPooler.Instance.DestroyGameObject(obj, 5f); // Test
+                break;
+
+            case 1:
+                for (int i = 0; i < 10; i++)
+                {
+                    GameObject objwall = ObjectPooler.Instance.GenerateGameObject(plantWall);
+                    objwall.transform.position = BossMonsterMgr.Inst._player.transform.position;
+                    objwall.transform.Translate(Mathf.Cos(2 * Mathf.PI * i / 10) * 2, Mathf.Sin(2 * Mathf.PI * i / 10) * 2, 0);
+                }
+                break;
+            //default:
+            //    break;
         }
+
     }
+
+    public void OnAudio(AudioClip audio) { if(audio != null) { Managers.Audio.FXPlayerAudioPlay(audio); } }
+
+    private int RandomChoose(float[] probs)
+    {
+        float total = 0;
+
+        foreach (float elem in probs)
+        {
+            total += elem;
+        }
+
+        float randomPoint = Random.value * total;
+
+        for (int i = 0; i < probs.Length; i++)
+        {
+            if (randomPoint < probs[i]) { return i; }
+            else { randomPoint -= probs[i]; }
+        }
+
+        return probs.Length - 1;
+    }
+
 }

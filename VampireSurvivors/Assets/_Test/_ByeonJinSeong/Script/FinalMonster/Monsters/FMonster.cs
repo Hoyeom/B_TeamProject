@@ -16,9 +16,11 @@ public class FMonster : FMBase, IEnemy
 {
     [HideInInspector] public float CurrentTime;
     [HideInInspector] public float health;
+    [HideInInspector] public bool _Test;
     [HideInInspector] public Rigidbody2D _rigid;
     [HideInInspector] public SpriteRenderer _renderer;
     [HideInInspector] public Animator _animator;
+    [HideInInspector] public Transform AttackPos;
 
     [SerializeField] public FMSpecSO monsterSpec;
 
@@ -59,14 +61,12 @@ public class FMonster : FMBase, IEnemy
         _rigid = GetComponent<Rigidbody2D>();
         _renderer = GetComponent<SpriteRenderer>();
         _animator = GetComponent<Animator>();
+        AttackPos = transform.Find("Attackpos")?.gameObject.transform;
     }
 
     public override void TakeDamage(float damage, Vector2 target)
     {
-        if (health < 1)
-        {
-            return;
-        }
+        if (health < 1) { return; }
 
         Managers.UI.SpawnDamageText((int)damage, transform.position);
         health -= damage;
@@ -87,8 +87,15 @@ public class FMonster : FMBase, IEnemy
         //_animator.SetTrigger(hashHitAnim);
     }
 
-    public void SpeedSlow(float slow, float time)
+    private void Attacks()
     {
+        GameObject enemyArrow = ObjectPooler.Instance.GenerateGameObject(monsterSpec.Attackprefabs);
+        enemyArrow.transform.position = AttackPos.position;
+
+        Vector2 pos = AttackPos.transform.position - BossMonsterMgr.Inst._player.transform.position;
+        float radian = Mathf.Atan2(pos.y, pos.x) * Mathf.Rad2Deg;
+
+        enemyArrow.transform.rotation = Quaternion.Euler(0, 0, radian);
     }
 
 }

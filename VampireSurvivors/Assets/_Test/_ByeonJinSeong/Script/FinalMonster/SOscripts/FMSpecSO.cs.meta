@@ -3,7 +3,11 @@ guid: 7e6982869074f1642b188013a3e5263d
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - attackprefabs: {instanceID: 0}
+  - expPrefabs: {fileID: 5865523720289440356, guid: d6b7a54b36e9e8246b04a5a83a99a20d, type: 3}
+  - attackSound: {instanceID: 0}
+  - hitSound: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

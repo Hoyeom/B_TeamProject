@@ -120,6 +120,7 @@ public class Zyra : MonoBehaviour
         }
         spawncount++;
     }
+
     private void Fire()
     {
         /*

@@ -50,7 +50,7 @@ namespace MonsterStates
             {
                 if (!first)
                 {
-                    Attacks(entity);
+                    BossMonsterMgr.Inst.anievents.RaiseEvent(entity, "Attack", AnimatorParameterSO.ParameterType.Trigger);
                     first = true;
                 }
             }
@@ -74,7 +74,8 @@ namespace MonsterStates
                 // 공속
                 else if (time >= entity.monsterSpec.AttackSpeed)
                 {
-                    Attacks(entity);
+                    //Attacks(entity);
+                    BossMonsterMgr.Inst.anievents.RaiseEvent(entity, "Attack", AnimatorParameterSO.ParameterType.Trigger);
                     //Managers.Audio.FXPlayerAudioPlay();
                     time = 0;
                 }
@@ -89,16 +90,7 @@ namespace MonsterStates
 
         public void StateExit(FMonster entity) { }
 
-        private void Attacks(FMonster entity)
-        {
-            GameObject enemyArrow = ObjectPooler.Instance.GenerateGameObject(entity.monsterSpec.Attackprefabs);
-            enemyArrow.transform.position = entity.transform.position;
-
-            Vector2 pos = entity.transform.position - BossMonsterMgr.Inst._player.transform.position;
-            float radian = Mathf.Atan2(pos.y, pos.x) * Mathf.Rad2Deg;
-
-            enemyArrow.transform.rotation = Quaternion.Euler(0, 0, radian);
-        }
+        
     }
     #endregion
 
@@ -134,13 +126,17 @@ namespace MonsterStates
         {
             // test 나중애 변경
             duration = entity.monsterSpec.CollTime;
+            entity._Test = !entity._Test;
+            BossMonsterMgr.Inst.SpAttack.Raise();
         }
         public void StateUpdate(FMonster entity)
         {
-            duration -= Time.deltaTime;
-            BossMonsterMgr.Inst.SpAttack.Raise();
+            //duration -= Time.deltaTime;
 
-            if (duration <= 0) { entity.StateChange(States.Monster_Move); }
+            //if (duration <= 0) 
+            //{
+                entity.StateChange(States.Monster_Move); 
+            //}
         }
 
         public void StateExit(FMonster entity) {  }

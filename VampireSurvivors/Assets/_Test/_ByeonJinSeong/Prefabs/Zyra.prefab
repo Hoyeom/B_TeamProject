@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 1461462485403590459}
   - component: {fileID: 720088207803065753}
   - component: {fileID: 837647750891790891}
+  - component: {fileID: 3084055163357847932}
   m_Layer: 6
   m_Name: Zyra
   m_TagString: Enemy
@@ -255,3 +256,16 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &3084055163357847932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461462485403590461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36deb186ffbe8da44a1a236b571f98ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventChannel: {fileID: 11400000, guid: 2e193e383d0998e419d75024590243c2, type: 2}
