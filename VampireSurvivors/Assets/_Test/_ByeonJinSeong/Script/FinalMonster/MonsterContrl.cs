@@ -23,17 +23,19 @@ public class MonsterContrl : MonoBehaviour
     private List<FMBase> entitys;
 
     public static UnityAction<FMonster> fmonster = delegate { };
+    private SpriteRenderer render = null;
 
     private int count;
     private void Awake()
     {
+        render = GetComponent<SpriteRenderer>();
         entitys = new List<FMBase>();
 
         foreach (MonsterPro flagcheck in Enum.GetValues(typeof(MonsterPro)))
         {
             if (monsterpro.HasFlag(flagcheck))
             {
-                if((int)flagcheck == 0) { continue; }
+                if ((int)flagcheck == 0) { continue; }
                 count = 0;
                 CheckShift((int)flagcheck);
                 GameObject obj = Instantiate(monsterPrefab[count], transform);
@@ -42,7 +44,9 @@ public class MonsterContrl : MonoBehaviour
                 entitys.Add(entity);
             }
         }
+
         fmonster += FmonsterDie;
+        render.color = new Color(1, 1, 1, 0);
     }
 
     

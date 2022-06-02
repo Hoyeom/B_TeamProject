@@ -11,6 +11,7 @@ public class RoomManager : MonoBehaviour
     public GameObject[] stage = null;
     public GameObject[] bossStage = null;
     private GameObject addStage = null;
+    private GameObject bossMonster = null;
     GameObject gate = null;
 
     public int stageEnemyCount = 0;
@@ -52,7 +53,7 @@ public class RoomManager : MonoBehaviour
             gate = addStage.transform.Find("Gate").gameObject;
             gate.SetActive(false);
             PlayerReposion();
-            Debug.Log($"{addStage}Stage,{stageIndex % 5}");
+            //Debug.Log($"{addStage}Stage,{stageIndex % 5}");
         }
         else
         {
@@ -60,7 +61,8 @@ public class RoomManager : MonoBehaviour
             Debug.Log($"보스방 입장");
             addStage = ObjectPooler.Instance.GenerateGameObject(bossStage[(stageIndex / 5) - 1]);
             PlayerReposion();
-            Debug.Log($"{addStage}Stage,{stageIndex}");
+            bossMonster = addStage.GetComponentInChildren<FMonster>().gameObject;
+            //Debug.Log($"{addStage}Stage,{stageIndex}");
         }
         MonsterCount();
     }
@@ -84,13 +86,21 @@ public class RoomManager : MonoBehaviour
     private int MonsterCount()
     {
         EnemySpawnPoint[] monsterSpwner = addStage.GetComponentsInChildren<EnemySpawnPoint>();
-        for(int i =0; i<monsterSpwner.Length; i++)
+        if(bossMonster != null)
         {
-            GameObject spawnObj = monsterSpwner[i].gameObject;
-            Debug.Log(monsterSpwner[i].gameObject.name);
-            spawnObj.SetActive(true);
-            stageEnemyCount += monsterSpwner[i].enemyCount;
+            stageEnemyCount++;
         }
+        else
+        {
+            for (int i = 0; i < monsterSpwner.Length; i++)
+            {
+                GameObject spawnObj = monsterSpwner[i].gameObject;
+                Debug.Log(monsterSpwner[i].gameObject.name);
+                spawnObj.SetActive(true);
+                stageEnemyCount += monsterSpwner[i].enemyCount;
+            }
+        }
+       
         return stageEnemyCount;
     }
 

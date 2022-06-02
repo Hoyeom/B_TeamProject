@@ -81,6 +81,7 @@ public class FMonster : FMBase, IEnemy
             //Managers.Game.Room.killMonsterCount++;
             FMonster entity = gameObject.GetComponent<FMonster>();
             MonsterContrl.fmonster(entity);
+            Managers.Game.Room.killMonsterCount++;
             Destroy(gameObject);
             return;
         }

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5928180862538428765}
   - component: {fileID: 5928180862538428766}
-  - component: {fileID: -7054298390718123309}
+  - component: {fileID: -5701497036279093226}
   m_Layer: 0
   m_Name: BossSpown
   m_TagString: Untagged
@@ -83,7 +83,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &-7054298390718123309
+--- !u!114 &-5701497036279093226
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -92,9 +92,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 5928180862538428767}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa3e6d0259fae934284de4c0241a3568, type: 3}
+  m_Script: {fileID: 11500000, guid: 6e731af1b6bd6e247972a2a1633bae9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy: {fileID: 0}
-  enemyCount: 1
-  interval: 0.2
+  monsters:
+  - "\uC774\uB984 \uBBF8\uC815"
+  monsterPrefab:
+  - {fileID: 6035532388492676344, guid: 27a038130e222464783595ef2c132558, type: 3}
+  - {fileID: 8044010170620867930, guid: 2067caf4ae8224a41a858724f21269e9, type: 3}
+  - {fileID: 5985439078049867023, guid: 189e6ea92baff444ca819f2111c738cf, type: 3}
+  - {fileID: 3720303581160112361, guid: a437cd29f784fef468326d486d58096a, type: 3}
+  - {fileID: 4994254541718388118, guid: 9ecd5f91956aea04ca9c60f961aba26e, type: 3}
+  - {fileID: 1461462485403590461, guid: fa40ba390069683408091a78f093f636, type: 3}
+  monsterpro: 2
