@@ -79,7 +79,7 @@ SpriteRenderer:
   m_SortingLayerID: -1002580999
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2614422237544371312, guid: 6f2af435a39e6254885e2747d7527284, type: 3}
+  m_Sprite: {fileID: 4183987470669742706, guid: 888ae7b59a4e4f84cbd11e8498f6415f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -125,8 +125,8 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.4411764, y: 1.4117647}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 1.725, y: 1.75}
     newSize: {x: 1.1764706, y: 1.4117647}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -212,9 +212,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentTime: 0
   health: 0
+  _Test: 0
   _rigid: {fileID: 0}
   _renderer: {fileID: 0}
   _animator: {fileID: 0}
+  AttackPos: {fileID: 0}
   monsterSpec: {fileID: 11400000, guid: 982b845c9dc1f4a47af7f63bf4464b63, type: 2}
 --- !u!114 &837647750891790891
 MonoBehaviour:

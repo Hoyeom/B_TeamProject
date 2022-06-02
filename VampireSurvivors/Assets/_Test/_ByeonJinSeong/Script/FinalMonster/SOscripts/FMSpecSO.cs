@@ -48,5 +48,4 @@ public class FMSpecSO : ScriptableObject
     [SerializeField] private LayerMask targetLayer;
     public LayerMask TarGetLayer => targetLayer;
 
-    
 }

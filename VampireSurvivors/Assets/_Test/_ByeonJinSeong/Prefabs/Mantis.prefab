@@ -158,6 +158,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentTime: 0
   health: 0
+  _Test: 0
   _rigid: {fileID: 0}
   _renderer: {fileID: 0}
   _animator: {fileID: 0}

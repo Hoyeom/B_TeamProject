@@ -18,7 +18,7 @@ public class MonsterContrl : MonoBehaviour
 {
     [SerializeField] private string[] monsters;
     [SerializeField] private GameObject[] monsterPrefab;
-    [SerializeField]private MonsterPro monsterpro;
+    [SerializeField] private MonsterPro monsterpro;
 
     private List<FMBase> entitys;
 
@@ -44,6 +44,8 @@ public class MonsterContrl : MonoBehaviour
         }
         fmonster += FmonsterDie;
     }
+
+    
 
     private void FixedUpdate()
     {
