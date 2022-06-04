@@ -37,19 +37,3 @@
 
 * 보스몬스터
     * Mantis
-
-### 변진성
-
-* 아이템
-    * Pigeon
-
-* 보스 몬스터
-    * MonsterBase
-    * StateMachine
-    * Medusa
-    * Alien
-    * Animation_EventChannel
-    * Sp_EventChannel
-
-* 일반 몬스터
-    * Enemy_Archer
