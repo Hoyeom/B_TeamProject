@@ -124,19 +124,21 @@ namespace MonsterStates
         float duration;
         public void StateEnter(FMonster entity)
         {
-            // test 나중애 변경
             duration = entity.monsterSpec.CollTime;
             entity._Test = !entity._Test;
-            BossMonsterMgr.Inst.SpAttack.Raise();
+            if (entity.name.Contains("Alien"))
+            {
+                BossMonsterMgr.Inst.SpAttack.Raise();
+                entity.StateChange(States.Monster_Move);
+            }
         }
+
         public void StateUpdate(FMonster entity)
         {
-            //duration -= Time.deltaTime;
+            duration -= Time.deltaTime;
 
-            //if (duration <= 0) 
-            //{
-                entity.StateChange(States.Monster_Move); 
-            //}
+            if (duration <= 0) { entity.StateChange(States.Monster_Move); }
+            BossMonsterMgr.Inst.SpAttack.Raise();
         }
 
         public void StateExit(FMonster entity) {  }

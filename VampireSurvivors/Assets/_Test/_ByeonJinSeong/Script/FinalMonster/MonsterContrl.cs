@@ -46,7 +46,7 @@ public class MonsterContrl : MonoBehaviour
         }
 
         fmonster += FmonsterDie;
-        render.color = new Color(1, 1, 1, 0);
+        if (render != null) { render.color = new Color(1, 1, 1, 0); }
     }
 
     

@@ -73,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: -1002580999
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1863405165513967962, guid: b8ceb2fe69d864820a602c63e33e97a1, type: 3}
+  m_Sprite: {fileID: -1407653425539052611, guid: b8ceb2fe69d864820a602c63e33e97a1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -101,7 +101,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.34, y: 0.15}
+    oldSize: {x: 0.34, y: 0.14}
     newSize: {x: 0.34, y: 0.15}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -122,4 +122,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d7d5488385d445468269f76be8cc5d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 3
+  attackRadius: 0.2
+  monsterSpec: {fileID: 11400000, guid: cadc6ff452f4e9842ad55010a6093965, type: 2}

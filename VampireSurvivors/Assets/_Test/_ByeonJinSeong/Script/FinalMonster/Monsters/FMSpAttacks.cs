@@ -17,6 +17,7 @@ public class FMSpAttacks : MonoBehaviour
 
     [Header("Medusa")]
     public GameObject attackPrefab_Medusa;
+    public GameObject ciclePrefab_Medusa;
 
     [Header("Alien")]
     public bool trigger;
@@ -94,8 +95,24 @@ public class FMSpAttacks : MonoBehaviour
 
     public void MedusaBossSp(FMonster Medusa)
     {
-        GameObject obj = Instantiate(attackPrefab_Medusa);
-        obj.transform.position = BossMonsterMgr.Inst._player.transform.position;
+        probs = new float[2] { 0.7f, 0.3f };
+
+        int choose = RandomChoose(probs);
+
+        switch (choose)
+        {
+            case 0:
+                GameObject obj = Instantiate(attackPrefab_Medusa);
+                obj.transform.position = BossMonsterMgr.Inst._player.transform.position;
+                break;
+
+            case 1:
+                GameObject _obj = Instantiate(ciclePrefab_Medusa);
+                _obj.transform.position = Medusa.gameObject.transform.position;
+                break;
+                //default:
+                //    break;
+        }
     }
 
     public void AlienBossSp(FMonster Alien)

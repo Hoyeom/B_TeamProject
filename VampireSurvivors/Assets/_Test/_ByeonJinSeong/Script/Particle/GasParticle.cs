@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-// ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ
 public class GasParticle : MonoBehaviour
 {
     private bool first;
@@ -13,9 +12,6 @@ public class GasParticle : MonoBehaviour
 
     public ParticleSystem[] particleObject = new ParticleSystem[2];
 
-    void Start()
-    {
-    }
     private void OnEnable()
     {
         time = 0;
@@ -27,12 +23,14 @@ public class GasParticle : MonoBehaviour
         particleObject[0]?.Stop();
         particleObject[1]?.Stop();
     }
-    void Update()
+    void FixedUpdate()
     {
-        time += Time.deltaTime;
+        time += Time.fixedDeltaTime;
         if (time > delaytime && first)
         {
+            particleObject[0]?.gameObject.SetActive(true);
             particleObject[0]?.Play();
+            particleObject[0].gameObject.transform.GetChild(0).gameObject.SetActive(true);
             first = false;
             Destroy(this.gameObject, lifetime);
         }
