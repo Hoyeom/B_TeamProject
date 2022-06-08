@@ -14,6 +14,7 @@ public class Switch : MonoBehaviour
             {
                 gate[i].SetActive(true);
             }
+            Managers.Game.Room.MonsterCount();
             gameObject.SetActive(false);
         }
     }

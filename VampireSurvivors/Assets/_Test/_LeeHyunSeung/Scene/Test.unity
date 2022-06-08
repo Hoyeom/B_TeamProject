@@ -1203,16 +1203,16 @@ PrefabInstance:
       objectReference: {fileID: 320668052}
     - target: {fileID: 4500517492700376461, guid: 21d5da0356f6d2d4486a1f937da05a30, type: 3}
       propertyPath: stage.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4500517492700376461, guid: 21d5da0356f6d2d4486a1f937da05a30, type: 3}
       propertyPath: stage.Array.data[0]
       value: 
-      objectReference: {fileID: 2113316403290961194, guid: 10d46cc0b672f494589e77edd668e8c2, type: 3}
+      objectReference: {fileID: 8802882543778220178, guid: 22798aed5409b7346b3fcebe6fa65de4, type: 3}
     - target: {fileID: 4500517492700376461, guid: 21d5da0356f6d2d4486a1f937da05a30, type: 3}
       propertyPath: stage.Array.data[1]
       value: 
-      objectReference: {fileID: 2113316403290961194, guid: a12b9432fbea5274fb4337ac46d305d9, type: 3}
+      objectReference: {fileID: 8802882543778220178, guid: 33c7688b239a7c94997bc3000ce2406a, type: 3}
     - target: {fileID: 4500517492700376461, guid: 21d5da0356f6d2d4486a1f937da05a30, type: 3}
       propertyPath: stage.Array.data[2]
       value: 

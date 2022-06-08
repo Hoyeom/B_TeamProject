@@ -16,6 +16,7 @@ public class RoomManager : MonoBehaviour
 
     public int stageEnemyCount = 0;
     public int killMonsterCount = 0;
+    private GameObject switchObj = null;
 
     private void Awake()
     {
@@ -31,9 +32,21 @@ public class RoomManager : MonoBehaviour
 
     private void Update()
     {
-        if(stageEnemyCount-killMonsterCount == 0)
+        if (switchObj != null)
         {
-            OnGet();
+            if (stageEnemyCount - killMonsterCount == 0 && switchObj.activeSelf ==false)
+            {
+
+                OnGet();
+            }
+        }
+        else
+        {
+            if (stageEnemyCount - killMonsterCount == 0)
+            {
+
+                OnGet();
+            }
         }
     }
 
@@ -43,6 +56,7 @@ public class RoomManager : MonoBehaviour
         ExpOff();
         gate = addStage.transform.Find("Gate").gameObject;
         gate.SetActive(false);
+        switchObj = null;
         addStage.SetActive(false);
         if (stageIndex%5 != 0)
         {
@@ -54,6 +68,10 @@ public class RoomManager : MonoBehaviour
             gate.SetActive(false);
             PlayerReposion();
             //Debug.Log($"{addStage}Stage,{stageIndex % 5}");
+            if(addStage.GetComponentInChildren<Switch>() != null)
+            {
+                switchObj = addStage.GetComponentInChildren<Switch>().gameObject;
+            }
         }
         else
         {
@@ -83,7 +101,7 @@ public class RoomManager : MonoBehaviour
         killMonsterCount = 0;
     }
 
-    private int MonsterCount()
+    public int MonsterCount()
     {
         EnemySpawnPoint[] monsterSpwner = addStage.GetComponentsInChildren<EnemySpawnPoint>();
         if(bossMonster != null)
