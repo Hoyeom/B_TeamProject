@@ -75,5 +75,16 @@ public class AudioManager
     {
         ui_Audio.volume = volume;
     }
+    
+    public void SetFxVolume(float volume)
+    {
+        fx_EnemyAudio.volume = volume;
+        fx_PlayerAudio.volume = volume;
+    }
+    
+    public void SetBgmVolume(float volume)
+    {
+        bgm_Audio.volume = volume;
+    }
 
 }
