@@ -22,7 +22,7 @@ namespace _Project.Scripts.UI
         /// <param name="max">최대 경험치</param>
         private void ChangeExp(float cur, float max)
         {
-            _slider.value = max / cur;
+            _slider.value = cur / max;
         }
         
         /// <summary>

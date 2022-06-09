@@ -119,6 +119,7 @@ public class Player : MonoBehaviour, IAttackable
         _rigid = GetComponent<Rigidbody2D>();
         _anim = GetComponent<Animator>();
         model = transform.GetChild(0);
+        OnChangeExp?.Invoke(_curExp, _maxExp);
         ItemMagnetStart();
         InputSystemReset();
     }
@@ -190,11 +191,11 @@ public class Player : MonoBehaviour, IAttackable
             onPlayerLevelUp.Invoke();
             
             while (Time.timeScale==0)
-            {
                 yield return null;
-            }
             
+            _curExp -= _maxExp;
             _maxExp *= 1.2f;
+            OnChangeExp?.Invoke(_curExp, _maxExp);
             Level++;
             yield return null;
         }
