@@ -53,6 +53,8 @@ public class Player : MonoBehaviour, IAttackable
         get => _curExp;
         set
         {
+            if(Health <= 0) return;
+            
             _curExp = value;
             OnChangeExp?.Invoke(_curExp, _maxExp);
             
@@ -106,7 +108,7 @@ public class Player : MonoBehaviour, IAttackable
 
     internal Quaternion viewRotation; // 플레이어 방향
 
-    public UnityEvent onPlayerDead; // 죽을때 호출
+    public event Action OnPlayerDead; // 죽을때 호출
     public UnityEvent onPlayerLevelUp; // 레벨업 시 호출
 
     public AudioClip expPickUpClip;
@@ -304,9 +306,14 @@ public class Player : MonoBehaviour, IAttackable
     public void AttackChangeHealth(float damage)
     {
         if (_hitDelay) return;
+        if(Health <= 0) return;
+
         Health -= damage;
         if (Health <= 0)
-            onPlayerDead.Invoke();
+        {
+            OnPlayerDead?.Invoke();
+            Managers.Game.GameOver();
+        }
         StartCoroutine(HitDealay(0.05f));
     }
     

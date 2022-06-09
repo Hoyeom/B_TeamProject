@@ -25,7 +25,17 @@ public class GameManager
             return _room;
         }
     }
+    
+    public void GameOver()
+    {
+        Managers.UI.GetGameOverUI().OnGameOver();
+    }
 
+    public void GameClear()
+    {
+        Managers.UI.GetGameOverUI().OnGameClear();
+    }
+    
 }
 
 

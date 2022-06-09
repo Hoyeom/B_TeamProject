@@ -61,7 +61,7 @@ public class ItemManager
     /// </summary>
     public void GetRandItem()
     {
-        Managers.UI.itemSelectPanel.SetActive(true);
+        Managers.UI.ItemSelectPanel.SetActive(true);
 
         List<int> tempList = GetRandIndex();
         

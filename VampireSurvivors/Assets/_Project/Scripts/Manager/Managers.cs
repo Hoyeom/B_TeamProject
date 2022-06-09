@@ -50,10 +50,12 @@ public class Managers : MonoBehaviour
         
         Util.FindOrNewComponent(out _instance, DEFAULT_NAME);
 
-        Scene managerScene = SceneManager.CreateScene("Managers");
-
-        SceneManager.MoveGameObjectToScene(_instance.gameObject, managerScene);
+        DontDestroyOnLoad(_instance.gameObject);
         
+        // Scene managerScene = SceneManager.CreateScene("Managers");
+        //
+        // SceneManager.MoveGameObjectToScene(_instance.gameObject, managerScene);
+        //
         _instance._audio.Initialize();
         _instance._item.Initialize();
         _instance._ui.Initialize();

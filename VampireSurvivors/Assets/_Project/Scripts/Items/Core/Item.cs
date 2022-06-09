@@ -61,6 +61,7 @@ public class Item : MonoBehaviour
     public void ItemActive()
     {
         if (level <= 0) return;
+        WeaponEquipFX();
         switch (itemType)
         {
             case ItemType.Instant:
@@ -73,8 +74,6 @@ public class Item : MonoBehaviour
                 StartCoroutine(PassiveAttackRoutine());
                 break;
         }
-
-        WeaponEquipFX();
     } 
 
     // 상속받아서 바꿔야하는 함수입니다. 바꾸는 것 예제는 Knife.cs 참조

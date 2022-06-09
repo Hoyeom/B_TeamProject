@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -14,6 +15,11 @@ public class GameOverUI : MonoBehaviour
     {
         anim_Over = gameOver.GetComponent<Animator>();
         anim_Clear = gameClear.GetComponent<Animator>();
+    }
+
+    private void Start()
+    {
+        Managers.Game.Player.OnPlayerDead += OnGameOver;
     }
 
     public void OnGameOver()
