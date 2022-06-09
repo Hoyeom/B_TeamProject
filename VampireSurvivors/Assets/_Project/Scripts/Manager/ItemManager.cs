@@ -26,6 +26,21 @@ public class ItemManager
         itemObj = new GameObject[itemLen];
     }
 
+    public void ItemClear()
+    {
+        foreach (var item in GameObject.FindObjectsOfType<Item>())
+        {
+            GameObject.Destroy(item);
+        }
+
+        items = null;
+        instantItems = null;
+        itemScript = null;
+        itemObj = null;
+        
+        Initialize();
+    }
+    
     /// <summary>
     /// 게임 시작시
     /// 호출 플레이어가 아이템을

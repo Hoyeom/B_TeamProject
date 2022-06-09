@@ -24,11 +24,13 @@ public class GameOverUI : MonoBehaviour
 
     public void OnGameOver()
     {
+        anim_Over.gameObject.SetActive(true);
         anim_Over.SetTrigger("GameOver");
     }
 
     public void OnGameClear()
     {
+        anim_Clear.gameObject.SetActive(true);
         anim_Clear.SetTrigger("GameOver");
     }
 
@@ -42,6 +44,9 @@ public class GameOverUI : MonoBehaviour
 
     public void OnBack()
     {
-        SceneManager.LoadScene("MainUI");
+        Debug.Log("Back");
+        ObjectPooler.Instance.AllDestroyGameObject();
+        Managers.Item.ItemClear();
+        SceneManager.LoadScene("MainMenu");
     }
 }

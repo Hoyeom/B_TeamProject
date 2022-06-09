@@ -81,14 +81,17 @@ public class ObjectPooler : MonoBehaviour
     /// </summary>
     public void AllDestroyGameObject()
     {
-        foreach (var key in gameObjects.Keys)
+        foreach (var objs in gameObjects.Values)
         {
-            gameObjects[key][0].transform.parent = transform;
-            for (int i = 1; i < gameObjects[key].Count; i++)
+            foreach (var obj in objs)
             {
-                DestroyGameObject(gameObjects[key][i]);
+                Destroy(obj);
             }
+            objs.Clear();
         }
+        gameObjects.Clear();
+        destroyTimer.Clear();
+        StopAllCoroutines();
     }
 
     /// <summary>

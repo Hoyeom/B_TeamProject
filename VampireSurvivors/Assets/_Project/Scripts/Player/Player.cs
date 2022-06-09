@@ -312,6 +312,7 @@ public class Player : MonoBehaviour, IAttackable
         Health -= damage;
         if (Health <= 0)
         {
+            Dead();
             OnPlayerDead?.Invoke();
             Managers.Game.GameOver();
         }
@@ -325,6 +326,11 @@ public class Player : MonoBehaviour, IAttackable
     public void HealPlayer(float heal)
     {
         Health = Mathf.Min(Health + heal, MaxHealth);
+    }
+
+    private void Dead()
+    {
+        Time.timeScale = 0;
     }
     #endregion
 }
