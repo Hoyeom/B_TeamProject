@@ -1002,7 +1002,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8802882543778220180}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &2756232205681589678
 BoxCollider2D:
@@ -2708,7 +2708,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8936808804968942629, guid: 74f1e0f0f1ac96a4b838381fae204973, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8936808804968942629, guid: 74f1e0f0f1ac96a4b838381fae204973, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2730,20 +2730,20 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2072345815, guid: 3714cf893a6f2fa48aebc14b57803af9, type: 3}
       propertyPath: gate.Array.size
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2072345815, guid: 3714cf893a6f2fa48aebc14b57803af9, type: 3}
       propertyPath: gate.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 5865523720289440356, guid: d6b7a54b36e9e8246b04a5a83a99a20d, type: 3}
     - target: {fileID: 2072345815, guid: 3714cf893a6f2fa48aebc14b57803af9, type: 3}
       propertyPath: gate.Array.data[1]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 5865523720289440356, guid: d6b7a54b36e9e8246b04a5a83a99a20d, type: 3}
     - target: {fileID: 2072345815, guid: 3714cf893a6f2fa48aebc14b57803af9, type: 3}
       propertyPath: gate.Array.data[2]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 5865523720289440356, guid: d6b7a54b36e9e8246b04a5a83a99a20d, type: 3}
     - target: {fileID: 2072345815, guid: 3714cf893a6f2fa48aebc14b57803af9, type: 3}
       propertyPath: gate.Array.data[3]
       value: 

@@ -7804,28 +7804,68 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4500517492700376461, guid: 21d5da0356f6d2d4486a1f937da05a30, type: 3}
       propertyPath: stage.Array.size
-      value: 5
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 4500517492700376461, guid: 21d5da0356f6d2d4486a1f937da05a30, type: 3}
       propertyPath: stage.Array.data[0]
       value: 
-      objectReference: {fileID: 2113316403290961194, guid: b90b97779f5721545aaf594b4d3a0b81, type: 3}
+      objectReference: {fileID: 8802882543778220178, guid: 22798aed5409b7346b3fcebe6fa65de4, type: 3}
     - target: {fileID: 4500517492700376461, guid: 21d5da0356f6d2d4486a1f937da05a30, type: 3}
       propertyPath: stage.Array.data[1]
       value: 
-      objectReference: {fileID: 2113316403290961194, guid: a12b9432fbea5274fb4337ac46d305d9, type: 3}
+      objectReference: {fileID: 8802882543778220178, guid: 7b354722dc5383b4082b2e65707436a7, type: 3}
     - target: {fileID: 4500517492700376461, guid: 21d5da0356f6d2d4486a1f937da05a30, type: 3}
       propertyPath: stage.Array.data[2]
       value: 
-      objectReference: {fileID: 2113316403290961194, guid: 10d46cc0b672f494589e77edd668e8c2, type: 3}
+      objectReference: {fileID: 8802882543778220178, guid: a4094e17a916de744a6b2a14a575493a, type: 3}
     - target: {fileID: 4500517492700376461, guid: 21d5da0356f6d2d4486a1f937da05a30, type: 3}
       propertyPath: stage.Array.data[3]
       value: 
-      objectReference: {fileID: 2113316403290961194, guid: 49fb03a2ec77d834b993f00a20ea0083, type: 3}
+      objectReference: {fileID: 6642637404407374575, guid: 12debbdb6751a0b4780cde6e35b8b922, type: 3}
     - target: {fileID: 4500517492700376461, guid: 21d5da0356f6d2d4486a1f937da05a30, type: 3}
       propertyPath: stage.Array.data[4]
       value: 
-      objectReference: {fileID: 2113316403290961194, guid: d1b1e34130140a448b7277010b5b2eb1, type: 3}
+      objectReference: {fileID: 5066038726948578578, guid: 84d81dca97b3abb4d9ddb053375b9b74, type: 3}
+    - target: {fileID: 4500517492700376461, guid: 21d5da0356f6d2d4486a1f937da05a30, type: 3}
+      propertyPath: stage.Array.data[5]
+      value: 
+      objectReference: {fileID: 5021155488392728631, guid: a8fcdbfcab87ea14e98db9c65a443b91, type: 3}
+    - target: {fileID: 4500517492700376461, guid: 21d5da0356f6d2d4486a1f937da05a30, type: 3}
+      propertyPath: stage.Array.data[6]
+      value: 
+      objectReference: {fileID: 1120511092236320291, guid: 51e92d2832b515e4aa7205cd65bfb5d5, type: 3}
+    - target: {fileID: 4500517492700376461, guid: 21d5da0356f6d2d4486a1f937da05a30, type: 3}
+      propertyPath: stage.Array.data[7]
+      value: 
+      objectReference: {fileID: 8802882543778220178, guid: 33c7688b239a7c94997bc3000ce2406a, type: 3}
+    - target: {fileID: 4500517492700376461, guid: 21d5da0356f6d2d4486a1f937da05a30, type: 3}
+      propertyPath: stage.Array.data[8]
+      value: 
+      objectReference: {fileID: 8802882543778220178, guid: b8b1a5f1c082fd0409d5d34942e49ff3, type: 3}
+    - target: {fileID: 4500517492700376461, guid: 21d5da0356f6d2d4486a1f937da05a30, type: 3}
+      propertyPath: stage.Array.data[9]
+      value: 
+      objectReference: {fileID: 8802882543778220178, guid: 8b57095d46aed4d40815e399ade2426d, type: 3}
+    - target: {fileID: 4500517492700376461, guid: 21d5da0356f6d2d4486a1f937da05a30, type: 3}
+      propertyPath: bossStage.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4500517492700376461, guid: 21d5da0356f6d2d4486a1f937da05a30, type: 3}
+      propertyPath: stage.Array.data[10]
+      value: 
+      objectReference: {fileID: 8802882543778220178, guid: 9ed049c435c51634b9f611bad88fbb2a, type: 3}
+    - target: {fileID: 4500517492700376461, guid: 21d5da0356f6d2d4486a1f937da05a30, type: 3}
+      propertyPath: bossStage.Array.data[2]
+      value: 
+      objectReference: {fileID: 2113316403290961194, guid: a12b9432fbea5274fb4337ac46d305d9, type: 3}
+    - target: {fileID: 4500517492700376461, guid: 21d5da0356f6d2d4486a1f937da05a30, type: 3}
+      propertyPath: bossStage.Array.data[3]
+      value: 
+      objectReference: {fileID: 2113316403290961194, guid: a12b9432fbea5274fb4337ac46d305d9, type: 3}
+    - target: {fileID: 4500517492700376461, guid: 21d5da0356f6d2d4486a1f937da05a30, type: 3}
+      propertyPath: bossStage.Array.data[4]
+      value: 
+      objectReference: {fileID: 2113316403290961194, guid: a12b9432fbea5274fb4337ac46d305d9, type: 3}
     - target: {fileID: 4500517492700376462, guid: 21d5da0356f6d2d4486a1f937da05a30, type: 3}
       propertyPath: gameOver
       value: 
