@@ -3,20 +3,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-/// <summary>
-///  전혀 쓸모없는 매니저 존재가 메모리 낭비 나중에 바꾸기
-/// </summary>
-public class BossMonsterMgr : TestSingleTon<BossMonsterMgr>
+public class BossMonsterMgr
 {
-    [HideInInspector]public Player _player;
-    public GameEvent SpAttack;
 
+    public GameEvent SpAttack;
     public AnimEventSo anievents;
 
-    protected override void Awake()
+    public void Initialize()
     {
-        base.Awake();
-        _player = FindObjectOfType<Player>();
+        SpAttack = Managers.Resource.Load<GameEvent>("SPAttackEvent", true);
+        anievents = Managers.Resource.Load<AnimEventSo>("AniEvents", true);
     }
 
 }

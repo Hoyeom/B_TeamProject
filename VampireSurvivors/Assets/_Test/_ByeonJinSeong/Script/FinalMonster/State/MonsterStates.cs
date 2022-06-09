@@ -1,22 +1,13 @@
 using System.Collections;
 using UnityEngine;
 
-/// <summary>
-/// 필요 spec
-/// 1. 특수 공격 타입 지정
-/// 2. 돌진 종료 거리
-/// 3. 돌진 속도
-/// </summary>
 namespace MonsterStates
 {
     #region 이동
     public class Monster_Move : IState<FMonster>
     {
         float curSpeed;
-        public void StateEnter(FMonster entity) 
-        {
-            curSpeed = entity.monsterSpec.MonsterSpeed;
-        }
+        public void StateEnter(FMonster entity) { curSpeed = entity.monsterSpec.MonsterSpeed; }
         public void StateUpdate(FMonster entity)
         {
             // 특수 공격
@@ -24,15 +15,15 @@ namespace MonsterStates
             if (entity.CurrentTime >= entity.monsterSpec.CollTime) { entity.StateChange(States.Monster_SpAttack); }
             
             // 일반 공격
-            if (entity.monsterSpec.AttackRange > Vector3.SqrMagnitude(entity.transform.position - BossMonsterMgr.Inst._player.transform.position))
+            if (entity.monsterSpec.AttackRange > Vector3.SqrMagnitude(entity.transform.position - Managers.Game.Player.transform.position))
             {
                 entity.StateChange(States.Monster_Attack);
             }
 
             // 실제 이동
             entity._rigid.MovePosition(entity._rigid.position +
-                                (Vector2)((Vector2)BossMonsterMgr.Inst._player.transform.position - (Vector2)entity.transform.position).normalized * curSpeed * Time.deltaTime);
-            entity._renderer.flipX = BossMonsterMgr.Inst._player.transform.position.x > entity.transform.position.x;
+                                (Vector2)((Vector2)Managers.Game.Player.transform.position - (Vector2)entity.transform.position).normalized * curSpeed * Time.deltaTime);
+            entity._renderer.flipX = Managers.Game.Player.transform.position.x > entity.transform.position.x;
         }
 
         public void StateExit(FMonster entity) { }
@@ -50,7 +41,7 @@ namespace MonsterStates
             {
                 if (!first)
                 {
-                    BossMonsterMgr.Inst.anievents.RaiseEvent(entity, "Attack", AnimatorParameterSO.ParameterType.Trigger);
+                    Managers.Boss.anievents.RaiseEvent(entity, "Attack", AnimatorParameterSO.ParameterType.Trigger);
                     first = true;
                 }
             }
@@ -67,22 +58,20 @@ namespace MonsterStates
                 // 특수 공격 확인 - 판정 1순위, 사거리 제약 없음
                 if(entity.CurrentTime >= entity.monsterSpec.CollTime) { entity.StateChange(States.Monster_SpAttack); }
                 // 거리 비교
-                else if (entity.monsterSpec.AttackRange < Vector3.SqrMagnitude(entity.transform.position - BossMonsterMgr.Inst._player.transform.position))
+                else if (entity.monsterSpec.AttackRange < Vector3.SqrMagnitude(entity.transform.position - Managers.Game.Player.transform.position))
                 {
                     entity.StateChange(States.Monster_Move);
                 }
                 // 공속
                 else if (time >= entity.monsterSpec.AttackSpeed)
                 {
-                    //Attacks(entity);
-                    BossMonsterMgr.Inst.anievents.RaiseEvent(entity, "Attack", AnimatorParameterSO.ParameterType.Trigger);
-                    //Managers.Audio.FXPlayerAudioPlay();
+                    Managers.Boss.anievents.RaiseEvent(entity, "Attack", AnimatorParameterSO.ParameterType.Trigger);
                     time = 0;
                 }
             }
             else  // 근거리 전용
             {
-                BossMonsterMgr.Inst.anievents.RaiseEvent(entity, "Attack", AnimatorParameterSO.ParameterType.Trigger);
+                Managers.Boss.anievents.RaiseEvent(entity, "Attack", AnimatorParameterSO.ParameterType.Trigger);
                 entity.StateChange(States.Monster_Move);
             }
 
@@ -101,19 +90,11 @@ namespace MonsterStates
         public void StateEnter(FMonster entity) 
         {
             // test 추 후 변경
-            if (entity.name.Contains("Mantis") || entity.name.Contains("Alien")) 
-            {
-                entity.StateChange(States.Monster_SpAttack_C);
-            }
-            BossMonsterMgr.Inst.SpAttack.Raise();
-            
+            if (entity.name.Contains("Mantis") || entity.name.Contains("Alien")) { entity.StateChange(States.Monster_SpAttack_C); }
+            Managers.Boss.SpAttack.Raise();
         }
 
-        public void StateUpdate(FMonster entity)
-        {
-            entity.StateChange(States.Monster_Move);
-            
-        }
+        public void StateUpdate(FMonster entity) { entity.StateChange(States.Monster_Move); }
 
         public void StateExit(FMonster entity) { entity.CurrentTime = 0; }
     }
@@ -128,7 +109,7 @@ namespace MonsterStates
             entity._Test = !entity._Test;
             if (entity.name.Contains("Alien"))
             {
-                BossMonsterMgr.Inst.SpAttack.Raise();
+                Managers.Boss.SpAttack.Raise();
                 entity.StateChange(States.Monster_Move);
             }
         }
@@ -138,7 +119,7 @@ namespace MonsterStates
             duration -= Time.deltaTime;
 
             if (duration <= 0) { entity.StateChange(States.Monster_Move); }
-            BossMonsterMgr.Inst.SpAttack.Raise();
+            Managers.Boss.SpAttack.Raise();
         }
 
         public void StateExit(FMonster entity) {  }

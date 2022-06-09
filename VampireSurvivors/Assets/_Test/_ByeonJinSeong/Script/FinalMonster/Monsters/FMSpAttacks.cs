@@ -27,16 +27,15 @@ public class FMSpAttacks : MonoBehaviour
     public GameObject plantWall;
 
     #region Skull
-    // test 추가 패턴 시 랜덤 버전으로 변경하기
     public void SkullBossSp(Transform StartingPoint)
     {
         GameObject[] skull = new GameObject[4];
-        float[] radian = { 0, 72, 144, -144 }; // 공식이 기억안남....
+        float[] radian = { 0, 72, 144, -144 };
         for (int i = 0; i < skull.Length; i++)
         {
             skull[i] = ObjectPooler.Instance.GenerateGameObject(attackPrefab_Skull);
             skull[i].transform.position = StartingPoint.position;
-            skull[i].transform.LookAt(BossMonsterMgr.Inst._player.transform.position);
+            skull[i].transform.LookAt(Managers.Game.Player.transform.position);
 
             skull[i].transform.Rotate(0, 90, radian[i]);
         }
@@ -75,7 +74,7 @@ public class FMSpAttacks : MonoBehaviour
 
         Missile.transform.position = Ping.transform.position;
         Missile.GetComponentInChildren<SpriteRenderer>().enabled = false;
-        Vector2 pos = BossMonsterMgr.Inst._player.transform.position - Missile.transform.position;
+        Vector2 pos = Managers.Game.Player.transform.position - Missile.transform.position;
         float rad = Mathf.Atan2(pos.y, pos.x) * Mathf.Rad2Deg;
         Missile.transform.rotation = Quaternion.Euler(0, 0, rad);
         Ping.transform.rotation = Quaternion.Euler(0, 0, rad);
@@ -86,8 +85,8 @@ public class FMSpAttacks : MonoBehaviour
 
     public void MantisBossSp(FMonster Mantis)
     {
-        Mantis.transform.position = Vector2.Lerp(Mantis.transform.position, BossMonsterMgr.Inst._player.transform.position, Time.deltaTime * 3f);
-        if (Vector3.SqrMagnitude(Mantis.transform.position - BossMonsterMgr.Inst._player.transform.position) < 2f)
+        Mantis.transform.position = Vector2.Lerp(Mantis.transform.position, Managers.Game.Player.transform.position, Time.deltaTime * 3f);
+        if (Vector3.SqrMagnitude(Mantis.transform.position - Managers.Game.Player.transform.position) < 2f)
         {
             Mantis.StateChange(States.Monster_Move);
         }
@@ -103,7 +102,7 @@ public class FMSpAttacks : MonoBehaviour
         {
             case 0:
                 GameObject obj = Instantiate(attackPrefab_Medusa);
-                obj.transform.position = BossMonsterMgr.Inst._player.transform.position;
+                obj.transform.position = Managers.Game.Player.transform.position;
                 break;
 
             case 1:
@@ -145,7 +144,7 @@ public class FMSpAttacks : MonoBehaviour
                 for (int i = 0; i < 10; i++)
                 {
                     GameObject objwall = ObjectPooler.Instance.GenerateGameObject(plantWall);
-                    objwall.transform.position = BossMonsterMgr.Inst._player.transform.position;
+                    objwall.transform.position = Managers.Game.Player.transform.position;
                     objwall.transform.Translate(Mathf.Cos(2 * Mathf.PI * i / 10) * 2, Mathf.Sin(2 * Mathf.PI * i / 10) * 2, 0);
                 }
                 break;

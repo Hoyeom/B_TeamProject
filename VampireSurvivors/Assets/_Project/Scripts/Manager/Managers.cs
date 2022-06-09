@@ -21,12 +21,15 @@ public class Managers : MonoBehaviour
     private ResourceManager _resource = new ResourceManager();
     private ItemManager _item = new ItemManager();
     private UIManager _ui = new UIManager();
-    
+    private BossMonsterMgr _boss = new BossMonsterMgr();
+
     public static AudioManager Audio => Instance._audio;
     public static GameManager Game => Instance._game;
     public static ResourceManager Resource => Instance._resource;
     public static ItemManager Item => Instance._item;
     public static UIManager UI => Instance._ui;
+
+    public static BossMonsterMgr Boss => Instance._boss;
     
 
     private const string DEFAULT_NAME = "@Managers";
@@ -54,6 +57,7 @@ public class Managers : MonoBehaviour
         _instance._audio.Initialize();
         _instance._item.Initialize();
         _instance._ui.Initialize();
+        _instance._boss.Initialize();
     }
     
 }

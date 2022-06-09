@@ -1,4 +1,4 @@
-﻿
+
     using UnityEngine;
 
     public class ResourceManager
@@ -6,6 +6,11 @@
         public T Load<T>(string path) where T : Object
         {
             return Resources.Load<T>($"Prefabs/{path}");
+        }
+
+        public T Load<T>(string path, bool tf) where T : Object
+        {
+            return Resources.Load<T>($"{path}");
         }
 
         public T[] LoadAll<T>(string path) where T : Object

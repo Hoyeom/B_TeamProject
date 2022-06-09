@@ -93,10 +93,15 @@ public class FMonster : FMBase, IEnemy
         GameObject enemyArrow = ObjectPooler.Instance.GenerateGameObject(monsterSpec.Attackprefabs);
         enemyArrow.transform.position = AttackPos.position;
 
-        Vector2 pos = AttackPos.transform.position - BossMonsterMgr.Inst._player.transform.position;
+        Vector2 pos = AttackPos.transform.position - Managers.Game.Player.transform.position;
         float radian = Mathf.Atan2(pos.y, pos.x) * Mathf.Rad2Deg;
 
         enemyArrow.transform.rotation = Quaternion.Euler(0, 0, radian);
+    }
+
+    private void AttackSound()
+    {
+        Managers.Audio.FXPlayerAudioPlay(monsterSpec.AttackSound);
     }
 
 }

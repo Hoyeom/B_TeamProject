@@ -13,7 +13,7 @@ public class SpSnake : MonoBehaviour
     {
         target = Managers.Game.Player.gameObject.transform.position;
 
-        Vector2 pos = transform.position - BossMonsterMgr.Inst._player.transform.position;
+        Vector2 pos = transform.position - Managers.Game.Player.transform.position;
         float radian = Mathf.Atan2(pos.y, pos.x) * Mathf.Rad2Deg;
 
         transform.rotation = Quaternion.Euler(0, 0, radian);
