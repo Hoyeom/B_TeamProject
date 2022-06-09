@@ -188,6 +188,6 @@ MonoBehaviour:
   hitSoundClip: {fileID: 8300000, guid: 6a81221f7206b79449a11244ce04eb01, type: 3}
   maxHealth: 10
   damage: 1
-  attackRadius: 2
+  attackRadius: 0.5
   speed: 1
   dropExp: 3

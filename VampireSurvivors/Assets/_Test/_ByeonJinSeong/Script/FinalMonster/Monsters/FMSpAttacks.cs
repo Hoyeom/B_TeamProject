@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class FMSpAttacks : MonoBehaviour
@@ -8,6 +6,8 @@ public class FMSpAttacks : MonoBehaviour
 
     [Header("Skull")]
     public GameObject attackPrefab_Skull;
+    public float radian = 1;
+    public int count = 4;
 
     [Header("Reaper")]
     public GameObject attackPrefab_Reaper;
@@ -29,20 +29,18 @@ public class FMSpAttacks : MonoBehaviour
     #region Skull
     public void SkullBossSp(Transform StartingPoint)
     {
-        GameObject[] skull = new GameObject[4];
-        float[] radian = { 0, 72, 144, -144 };
-        for (int i = 0; i < skull.Length; i++)
-        {
-            skull[i] = ObjectPooler.Instance.GenerateGameObject(attackPrefab_Skull);
-            skull[i].transform.position = StartingPoint.position;
-            skull[i].transform.LookAt(Managers.Game.Player.transform.position);
+        int circumference = (int)(2 * Mathf.PI * radian);
 
-            skull[i].transform.Rotate(0, 90, radian[i]);
+        for (int i = 0; i < count ; i++)
+        {
+            GameObject skull = ObjectPooler.Instance.GenerateGameObject(attackPrefab_Skull);
+            skull.transform.position = StartingPoint.position;
+            skull.transform.LookAt(Managers.Game.Player.transform.position);
+            skull.transform.Rotate(0, 90, (360 / circumference) * i);
         }
     }
     #endregion
 
-    // 수정 필요함
     #region Reaper
     public void ReaperBossSp()
     {
@@ -86,16 +84,12 @@ public class FMSpAttacks : MonoBehaviour
     public void MantisBossSp(FMonster Mantis)
     {
         Mantis.transform.position = Vector2.Lerp(Mantis.transform.position, Managers.Game.Player.transform.position, Time.deltaTime * 3f);
-        if (Vector3.SqrMagnitude(Mantis.transform.position - Managers.Game.Player.transform.position) < 2f)
-        {
-            Mantis.StateChange(States.Monster_Move);
-        }
+        if (Vector3.SqrMagnitude(Mantis.transform.position - Managers.Game.Player.transform.position) < 2f) { Mantis.StateChange(States.Monster_Move); }
     }
 
     public void MedusaBossSp(FMonster Medusa)
     {
         probs = new float[2] { 0.7f, 0.3f };
-
         int choose = RandomChoose(probs);
 
         switch (choose)
@@ -109,8 +103,8 @@ public class FMSpAttacks : MonoBehaviour
                 GameObject _obj = Instantiate(ciclePrefab_Medusa);
                 _obj.transform.position = Medusa.gameObject.transform.position;
                 break;
-                //default:
-                //    break;
+            default:
+                break;
         }
     }
 
@@ -118,16 +112,13 @@ public class FMSpAttacks : MonoBehaviour
     {
         SpriteRenderer alien= Alien.GetComponent<SpriteRenderer>();
         Color color = alien.color;
-
         color.a = Alien._Test ? 0.01f : 1f;
-
         alien.color = color;
     }
 
     public void ZyraBossSp()
     {
         probs = new float[2]{ 0.7f, 0.3f };
-
         int choose = RandomChoose(probs);
 
         switch (choose)
@@ -148,10 +139,9 @@ public class FMSpAttacks : MonoBehaviour
                     objwall.transform.Translate(Mathf.Cos(2 * Mathf.PI * i / 10) * 2, Mathf.Sin(2 * Mathf.PI * i / 10) * 2, 0);
                 }
                 break;
-            //default:
-            //    break;
+            default:
+                break;
         }
-
     }
 
     public void OnAudio(AudioClip audio) { if(audio != null) { Managers.Audio.FXPlayerAudioPlay(audio); } }
@@ -172,8 +162,6 @@ public class FMSpAttacks : MonoBehaviour
             if (randomPoint < probs[i]) { return i; }
             else { randomPoint -= probs[i]; }
         }
-
         return probs.Length - 1;
     }
-
 }

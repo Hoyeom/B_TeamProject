@@ -1,8 +1,7 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class test : MonoBehaviour
+public class MedusaDgree : MonoBehaviour
 {
     public GameObject enemy;
     private Transform player;
@@ -11,9 +10,7 @@ public class test : MonoBehaviour
     private int [] radianSize = { 1, 2, 3 };
     private float _Size = 1.25f;
     [SerializeField] private float _Delay = 0.8f;
-
     public static bool _check;
-
 
     private void Start()
     {
@@ -21,23 +18,22 @@ public class test : MonoBehaviour
         StartCoroutine(InstantAttack(GetRandomInt(radianSize)));
     }
 
-
     IEnumerator InstantAttack(int[] rand)
     {
         radianSize = rand;
         Vector2 target = new Vector2(player.position.x, player.position.y);
         for (int i = 0; i < 3; i++)
         {
-            int degree = (int)(2 * Mathf.PI * radianSize[i] / _Size);
-            GetRandomPosition(target, degree, radianSize[i]);
+            int circumference = (int)(2 * Mathf.PI * radianSize[i] / _Size);
+            GetRandomPosition(target, circumference, radianSize[i]);
 
             yield return new WaitForSeconds(_Delay);
         }
     }
 
-    public void GetRandomPosition(Vector2 _target, int degree, int _radius)
+    public void GetRandomPosition(Vector2 _target, int circumference, int _radius)
     {
-        for (int i = 0; i < 360; i += 360 / degree)
+        for (int i = 0; i < 360; i += 360 / circumference)
         {
             float radius = _radius;
 

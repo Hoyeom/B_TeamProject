@@ -44,6 +44,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackPrefab_Skull: {fileID: 6533581718607724355, guid: 0964e88c455fc1441abe08c4789d811f, type: 3}
+  radian: 0.7
+  count: 4
   attackPrefab_Reaper: {fileID: 1826526414242275701, guid: a057842e8cf4301438d9e8d3303e8497, type: 3}
   pingPrefab_Reaper: {fileID: 6074026850583436906, guid: a0c3f64874de3c849875705ecf9bf7cf, type: 3}
   attackPrefab_Medusa: {fileID: 8090281594266261584, guid: 903bfbaa4be64bd468c290c44815f2b3, type: 3}
