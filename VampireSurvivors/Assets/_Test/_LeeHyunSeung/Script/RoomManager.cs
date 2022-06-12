@@ -17,6 +17,8 @@ public class RoomManager : MonoBehaviour
 
     public int stageEnemyCount = 0;
     public int killMonsterCount = 0;
+    public int totalEnemyCount = 0;
+    public float playTime = 0.0f;
     private GameObject switchObj = null;
 
     private void Awake()
@@ -33,6 +35,7 @@ public class RoomManager : MonoBehaviour
 
     private void Update()
     {
+        playTime += Time.deltaTime;
         if (switchObj != null)
         {
             if (stageEnemyCount - killMonsterCount == 0 && switchObj.activeSelf ==false)
@@ -100,6 +103,7 @@ public class RoomManager : MonoBehaviour
         //GameObject gate = addStage.GetComponentInChildren<Gate>().gameObject;
         gate = addStage.transform.Find("Gate").gameObject;
         gate.SetActive(true);
+        totalEnemyCount = totalEnemyCount + stageEnemyCount;
         stageEnemyCount = 0;
         killMonsterCount = 0;
     }

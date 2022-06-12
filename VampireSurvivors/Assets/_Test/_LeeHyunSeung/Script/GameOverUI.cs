@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class GameOverUI : MonoBehaviour
 {
@@ -11,6 +12,14 @@ public class GameOverUI : MonoBehaviour
 
     Animator anim_Over = null;
     Animator anim_Clear = null;
+
+    ScoreChangUI scorChang = null;
+
+    //[SerializeField] private TMP_Text timeCountText;
+    //[SerializeField] private TMP_Text stageCountText;
+    //[SerializeField] private TMP_Text monsterCountText;
+    //[SerializeField] private TMP_Text levelCountText;
+
     private void Awake()
     {
         anim_Over = gameOver.GetComponent<Animator>();
@@ -26,12 +35,16 @@ public class GameOverUI : MonoBehaviour
     {
         anim_Over.gameObject.SetActive(true);
         anim_Over.SetTrigger("GameOver");
+        scorChang = gameOver.GetComponent<ScoreChangUI>();
+        scorChang.ChangeText();
     }
 
     public void OnGameClear()
     {
         anim_Clear.gameObject.SetActive(true);
         anim_Clear.SetTrigger("GameOver");
+        scorChang = gameClear.GetComponent<ScoreChangUI>();
+        scorChang.ChangeText();
     }
 
     public void OnQuit()
@@ -49,4 +62,16 @@ public class GameOverUI : MonoBehaviour
         Managers.Item.ItemClear();
         SceneManager.LoadScene("MainMenu");
     }
+
+    //private void ChangeText()
+    //{
+    //    timeCountText = transform.Find("Time Number").GetComponent<TMP_Text>();
+    //    stageCountText = transform.Find("Stage Number").GetComponent<TMP_Text>();
+    //    monsterCountText = transform.Find("Monster Number").GetComponent<TMP_Text>();
+    //    levelCountText = transform.Find("Level Number").GetComponent<TMP_Text>();
+    //    timeCountText.text = $"{(float)System.DateTime.Now.TimeOfDay.TotalSeconds }";
+    //    stageCountText.text = $"{Managers.Game.Room.stageIndex}";
+    //    monsterCountText.text = $"{Managers.Game.Room.totalEnemyCount+Managers.Game.Room.killMonsterCount}";
+    //    //levelCountText.text = $"{}"; 
+    //} 
 }
