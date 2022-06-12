@@ -13,6 +13,7 @@ public class RoomManager : MonoBehaviour
     private GameObject addStage = null;
     private GameObject bossMonster = null;
     GameObject gate = null;
+    public bool playerMove = false;
 
     public int stageEnemyCount = 0;
     public int killMonsterCount = 0;
@@ -42,7 +43,7 @@ public class RoomManager : MonoBehaviour
         }
         else
         {
-            if (stageEnemyCount - killMonsterCount == 0)
+            if (stageEnemyCount - killMonsterCount <= 0)
             {
 
                 OnGet();
@@ -71,7 +72,7 @@ public class RoomManager : MonoBehaviour
             if(addStage.GetComponentInChildren<Switch>() != null)
             {
                 switchObj = addStage.GetComponentInChildren<Switch>().gameObject;
-            }
+            }          
         }
         else
         {
@@ -88,6 +89,8 @@ public class RoomManager : MonoBehaviour
     // 케릭터 이동포인트로 이동
     private void PlayerReposion()
     {
+        playerMove = true;
+        Debug.Log(playerMove);
         Transform playerReposion = addStage.transform.Find("PlayerPoint").transform;
         Managers.Game.Player.transform.position = playerReposion.position;
     }

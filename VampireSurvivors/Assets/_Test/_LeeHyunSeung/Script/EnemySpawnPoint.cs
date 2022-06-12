@@ -6,7 +6,7 @@ public class EnemySpawnPoint : MonoBehaviour
 {
     public GameObject enemy = null;
     public int enemyCount = 0;
-    public float interval = 0.2f;
+    public float interval = 0.5f;
     private SpriteRenderer render = null;
    
     private void Awake()

@@ -12,10 +12,19 @@ public class MoveTurret : MonoBehaviour
         InvokeRepeating("ImgMove", 0f, 20f);
     }
 
+    private void Update()
+    {
+        if (Managers.Game.Room.playerMove)
+        {
+            ImgMove();
+        }
+    }
+
     // 이미지가 플레이어를 따라 이동
     void ImgMove()
     {
         playerMove = GameObject.FindGameObjectWithTag("Player").transform;
         gameObject.transform.position = playerMove.position;
+        Managers.Game.Room.playerMove = false;
     }
 }

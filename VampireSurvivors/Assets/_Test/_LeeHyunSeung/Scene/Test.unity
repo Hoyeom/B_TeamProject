@@ -262,21 +262,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   model: {fileID: 0}
-  onPlayerDead:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 320668053}
-        m_TargetAssemblyTypeName: Player, Assembly-CSharp
-        m_MethodName: TestSceneReset
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
   onPlayerLevelUp:
     m_PersistentCalls:
       m_Calls:
@@ -923,6 +908,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3674351493611508573, guid: d6b7a54b36e9e8246b04a5a83a99a20d, type: 3}
+      propertyPath: exp
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5865523720289440356, guid: d6b7a54b36e9e8246b04a5a83a99a20d, type: 3}
       propertyPath: m_Name
       value: Exp

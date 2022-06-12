@@ -127,6 +127,7 @@ public class Enemy_Archer : Enemy, IEnemy
             GameObject prefab = ObjectPooler.Instance.GenerateGameObject(enemyPrefabSo.ExpPrefab);
             prefab.transform.position = transform.position;
             prefab.GetComponent<Experience>().DropExp(enemySo.DropExp);
+            Managers.Game.Room.killMonsterCount++;
             ObjectPooler.Instance.DestroyGameObject(gameObject);
             return;
         }
