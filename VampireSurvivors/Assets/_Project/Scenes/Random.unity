@@ -370,7 +370,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1503080046}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.5664883, y: 0.18090913, z: -10}
+  m_LocalPosition: {x: -5.55, y: 0.09999988, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -444,6 +444,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4500517492700376461, guid: 21d5da0356f6d2d4486a1f937da05a30, type: 3}
+      propertyPath: stageIndex
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 4500517492700376461, guid: 21d5da0356f6d2d4486a1f937da05a30, type: 3}
       propertyPath: stage.Array.data[0]
       value: 
       objectReference: {fileID: 8802882543778220178, guid: 7b354722dc5383b4082b2e65707436a7, type: 3}
@@ -451,6 +455,30 @@ PrefabInstance:
       propertyPath: stage.Array.data[1]
       value: 
       objectReference: {fileID: 8802882543778220178, guid: 22798aed5409b7346b3fcebe6fa65de4, type: 3}
+    - target: {fileID: 4500517492700376461, guid: 21d5da0356f6d2d4486a1f937da05a30, type: 3}
+      propertyPath: bossStage.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4500517492700376461, guid: 21d5da0356f6d2d4486a1f937da05a30, type: 3}
+      propertyPath: bossStage.Array.data[0]
+      value: 
+      objectReference: {fileID: 2113316403290961194, guid: ee1d2f09f16d50e428240231924d5443, type: 3}
+    - target: {fileID: 4500517492700376461, guid: 21d5da0356f6d2d4486a1f937da05a30, type: 3}
+      propertyPath: bossStage.Array.data[2]
+      value: 
+      objectReference: {fileID: 2113316403290961194, guid: b90b97779f5721545aaf594b4d3a0b81, type: 3}
+    - target: {fileID: 4500517492700376461, guid: 21d5da0356f6d2d4486a1f937da05a30, type: 3}
+      propertyPath: bossStage.Array.data[3]
+      value: 
+      objectReference: {fileID: 2113316403290961194, guid: d1b1e34130140a448b7277010b5b2eb1, type: 3}
+    - target: {fileID: 4500517492700376461, guid: 21d5da0356f6d2d4486a1f937da05a30, type: 3}
+      propertyPath: bossStage.Array.data[4]
+      value: 
+      objectReference: {fileID: 2113316403290961194, guid: 10d46cc0b672f494589e77edd668e8c2, type: 3}
+    - target: {fileID: 4500517492700376461, guid: 21d5da0356f6d2d4486a1f937da05a30, type: 3}
+      propertyPath: bossStage.Array.data[5]
+      value: 
+      objectReference: {fileID: 2113316403290961194, guid: 49fb03a2ec77d834b993f00a20ea0083, type: 3}
     - target: {fileID: 4500517492700376463, guid: 21d5da0356f6d2d4486a1f937da05a30, type: 3}
       propertyPath: m_RootOrder
       value: 2

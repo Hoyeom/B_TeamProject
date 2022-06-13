@@ -762,7 +762,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6010585578912030015}
         m_TargetAssemblyTypeName: GameOverUI, Assembly-CSharp
-        m_MethodName: OnBack
+        m_MethodName: OnQuit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1466,7 +1466,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Game Clear
+  m_text: Game Over
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1ead378af25ba89418358abfa1f9525d, type: 2}
   m_sharedMaterial: {fileID: -2083030725074169478, guid: 1ead378af25ba89418358abfa1f9525d, type: 2}
@@ -4610,7 +4610,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6010585578912030015}
         m_TargetAssemblyTypeName: GameOverUI, Assembly-CSharp
-        m_MethodName: OnBack
+        m_MethodName: OnQuit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6652,7 +6652,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &34687332488430103
 RectTransform:
   m_ObjectHideFlags: 0

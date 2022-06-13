@@ -60,20 +60,7 @@ public class GameOverUI : MonoBehaviour
     public void OnBack()
     {
         Debug.Log("Back");
-        //ObjectPooler.Instance.AllDestroyGameObject();
         Managers.Item.ItemClear();
         SceneManager.LoadScene("MainMenu");
     }
-
-    //private void ChangeText()
-    //{
-    //    timeCountText = transform.Find("Time Number").GetComponent<TMP_Text>();
-    //    stageCountText = transform.Find("Stage Number").GetComponent<TMP_Text>();
-    //    monsterCountText = transform.Find("Monster Number").GetComponent<TMP_Text>();
-    //    levelCountText = transform.Find("Level Number").GetComponent<TMP_Text>();
-    //    timeCountText.text = $"{(float)System.DateTime.Now.TimeOfDay.TotalSeconds }";
-    //    stageCountText.text = $"{Managers.Game.Room.stageIndex}";
-    //    monsterCountText.text = $"{Managers.Game.Room.totalEnemyCount+Managers.Game.Room.killMonsterCount}";
-    //    //levelCountText.text = $"{}"; 
-    //} 
 }
