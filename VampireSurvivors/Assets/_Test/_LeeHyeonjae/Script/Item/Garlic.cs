@@ -74,7 +74,6 @@ public class Garlic : Item
         Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, GetArea(), mask); // transform으로 해도 상관없음
         if (colliders != null)
         {
-
             //데미지 주기
             for (int i = 0; i < colliders.Length; i++)
             {

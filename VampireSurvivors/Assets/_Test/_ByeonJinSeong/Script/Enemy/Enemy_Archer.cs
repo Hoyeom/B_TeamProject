@@ -97,7 +97,7 @@ public class Enemy_Archer : Enemy, IEnemy
 
     public void Arrow()
     {
-        timeset += !firstShoot ? enemySo.CollTime : Time.deltaTime;   // Test 낭비같음..
+        timeset += !firstShoot ? enemySo.CollTime : Time.deltaTime;
         if (timeset >= enemySo.CollTime)
         {
             timeset = 0;
@@ -128,7 +128,8 @@ public class Enemy_Archer : Enemy, IEnemy
             prefab.transform.position = transform.position;
             prefab.GetComponent<Experience>().DropExp(enemySo.DropExp);
             Managers.Game.Room.killMonsterCount++;
-            ObjectPooler.Instance.DestroyGameObject(gameObject);
+            transform.position = new Vector3(999f, 999f, 0);
+            ObjectPooler.Instance.DestroyGameObject(gameObject,10f);
             return;
         }
         _animator.SetTrigger(hashHitAnim);

@@ -82,7 +82,10 @@ public class meleeEnemy : Enemy
             prefab.transform.position = transform.position;
             prefab.GetComponent<Experience>().DropExp(dropExp);
             Managers.Game.Room.killMonsterCount++;
-            ObjectPooler.Instance.DestroyGameObject(gameObject);
+            // Test
+            transform.position = new Vector3(999f, 999f, 0);
+            ObjectPooler.Instance.DestroyGameObject(gameObject,10f);
+
             return;
         }
         _animator.SetTrigger(hashHitAnim);

@@ -60,7 +60,9 @@ public abstract class Enemy : MonoBehaviour,IEnemy
 
     public virtual void Attack() { }
 
-    public virtual void TakeDamage(float damage, Vector2 target) { }
+    public virtual void TakeDamage(float damage, Vector2 target) 
+    {
+    }
     
     public virtual void SpeedSlow(float slow, float time) { }
 }
