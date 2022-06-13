@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -77,7 +78,15 @@ public class Garlic : Item
             //데미지 주기
             for (int i = 0; i < colliders.Length; i++)
             {
-                colliders[i].gameObject.GetComponent<Enemy>().TakeDamage(GetMight(), transform.position);
+                try
+                {
+                    colliders[i].gameObject.GetComponent<Enemy>().TakeDamage(GetMight(), transform.position);
+                }
+                catch (NullReferenceException e)
+                {
+                    Debug.Log("qwdqwdwqd");
+                }
+
                 // Debug.Log(GetMight());
             }
         }

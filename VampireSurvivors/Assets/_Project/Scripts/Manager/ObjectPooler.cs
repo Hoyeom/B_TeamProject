@@ -36,40 +36,41 @@ public class ObjectPooler : MonoBehaviour
     /// <returns></returns>
     public GameObject GenerateGameObject(GameObject prefab,Transform parent = null)
     {
-        int index = 0;
+        return Instantiate(prefab, parent);
+        //int index = 0;
 
-        int hashKey = prefab.GetHashCode();
+        //int hashKey = prefab.GetHashCode();
         
-        GameObject idlePrefab = null;
+        //GameObject idlePrefab = null;
 
-        if (!gameObjects.ContainsKey(hashKey))
-        {
-            gameObjects.Add(hashKey, new List<GameObject>());
-            gameObjects[hashKey].Add(new GameObject(prefab.name));
-            gameObjects[hashKey][0].transform.parent = transform;
-        }
+        //if (!gameObjects.ContainsKey(hashKey))
+        //{
+        //    gameObjects.Add(hashKey, new List<GameObject>());
+        //    gameObjects[hashKey].Add(new GameObject(prefab.name));
+        //    gameObjects[hashKey][0].transform.parent = transform;
+        //}
 
-        for (var i = 1; i < gameObjects[hashKey].Count; i++)
-        {
-            GameObject obj = gameObjects[hashKey][i];
-            if (obj.activeSelf) continue;
+        //for (var i = 1; i < gameObjects[hashKey].Count; i++)
+        //{
+        //    GameObject obj = gameObjects[hashKey][i];
+        //    if (obj.activeSelf) continue;
             
-            index = i;
-            idlePrefab = obj;
-            break;
-        }
+        //    index = i;
+        //    idlePrefab = obj;
+        //    break;
+        //}
 
-        if (idlePrefab == null)
-        {
-            gameObjects[hashKey].Add(Instantiate(prefab, parent == null ? gameObjects[hashKey][0].transform : parent));
-            index = gameObjects[hashKey].Count - 1;
-        }
-        else
-        {
-            idlePrefab.transform.parent = parent == null ? gameObjects[hashKey][0].transform : parent;
-            idlePrefab.SetActive(true);
-        }
-        return gameObjects[hashKey][index];
+        //if (idlePrefab == null)
+        //{
+        //    gameObjects[hashKey].Add(Instantiate(prefab, parent == null ? gameObjects[hashKey][0].transform : parent));
+        //    index = gameObjects[hashKey].Count - 1;
+        //}
+        //else
+        //{
+        //    idlePrefab.transform.parent = parent == null ? gameObjects[hashKey][0].transform : parent;
+        //    idlePrefab.SetActive(true);
+        //}
+        //return gameObjects[hashKey][index];
     }
     
 
@@ -101,20 +102,21 @@ public class ObjectPooler : MonoBehaviour
     /// <param name="time">N초 후 풀로 반환</param>
     public void DestroyGameObject(GameObject prefab, float time = 0)
     {
-        if (destroyTimer.TryGetValue(prefab, out Coroutine coroutine))
-        {
-            destroyTimer.Remove(prefab);
-            StopCoroutine(coroutine);
-        }
+        Destroy(prefab, time);
+        //if (destroyTimer.TryGetValue(prefab, out Coroutine coroutine))
+        //{
+        //    destroyTimer.Remove(prefab);
+        //    StopCoroutine(coroutine);
+        //}
         
-        if (time > 0)
-        {
-            destroyTimer.Add(prefab, StartCoroutine(DestroyRoutine(prefab, time)));
-        }
-        else
-        {
-            DestroyObject(prefab);
-        }
+        //if (time > 0)
+        //{
+        //    destroyTimer.Add(prefab, StartCoroutine(DestroyRoutine(prefab, time)));
+        //}
+        //else
+        //{
+        //    DestroyObject(prefab);
+        //}
 
     }
     

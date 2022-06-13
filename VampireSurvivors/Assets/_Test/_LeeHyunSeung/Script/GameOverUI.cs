@@ -60,7 +60,7 @@ public class GameOverUI : MonoBehaviour
     public void OnBack()
     {
         Debug.Log("Back");
-        ObjectPooler.Instance.AllDestroyGameObject();
+        //ObjectPooler.Instance.AllDestroyGameObject();
         Managers.Item.ItemClear();
         SceneManager.LoadScene("MainMenu");
     }
