@@ -37,6 +37,7 @@ public class GameOverUI : MonoBehaviour
         anim_Over.SetTrigger("GameOver");
         scorChang = gameOver.GetComponent<ScoreChangUI>();
         scorChang.ChangeText();
+        scorChang.ChangeImage();
     }
 
     public void OnGameClear()
@@ -45,6 +46,7 @@ public class GameOverUI : MonoBehaviour
         anim_Clear.SetTrigger("GameOver");
         scorChang = gameClear.GetComponent<ScoreChangUI>();
         scorChang.ChangeText();
+        scorChang.ChangeImage();
     }
 
     public void OnQuit()
