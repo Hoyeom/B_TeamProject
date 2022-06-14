@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8384310079411219540}
   - component: {fileID: 8384310079411219541}
   - component: {fileID: 8384310079411219546}
-  - component: {fileID: 8384310079411219547}
+  - component: {fileID: -365519995714832671}
   - component: {fileID: -3698747486517096510}
   m_Layer: 0
   m_Name: Enemy_Bat
@@ -150,7 +150,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &8384310079411219547
+--- !u!114 &-365519995714832671
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -159,7 +159,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8384310079411219544}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2418e6db022e49a0b013872f34ce386, type: 3}
+  m_Script: {fileID: 11500000, guid: 9748bbf25cc4758478656fd1fefafd8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   targetLayer:
