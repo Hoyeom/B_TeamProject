@@ -119,7 +119,11 @@ public class Enemy_Archer : Enemy, IEnemy
 
     public override void  TakeDamage(float damage, Vector2 target)
     {
+        if (health < 1) { return; }
+
+        Managers.UI.SpawnDamageText((int)damage, transform.position);
         health -= damage;
+
         rigid.MovePosition(rigid.position + ((Vector2)transform.position - target) * 1 * Time.deltaTime);
         Managers.Audio.FXEnemyAudioPlay(enemyPrefabSo.HitSoundClip);
         if (health < 1)
