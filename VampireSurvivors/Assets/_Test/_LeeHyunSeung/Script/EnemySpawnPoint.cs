@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class EnemySpawnPoint : MonoBehaviour
 {
-    public GameObject enemy = null;
+    public GameObject[] enemy = null;
     public int enemyCount = 0;
     public float interval = 0.5f;
     private SpriteRenderer render = null;
+    private int randomEnemy = 0;
    
     private void Awake()
     {
@@ -20,6 +21,7 @@ public class EnemySpawnPoint : MonoBehaviour
         if(enemy != null)
         {
             render.color = new Color(1, 1, 1, 1);
+            randomEnemy = Random.Range(0,enemy.Length);
             StartCoroutine(Spowner(1));       
 
         }
@@ -31,7 +33,7 @@ public class EnemySpawnPoint : MonoBehaviour
 
         for (int i = 0; i < enemyCount; i++)
         {
-            GameObject obj = ObjectPooler.Instance.GenerateGameObject(enemy);
+            GameObject obj = ObjectPooler.Instance.GenerateGameObject(enemy[randomEnemy]);
             obj.transform.position = transform.position;
 
             // 몬스터간의 간격
@@ -42,18 +44,4 @@ public class EnemySpawnPoint : MonoBehaviour
         //gameObject.SetActive(false);
         render.color = new Color(1, 1, 1, 0);
     }
-    //private void EnemySpown()
-    //{
-    //    for(int i = 0;i < enemyCount; i++ )
-    //    {
-    //        time += Time.deltaTime;
-    //        if(time >delay)
-    //        { 
-    //            time = 0;
-    //            GameObject obj = ObjectPooler.Instance.GenerateGameObject(enemy);
-    //            obj.transform.position = transform.position;
-    //        }
-    //    }
-        
-    //}
 }
