@@ -21,7 +21,6 @@ public class EnemySpawnPoint : MonoBehaviour
         if(enemy != null)
         {
             render.color = new Color(1, 1, 1, 1);
-            randomEnemy = Random.Range(0,enemy.Length);
             StartCoroutine(Spowner(1));       
 
         }
@@ -33,6 +32,7 @@ public class EnemySpawnPoint : MonoBehaviour
 
         for (int i = 0; i < enemyCount; i++)
         {
+            randomEnemy = Random.Range(0,enemy.Length);
             GameObject obj = ObjectPooler.Instance.GenerateGameObject(enemy[randomEnemy]);
             obj.transform.position = transform.position;
 

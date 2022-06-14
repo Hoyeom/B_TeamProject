@@ -10,10 +10,11 @@ public class Enemy_Arrow : MonoBehaviour
     public LayerMask targetLayer;
     public LayerMask wall;
     public float damage;
+    public float _speed;
 
     private void FixedUpdate()
     {
-        transform.Translate(Vector2.right * 1f * Time.fixedDeltaTime);
+        transform.Translate(Vector2.right * _speed * Time.fixedDeltaTime);
         Attack();
         Wall();
     }
