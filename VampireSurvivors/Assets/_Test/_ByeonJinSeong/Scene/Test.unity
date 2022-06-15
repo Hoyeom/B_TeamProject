@@ -2929,7 +2929,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9165587525901522365, guid: bfc7069dc89416a458bbbd9805aab64d, type: 3}
       propertyPath: monsterpro
-      value: 1
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bfc7069dc89416a458bbbd9805aab64d, type: 3}

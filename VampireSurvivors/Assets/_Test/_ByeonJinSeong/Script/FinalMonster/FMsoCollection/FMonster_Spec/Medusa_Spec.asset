@@ -23,7 +23,7 @@ MonoBehaviour:
   attackBool: 1
   attackprefabs: {fileID: 7806989503598503721, guid: aa823d838bbf8449dbae49d056e23ca7, type: 3}
   expPrefabs: {fileID: 5865523720289440356, guid: d6b7a54b36e9e8246b04a5a83a99a20d, type: 3}
-  attackSound: {fileID: 8300000, guid: c2827d82c09a6a642bb8b1dbd0ba1930, type: 3}
+  attackSound: {fileID: 8300000, guid: 884e278391030b248b8c51a86ae1dd30, type: 3}
   hitSound: {fileID: 8300000, guid: 6a81221f7206b79449a11244ce04eb01, type: 3}
   targetLayer:
     serializedVersion: 2
